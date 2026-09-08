@@ -1,0 +1,2523 @@
+/* =========================================
+   CAREERPATH — CAREER DETAIL PAGE
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #211c32;
+    background: #faf9ff;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.career-header {
+
+    height: 78px;
+
+    padding: 0 6%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background: white;
+
+    border-bottom: 1px solid #eeeaf7;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+}
+
+
+.logo {
+
+    font-size: 24px;
+
+    font-weight: 800;
+
+    color: #211c32;
+
+    text-decoration: none;
+}
+
+
+.logo span {
+
+    color: #7657ff;
+}
+
+
+.career-header nav {
+
+    display: flex;
+
+    gap: 28px;
+
+    align-items: center;
+}
+
+
+.career-header nav a {
+
+    color: #777183;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    transition: 0.25s;
+}
+
+
+.career-header nav a:hover,
+.career-header nav a.active {
+
+    color: #7657ff;
+}
+
+
+.back-button {
+
+    padding: 11px 16px;
+
+    border-radius: 10px;
+
+    background: #f0edff;
+
+    color: #7657ff;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.career-hero {
+
+    min-height: 560px;
+
+    padding: 85px 7%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 60px;
+
+    background:
+
+        radial-gradient(
+            circle at 10% 30%,
+            rgba(118, 87, 255, 0.13),
+            transparent 27%
+        ),
+
+        radial-gradient(
+            circle at 90% 70%,
+            rgba(164, 119, 255, 0.14),
+            transparent 27%
+        ),
+
+        #faf9ff;
+}
+
+
+.career-hero-content {
+
+    max-width: 650px;
+}
+
+
+.breadcrumb {
+
+    color: #938ca0;
+
+    font-size: 11px;
+
+    margin-bottom: 25px;
+}
+
+
+.breadcrumb span {
+
+    padding: 0 8px;
+
+    color: #7657ff;
+}
+
+
+.career-badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 8px 12px;
+
+    border-radius: 9px;
+
+    background: #eeeaff;
+
+    color: #7657ff;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+
+.career-hero h1 {
+
+    margin-top: 22px;
+
+    font-size: 68px;
+
+    line-height: 1;
+
+    letter-spacing: -3px;
+}
+
+
+.hero-description {
+
+    max-width: 590px;
+
+    margin-top: 25px;
+
+    color: #746e80;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+.hero-tags {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 28px;
+}
+
+
+.hero-tags span {
+
+    padding: 9px 13px;
+
+    border-radius: 9px;
+
+    background: white;
+
+    border: 1px solid #e7e2f2;
+
+    color: #686174;
+
+    font-size: 10px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================
+   HERO VISUAL
+========================================= */
+
+.career-visual {
+
+    width: 400px;
+
+    height: 400px;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.visual-circle {
+
+    width: 250px;
+
+    height: 250px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #eeeaff;
+
+    border: 1px solid #ddd5ff;
+
+    font-size: 95px;
+
+    box-shadow:
+        0 30px 70px
+        rgba(72, 51, 150, 0.12);
+}
+
+
+.floating-card {
+
+    position: absolute;
+
+    padding: 12px 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    border-radius: 12px;
+
+    background: white;
+
+    border: 1px solid #ebe7f4;
+
+    box-shadow:
+        0 15px 35px
+        rgba(63, 43, 130, 0.1);
+
+    color: #6e667b;
+
+    font-size: 11px;
+}
+
+
+.floating-card strong {
+
+    color: #282237;
+}
+
+
+.card-one {
+
+    top: 50px;
+
+    left: 10px;
+}
+
+
+.card-two {
+
+    right: 0;
+
+    top: 140px;
+}
+
+
+.card-three {
+
+    bottom: 60px;
+
+    left: 45px;
+}
+
+
+/* =========================================
+   QUICK FACTS
+========================================= */
+
+.quick-facts {
+
+    max-width: 1100px;
+
+    margin:
+        -40px auto 0;
+
+    padding:
+        0 25px;
+
+    position: relative;
+
+    z-index: 5;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 14px;
+}
+
+
+.fact-card {
+
+    padding: 22px;
+
+    background: white;
+
+    border: 1px solid #e9e5f2;
+
+    border-radius: 18px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+
+    box-shadow:
+        0 15px 35px
+        rgba(55, 40, 120, 0.06);
+}
+
+
+.fact-card > span {
+
+    font-size: 23px;
+
+    margin-bottom: 5px;
+}
+
+
+.fact-card small {
+
+    color: #918a9d;
+
+    font-size: 8px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+
+.fact-card strong {
+
+    color: #302a3c;
+
+    font-size: 12px;
+}
+
+
+/* =========================================
+   COMMON SECTIONS
+========================================= */
+
+.detail-section,
+.path-section,
+.salary-section,
+.official-section {
+
+    padding:
+        110px 7%;
+}
+
+
+.section-heading {
+
+    max-width: 720px;
+
+    margin-bottom: 55px;
+}
+
+
+.section-heading > span {
+
+    color: #7657ff;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.section-heading h2 {
+
+    margin-top: 13px;
+
+    font-size: 40px;
+
+    line-height: 1.15;
+
+    letter-spacing: -1.5px;
+}
+
+
+.section-heading p {
+
+    margin-top: 14px;
+
+    color: #7b7487;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   OVERVIEW
+========================================= */
+
+.overview-grid {
+
+    max-width: 1050px;
+
+    display: grid;
+
+    grid-template-columns:
+        1.5fr 0.8fr;
+
+    gap: 60px;
+
+    margin: auto;
+}
+
+
+.overview-grid > div:first-child p {
+
+    margin-bottom: 20px;
+
+    color: #716a7e;
+
+    font-size: 15px;
+
+    line-height: 1.9;
+}
+
+
+.highlight-box {
+
+    padding: 28px;
+
+    border-radius: 20px;
+
+    background: #f0edff;
+
+    border: 1px solid #e0d9ff;
+}
+
+
+.highlight-box > span {
+
+    font-size: 25px;
+}
+
+
+.highlight-box strong {
+
+    display: block;
+
+    margin-top: 13px;
+
+    font-size: 15px;
+}
+
+
+.highlight-box ul {
+
+    margin-top: 15px;
+
+    padding-left: 17px;
+}
+
+
+.highlight-box li {
+
+    margin-bottom: 8px;
+
+    color: #716a7e;
+
+    font-size: 12px;
+}
+
+
+/* =========================================
+   ROADMAP
+========================================= */
+
+.path-section {
+
+    background: white;
+}
+
+
+.roadmap {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: stretch;
+
+    justify-content: center;
+
+    gap: 12px;
+}
+
+
+.roadmap-step {
+
+    flex: 1;
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    border: 1px solid #e8e3f1;
+
+    background: #faf9ff;
+}
+
+
+.step-number {
+
+    color: #7657ff;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    margin-bottom: 20px;
+}
+
+
+.roadmap-step h3 {
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+}
+
+
+.roadmap-step p {
+
+    color: #7b7487;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+.roadmap-arrow {
+
+    display: flex;
+
+    align-items: center;
+
+    color: #7657ff;
+
+    font-size: 20px;
+}
+
+
+/* =========================================
+   SKILLS
+========================================= */
+
+.skills-section {
+
+    background: #faf9ff;
+}
+
+
+.skills-grid {
+
+    max-width: 1050px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 16px;
+}
+
+
+.skill-card {
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    background: white;
+
+    border: 1px solid #e9e5f2;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    transition: 0.3s;
+}
+
+
+.skill-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 18px 40px
+        rgba(63, 43, 130, 0.08);
+}
+
+
+.skill-card strong {
+
+    font-size: 14px;
+}
+
+
+.skill-card p {
+
+    color: #7b7487;
+
+    font-size: 11px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   SALARY
+========================================= */
+
+.salary-section {
+
+    background: white;
+}
+
+
+.salary-note {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    padding: 25px;
+
+    display: flex;
+
+    gap: 18px;
+
+    border-radius: 18px;
+
+    background: #f5f2ff;
+
+    border: 1px solid #e2dcff;
+}
+
+
+.salary-note:first-child {
+
+    font-size: 25px;
+}
+
+
+.salary-note strong {
+
+    font-size: 14px;
+}
+
+
+.salary-note p {
+
+    margin-top: 8px;
+
+    color: #777083;
+
+    font-size: 12px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   SCHOLARSHIP PREVIEW
+========================================= */
+
+.scholarship-preview {
+
+    padding:
+        75px 7%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 40px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eeeaff,
+            #f8f6ff
+        );
+}
+
+
+.scholarship-preview > div {
+
+    max-width: 650px;
+}
+
+
+.scholarship-preview span {
+
+    color: #7657ff;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.7px;
+}
+
+
+.scholarship-preview h2 {
+
+    margin-top: 12px;
+
+    font-size: 34px;
+
+    letter-spacing: -1px;
+}
+
+
+.scholarship-preview p {
+
+    margin-top: 12px;
+
+    color: #746d80;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+.scholarship-preview a {
+
+    flex-shrink: 0;
+
+    padding: 14px 20px;
+
+    border-radius: 11px;
+
+    background: #7657ff;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    box-shadow:
+        0 12px 25px
+        rgba(80, 58, 170, 0.18);
+}
+
+
+/* =========================================
+   OFFICIAL RESOURCES
+========================================= */
+
+.official-section {
+
+    background: #faf9ff;
+}
+
+
+.official-grid {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 18px;
+}
+
+
+.official-card {
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    background: white;
+
+    border: 1px solid #e8e3f1;
+
+    text-decoration: none;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 9px;
+
+    transition: 0.3s;
+}
+
+
+.official-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    border-color:
+        #d5ccff;
+
+    box-shadow:
+        0 18px 40px
+        rgba(65, 45, 140, 0.08);
+}
+
+
+.official-card > span {
+
+    font-size: 25px;
+}
+
+
+.official-card strong {
+
+    color: #292337;
+
+    font-size: 16px;
+}
+
+
+.official-card small {
+
+    color: #80798b;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+
+.official-card b {
+
+    margin-top: 8px;
+
+    color: #7657ff;
+
+    font-size: 10px;
+}
+
+
+.source-note {
+
+    max-width: 900px;
+
+    margin: 30px auto 0;
+
+    padding: 15px;
+
+    border-radius: 11px;
+
+    background: #f0edff;
+
+    color: #746d80;
+
+    text-align: center;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+
+    padding: 35px 7%;
+
+    background: #211c32;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+footer strong {
+
+    font-size: 20px;
+}
+
+
+footer strong span {
+
+    color: #a896ff;
+}
+
+
+footer p {
+
+    color: #aaa3b8;
+
+    font-size: 10px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .career-hero {
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+
+    .career-hero-content {
+
+        max-width: 750px;
+    }
+
+
+    .hero-tags {
+
+        justify-content: center;
+    }
+
+
+    .career-visual {
+
+        width: 330px;
+
+        height: 330px;
+    }
+
+
+    .quick-facts {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    .overview-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .roadmap {
+
+        flex-direction: column;
+    }
+
+
+    .roadmap-arrow {
+
+        justify-content: center;
+
+        transform:
+            rotate(90deg);
+    }
+
+
+    .skills-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .career-header {
+
+        height: auto;
+
+        padding: 18px 25px;
+
+        flex-wrap: wrap;
+
+        gap: 15px;
+    }
+
+
+    .career-header nav {
+
+        order: 3;
+
+        width: 100%;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 15px;
+    }
+
+
+    .back-button {
+
+        display: none;
+    }
+
+
+    .career-hero {
+
+        padding:
+            65px 25px;
+    }
+
+
+    .career-hero h1 {
+
+        font-size: 48px;
+    }
+
+
+    .career-visual {
+
+        transform:
+            scale(0.85);
+    }
+
+
+    .quick-facts {
+
+        margin-top: 0;
+
+        padding:
+            25px;
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .detail-section,
+    .path-section,
+    .salary-section,
+    .official-section {
+
+        padding:
+            75px 25px;
+    }
+
+
+    .section-heading h2 {
+
+        font-size: 32px;
+    }
+
+
+    .skills-grid,
+    .official-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .scholarship-preview {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding:
+            60px 25px;
+    }
+
+
+    footer {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+        text-align: center;
+    }
+
+}
+/* =========================================
+   CAREER SNAPSHOT
+========================================= */
+
+.snapshot-section {
+
+    padding: 110px 7%;
+
+    background: #f5f2ff;
+}
+
+
+.snapshot-section .section-heading {
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+
+.snapshot-grid {
+
+    max-width: 1050px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 16px;
+}
+
+
+.snapshot-card {
+
+    padding: 28px 22px;
+
+    min-height: 230px;
+
+    background: white;
+
+    border: 1px solid #e6e1f0;
+
+    border-radius: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    transition: 0.3s;
+}
+
+
+.snapshot-card:hover {
+
+    transform:
+        translateY(-6px);
+
+    box-shadow:
+        0 20px 40px
+        rgba(65, 45, 140, 0.08);
+}
+
+
+.snapshot-card > span {
+
+    width: 48px;
+
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: #eeeaff;
+
+    font-size: 22px;
+
+    margin-bottom: 22px;
+}
+
+
+.snapshot-card strong {
+
+    font-size: 14px;
+
+    color: #292337;
+}
+
+
+.snapshot-card p {
+
+    margin-top: 10px;
+
+    color: #7b7487;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+@media (max-width: 900px) {
+
+    .snapshot-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .snapshot-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+/* =========================================
+   IS THIS CAREER FOR YOU?
+========================================= */
+
+.fit-section {
+    padding: 110px 7%;
+    background: #f7f5ff;
+}
+
+.fit-grid {
+    max-width: 1100px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 18px;
+}
+
+.fit-card {
+    min-height: 255px;
+
+    padding: 28px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background: white;
+
+    border: 1px solid #e6e1ef;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.fit-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #d4cbff;
+
+    box-shadow:
+        0 20px 45px
+        rgba(70, 50, 150, 0.09);
+}
+
+.fit-card > span {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+
+    background: #eeeaff;
+
+    font-size: 25px;
+
+    margin-bottom: 22px;
+}
+
+.fit-card h3 {
+    color: #292337;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+.fit-card p {
+    margin-top: 10px;
+
+    color: #7a7386;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   FIT SECTION — RESPONSIVE
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .fit-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .fit-section {
+        padding: 75px 25px;
+    }
+
+    .fit-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* =========================================
+   OFFICIAL RESOURCES
+========================================= */
+
+.resources-section {
+    padding: 110px 7%;
+    background: #ffffff;
+}
+
+.resources-grid {
+    max-width: 1100px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+.resource-card {
+    padding: 28px;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 20px;
+
+    text-decoration: none;
+
+    background: #faf9ff;
+
+    border: 1px solid #e7e2f0;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.resource-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #d4cbff;
+
+    box-shadow:
+        0 18px 40px
+        rgba(70, 50, 150, 0.08);
+}
+
+.resource-icon {
+    width: 55px;
+    height: 55px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eeeaff;
+
+    border-radius: 15px;
+
+    font-size: 24px;
+}
+
+.resource-card h3 {
+    color: #292337;
+
+    font-size: 15px;
+
+    line-height: 1.4;
+}
+
+.resource-card p {
+    margin-top: 8px;
+
+    color: #777083;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+.resource-card span {
+    display: inline-block;
+
+    margin-top: 14px;
+
+    color: #7657ff;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+.resource-note {
+    max-width: 1100px;
+
+    margin: 35px auto 0;
+
+    padding: 22px 25px;
+
+    background: #f3f0ff;
+
+    border-left: 4px solid #7657ff;
+
+    border-radius: 12px;
+}
+
+.resource-note strong {
+    color: #7657ff;
+
+    font-size: 12px;
+}
+
+.resource-note p {
+    margin-top: 7px;
+
+    color: #777083;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    .resources-section {
+        padding: 75px 25px;
+    }
+
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resource-card {
+        padding: 22px;
+    }
+
+}
+/* =========================================
+   SCHOLARSHIPS & FINANCIAL SUPPORT
+========================================= */
+
+.scholarship-section {
+    padding: 110px 7%;
+    background: #f7f5ff;
+}
+
+.scholarship-grid {
+    max-width: 1100px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+/* SCHOLARSHIP CARD */
+
+.scholarship-card {
+    padding: 28px;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #e6e1ef;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.scholarship-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #d4cbff;
+
+    box-shadow:
+        0 20px 45px
+        rgba(70, 50, 150, 0.09);
+}
+
+
+/* ICON */
+
+.scholarship-icon {
+    width: 55px;
+    height: 55px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    background: #eeeaff;
+
+    font-size: 24px;
+}
+
+
+/* TAG */
+
+.scholarship-tag {
+    display: inline-block;
+
+    color: #7657ff;
+
+    font-size: 8px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+}
+
+
+/* TITLE */
+
+.scholarship-card h3 {
+    margin-top: 8px;
+
+    color: #292337;
+
+    font-size: 15px;
+
+    line-height: 1.4;
+}
+
+
+/* DESCRIPTION */
+
+.scholarship-card p {
+    margin-top: 8px;
+
+    color: #777083;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+/* LINK */
+
+.scholarship-card a {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    color: #7657ff;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+.scholarship-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* IMPORTANT NOTE */
+
+.scholarship-note {
+    max-width: 1100px;
+
+    margin: 35px auto 0;
+
+    padding: 22px 25px;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+
+    background: #eeeaff;
+
+    border-left: 4px solid #7657ff;
+
+    border-radius: 12px;
+}
+
+.note-icon {
+    font-size: 20px;
+}
+
+.scholarship-note strong {
+    color: #7657ff;
+
+    font-size: 12px;
+}
+
+.scholarship-note p {
+    margin-top: 6px;
+
+    color: #777083;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   SCHOLARSHIP RESPONSIVE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .scholarship-section {
+        padding: 75px 25px;
+    }
+
+    .scholarship-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .scholarship-card {
+        padding: 22px;
+    }
+
+}
+/* =========================================
+   WHAT DOES THIS CAREER INVOLVE?
+========================================= */
+
+.career-life-section {
+    padding: 110px 7%;
+    background: #ffffff;
+}
+
+.career-life-grid {
+    max-width: 1100px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.career-life-card {
+    min-height: 270px;
+
+    padding: 28px;
+
+    background: #faf9ff;
+
+    border: 1px solid #e6e1ef;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.career-life-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #d4cbff;
+
+    box-shadow:
+        0 20px 45px
+        rgba(70, 50, 150, 0.08);
+}
+
+.life-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 22px;
+
+    background: #eeeaff;
+
+    border-radius: 15px;
+
+    font-size: 24px;
+}
+
+.career-life-card h3 {
+    color: #292337;
+
+    font-size: 15px;
+
+    line-height: 1.4;
+}
+
+.career-life-card p {
+    margin-top: 10px;
+
+    color: #777083;
+
+    font-size: 11px;
+
+    line-height: 1.75;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+
+    .career-life-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .career-life-section {
+        padding: 75px 25px;
+    }
+
+    .career-life-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* =========================================
+   COMMON MISCONCEPTIONS
+========================================= */
+
+.myths-section {
+    padding: 110px 7%;
+    background: #f7f5ff;
+}
+
+.myths-grid {
+    max-width: 1100px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+.myth-card {
+    padding: 30px;
+
+    background: #ffffff;
+
+    border: 1px solid #e6e1ef;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.myth-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #d4cbff;
+
+    box-shadow:
+        0 20px 45px
+        rgba(70, 50, 150, 0.08);
+}
+
+.myth-label {
+    color: #9a91aa;
+
+    font-size: 8px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.myth-card h3 {
+    margin-top: 9px;
+
+    color: #292337;
+
+    font-size: 17px;
+
+    line-height: 1.5;
+}
+
+.truth-label {
+    margin-top: 22px;
+
+    color: #7657ff;
+
+    font-size: 8px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.myth-card p {
+    margin-top: 8px;
+
+    color: #777083;
+
+    font-size: 11px;
+
+    line-height: 1.8;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    .myths-section {
+        padding: 75px 25px;
+    }
+
+    .myths-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+ /* =========================================
+    RELATED CAREERS
+ ========================================= */
+
+.related-section {
+    padding: 110px 7%;
+    background: #f7f5ff;
+}
+
+.related-grid {
+    max-width: 1100px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.related-card {
+    min-height: 190px;
+
+    padding: 25px;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 18px;
+
+    text-decoration: none;
+
+    background: #ffffff;
+
+    border: 1px solid #e6e1ef;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.related-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #d4cbff;
+
+    box-shadow:
+        0 20px 45px
+        rgba(70, 50, 150, 0.08);
+}
+
+.related-icon {
+    width: 52px;
+    height: 52px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eeeaff;
+
+    border-radius: 14px;
+
+    font-size: 22px;
+}
+
+.related-card h3 {
+    color: #292337;
+
+    font-size: 15px;
+
+    line-height: 1.4;
+}
+
+.related-card p {
+    margin-top: 7px;
+
+    color: #777083;
+
+    font-size: 10px;
+
+    line-height: 1.7;
+}
+
+.related-card span {
+    display: inline-block;
+
+    margin-top: 12px;
+
+    color: #7657ff;
+
+    font-size: 9px;
+
+    font-weight: 700;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    .related-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .related-section {
+        padding: 75px 25px;
+    }
+
+    .related-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* =========================================
+   FINAL CTA
+========================================= */
+
+.final-cta {
+    padding: 110px 7%;
+
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            rgba(118, 87, 255, 0.18),
+            transparent 45%
+        ),
+
+        #211c32;
+
+    color: white;
+}
+
+.final-cta > span {
+    color: #a896ff;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.final-cta h2 {
+    max-width: 700px;
+
+    margin: 15px auto 0;
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+}
+
+.final-cta p {
+    max-width: 600px;
+
+    margin: 15px auto 0;
+
+    color: #b8b1c4;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+.cta-buttons {
+    margin-top: 30px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+}
+
+.cta-primary,
+.cta-secondary {
+    padding: 14px 22px;
+
+    border-radius: 11px;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    transition: 0.25s;
+}
+
+.cta-primary {
+    background: #7657ff;
+
+    color: white;
+}
+
+.cta-secondary {
+    background: transparent;
+
+    color: white;
+
+    border: 1px solid #5d566d;
+}
+
+.cta-primary:hover,
+.cta-secondary:hover {
+    transform: translateY(-3px);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .final-cta {
+        padding: 80px 25px;
+    }
+
+    .final-cta h2 {
+        font-size: 32px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+}
+
+/* =========================================
+   ENTRANCE EXAM & ELIGIBILITY
+========================================= */
+.entrance-note {
+    max-width: 1150px;
+    margin: 25px auto 0;
+    padding: 18px 22px;
+
+    background: #eef2ff;
+    border-left: 4px solid #6366f1;
+    border-radius: 12px;
+}
+
+.entrance-note strong {
+    color: #6366f1;
+    font-size: 12px;
+}
+
+.entrance-note p {
+    margin-top: 6px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.entrance-section {
+    padding: 90px 8%;
+    background: #f8fafc;
+}
+
+.entrance-section .section-heading {
+    margin-bottom: 50px;
+}
+
+.entrance-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 30px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.entrance-card {
+    background: white;
+    padding: 35px;
+    border-radius: 22px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    transition: 0.3s ease;
+}
+
+.entrance-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.10);
+}
+
+.entrance-card.featured {
+    border: 2px solid #6366f1;
+}
+
+.entrance-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef2ff;
+    border-radius: 16px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.entrance-tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #6366f1;
+    margin-bottom: 12px;
+}
+
+.entrance-card h3 {
+    font-size: 24px;
+    margin: 0 0 14px;
+    color: #111827;
+}
+
+.entrance-card p {
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.exam-stages {
+    margin-top: 25px;
+}
+
+.exam-stages > strong {
+    display: block;
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.stage {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 0;
+    border-bottom: 1px solid #eef2f7;
+}
+
+.stage:last-child {
+    border-bottom: none;
+}
+
+.stage > span {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef2ff;
+    color: #6366f1;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.stage b {
+    display: block;
+    color: #1e293b;
+    margin-bottom: 3px;
+}
+
+.stage small {
+    color: #64748b;
+}
+
+.entrance-link {
+    display: inline-block;
+    margin-top: 22px;
+    color: #6366f1;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.entrance-link:hover {
+    text-decoration: underline;
+}
+
+.eligibility-box {
+    margin-top: 25px;
+    padding: 22px;
+    background: #f8fafc;
+    border-radius: 16px;
+}
+
+.eligibility-box strong {
+    color: #111827;
+}
+
+.eligibility-box ul {
+    margin: 15px 0 0;
+    padding-left: 20px;
+    color: #64748b;
+    line-height: 2;
+}
+
+.eligibility-strip {
+    max-width: 1150px;
+    margin: 35px auto 0;
+    background: white;
+    border-radius: 22px;
+    padding: 25px 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+}
+
+.eligibility-title,
+.eligibility-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.eligibility-title > span {
+    font-size: 28px;
+}
+
+.eligibility-title strong {
+    display: block;
+    color: #111827;
+}
+
+.eligibility-title p {
+    margin: 4px 0 0;
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.eligibility-item > span {
+    font-size: 22px;
+}
+
+.eligibility-item small {
+    display: block;
+    color: #94a3b8;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.eligibility-item strong {
+    display: block;
+    color: #334155;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .entrance-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .eligibility-strip {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .entrance-section {
+        padding: 65px 5%;
+    }
+
+    .entrance-card {
+        padding: 25px;
+    }
+
+    .entrance-card h3 {
+        font-size: 21px;
+    }
+
+    .eligibility-strip {
+        grid-template-columns: 1fr;
+        padding: 22px;
+    }
+
+}
+
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .entrance-section {
+    padding: 70px 6%;
+  }
+
+  .entrance-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 35px;
+  }
+
+  .entrance-card {
+    padding: 22px;
+  }
+
+}
+.entrance-note {
+    max-width: 1150px;
+    margin: 25px auto 0;
+    padding: 18px 22px;
+
+    background: #eef2ff;
+    border-left: 4px solid #6366f1;
+    border-radius: 12px;
+}
+
+.entrance-note strong {
+    color: #6366f1;
+    font-size: 12px;
+}
+
+.entrance-note p {
+    margin-top: 6px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.7;
+}

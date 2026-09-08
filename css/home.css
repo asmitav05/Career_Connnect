@@ -1,0 +1,2608 @@
+/* =========================================
+   CAREERPATH HOME
+   STEP 1 — NAVBAR + HERO
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #19162b;
+    background: #ffffff;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+    height: 82px;
+
+    padding: 0 6%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgba(255, 255, 255, 0.92);
+
+    border-bottom: 1px solid #eeeafc;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    backdrop-filter: blur(12px);
+}
+
+
+/* LOGO */
+
+.logo {
+    font-size: 26px;
+
+    font-weight: 800;
+
+    letter-spacing: -1px;
+
+    color: #19162b;
+}
+
+.logo span {
+    color: #7657ff;
+}
+
+.logo small {
+    color: #7657ff;
+
+    font-size: 14px;
+
+    margin-left: 2px;
+}
+
+
+/* NAVIGATION */
+
+.navbar nav {
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+
+    color: #626074;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+    color: #7657ff;
+}
+
+
+/* NAV BUTTONS */
+
+.nav-actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.login-btn,
+.start-btn {
+    text-decoration: none;
+
+    padding: 11px 18px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+.login-btn {
+    color: #7657ff;
+
+    border: 1px solid #dcd5ff;
+
+    background: white;
+}
+
+.start-btn {
+    color: white;
+
+    background: #7657ff;
+
+    box-shadow:
+        0 8px 20px rgba(118, 87, 255, 0.22);
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero-section {
+
+    min-height: calc(100vh - 82px);
+
+    padding: 70px 6%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    background:
+        radial-gradient(
+            circle at 85% 20%,
+            #e9e3ff,
+            transparent 32%
+        ),
+
+        radial-gradient(
+            circle at 60% 90%,
+            #f1edff,
+            transparent 35%
+        ),
+
+        #fbfaff;
+}
+
+
+/* DECORATIVE PURPLE CIRCLE */
+
+.hero-section::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: #eee9ff;
+
+    right: -180px;
+
+    bottom: -220px;
+
+    z-index: 0;
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.hero-content {
+
+    width: 52%;
+
+    max-width: 680px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* BADGE */
+
+.hero-badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    padding: 9px 15px;
+
+    border-radius: 30px;
+
+    background: #eeeaff;
+
+    color: #7657ff;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.2px;
+
+    margin-bottom: 25px;
+}
+
+
+/* MAIN HEADING */
+
+.hero-content h1 {
+
+    font-size: clamp(
+        52px,
+        6vw,
+        78px
+    );
+
+    line-height: 1.02;
+
+    letter-spacing: -4px;
+
+    color: #19162b;
+
+    margin-bottom: 28px;
+}
+
+
+.hero-content h1 span {
+
+    background:
+        linear-gradient(
+            90deg,
+            #7657ff,
+            #a06cff
+        );
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* DESCRIPTION */
+
+.hero-description {
+
+    max-width: 570px;
+
+    color: #6f6b7e;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    margin-bottom: 32px;
+}
+
+
+/* =========================================
+   HERO BUTTONS
+========================================= */
+
+.hero-buttons {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+
+    margin-bottom: 43px;
+}
+
+
+.primary-btn,
+.outline-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 15px 22px;
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    transition: 0.3s;
+}
+
+
+.primary-btn {
+
+    color: white;
+
+    background: #7657ff;
+
+    box-shadow:
+        0 12px 25px
+        rgba(118, 87, 255, 0.25);
+}
+
+
+.primary-btn:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 16px 30px
+        rgba(118, 87, 255, 0.30);
+}
+
+
+.outline-btn {
+
+    color: #7657ff;
+
+    background: white;
+
+    border: 1px solid #ddd6ff;
+}
+
+
+.outline-btn:hover {
+
+    transform: translateY(-3px);
+
+    background: #f7f4ff;
+}
+
+
+/* =========================================
+   STATS
+========================================= */
+
+.stats {
+
+    display: flex;
+
+    gap: 35px;
+}
+
+
+.stat {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+.stat strong {
+
+    font-size: 21px;
+
+    color: #19162b;
+}
+
+
+.stat span {
+
+    color: #888496;
+
+    font-size: 11px;
+}
+
+
+/* =========================================
+   HERO IMAGE
+========================================= */
+
+.hero-image {
+
+    width: 48%;
+
+    min-height: 520px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* IMAGE GLOW */
+
+.hero-image::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 470px;
+
+    height: 470px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #ddd3ff,
+            #f3efff 65%,
+            transparent 70%
+        );
+
+    z-index: -1;
+}
+
+
+.hero-image img {
+
+    width: 100%;
+
+    max-width: 610px;
+
+    height: auto;
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(
+            0 30px 35px
+            rgba(69, 49, 150, 0.14)
+        );
+
+    animation:
+        floating 5s ease-in-out infinite;
+}
+
+
+@keyframes floating {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1050px) {
+
+    .navbar nav {
+        gap: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 58px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .navbar {
+        padding: 0 25px;
+    }
+
+    .navbar nav {
+        display: none;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .hero-section {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding:
+            60px 25px
+            70px;
+    }
+
+    .hero-content {
+
+        width: 100%;
+    }
+
+    .hero-description {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+
+    .stats {
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+
+    .hero-image {
+
+        width: 100%;
+
+        min-height: 380px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .start-btn {
+        padding: 9px 12px;
+
+        font-size: 11px;
+    }
+
+    .hero-content h1 {
+
+        font-size: 44px;
+
+        letter-spacing: -2px;
+    }
+
+    .hero-description {
+
+        font-size: 15px;
+    }
+
+    .stats {
+
+        gap: 20px;
+    }
+
+}
+/* =========================================
+   STEP 2 — EXPLORE STREAMS
+========================================= */
+
+.streams-section {
+
+    padding: 120px 6%;
+
+    background: #ffffff;
+
+}
+
+
+/* SECTION HEADING */
+
+.section-heading {
+
+    max-width: 720px;
+
+    margin: 0 auto 60px;
+
+    text-align: center;
+}
+
+
+.section-heading > span {
+
+    color: #7657ff;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.section-heading h2 {
+
+    margin-top: 14px;
+
+    margin-bottom: 16px;
+
+    font-size: 45px;
+
+    line-height: 1.15;
+
+    letter-spacing: -2px;
+
+    color: #19162b;
+}
+
+
+.section-heading p {
+
+    color: #777486;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   STREAM GRID
+========================================= */
+
+.stream-grid {
+
+    max-width: 1250px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+/* =========================================
+   STREAM CARD
+========================================= */
+
+.stream-card {
+
+    min-height: 360px;
+
+    padding: 30px;
+
+    border-radius: 26px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border: 1px solid #ece9f8;
+
+    background: #ffffff;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+/* BIG BACKGROUND SHAPE */
+
+.stream-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 190px;
+
+    height: 190px;
+
+    border-radius: 50%;
+
+    right: -70px;
+
+    top: -70px;
+
+    background: #f0ecff;
+
+    transition: 0.4s;
+
+}
+
+
+.stream-card:hover::before {
+
+    transform: scale(1.4);
+
+}
+
+
+/* HOVER */
+
+.stream-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 25px 60px
+        rgba(60, 43, 130, 0.12);
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.stream-icon {
+
+    width: 75px;
+
+    height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 22px;
+
+    background: #f1eeff;
+
+    font-size: 36px;
+
+    margin-bottom: 28px;
+
+    position: relative;
+
+    z-index: 2;
+
+    transition: 0.3s;
+}
+
+
+.stream-card:hover .stream-icon {
+
+    transform:
+        rotate(-5deg)
+        scale(1.08);
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.stream-card h3 {
+
+    font-size: 23px;
+
+    color: #19162b;
+
+    margin-bottom: 12px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.stream-card p {
+
+    color: #777486;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* =========================================
+   CAREER TAGS
+========================================= */
+
+.stream-card::after {
+
+    content:
+        "Engineering  •  Medicine  •  Research";
+
+    display: block;
+
+    color: #7657ff;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+
+    margin-bottom: 18px;
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+/* DIFFERENT TAGS */
+
+.commerce::after {
+
+    content:
+        "Finance  •  Business  •  Management";
+}
+
+.arts::after {
+
+    content:
+        "Law  •  Design  •  Psychology";
+}
+
+.technology::after {
+
+    content:
+        "AI  •  Software  •  Cybersecurity";
+}
+
+
+/* =========================================
+   EXPLORE LINK
+========================================= */
+
+.stream-card a {
+
+    color: #7657ff;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    position: relative;
+
+    z-index: 2;
+
+    transition: 0.3s;
+}
+
+
+.stream-card a:hover {
+
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1050px) {
+
+    .stream-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .streams-section {
+
+        padding:
+            80px 25px;
+    }
+
+    .section-heading h2 {
+
+        font-size: 34px;
+    }
+
+    .stream-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+/* =========================================
+   STEP 3 — CAREER QUIZ
+========================================= */
+
+.quiz-section {
+
+    max-width: 1250px;
+
+    min-height: 390px;
+
+    margin: 40px auto 120px;
+
+    padding: 65px 75px;
+
+    border-radius: 34px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 90% 20%,
+            rgba(255,255,255,0.20),
+            transparent 25%
+        ),
+
+        linear-gradient(
+            120deg,
+            #684cff,
+            #8a67ff,
+            #a477ff
+        );
+
+    color: white;
+
+    box-shadow:
+        0 25px 60px
+        rgba(104, 76, 255, 0.20);
+}
+
+
+/* DECORATIVE CIRCLE */
+
+.quiz-section::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 300px;
+
+    height: 300px;
+
+    border-radius: 50%;
+
+    border: 1px solid
+        rgba(255,255,255,0.18);
+
+    right: 140px;
+
+    top: -160px;
+}
+
+
+.quiz-section::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 180px;
+
+    height: 180px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(255,255,255,0.08);
+
+    left: -70px;
+
+    bottom: -80px;
+}
+
+
+/* =========================================
+   QUIZ CONTENT
+========================================= */
+
+.quiz-content {
+
+    max-width: 650px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+.quiz-content > span {
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    color: #eee9ff;
+}
+
+
+.quiz-content h2 {
+
+    font-size: 43px;
+
+    line-height: 1.12;
+
+    letter-spacing: -1.5px;
+
+    margin:
+        15px 0
+        16px;
+}
+
+
+.quiz-content p {
+
+    max-width: 570px;
+
+    color: #eeeaff;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 28px;
+}
+
+
+/* QUIZ BUTTON */
+
+.quiz-content a {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding:
+        14px 21px;
+
+    border-radius: 11px;
+
+    background: white;
+
+    color: #684cff;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    transition: 0.3s;
+}
+
+
+.quiz-content a:hover {
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 12px 25px
+        rgba(35, 20, 100, 0.18);
+}
+
+
+/* =========================================
+   QUIZ VISUAL
+========================================= */
+
+.quiz-visual {
+
+    width: 190px;
+
+    height: 190px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+    z-index: 2;
+
+    background:
+        rgba(255,255,255,0.14);
+
+    border:
+        1px solid
+        rgba(255,255,255,0.25);
+
+    box-shadow:
+        0 20px 45px
+        rgba(45, 25, 120, 0.18);
+
+    font-size: 78px;
+
+    animation:
+        quizFloat 4s ease-in-out infinite;
+}
+
+
+@keyframes quizFloat {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .quiz-section {
+
+        margin:
+            20px 25px
+            80px;
+
+        padding:
+            50px 30px;
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .quiz-content h2 {
+
+        font-size: 34px;
+    }
+
+}
+/* =========================================
+   STEP 4 — CAREER EXPLORER
+========================================= */
+
+.career-explorer {
+
+    padding:
+        120px 6%;
+
+    background:
+        #faf9ff;
+}
+
+
+/* =========================================
+   CATEGORY GRID
+========================================= */
+
+.career-category-grid {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 18px;
+}
+
+
+/* =========================================
+   CATEGORY CARD
+========================================= */
+
+.career-category {
+
+    min-height: 145px;
+
+    padding: 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    border:
+        1px solid #ebe8f5;
+
+    border-radius: 22px;
+
+    background: white;
+
+    position: relative;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+.career-category:hover {
+
+    transform:
+        translateY(-6px);
+
+    border-color:
+        #d8d0ff;
+
+    box-shadow:
+        0 20px 45px
+        rgba(69, 49, 150, 0.09);
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.category-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background:
+        #f0edff;
+
+    font-size: 30px;
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.career-category:hover
+.category-icon {
+
+    transform:
+        scale(1.08)
+        rotate(-4deg);
+}
+
+
+/* =========================================
+   TEXT
+========================================= */
+
+.career-category h3 {
+
+    font-size: 19px;
+
+    color:
+        #19162b;
+
+    margin-bottom: 7px;
+}
+
+
+.career-category p {
+
+    color:
+        #777486;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+    max-width: 330px;
+}
+
+
+/* =========================================
+   ARROW
+========================================= */
+
+.category-arrow {
+
+    margin-left: auto;
+
+    width: 38px;
+
+    height: 38px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        #f4f1ff;
+
+    color:
+        #7657ff;
+
+    font-size: 18px;
+
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+
+.career-category:hover
+.category-arrow {
+
+    transform:
+        translateX(4px);
+
+    background:
+        #7657ff;
+
+    color:
+        white;
+}
+
+
+/* =========================================
+   EXPLORE BUTTON
+========================================= */
+
+.explorer-button {
+
+    text-align: center;
+
+    margin-top: 45px;
+}
+
+
+.explorer-button a {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding:
+        14px 23px;
+
+    border-radius:
+        11px;
+
+    background:
+        #7657ff;
+
+    color:
+        white;
+
+    text-decoration:
+        none;
+
+    font-size:
+        13px;
+
+    font-weight:
+        800;
+
+    box-shadow:
+        0 10px 25px
+        rgba(118, 87, 255, 0.22);
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.explorer-button a:hover {
+
+    transform:
+        translateY(-3px);
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .career-explorer {
+
+        padding:
+            80px 25px;
+    }
+
+    .career-category-grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+    .career-category {
+
+        min-height:
+            125px;
+    }
+
+}
+/* =========================================
+   STEP 5 — SCHOLARSHIPS
+========================================= */
+
+.scholarships-section {
+
+    padding:
+        120px 6%;
+
+    background:
+        #ffffff;
+}
+
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.scholarship-container {
+
+    max-width:
+        1200px;
+
+    margin:
+        0 auto;
+}
+
+
+/* =========================================
+   SEARCH BAR
+========================================= */
+
+.scholarship-search {
+
+    min-height:
+        85px;
+
+    padding:
+        15px 18px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        18px;
+
+    border:
+        1px solid #e8e4f5;
+
+    border-radius:
+        18px;
+
+    background:
+        #faf9ff;
+
+    box-shadow:
+        0 10px 30px
+        rgba(55, 40, 120, 0.05);
+}
+
+
+.search-icon {
+
+    width:
+        50px;
+
+    height:
+        50px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        14px;
+
+    background:
+        #eeeaff;
+
+    font-size:
+        20px;
+}
+
+
+.search-text {
+
+    flex:
+        1;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        5px;
+}
+
+
+.search-text span {
+
+    color:
+        #8a8597;
+
+    font-size:
+        11px;
+}
+
+
+.search-text strong {
+
+    color:
+        #29243b;
+
+    font-size:
+        14px;
+}
+
+
+.scholarship-search button {
+
+    border:
+        none;
+
+    padding:
+        14px 22px;
+
+    border-radius:
+        11px;
+
+    background:
+        #7657ff;
+
+    color:
+        white;
+
+    font-size:
+        13px;
+
+    font-weight:
+        800;
+
+    cursor:
+        pointer;
+
+    transition:
+        0.3s;
+}
+
+
+.scholarship-search button:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 10px 22px
+        rgba(118,87,255,0.22);
+}
+
+
+/* =========================================
+   FILTERS
+========================================= */
+
+.scholarship-filters {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap:
+        15px;
+
+    margin:
+        20px 0 35px;
+}
+
+
+.filter-card {
+
+    min-height:
+        75px;
+
+    padding:
+        14px 17px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        13px;
+
+    border:
+        1px solid #eeeaf8;
+
+    border-radius:
+        15px;
+
+    background:
+        white;
+}
+
+
+.filter-card > span {
+
+    font-size:
+        22px;
+}
+
+
+.filter-card div {
+
+    flex:
+        1;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        4px;
+}
+
+
+.filter-card small {
+
+    color:
+        #9993a5;
+
+    font-size:
+        10px;
+}
+
+
+.filter-card strong {
+
+    color:
+        #29243b;
+
+    font-size:
+        13px;
+}
+
+
+.filter-card b {
+
+    color:
+        #8c8699;
+
+    font-size:
+        17px;
+}
+
+
+/* =========================================
+   SCHOLARSHIP CARDS
+========================================= */
+
+.scholarship-cards {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap:
+        20px;
+}
+
+
+.scholarship-card {
+
+    padding:
+        28px;
+
+    min-height:
+        315px;
+
+    border:
+        1px solid #ebe8f4;
+
+    border-radius:
+        22px;
+
+    background:
+        white;
+
+    transition:
+        0.3s;
+}
+
+
+.scholarship-card:hover {
+
+    transform:
+        translateY(-7px);
+
+    box-shadow:
+        0 22px 45px
+        rgba(50,35,110,0.09);
+}
+
+
+.scholarship-card.featured {
+
+    border:
+        1px solid #d8d0ff;
+
+    background:
+        linear-gradient(
+            145deg,
+            #faf9ff,
+            #f2efff
+        );
+}
+
+
+/* TOP */
+
+.scholarship-card-top {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    margin-bottom:
+        22px;
+}
+
+
+.scholarship-logo {
+
+    width:
+        52px;
+
+    height:
+        52px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        15px;
+
+    background:
+        #eeeaff;
+
+    font-size:
+        24px;
+}
+
+
+.verified {
+
+    padding:
+        6px 9px;
+
+    border-radius:
+        20px;
+
+    background:
+        #f0edff;
+
+    color:
+        #7657ff;
+
+    font-size:
+        9px;
+
+    font-weight:
+        800;
+}
+
+
+/* TITLE */
+
+.scholarship-card h3 {
+
+    color:
+        #201b32;
+
+    font-size:
+        19px;
+
+    margin-bottom:
+        12px;
+}
+
+
+.scholarship-card p {
+
+    color:
+        #777386;
+
+    font-size:
+        13px;
+
+    line-height:
+        1.65;
+
+    min-height:
+        65px;
+
+    margin-bottom:
+        17px;
+}
+
+
+/* TAGS */
+
+.scholarship-tags {
+
+    display:
+        flex;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        7px;
+
+    margin-bottom:
+        20px;
+}
+
+
+.scholarship-tags span {
+
+    padding:
+        5px 9px;
+
+    border-radius:
+        7px;
+
+    background:
+        #f5f3fa;
+
+    color:
+        #777386;
+
+    font-size:
+        9px;
+}
+
+
+/* LINK */
+
+.scholarship-card a {
+
+    color:
+        #7657ff;
+
+    text-decoration:
+        none;
+
+    font-size:
+        12px;
+
+    font-weight:
+        800;
+}
+
+
+/* =========================================
+   ALL SCHOLARSHIPS
+========================================= */
+
+.all-scholarships {
+
+    text-align:
+        center;
+
+    margin-top:
+        38px;
+}
+
+
+.all-scholarships a {
+
+    color:
+        #7657ff;
+
+    text-decoration:
+        none;
+
+    font-size:
+        13px;
+
+    font-weight:
+        800;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 850px) {
+
+    .scholarship-cards {
+
+        grid-template-columns:
+            1fr;
+    }
+
+    .scholarship-filters {
+
+        grid-template-columns:
+            1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .scholarships-section {
+
+        padding:
+            80px 25px;
+    }
+
+    .scholarship-search {
+
+        flex-wrap:
+            wrap;
+    }
+
+    .search-text {
+
+        min-width:
+            200px;
+    }
+
+    .scholarship-search button {
+
+        width:
+            100%;
+    }
+
+}
+/* =========================================
+   STEP 6 — CAREER JOURNEY
+========================================= */
+
+.journey-section {
+
+    padding:
+        120px 6%;
+
+    background:
+        #faf9ff;
+
+}
+
+
+/* =========================================
+   JOURNEY WRAPPER
+========================================= */
+
+.journey-wrapper {
+
+    max-width:
+        1150px;
+
+    margin:
+        0 auto;
+
+    display:
+        flex;
+
+    align-items:
+        flex-start;
+
+    justify-content:
+        center;
+
+}
+
+
+/* =========================================
+   STEP
+========================================= */
+
+.journey-step {
+
+    width:
+        250px;
+
+    text-align:
+        center;
+
+    position:
+        relative;
+
+}
+
+
+/* NUMBER */
+
+.journey-number {
+
+    color:
+        #7657ff;
+
+    font-size:
+        10px;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        1px;
+
+    margin-bottom:
+        12px;
+}
+
+
+/* ICON */
+
+.journey-icon {
+
+    width:
+        75px;
+
+    height:
+        75px;
+
+    margin:
+        0 auto 20px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        22px;
+
+    background:
+        #eeeaff;
+
+    border:
+        1px solid #e0d9ff;
+
+    font-size:
+        32px;
+
+    box-shadow:
+        0 10px 25px
+        rgba(90,65,180,0.08);
+
+    transition:
+        0.3s;
+}
+
+
+.journey-step:hover
+.journey-icon {
+
+    transform:
+        translateY(-6px)
+        rotate(-4deg);
+
+    box-shadow:
+        0 18px 35px
+        rgba(90,65,180,0.13);
+}
+
+
+/* TITLE */
+
+.journey-step h3 {
+
+    color:
+        #201b32;
+
+    font-size:
+        17px;
+
+    margin-bottom:
+        9px;
+}
+
+
+/* DESCRIPTION */
+
+.journey-step p {
+
+    color:
+        #777386;
+
+    font-size:
+        12px;
+
+    line-height:
+        1.6;
+
+    padding:
+        0 10px;
+}
+
+
+/* =========================================
+   CONNECTING LINE
+========================================= */
+
+.journey-line {
+
+    width:
+        70px;
+
+    height:
+        2px;
+
+    margin-top:
+        92px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #dcd5ff,
+            #7657ff,
+            #dcd5ff
+        );
+
+    position:
+        relative;
+}
+
+
+.journey-line::after {
+
+    content:
+        "›";
+
+    position:
+        absolute;
+
+    right:
+        -5px;
+
+    top:
+        50%;
+
+    transform:
+        translateY(-58%);
+
+    color:
+        #7657ff;
+
+    font-size:
+        18px;
+
+    font-weight:
+        800;
+}
+
+
+/* =========================================
+   JOURNEY NOTE
+========================================= */
+
+.journey-note {
+
+    max-width:
+        700px;
+
+    margin:
+        55px auto 0;
+
+    padding:
+        16px 20px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    gap:
+        10px;
+
+    border-radius:
+        13px;
+
+    background:
+        #f0edff;
+
+    color:
+        #625b76;
+
+    font-size:
+        12px;
+
+    text-align:
+        center;
+}
+
+
+.journey-note:first-letter {
+
+    font-size:
+        17px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .journey-wrapper {
+
+        flex-direction:
+            column;
+
+        align-items:
+            center;
+
+        gap:
+            10px;
+    }
+
+
+    .journey-line {
+
+        width:
+            2px;
+
+        height:
+            45px;
+
+        margin:
+            0;
+    }
+
+
+    .journey-line::after {
+
+        content:
+            "↓";
+
+        right:
+            auto;
+
+        left:
+            50%;
+
+        top:
+            100%;
+
+        transform:
+            translateX(-50%);
+    }
+
+}
+/* =========================================
+   FEATURED CAREERS — PREMIUM CARDS
+========================================= */
+
+.career-cards {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+
+/* CAREER CARD */
+
+.career-card {
+
+    min-height: 300px;
+
+    padding: 30px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border: 1px solid #ebe8f5;
+
+    border-radius: 24px;
+
+    background: #ffffff;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+}
+
+
+/* SOFT PURPLE CIRCLE */
+
+.career-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 150px;
+
+    height: 150px;
+
+    right: -65px;
+
+    top: -65px;
+
+    border-radius: 50%;
+
+    background: #f0edff;
+
+    transition:
+        transform 0.4s ease;
+}
+
+
+/* HOVER */
+
+.career-card:hover {
+
+    transform:
+        translateY(-9px);
+
+    border-color:
+        #d9d2ff;
+
+    box-shadow:
+        0 25px 55px
+        rgba(71, 51, 150, 0.11);
+}
+
+
+.career-card:hover::before {
+
+    transform:
+        scale(1.35);
+}
+
+
+/* ICON */
+
+.career-icon {
+
+    width: 68px;
+
+    height: 68px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 20px;
+
+    background: #f1eeff;
+
+    font-size: 31px;
+
+    margin-bottom: 25px;
+
+    position: relative;
+
+    z-index: 2;
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.career-card:hover .career-icon {
+
+    transform:
+        scale(1.08)
+        rotate(-5deg);
+}
+
+
+/* TITLE */
+
+.career-card h3 {
+
+    position: relative;
+
+    z-index: 2;
+
+    margin-bottom: 11px;
+
+    color: #201b32;
+
+    font-size: 20px;
+
+}
+
+
+/* DESCRIPTION */
+
+.career-card p {
+
+    position: relative;
+
+    z-index: 2;
+
+    color: #777386;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+
+    margin-bottom: 22px;
+}
+
+
+/* LINK */
+
+.career-card a {
+
+    position: relative;
+
+    z-index: 2;
+
+    color: #7657ff;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    transition:
+        letter-spacing 0.25s ease;
+}
+
+
+.career-card a:hover {
+
+    letter-spacing: 0.6px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .career-cards {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .career-cards {
+
+        grid-template-columns:
+            1fr;
+    }
+
+}
