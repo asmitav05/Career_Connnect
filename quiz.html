@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Fit Quiz | CareerConnect India</title>
+  <meta name="description" content="Discover your top 5 matching careers through a 12-question quiz with transparent, explainable scoring tailored to Indian education options.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Global Shared Header -->
+  <div id="siteHeaderMount"></div>
+
+  <main style="padding: 3rem 0 5rem;">
+    <div class="container">
+      <div style="text-align: center; max-width: 680px; margin: 0 auto 2.5rem;">
+        <span class="section-eyebrow">CLASS-SPECIFIC CAREER GUIDANCE</span>
+        <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">
+          Personalized Career Aptitude & Education Roadmap Quiz
+        </h1>
+        <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.5;">
+          Tailored questionnaires for Indian students in <strong>Class 10</strong>, <strong>Class 11</strong>, and <strong>Class 12</strong>. Discover your top career matches, understand stream and course eligibility, and get your step-by-step educational pathway.
+        </p>
+      </div>
+
+      <!-- Mount point for QuizEngine script -->
+      <div id="quizAppMount">
+        <div class="card" style="text-align: center; padding: 3rem; max-width: 760px; margin: 0 auto;">
+          <p style="color: var(--text-muted);">Loading quiz questionnaire...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Shared Footer -->
+  <div id="siteFooterMount"></div>
+
+  <!-- Scripts -->
+  <script type="module">
+    import { SiteComponents } from './js/components.js';
+    import { QuizEngine } from './js/quiz.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      SiteComponents.init('quiz');
+      QuizEngine.init();
+    });
+  </script>
+</body>
+</html>

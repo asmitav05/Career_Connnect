@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Student Dashboard | CareerConnect India</title>
+  <meta name="description" content="Track your personalized career milestones, eligible scholarships, saved bookmarks, and weekly action checklist.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Global Shared Header -->
+  <div id="siteHeaderMount"></div>
+
+  <main style="padding: 3rem 0 5rem;">
+    <div class="container">
+      <div style="margin-bottom: 2rem;">
+        <span class="section-eyebrow">STUDENT COMMAND CENTER</span>
+        <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">
+          My Personal Career & Scholarship Dashboard
+        </h1>
+        <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 760px;">
+          All your saved progress in one place: active milestones, quiz recommendations, verified scholarships matching your criteria, and weekly action items.
+        </p>
+      </div>
+
+      <!-- Mount point for DashboardEngine script -->
+      <div id="dashboardMount">
+        <div class="card" style="text-align: center; padding: 3rem;">
+          <p style="color: var(--text-muted);">Loading your personalized student dashboard...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Shared Footer -->
+  <div id="siteFooterMount"></div>
+
+  <!-- Scripts -->
+  <script type="module">
+    import { SiteComponents } from './js/components.js';
+    import { DashboardEngine } from './js/dashboard.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      SiteComponents.init('dashboard');
+      DashboardEngine.init();
+    });
+  </script>
+</body>
+</html>

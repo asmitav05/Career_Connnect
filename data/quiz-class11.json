@@ -1,0 +1,610 @@
+[
+  {
+    "id": "c11_q1",
+    "question": "Which stream and primary subject combination are you currently studying in Class 11?",
+    "category": "Current Stream & Subjects",
+    "isStreamSelector": true,
+    "options": [
+      {
+        "text": "Science with Physics, Chemistry, and Mathematics (PCM)",
+        "stream": "science-pcm",
+        "scores": { "software-developer": 10, "mechanical-engineer": 10, "civil-engineer": 9, "data-scientist": 9, "aerospace-engineer": 10, "architect": 9, "commercial-pilot": 9, "ai-engineer": 10 },
+        "factor": "Enrolled in Science PCM, unlocking full eligibility for engineering, computing, architecture, defense, and technology degrees."
+      },
+      {
+        "text": "Science with Physics, Chemistry, and Biology (PCB)",
+        "stream": "science-pcb",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 10, "pharmacist": 9, "biotechnology-engineer": 8, "physiotherapist": 9, "veterinarian": 9, "agricultural-scientist": 8 },
+        "factor": "Enrolled in Science PCB, meeting primary statutory eligibility for NEET-UG, MBBS, BDS, Pharmacy, and allied medical fields."
+      },
+      {
+        "text": "Science with PCMB (Both Mathematics and Biology)",
+        "stream": "science-pcmb",
+        "scores": { "biotechnology-engineer": 10, "biomedical-engineer": 10, "data-scientist": 8, "doctor-medical-practitioner": 9, "software-developer": 8, "pharmacist": 8 },
+        "factor": "Enrolled in Science PCMB, retaining dual flexibility for engineering, biotechnology, medical, and interdisciplinary sciences."
+      },
+      {
+        "text": "Commerce with Mathematics",
+        "stream": "commerce-math",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 10, "investment-analyst": 10, "actuary": 10, "data-scientist": 7, "banking-professional": 9, "business-analyst": 9 },
+        "factor": "Commerce with Math provides the analytical foundation for actuarial science, financial modeling, CA, and premier B-schools."
+      },
+      {
+        "text": "Commerce without Mathematics (with IP, Entrepreneurship, or PE)",
+        "stream": "commerce-nonmath",
+        "scores": { "chartered-accountant": 9, "company-secretary": 10, "banking-professional": 9, "digital-marketing-specialist": 9, "hotel-management-professional": 8, "event-manager": 8 },
+        "factor": "Commerce background tailored for corporate law, company secretaryship, accounting, marketing, and business administration."
+      },
+      {
+        "text": "Arts / Humanities (History, Political Science, Psychology, Sociology, Literature)",
+        "stream": "arts",
+        "scores": { "ias-officer": 10, "ips-officer": 9, "lawyer-advocate": 10, "psychologist": 10, "journalist": 10, "ui-ux-designer": 8, "content-writer": 9 },
+        "factor": "Humanities foundation offering strong reading, analytical, and constitutional insights ideal for law, UPSC, psychology, and media."
+      },
+      {
+        "text": "Vocational / Applied / Other Combination",
+        "stream": "vocational",
+        "scores": { "graphic-designer": 9, "ui-ux-designer": 8, "chef": 9, "hotel-management-professional": 9, "event-manager": 9 },
+        "factor": "Applied skill-based stream focusing on functional competencies in hospitality, design, media, and culinary arts."
+      }
+    ]
+  },
+  {
+    "id": "c11_q2",
+    "question": "How comfortable do you feel with your Class 11 syllabus and subject difficulty so far?",
+    "category": "Academic Adaptation",
+    "options": [
+      {
+        "text": "I am thoroughly enjoying the depth and want to crack a top national competitive entrance exam",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 9, "data-scientist": 8, "chartered-accountant": 8, "ias-officer": 8 },
+        "factor": "High academic confidence and appetite for intensive national competitive examination preparation."
+      },
+      {
+        "text": "Concepts are challenging but manageable with steady practice; I prefer balanced university entrance or merit",
+        "scores": { "business-analyst": 8, "financial-analyst": 8, "pharmacist": 8, "ui-ux-designer": 8, "lawyer-advocate": 8 },
+        "factor": "Prefers consistent, structured university entrance routes over high-stakes single-day testing pressure."
+      },
+      {
+        "text": "I feel theoretical subjects are too dry; I would do much better with practical, project-based applied learning",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 9, "game-developer": 8, "chef": 8, "digital-marketing-specialist": 8 },
+        "factor": "Learns best through applied projects, hands-on digital tools, and practical execution."
+      },
+      {
+        "text": "I am reconsidering my stream choice and want to explore flexible interdisciplinary undergraduate degrees",
+        "scores": { "lawyer-advocate": 8, "digital-marketing-specialist": 8, "hotel-management-professional": 8, "product-designer": 8 },
+        "factor": "Interested in degrees open to all streams such as 5-year Integrated Law, Design (B.Des), BBA, and Mass Media."
+      }
+    ]
+  },
+  {
+    "id": "c11_q3",
+    "question": "Which type of problems or tasks make you lose track of time when working on them?",
+    "category": "Core Aptitude",
+    "options": [
+      {
+        "text": "Solving mathematical equations, debugging lines of code, or analyzing algorithmic logic",
+        "scores": { "software-developer": 10, "data-scientist": 9, "ai-engineer": 9, "frontend-developer": 8, "mechanical-engineer": 8 },
+        "factor": "Deep engagement with algorithmic problem-solving and mathematical precision."
+      },
+      {
+        "text": "Investigating how human bodies, diseases, chemicals, and ecological systems function",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 9, "pharmacist": 9, "biotechnology-engineer": 8, "research-scientist": 8 },
+        "factor": "Scientific curiosity focused on biological mechanisms, medical therapies, and human wellness."
+      },
+      {
+        "text": "Analyzing balance sheets, market trends, business profits, and investment options",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 10, "investment-analyst": 10, "banking-professional": 9 },
+        "factor": "Strong commercial acumen and enthusiasm for financial markets, valuations, and corporate economics."
+      },
+      {
+        "text": "Debating public policy, analyzing court rulings, or writing persuasive essays and speeches",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 10, "ips-officer": 9, "journalist": 9 },
+        "factor": "Exceptional verbal reasoning, argumentative agility, and passion for justice and governance."
+      },
+      {
+        "text": "Sketching visual layouts, designing digital graphics, editing videos, or crafting user interfaces",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "product-designer": 9, "animation-artist": 9 },
+        "factor": "Visual aesthetics, user empathy, and digital media design dexterity."
+      }
+    ]
+  },
+  {
+    "id": "c11_q4",
+    "question": "What is your readiness level regarding competitive entrance exams (JEE, NEET, CLAT, CA Foundation, CUET)?",
+    "category": "Exam Strategy",
+    "options": [
+      {
+        "text": "I am already actively preparing (or ready to devote 4-6 hours daily) for top entrance exams",
+        "scores": { "software-developer": 9, "doctor-medical-practitioner": 10, "ias-officer": 8, "lawyer-advocate": 9, "aerospace-engineer": 9 },
+        "factor": "High dedication towards systematic entrance preparation with dedicated daily practice hours."
+      },
+      {
+        "text": "I prefer state-level exams or university-specific tests (like MHT-CET, WBJEE, COMEDK, SET, IPMAT)",
+        "scores": { "mechanical-engineer": 8, "civil-engineer": 8, "pharmacist": 8, "financial-analyst": 8, "business-analyst": 8 },
+        "factor": "Targeting state CETs and specialized institutional entrance tests with favorable seat ratios."
+      },
+      {
+        "text": "I want degrees based primarily on 12th board marks, CUET-UG, or creative portfolio evaluations (NID/NIFT/UCEED)",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 9, "digital-marketing-specialist": 8, "psychologist": 8, "journalist": 8 },
+        "factor": "Prefers admission based on board performance, general CUET scores, or creative portfolio assessments."
+      },
+      {
+        "text": "I want to pursue professional credentialing alongside graduation (like CA Foundation, CS Executive, or ACCA)",
+        "scores": { "chartered-accountant": 10, "company-secretary": 9, "financial-analyst": 9, "investment-analyst": 8 },
+        "factor": "Focusing on self-paced professional institute credentialing (ICAI/ICSI) alongside academic study."
+      }
+    ]
+  },
+  {
+    "id": "c11_q5",
+    "question": "Which professional work environment would make you feel most energized 5 to 7 years from now?",
+    "category": "Workplace Preference",
+    "options": [
+      {
+        "text": "A modern tech campus or remote tech setup building global software products",
+        "scores": { "software-developer": 10, "frontend-developer": 9, "data-scientist": 9, "cloud-engineer": 9, "ai-engineer": 10 },
+        "factor": "Aspirations for high-growth tech firms, flexible software development, and product engineering teams."
+      },
+      {
+        "text": "A hospital, diagnostic clinic, or operating theatre directly treating patients",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 9, "physiotherapist": 9, "pharmacist": 8 },
+        "factor": "Clinical healthcare setting providing direct patient diagnosis, treatment, and critical care."
+      },
+      {
+        "text": "A corporate boardroom, multinational investment firm, or financial advisory consultancy",
+        "scores": { "chartered-accountant": 9, "financial-analyst": 10, "investment-analyst": 10, "business-analyst": 9 },
+        "factor": "Corporate enterprise, financial advisory, investment banking, or management consulting environments."
+      },
+      {
+        "text": "A courtroom, arbitration chamber, or district administrative headquarters serving the public",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 10, "ips-officer": 10 },
+        "factor": "Legal chambers, judicial courts, or government civil administration headquarters."
+      },
+      {
+        "text": "A design studio, advertising agency, or gaming production workspace",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "game-developer": 9, "product-designer": 9 },
+        "factor": "Collaborative creative studios, interactive media labs, or visual design agencies."
+      },
+      {
+        "text": "An industrial manufacturing plant, construction project site, or airport flight operations",
+        "scores": { "civil-engineer": 10, "mechanical-engineer": 10, "commercial-pilot": 10, "electrical-engineer": 9 },
+        "factor": "On-site industrial infrastructure, manufacturing plants, or civil construction operations."
+      }
+    ]
+  },
+  {
+    "id": "c11_q6",
+    "question": "What is your target timeline for completing your education and entering the workforce?",
+    "category": "Education Horizon",
+    "options": [
+      {
+        "text": "3 to 4 years post-12th (e.g. BCA, B.Sc, B.Com, BBA, B.Des, or B.Tech) to start earning promptly",
+        "scores": { "software-developer": 8, "frontend-developer": 9, "digital-marketing-specialist": 9, "financial-analyst": 8, "ui-ux-designer": 8 },
+        "factor": "Prefers standard 3-4 year undergraduate path enabling fast-track transition to industry roles."
+      },
+      {
+        "text": "5 to 6 years of comprehensive integrated education (e.g. 5.5-yr MBBS, 5-yr BA LLB, 5-yr B.Arch)",
+        "scores": { "doctor-medical-practitioner": 10, "lawyer-advocate": 10, "architect": 9, "dentist": 9 },
+        "factor": "Prepared for rigorous 5-6 year integrated professional degree required for statutory licensing."
+      },
+      {
+        "text": "Long-term master's or multi-stage credentials (e.g. B.Tech + MS/M.Tech, CA Articleship + Final, B.Sc + M.Sc + PhD)",
+        "scores": { "research-scientist": 10, "chartered-accountant": 9, "data-scientist": 9, "ai-engineer": 9, "psychologist": 9 },
+        "factor": "Committed to multi-tier postgraduate or professional certification progression for elite expertise."
+      },
+      {
+        "text": "Short-term diploma or vocational specialization to launch my career immediately",
+        "scores": { "graphic-designer": 8, "chef": 8, "hotel-management-professional": 8, "event-manager": 8 },
+        "factor": "Values swift practical qualification with minimal formal academic runway."
+      }
+    ]
+  },
+  {
+    "id": "c11_q7",
+    "question": "In Class 11, how do you handle advanced mathematics and quantitative data?",
+    "category": "Quantitative Affinity",
+    "options": [
+      {
+        "text": "I enjoy mathematical proofs, calculus, trigonometry, and statistical modeling",
+        "scores": { "data-scientist": 10, "software-developer": 9, "ai-engineer": 9, "actuary": 10, "aerospace-engineer": 9 },
+        "factor": "Advanced comfort with calculus, probability, and algorithmic mathematical structures."
+      },
+      {
+        "text": "I like commercial and financial arithmetic (percentages, compounding, account balancing, profit & loss)",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 10, "investment-analyst": 9, "banking-professional": 9 },
+        "factor": "Commercial quantitative agility geared towards accounting, investment yields, and business analytics."
+      },
+      {
+        "text": "I can handle basic formula application, but prefer qualitative reasoning, languages, or life sciences",
+        "scores": { "doctor-medical-practitioner": 8, "pharmacist": 8, "lawyer-advocate": 9, "psychologist": 9, "journalist": 8 },
+        "factor": "Prefers qualitative, diagnostic, verbal, or biological comprehension over pure mathematical abstraction."
+      },
+      {
+        "text": "I strongly prefer visual and creative thinking over numerical calculations",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 10, "content-writer": 8, "chef": 8 },
+        "factor": "Visual-spatial and aesthetic strength with minimal reliance on heavy mathematical computation."
+      }
+    ]
+  },
+  {
+    "id": "c11_q8",
+    "question": "Which role would you naturally assume when your group is given a school or college project?",
+    "category": "Team Role",
+    "options": [
+      {
+        "text": "The Architect / Coder: Setting up the technical framework, code, or engineering blueprint",
+        "scores": { "software-developer": 9, "full-stack-developer": 9, "mechanical-engineer": 8, "architect": 8 },
+        "factor": "Hands-on builder who creates the technical infrastructure and functional components."
+      },
+      {
+        "text": "The Financial Planner / Coordinator: Managing the budget, materials, timeline, and deliverables",
+        "scores": { "financial-analyst": 9, "business-analyst": 9, "chartered-accountant": 8, "company-secretary": 8 },
+        "factor": "Resource organizer with keen oversight of cost control, deadlines, and project efficiency."
+      },
+      {
+        "text": "The Presenter / Debater: Speaking for the team, structuring arguments, and defending the conclusions",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 9, "journalist": 9, "digital-marketing-specialist": 8 },
+        "factor": "Articulate communicator who excels in public delivery, advocacy, and persuasion."
+      },
+      {
+        "text": "The Visual Designer: Making the presentation, slides, branding, and graphics look clean and modern",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "product-designer": 9 },
+        "factor": "Visual communicator who elevates project aesthetics, usability, and visual clarity."
+      },
+      {
+        "text": "The Researcher / Fact Checker: Gathering authentic data, verifying facts, and citing authoritative sources",
+        "scores": { "research-scientist": 10, "data-scientist": 9, "psychologist": 8, "doctor-medical-practitioner": 8 },
+        "factor": "Meticulous researcher driven by evidence verification and empirical accuracy."
+      }
+    ]
+  },
+  {
+    "id": "c11_q9",
+    "question": "If you are in Science PCM/PCMB, which specialized technology domain interests you most?",
+    "category": "Technology Domain",
+    "options": [
+      {
+        "text": "Artificial Intelligence, Machine Learning, and Big Data Analytics",
+        "scores": { "ai-engineer": 10, "data-scientist": 10, "software-developer": 9, "python-developer": 9 },
+        "factor": "Fascination with neural networks, automated intelligence, and data-driven prediction models."
+      },
+      {
+        "text": "Full-Stack Web Development, Cloud Computing, and Mobile Apps",
+        "scores": { "software-developer": 10, "full-stack-developer": 10, "cloud-engineer": 9, "mobile-application-developer": 9 },
+        "factor": "Enthusiasm for scalable web platforms, distributed cloud architecture, and mobile apps."
+      },
+      {
+        "text": "Robotics, Electric Vehicles (EV), Drone Technology, and Aerospace Systems",
+        "scores": { "mechanical-engineer": 10, "aerospace-engineer": 10, "electrical-engineer": 9, "automobile-engineer": 9 },
+        "factor": "Passion for physical mechatronics, autonomous robotics, aviation, and EV power systems."
+      },
+      {
+        "text": "Cybersecurity, Ethical Hacking, and Cryptographic Security",
+        "scores": { "cybersecurity-analyst": 10, "network-engineer": 9, "cloud-engineer": 8, "software-developer": 8 },
+        "factor": "Interest in threat defense, penetration testing, and digital infrastructure resilience."
+      },
+      {
+        "text": "I am not interested in technical coding; I prefer business, creative, or pure science routes",
+        "scores": { "chartered-accountant": 8, "lawyer-advocate": 8, "ui-ux-designer": 8, "doctor-medical-practitioner": 8 },
+        "factor": "Prefers non-software disciplines focusing on finance, design, healthcare, or legal counsel."
+      }
+    ]
+  },
+  {
+    "id": "c11_q10",
+    "question": "If you are in Science PCB/PCMB, which healthcare or biological discipline calls to you?",
+    "category": "Healthcare Specialization",
+    "options": [
+      {
+        "text": "Clinical Allopathic Medicine & Surgery (MBBS -> MD/MS)",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 8, "pharmacist": 7 },
+        "factor": "Aspirations for high-stakes clinical diagnosis, patient treatment, and medical therapeutics."
+      },
+      {
+        "text": "Pharmaceutical Sciences, Drug Formulation, and Vaccine Research",
+        "scores": { "pharmacist": 10, "biotechnology-engineer": 9, "research-scientist": 8 },
+        "factor": "Deep interest in pharmacology, drug discovery pipelines, and regulatory formulation."
+      },
+      {
+        "text": "Dental Surgery and Oral Healthcare (BDS)",
+        "scores": { "dentist": 10, "doctor-medical-practitioner": 8 },
+        "factor": "Interest in specialized dental aesthetics, restorative surgery, and clinical oral care."
+      },
+      {
+        "text": "Rehabilitation, Physiotherapy, and Sports Injury Management (BPT)",
+        "scores": { "physiotherapist": 10, "doctor-medical-practitioner": 7 },
+        "factor": "Focus on kinetic rehabilitation, neuromuscular therapy, and sports performance recovery."
+      },
+      {
+        "text": "I am in Commerce or Arts; healthcare is not my primary path",
+        "scores": { "chartered-accountant": 8, "lawyer-advocate": 8, "financial-analyst": 8 },
+        "factor": "Targeting non-medical professional pathways in commerce, law, or humanities."
+      }
+    ]
+  },
+  {
+    "id": "c11_q11",
+    "question": "If you are in Commerce, which career trajectory best aligns with your financial interests?",
+    "category": "Commerce Trajectory",
+    "options": [
+      {
+        "text": "Auditing, Taxation, and Statutory Compliance (Chartered Accountancy via ICAI)",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 8, "company-secretary": 8 },
+        "factor": "Aspirations for the prestigious ICAI CA designation, statutory auditing, and taxation authority."
+      },
+      {
+        "text": "Corporate Governance, Legal Secretarial Filings, and SEBI Compliance (CS via ICSI)",
+        "scores": { "company-secretary": 10, "lawyer-advocate": 8, "chartered-accountant": 8 },
+        "factor": "Interest in board-level corporate compliance, Companies Act governance, and legal filings."
+      },
+      {
+        "text": "Investment Banking, Equity Research, and Portfolio Wealth Management (CFA / MBA Finance)",
+        "scores": { "investment-analyst": 10, "financial-analyst": 10, "banking-professional": 9 },
+        "factor": "Interest in capital markets, private equity, mergers & acquisitions, and financial valuation."
+      },
+      {
+        "text": "Commercial Banking Operations, Fintech Products, and Credit Management",
+        "scores": { "banking-professional": 10, "financial-analyst": 8, "business-analyst": 8 },
+        "factor": "Interest in commercial retail/corporate banking, risk underwriting, and fintech lending."
+      },
+      {
+        "text": "I am in Science or Arts; commerce is not my focus",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 8, "lawyer-advocate": 8 },
+        "factor": "Focused on science or arts disciplines rather than commerce streams."
+      }
+    ]
+  },
+  {
+    "id": "c11_q12",
+    "question": "If you are in Arts or Humanities, which societal contribution inspires you most?",
+    "category": "Humanities Impact",
+    "options": [
+      {
+        "text": "Administering public welfare policy, law enforcement, and nation building (UPSC CSE: IAS/IPS/IFS)",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "lawyer-advocate": 8 },
+        "factor": "Aspirations for the civil services (IAS/IPS), public administration, and nationwide policy impact."
+      },
+      {
+        "text": "Upholding constitutional rights, fighting legal cases, and corporate dispute resolution (BA LLB)",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 8, "company-secretary": 8 },
+        "factor": "Passionate about legal advocacy, judicial jurisprudence, and protecting constitutional rights."
+      },
+      {
+        "text": "Understanding human cognition, clinical counseling, and mental wellness (BA/B.Sc Psychology)",
+        "scores": { "psychologist": 10, "human-resources-professional": 8, "doctor-medical-practitioner": 7 },
+        "factor": "Commitment to mental health therapies, counseling, and human behavioral sciences."
+      },
+      {
+        "text": "Investigative journalism, documentary media, and public affairs broadcasting",
+        "scores": { "journalist": 10, "content-writer": 9, "digital-marketing-specialist": 8 },
+        "factor": "Driven by investigative truth, media reporting, and impactful documentary storytelling."
+      },
+      {
+        "text": "I am in Science or Commerce; humanities is not my core stream",
+        "scores": { "software-developer": 8, "chartered-accountant": 8, "doctor-medical-practitioner": 8 },
+        "factor": "Focusing on science, engineering, or commerce career pathways."
+      }
+    ]
+  },
+  {
+    "id": "c11_q13",
+    "question": "How do you feel about working with computers, programming, and digital software?",
+    "category": "Digital Affinity",
+    "options": [
+      {
+        "text": "I already code (Python, Java, C++, HTML/CSS) or am eager to build software products",
+        "scores": { "software-developer": 10, "frontend-developer": 10, "full-stack-developer": 10, "python-developer": 10, "data-scientist": 9 },
+        "factor": "Demonstrated interest or enthusiasm for programming languages and software engineering."
+      },
+      {
+        "text": "I enjoy using creative design tools like Figma, Canva, Blender, or Adobe Photoshop/Illustrator",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "product-designer": 9, "animation-artist": 9 },
+        "factor": "Natural affinity for digital creative software, wireframing, 3D modeling, and visual composition."
+      },
+      {
+        "text": "I use computers for research, spreadsheets, documentation, and communication, but not coding",
+        "scores": { "financial-analyst": 8, "business-analyst": 9, "lawyer-advocate": 8, "chartered-accountant": 8 },
+        "factor": "Uses computer tools for structured business analytics, modeling, and communication without code."
+      },
+      {
+        "text": "I prefer jobs involving interpersonal contact, physical activity, or outdoor fieldwork over computer screens",
+        "scores": { "doctor-medical-practitioner": 8, "commercial-pilot": 9, "civil-engineer": 9, "chef": 8 },
+        "factor": "Prefers dynamic physical workspaces, hands-on clinical care, or flight operations over desk screens."
+      }
+    ]
+  },
+  {
+    "id": "c11_q14",
+    "question": "What is your preference regarding research, patents, and scientific discovery?",
+    "category": "Research Orientation",
+    "options": [
+      {
+        "text": "I would love to work in a premier research institute (IISc, IISER, TIFR, CSIR) advancing pure science",
+        "scores": { "research-scientist": 10, "agricultural-scientist": 9, "biotechnology-engineer": 8, "data-scientist": 8 },
+        "factor": "Strong affinity for fundamental scientific investigation, laboratory experiments, and doctoral research."
+      },
+      {
+        "text": "I prefer applying scientific principles to create tangible commercial products (like chips, software, bridges)",
+        "scores": { "software-developer": 9, "mechanical-engineer": 9, "civil-engineer": 9, "aerospace-engineer": 9 },
+        "factor": "Applied engineering mindset focused on practical product design, infrastructure, and deployment."
+      },
+      {
+        "text": "I am more excited by commercial markets, profitability, and consumer behaviour than scientific research",
+        "scores": { "financial-analyst": 9, "digital-marketing-specialist": 9, "business-analyst": 9, "investment-analyst": 9 },
+        "factor": "Commercially driven mindset emphasizing consumer demand, market adoption, and revenue creation."
+      },
+      {
+        "text": "I am passionate about social justice, public policy research, and legal jurisprudence",
+        "scores": { "lawyer-advocate": 9, "ias-officer": 9, "journalist": 8, "psychologist": 8 },
+        "factor": "Interest in legal policy analysis, socio-economic research, and civil rights advancement."
+      }
+    ]
+  },
+  {
+    "id": "c11_q15",
+    "question": "What kind of risk and career stability profile do you envision for yourself?",
+    "category": "Career Stability",
+    "options": [
+      {
+        "text": "High prestige, maximum job security, and structured service hierarchy (Civil Services, Public Sector, Defense)",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "banking-professional": 8, "school-teacher": 8 },
+        "factor": "Values government service prestige, constitutional tenure, and societal administrative authority."
+      },
+      {
+        "text": "High compensation in private tech / corporate sectors with continuous learning and merit-based growth",
+        "scores": { "software-developer": 9, "financial-analyst": 9, "data-scientist": 9, "investment-analyst": 9 },
+        "factor": "Attracted to meritocratic private corporate environments offering top compensation and rapid promotions."
+      },
+      {
+        "text": "Independent professional practice (My own clinic, law firm, architectural studio, or CA firm)",
+        "scores": { "doctor-medical-practitioner": 9, "lawyer-advocate": 10, "chartered-accountant": 9, "architect": 9, "dentist": 9 },
+        "factor": "Aspires to independent professional consultancy, private practice, and entrepreneurial autonomy."
+      },
+      {
+        "text": "Creative agency, startup culture, freelancing, or launching my own business venture",
+        "scores": { "ui-ux-designer": 9, "digital-marketing-specialist": 9, "product-designer": 8, "chef": 8 },
+        "factor": "Thrives on startup agility, creative freedom, remote flexibility, or entrepreneurial enterprise."
+      }
+    ]
+  },
+  {
+    "id": "c11_q16",
+    "question": "What should be your primary educational focus during Class 11?",
+    "category": "Immediate Action Focus",
+    "options": [
+      {
+        "text": "Building flawless fundamental concepts in Physics, Chemistry, Math/Bio to avoid Class 12 backlog",
+        "scores": { "software-developer": 9, "doctor-medical-practitioner": 9, "mechanical-engineer": 8, "data-scientist": 8 },
+        "factor": "Recognizes that 40-50% of national entrance questions derive directly from Class 11 foundational concepts."
+      },
+      {
+        "text": "Mastering Accountancy fundamentals, Journal Entries, and Economics foundations for professional exams",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 9, "company-secretary": 9 },
+        "factor": "Consolidating core financial accounting principles that form the base of ICAI CA Foundation."
+      },
+      {
+        "text": "Broadening reading habits, critical reasoning, and general knowledge for Law (CLAT) or UPSC",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 10, "journalist": 8 },
+        "factor": "Developing reading speed, analytical deduction, and legal awareness for premier law entrances."
+      },
+      {
+        "text": "Developing a creative design portfolio, sketching daily, and exploring visual software",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "product-designer": 9, "architect": 8 },
+        "factor": "Building creative sketch portfolios and spatial visualization skills for NID, UCEED, or NATA."
+      }
+    ]
+  },
+  {
+    "id": "c11_q17",
+    "question": "Which of these extracurricular or free-time activities resonates most with your weekends?",
+    "category": "Personal Interests",
+    "options": [
+      {
+        "text": "Building side apps, robotics kits, gaming mods, or participating in online hackathons",
+        "scores": { "software-developer": 10, "game-developer": 10, "frontend-developer": 9, "ai-engineer": 9 },
+        "factor": "Active hobbyist programmer, technical hobby creator, or gaming builder."
+      },
+      {
+        "text": "Reading medical journals, nature documentaries, or shadowing family healthcare practitioners",
+        "scores": { "doctor-medical-practitioner": 9, "research-scientist": 8, "pharmacist": 8, "veterinarian": 8 },
+        "factor": "Sustained curiosity for physiological health, wildlife preservation, and clinical care."
+      },
+      {
+        "text": "Tracking stock market indices, crypto/fintech news, company quarterly results, and business podcasts",
+        "scores": { "financial-analyst": 10, "investment-analyst": 10, "chartered-accountant": 9, "banking-professional": 8 },
+        "factor": "Proactive self-study of corporate finance, investment philosophies, and macroeconomic indicators."
+      },
+      {
+        "text": "Debate clubs, Model United Nations (MUN), student council elections, or social NGO volunteering",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 10, "ips-officer": 9, "journalist": 8 },
+        "factor": "Leadership in public forums, diplomatic roleplay, and community social welfare."
+      },
+      {
+        "text": "Photography, UI mockups, digital illustration, video editing, or interior decor",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "architect": 9, "content-writer": 8 },
+        "factor": "Creative digital artistry, visual framing, and spatial environmental design."
+      }
+    ]
+  },
+  {
+    "id": "c11_q18",
+    "question": "How important is geographical flexibility and international mobility to your future career?",
+    "category": "Global Mobility",
+    "options": [
+      {
+        "text": "Very important: I want a globally portable qualification (e.g. Software Engineering, CFA, Data Science)",
+        "scores": { "software-developer": 9, "data-scientist": 9, "financial-analyst": 8, "ui-ux-designer": 8, "ai-engineer": 9 },
+        "factor": "Prioritizes internationally recognized technical or analytical skills with global visa mobility."
+      },
+      {
+        "text": "I want to serve primarily in India within governance, judiciary, defense, or national institutions",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "lawyer-advocate": 9, "chartered-accountant": 8 },
+        "factor": "Dedicated to Indian statutory frameworks, constitutional governance, and national public service."
+      },
+      {
+        "text": "Open to both: I prefer a career grounded in Indian licensing with options to qualify abroad later",
+        "scores": { "doctor-medical-practitioner": 8, "architect": 8, "dentist": 8, "civil-engineer": 8 },
+        "factor": "Balances immediate Indian statutory qualification with future international licensing opportunities."
+      },
+      {
+        "text": "I value remote work options where I can live anywhere while serving global clients",
+        "scores": { "software-developer": 9, "ui-ux-designer": 9, "digital-marketing-specialist": 9, "content-writer": 8 },
+        "factor": "Desires location independence through remote tech, digital freelancing, or cloud development."
+      }
+    ]
+  },
+  {
+    "id": "c11_q19",
+    "question": "What is your main priority for the upcoming Class 12 board examination?",
+    "category": "Board & College Strategy",
+    "options": [
+      {
+        "text": "Scoring 75%+ in boards while focusing top priority on national entrance ranks (JEE/NEET)",
+        "scores": { "software-developer": 9, "doctor-medical-practitioner": 9, "mechanical-engineer": 8, "aerospace-engineer": 8 },
+        "factor": "Balances board threshold requirements (e.g. 75% for JoSAA) with national entrance rank focus."
+      },
+      {
+        "text": "Maximizing Class 12 percentage (90%+) for merit-based university admissions, CUET, or foreign study",
+        "scores": { "chartered-accountant": 8, "financial-analyst": 8, "psychologist": 9, "journalist": 8, "school-teacher": 8 },
+        "factor": "Targeting high board percentage for merit cutoffs in top central and state universities."
+      },
+      {
+        "text": "Developing creative portfolios alongside standard board pass marks for design & media colleges",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 9, "chef": 8, "hotel-management-professional": 8 },
+        "factor": "Focusing on creative studio entrance and portfolio preparation alongside board curriculum."
+      },
+      {
+        "text": "Qualifying directly for professional foundation entrance (CA Foundation / CS Executive)",
+        "scores": { "chartered-accountant": 10, "company-secretary": 9, "banking-professional": 8 },
+        "factor": "Aligning Class 12 commerce subjects with professional statutory foundation syllabi."
+      }
+    ]
+  },
+  {
+    "id": "c11_q20",
+    "question": "What kind of guidance would help you most right now at this stage of Class 11?",
+    "category": "Guidance Need",
+    "options": [
+      {
+        "text": "A clear roadmap showing what to do in Class 11, Class 12, entrance exams, and 4-year degree options",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 8, "mechanical-engineer": 8, "data-scientist": 8 },
+        "factor": "Needs structured, milestone-by-milestone educational pathway mapping from Class 11 to career."
+      },
+      {
+        "text": "Understanding alternative degree routes (like BCA vs B.Tech, or 5-yr Law vs 3-yr Law) if entrance is tough",
+        "scores": { "software-developer": 7, "lawyer-advocate": 8, "business-analyst": 8, "financial-analyst": 8 },
+        "factor": "Seeks viable alternative degree routes with lower entrance pressure but strong career prospects."
+      },
+      {
+        "text": "Exploring non-engineering and non-medical high-growth careers (Finance, Law, Design, Aviation)",
+        "scores": { "chartered-accountant": 8, "lawyer-advocate": 8, "ui-ux-designer": 8, "commercial-pilot": 8 },
+        "factor": "Looking beyond conventional engineering/medical paths to dynamic modern professions."
+      },
+      {
+        "text": "Finding verified government scholarships to finance professional coaching and college tuition",
+        "scores": { "ias-officer": 8, "doctor-medical-practitioner": 7, "mechanical-engineer": 7, "chartered-accountant": 7 },
+        "factor": "Interested in targeted state and central scholarship schemes to support higher education."
+      }
+    ]
+  }
+]

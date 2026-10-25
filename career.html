@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Guide | CareerConnect India</title>
+  <meta name="description" content="Detailed Indian career guide with entry routes, required exams, skill checklists, salary progression, and official sources.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Global Shared Header -->
+  <div id="siteHeaderMount"></div>
+
+  <main style="padding: 2.5rem 0 5rem;">
+    <div class="container">
+      <!-- Mount point for CareerDetailEngine script -->
+      <div id="careerDetailMount">
+        <div class="card" style="text-align: center; padding: 3rem;">
+          <p style="color: var(--text-muted);">Loading career guide...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Shared Footer -->
+  <div id="siteFooterMount"></div>
+
+  <!-- Scripts -->
+  <script type="module">
+    import { SiteComponents } from './js/components.js';
+    import { CareerDetailEngine } from './js/career-detail.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      SiteComponents.init('explore');
+      CareerDetailEngine.init();
+    });
+  </script>
+</body>
+</html>

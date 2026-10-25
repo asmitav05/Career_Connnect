@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step-by-Step Career Roadmaps | CareerConnect India</title>
+  <meta name="description" content="Generate milestone-by-milestone actionable roadmaps from Class 10/12 through entrance exams, college degrees, core skills, and first job.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Global Shared Header -->
+  <div id="siteHeaderMount"></div>
+
+  <main style="padding: 3rem 0 5rem;">
+    <div class="container">
+      <div style="margin-bottom: 2.5rem;">
+        <span class="section-eyebrow">CLASS-SPECIFIC EDUCATIONAL PATHWAYS</span>
+        <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">
+          Your Complete Career Pathway Roadmap
+        </h1>
+        <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 780px; line-height: 1.55;">
+          Clear, step-by-step educational pathways starting from your current academic stage: <strong>Class 10</strong>, <strong>Class 11</strong>, <strong>Class 12</strong>, or <strong>College</strong>. Compare multiple valid routes (School → Degree vs Polytechnic Diploma → Lateral Entry vs Alternative Degrees), verify statutory eligibility, and prepare for entrance examinations.
+        </p>
+      </div>
+
+      <!-- Mount point for RoadmapsEngine script -->
+      <div id="roadmapMount">
+        <div class="card" style="text-align: center; padding: 3rem;">
+          <p style="color: var(--text-muted);">Loading career roadmap engine...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Shared Footer -->
+  <div id="siteFooterMount"></div>
+
+  <!-- Scripts -->
+  <script type="module">
+    import { SiteComponents } from './js/components.js';
+    import { RoadmapsEngine } from './js/roadmaps.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      SiteComponents.init('roadmaps');
+      RoadmapsEngine.init();
+    });
+  </script>
+</body>
+</html>

@@ -1,183 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>CareerPath | Log In</title>
-
-    <link rel="stylesheet"
-        href="css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to Log In | CareerConnect India</title>
+  <meta http-equiv="refresh" content="0; url=login.html">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-
-
-<body class="auth-page">
-
-    <div class="auth-container">
-
-
-        <!-- LEFT SIDE -->
-
-        <div class="auth-intro">
-
-            <div class="auth-logo">
-                CareerPath<span>.</span>
-            </div>
-
-
-            <div class="intro-content">
-
-                <p class="auth-label">
-                    ✦ WELCOME BACK
-                </p>
-
-                <h1>
-                    Continue your
-                    <span>career journey.</span>
-                </h1>
-
-                <p>
-                    Your career journey doesn't have to
-                    be confusing. Pick up where you left
-                    off and keep exploring.
-                </p>
-
-
-                <div class="intro-points">
-
-                    <div>
-                        <span>✓</span>
-                        Save your favourite careers
-                    </div>
-
-                    <div>
-                        <span>✓</span>
-                        Track your career journey
-                    </div>
-
-                    <div>
-                        <span>✓</span>
-                        Keep your scholarships organised
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- RIGHT SIDE -->
-
-        <div class="auth-box">
-
-
-            <div class="auth-heading">
-
-                <h2>
-                    Welcome back 👋
-                </h2>
-
-                <p>
-                    Log in to continue exploring.
-                </p>
-
-            </div>
-
-
-            <form>
-
-
-                <!-- EMAIL -->
-
-                <div class="form-group">
-
-                    <label for="login-email">
-                        Email Address
-                    </label>
-
-                    <input
-                        type="email"
-                        id="login-email"
-                        placeholder="you@example.com"
-                    >
-
-                </div>
-
-
-                <!-- PASSWORD -->
-
-                <div class="form-group">
-
-                    <label for="login-password">
-                        Password
-                    </label>
-
-                    <input
-                        type="password"
-                        id="login-password"
-                        placeholder="Enter your password"
-                    >
-
-                </div>
-
-
-                <div class="forgot-password">
-
-                    <a href="#">
-                        Forgot password?
-                    </a>
-
-                </div>
-
-
-                <button
-                    type="submit"
-                    class="auth-button">
-
-                    Log In
-                    <span>→</span>
-
-                </button>
-
-
-            </form>
-
-
-            <div class="divider">
-                <span>or</span>
-            </div>
-
-
-            <p class="login-text">
-
-                Don't have an account?
-
-                <a href="login.html">
-                    Create one
-                </a>
-
-            </p>
-
-
-            <p class="guest-text">
-
-                <a href="index.html">
-                    Continue as Guest →
-                </a>
-
-            </p>
-
-
-        </div>
-
-    </div>
-
+<body style="background: var(--bg-app); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem;">
+  <div class="card" style="max-width: 440px; text-align: center; padding: 2.5rem;">
+    <div style="font-size: 2rem; margin-bottom: 1rem;">🔐</div>
+    <h1 style="font-size: 1.5rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Redirecting to Login</h1>
+    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+      CareerConnect now has a complete student authentication system. Redirecting you to the secure login page...
+    </p>
+    <a href="login.html" class="btn btn-primary" style="width: 100%;">
+      Go to Login Page &rarr;
+    </a>
+  </div>
+  <script>
+    window.location.replace('login.html');
+  </script>
 </body>
-
 </html>

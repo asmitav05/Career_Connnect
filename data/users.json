@@ -1,0 +1,87 @@
+[
+  {
+    "id": "usr_a810300e5cb67f3a",
+    "name": "Asmita Verma",
+    "email": "student_1792869790567@example.com",
+    "salt": "c75ecc47c3d8886793bd53e80cb8eeb1",
+    "passwordHash": "f617b7a50bbf2fea9fc3b37585a65bad1029ac2a779efc7ec2829d1931bc0a8bf1082392a1488fd4fef4ea2f1503a3a0b2512f54803c54353b76ce7f9ec47dcd",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Asmita%20Verma&backgroundColor=4f46e5",
+    "role": "student",
+    "provider": "local",
+    "createdAt": "2026-10-24T19:23:10.613Z",
+    "updatedAt": "2026-10-24T19:23:10.738Z"
+  },
+  {
+    "id": "usr_e3c53292f526e18f",
+    "name": "Google Student",
+    "email": "student.google@gmail.com",
+    "avatar": "https://lh3.googleusercontent.com/test-avatar",
+    "role": "student",
+    "provider": "google",
+    "googleSub": "google_decc3832a8c3",
+    "createdAt": "2026-10-24T19:23:10.697Z",
+    "updatedAt": "2026-10-24T19:34:11.158Z"
+  },
+  {
+    "id": "usr_8a65b27a711cfc0d",
+    "name": "Investigate Student",
+    "email": "student_investigate_1792870437539@example.com",
+    "salt": "df8f3371fd94ea95f4cc69472e94645b",
+    "passwordHash": "31f891eaab4446637bce5dee247e07f2cf5d646edd52f32af64d1a31cbf439ded456d7ff456caa9ecedb4c1610f636eae328355b371d0591ac4b4ca805ce905b",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Investigate%20Student&backgroundColor=4f46e5",
+    "role": "student",
+    "provider": "local",
+    "createdAt": "2026-10-24T19:33:57.586Z",
+    "updatedAt": "2026-10-24T19:33:57.586Z"
+  },
+  {
+    "id": "usr_1ebab704b3db56fa",
+    "name": "Google Explorer User",
+    "email": "google_user_1792870438000@gmail.com",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Google%20Explorer%20User&backgroundColor=4f46e5",
+    "role": "student",
+    "provider": "google",
+    "googleSub": "google_469fe08fa4c0",
+    "createdAt": "2026-10-24T19:33:57.997Z",
+    "updatedAt": "2026-10-24T19:33:58.042Z",
+    "salt": "def6577daba3a3e18977e580fb40f88a",
+    "passwordHash": "ad7e48c54fd7bf341821d54c9015e8de428f4dbdba14640602e5b1d31a03a82be4a7a6f834b35cff39cebb211017d7744eb8fe3777b8ff4f1378c3d19e7c786d"
+  },
+  {
+    "id": "usr_1d6280d86f048dbd",
+    "name": "Asmita Verma",
+    "email": "student_1792870451032@example.com",
+    "salt": "0fc2cfa44c09038660398bd9543996ad",
+    "passwordHash": "4dda6f95a3e448295022dccc9cf3883a51e73779a37380a9e4a5571cdb2f5883e0662d4685b9fc4c6a5e2c766e2eb57266c194c1a85916cab98076023a7981d3",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Asmita%20Verma&backgroundColor=4f46e5",
+    "role": "student",
+    "provider": "local",
+    "createdAt": "2026-10-24T19:34:11.066Z",
+    "updatedAt": "2026-10-24T19:34:11.217Z"
+  },
+  {
+    "id": "usr_673d249f20124564",
+    "name": "Investigate Student",
+    "email": "student_investigate_1792871044983@example.com",
+    "salt": "407432858a77eccafd590a39c63e35d4",
+    "passwordHash": "cbf94046982eed2fa0e1eb9923b4fb9d328fe6d6e07bd57266c023897919f099bf1a076a15e8934f3590c5e3a8bb8a2251598865e694a5917df8b1548d426b4c",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Investigate%20Student&backgroundColor=4f46e5",
+    "role": "student",
+    "provider": "local",
+    "createdAt": "2026-10-24T19:44:05.071Z",
+    "updatedAt": "2026-10-24T19:44:05.071Z"
+  },
+  {
+    "id": "usr_34ab345177445c17",
+    "name": "Google Explorer User",
+    "email": "google_user_1792871045807@gmail.com",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Google%20Explorer%20User&backgroundColor=4f46e5",
+    "role": "student",
+    "provider": "google",
+    "googleSub": "google_76e4ca893291",
+    "createdAt": "2026-10-24T19:44:05.808Z",
+    "updatedAt": "2026-10-24T19:44:05.893Z",
+    "salt": "d2778ceb3ae11b1014681fad2299533d",
+    "passwordHash": "090a7a44f3f572f1a2aa784e18032b055ada4facfdacac7bca694858cf4d6959fb3c1c627b9cb580801cd92d861ecfa2f559ec77f1b4093ba59be5724f0a6324"
+  }
+]

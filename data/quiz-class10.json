@@ -1,0 +1,578 @@
+[
+  {
+    "id": "c10_q1",
+    "question": "Which subjects in school do you enjoy studying the most and find easiest to understand?",
+    "category": "Academic Strengths",
+    "options": [
+      {
+        "text": "Mathematics and Physical Science (Physics & Chemistry)",
+        "scores": { "software-developer": 8, "mechanical-engineer": 9, "civil-engineer": 8, "data-scientist": 7, "aerospace-engineer": 9 },
+        "streamHint": "Class 11-12 Science (PCM)",
+        "factor": "Strong quantitative comfort and affinity for physical science principles."
+      },
+      {
+        "text": "Biology and Environmental Sciences",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 9, "pharmacist": 8, "biotechnology-engineer": 8, "agricultural-scientist": 8 },
+        "streamHint": "Class 11-12 Science (PCB)",
+        "factor": "Deep curiosity for biological systems, life sciences, and human health."
+      },
+      {
+        "text": "Social Sciences (History, Civics/Polity, Geography)",
+        "scores": { "ias-officer": 10, "ips-officer": 9, "lawyer-advocate": 9, "journalist": 8, "school-teacher": 7 },
+        "streamHint": "Class 11-12 Arts / Humanities",
+        "factor": "High interest in social governance, constitutional polity, and human history."
+      },
+      {
+        "text": "Economics, Commercial Studies, and Business Math",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 9, "company-secretary": 9, "banking-professional": 8, "investment-analyst": 9 },
+        "streamHint": "Class 11-12 Commerce",
+        "factor": "Natural inclination towards commercial systems, accounting, and economics."
+      },
+      {
+        "text": "Computer Applications, Coding, or Information Technology",
+        "scores": { "software-developer": 10, "frontend-developer": 9, "cybersecurity-analyst": 9, "ai-engineer": 9, "game-developer": 9 },
+        "streamHint": "Class 11-12 Science with Computer Science / Polytechnic Diploma",
+        "factor": "Early passion for computer applications, programming logic, and digital systems."
+      },
+      {
+        "text": "Art, Drawing, Craft, or Literature & Creative Writing",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "animation-artist": 9, "content-writer": 9, "product-designer": 9 },
+        "streamHint": "Class 11-12 Arts / Design Stream",
+        "factor": "Creative visual expression, design sensibility, and literary storytelling."
+      }
+    ]
+  },
+  {
+    "id": "c10_q2",
+    "question": "What kind of learning style suits you best?",
+    "category": "Learning Preferences",
+    "options": [
+      {
+        "text": "Hands-on practical training — I like assembling circuits, machinery, coding, or drawing",
+        "scores": { "mechanical-engineer": 8, "polytechnic-diploma": 10, "ui-ux-designer": 8, "chef": 8, "automobile-engineer": 8 },
+        "streamHint": "Polytechnic Engineering Diploma / Vocational Pathway",
+        "factor": "Prefers practical, project-based applied learning over pure theory."
+      },
+      {
+        "text": "Theoretical and analytical study — I like reading concepts, formulating proofs, and solving logic",
+        "scores": { "research-scientist": 9, "data-scientist": 8, "mathematician": 9, "software-developer": 7, "chartered-accountant": 7 },
+        "streamHint": "Class 11-12 Academic Stream",
+        "factor": "Thrives on deep conceptual, analytical, and structured theoretical study."
+      },
+      {
+        "text": "Debating, discussion, and case analysis — I like understanding social human behavior",
+        "scores": { "lawyer-advocate": 9, "ias-officer": 9, "psychologist": 9, "human-resources-professional": 8 },
+        "streamHint": "Class 11-12 Arts / Humanities or Commerce",
+        "factor": "Engages strongly in interactive discussions, case reasoning, and human communication."
+      },
+      {
+        "text": "Laboratory observation and experimentation — I like microscopes, chemicals, and reactions",
+        "scores": { "doctor-medical-practitioner": 9, "pharmacist": 8, "research-scientist": 9, "chemical-engineer": 8 },
+        "streamHint": "Class 11-12 Science (PCB/PCM)",
+        "factor": "Enjoys controlled scientific lab experiments and empirical verification."
+      }
+    ]
+  },
+  {
+    "id": "c10_q3",
+    "question": "Which educational route immediately after Class 10 sounds most appealing to you?",
+    "category": "Immediate Pathway Preference",
+    "options": [
+      {
+        "text": "Regular Class 11 and 12 in a School or Junior College (leading to a university degree)",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 8, "ias-officer": 8, "chartered-accountant": 8 },
+        "streamHint": "Higher Secondary (10+2)",
+        "factor": "Prefers standard 10+2 higher secondary foundation before university."
+      },
+      {
+        "text": "3-Year Polytechnic Technical Diploma (specialized engineering directly after Class 10)",
+        "scores": { "mechanical-engineer": 9, "civil-engineer": 9, "electrical-engineer": 9, "software-developer": 6 },
+        "streamHint": "Polytechnic Diploma (Direct Technical Entry)",
+        "factor": "Interested in early technical specialization via 3-year polytechnic diploma."
+      },
+      {
+        "text": "Vocational / Skill-Based Programme (ITI, commercial apprenticeships, culinary/design diplomas)",
+        "scores": { "chef": 8, "event-manager": 7, "graphic-designer": 7, "hotel-management-professional": 7 },
+        "streamHint": "Vocational Certification / ITI",
+        "factor": "Values direct vocational skill development and practical employment readiness."
+      },
+      {
+        "text": "I am not sure yet — I want to explore which stream opens the widest opportunities",
+        "scores": { "software-developer": 6, "ias-officer": 6, "chartered-accountant": 6, "ui-ux-designer": 6 },
+        "streamHint": "Exploratory Class 11-12 Stream",
+        "factor": "Looking for flexible streams that maintain broad future career mobility."
+      }
+    ]
+  },
+  {
+    "id": "c10_q4",
+    "question": "How comfortable do you feel with complex Mathematics (Algebra, Geometry, Trigonometry)?",
+    "category": "Subject Aptitude",
+    "options": [
+      {
+        "text": "I love Mathematics and enjoy tackling difficult numerical equations and theorems",
+        "scores": { "software-developer": 9, "data-scientist": 9, "actuary": 10, "mechanical-engineer": 8, "mathematician": 10 },
+        "streamHint": "Science (PCM) or Commerce with Mathematics",
+        "factor": "High mathematical proficiency, essential for engineering, computing, and actuarial science."
+      },
+      {
+        "text": "I can manage basic to moderate Mathematics, but prefer practical arithmetic or statistics",
+        "scores": { "chartered-accountant": 8, "financial-analyst": 8, "digital-marketing-specialist": 6, "architect": 7 },
+        "streamHint": "Commerce or Applied Science",
+        "factor": "Comfortable with business arithmetic, statistics, and applied problem solving."
+      },
+      {
+        "text": "I find advanced Mathematics stressful and prefer subjects based on descriptive reasoning and biology",
+        "scores": { "doctor-medical-practitioner": 9, "dentist": 8, "lawyer-advocate": 8, "psychologist": 9, "content-writer": 8 },
+        "streamHint": "Science (PCB) or Arts / Humanities",
+        "factor": "Prefers descriptive, biological, or conceptual qualitative subjects over advanced calculus."
+      }
+    ]
+  },
+  {
+    "id": "c10_q5",
+    "question": "When working on a computer or smartphone, what activity fascinates you most?",
+    "category": "Technology Orientation",
+    "options": [
+      {
+        "text": "Learning how software, apps, algorithms, and websites are coded and created",
+        "scores": { "software-developer": 10, "backend-developer": 9, "full-stack-developer": 9, "cloud-engineer": 8 },
+        "streamHint": "Class 11 Science (PCM) with Computer Science",
+        "factor": "Strong affinity for coding, system architecture, and software engineering."
+      },
+      {
+        "text": "Creating graphics, editing videos, designing logos, or designing user interfaces",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "vfx-artist": 9, "video-content-creator": 9 },
+        "streamHint": "Design & Multimedia Stream",
+        "factor": "Natural eye for visual layout, multimedia production, and interface aesthetics."
+      },
+      {
+        "text": "Ethical hacking, cybersecurity tricks, networking, and protecting digital privacy",
+        "scores": { "cybersecurity-analyst": 10, "penetration-tester": 9, "security-engineer": 9, "network-engineer": 8 },
+        "streamHint": "Computer Science / Cybersecurity Track",
+        "factor": "High interest in cyber defense, cryptography, and information security."
+      },
+      {
+        "text": "Analyzing data, charts, gaming statistics, or sports performance numbers",
+        "scores": { "data-analyst": 10, "business-analyst": 9, "statistician": 9 },
+        "streamHint": "Data Science / Mathematics Track",
+        "factor": "Inquisitive about extracting insights, trends, and patterns from numerical data."
+      },
+      {
+        "text": "I prefer offline activities over spending long hours in front of a computer screen",
+        "scores": { "doctor-medical-practitioner": 8, "civil-engineer": 8, "agricultural-officer": 8, "chef": 8 },
+        "streamHint": "Field, Clinical, or Practical Hands-On Stream",
+        "factor": "Prefers dynamic interpersonal, clinical, or field-oriented work environments."
+      }
+    ]
+  },
+  {
+    "id": "c10_q6",
+    "question": "If you were given a chance to volunteer for a community project, which role would you pick?",
+    "category": "Work Roles",
+    "options": [
+      {
+        "text": "Medical and first-aid camp helper — assisting patients and understanding health needs",
+        "scores": { "doctor-medical-practitioner": 10, "registered-nurse": 9, "public-health-professional": 9 },
+        "streamHint": "Healthcare & Medical",
+        "factor": "Deep empathy and passion for healing, public healthcare, and clinical service."
+      },
+      {
+        "text": "Budgeting and sponsorship manager — calculating expenses and collecting funds",
+        "scores": { "chartered-accountant": 9, "financial-analyst": 8, "event-manager": 8, "banking-professional": 7 },
+        "streamHint": "Commerce & Financial Management",
+        "factor": "Pragmatic financial organization, commercial budgeting, and accountability."
+      },
+      {
+        "text": "Website and digital registration builder — setting up tech systems for volunteers",
+        "scores": { "software-developer": 9, "full-stack-developer": 8, "database-administrator": 8 },
+        "streamHint": "Technology & Computing",
+        "factor": "Applies software tools to solve operational and organizational bottlenecks."
+      },
+      {
+        "text": "Legal awareness and rights speaker — drafting petitions and explaining civic rules",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 9, "corporate-legal-professional": 8 },
+        "streamHint": "Law & Public Policy",
+        "factor": "Dedication to civic rights, legal reasoning, and public advocacy."
+      },
+      {
+        "text": "Banner and poster designer — creating flyers, social posts, and stage banners",
+        "scores": { "graphic-designer": 10, "ui-ux-designer": 9, "content-writer": 8 },
+        "streamHint": "Design & Media",
+        "factor": "Communicates community messages through compelling visual and narrative media."
+      }
+    ]
+  },
+  {
+    "id": "c10_q7",
+    "question": "How do you feel about competitive entrance examinations (like JEE, NEET, CLAT, CA Foundation)?",
+    "category": "Exam Readiness",
+    "options": [
+      {
+        "text": "I am fully prepared to dedicate 2 years of intense self-study and coaching for national entrance exams",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 9, "aerospace-engineer": 8, "ias-officer": 8 },
+        "streamHint": "High-Competition National Entrance Track",
+        "factor": "High competitive resilience and willingness to prepare for national qualifying tests."
+      },
+      {
+        "text": "I prefer regular university entrance exams or admission based on board marks and merit",
+        "scores": { "chartered-accountant": 7, "ui-ux-designer": 8, "psychologist": 8, "data-analyst": 7, "food-technologist": 7 },
+        "streamHint": "Merit / Institutional Entrance Track",
+        "factor": "Prefers balanced academic preparation and college admissions through merit."
+      },
+      {
+        "text": "I prefer continuous practical assessments, portfolios, or state polytechnic entrance tests",
+        "scores": { "polytechnic-diploma": 9, "graphic-designer": 8, "chef": 8, "event-manager": 7 },
+        "streamHint": "Skill & Portfolio Track",
+        "factor": "Favors portfolio-driven assessments, creative work, or direct polytechnic CETs."
+      }
+    ]
+  },
+  {
+    "id": "c10_q8",
+    "question": "What is your perspective on career progression and education duration?",
+    "category": "Career Horizon",
+    "options": [
+      {
+        "text": "I am willing to complete a long professional degree (5 to 6 years) to achieve elite mastery",
+        "scores": { "doctor-medical-practitioner": 10, "lawyer-advocate": 8, "research-scientist": 9, "airline-pilot": 7 },
+        "streamHint": "Long-Term Professional Degree Route",
+        "factor": "Patience and commitment for intensive 5+ year statutory degrees (MBBS, Integrated Law)."
+      },
+      {
+        "text": "I prefer a standard 3 to 4-year undergraduate degree (B.Tech, B.Sc, B.Com, BCA, BBA)",
+        "scores": { "software-developer": 8, "chartered-accountant": 8, "financial-analyst": 8, "mechanical-engineer": 8 },
+        "streamHint": "Standard Undergraduate Route",
+        "factor": "Balanced timeline focusing on a 3-4 year Bachelor's degree followed by industry launch."
+      },
+      {
+        "text": "I want to start earning early through a diploma, technical trade, or family business within 3 years",
+        "scores": { "polytechnic-diploma": 9, "entrepreneur": 8, "chef": 8, "digital-marketing-specialist": 7 },
+        "streamHint": "Early-Career / Lateral Route",
+        "factor": "Values early financial independence, hands-on apprenticeship, and rapid career launch."
+      }
+    ]
+  },
+  {
+    "id": "c10_q9",
+    "question": "How do you react when a machine, smartphone, or household appliance stops working?",
+    "category": "Mechanical Curiosity",
+    "options": [
+      {
+        "text": "I enjoy opening it up, inspecting circuits/wires, and trying to fix the problem myself",
+        "scores": { "mechanical-engineer": 9, "electrical-engineer": 9, "automobile-engineer": 9, "embedded-systems-engineer": 9 },
+        "streamHint": "Mechanical / Electrical Engineering",
+        "factor": "Innate mechanical intuition and passion for tangible engineering hardware."
+      },
+      {
+        "text": "I search online for diagnostic error codes, software patches, or configuration resets",
+        "scores": { "it-support-engineer": 9, "software-developer": 8, "systems-engineer": 8 },
+        "streamHint": "IT & Systems Engineering",
+        "factor": "Systematic digital problem solver diagnosing issues through software logic."
+      },
+      {
+        "text": "I prefer calling an expert technician and focus my attention on reading, creative, or social tasks",
+        "scores": { "lawyer-advocate": 7, "chartered-accountant": 7, "content-writer": 8, "psychologist": 8 },
+        "streamHint": "Non-Mechanical Domain",
+        "factor": "Prefers intellectual, commercial, or creative domains over mechanical tinkering."
+      }
+    ]
+  },
+  {
+    "id": "c10_q10",
+    "question": "Which of these real-world problems would you feel most proud of solving?",
+    "category": "Impact Motivation",
+    "options": [
+      {
+        "text": "Developing software algorithms that help millions of people connect or work efficiently",
+        "scores": { "software-developer": 10, "ai-engineer": 9, "cloud-engineer": 8 },
+        "streamHint": "Technology & Software",
+        "factor": "Motivated by large-scale digital impact and high-tech software engineering."
+      },
+      {
+        "text": "Curing deadly diseases, inventing new vaccines, or saving lives in emergency hospitals",
+        "scores": { "doctor-medical-practitioner": 10, "pharmacist": 9, "biotechnology-engineer": 9 },
+        "streamHint": "Medical & Clinical Healthcare",
+        "factor": "Dedicated to life-saving clinical interventions and biomedical breakthroughs."
+      },
+      {
+        "text": "Eliminating corruption, improving public administration, and enforcing the rule of law",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "lawyer-advocate": 9 },
+        "streamHint": "Government, Public Policy & Law",
+        "factor": "Driven by constitutional public service, justice, and state leadership."
+      },
+      {
+        "text": "Building roads, green energy power plants, bridges, and smart eco-friendly cities",
+        "scores": { "civil-engineer": 10, "renewable-energy-engineer": 10, "environmental-engineer": 9 },
+        "streamHint": "Infrastructure & Core Engineering",
+        "factor": "Passionate about sustainable physical infrastructure and nation-building."
+      },
+      {
+        "text": "Managing high-growth business enterprises, startups, or stock market investments",
+        "scores": { "entrepreneur": 10, "investment-analyst": 9, "chartered-accountant": 8, "marketing-manager": 8 },
+        "streamHint": "Commerce, Finance & Entrepreneurship",
+        "factor": "Excited by commercial enterprise growth, capital markets, and venture building."
+      }
+    ]
+  },
+  {
+    "id": "c10_q11",
+    "question": "When you have to write a school essay or deliver a speech, how do you feel?",
+    "category": "Communication Strengths",
+    "options": [
+      {
+        "text": "I feel confident expressing complex arguments, storytelling, and articulating my viewpoint",
+        "scores": { "journalist": 9, "content-writer": 9, "lawyer-advocate": 9, "school-teacher": 8 },
+        "streamHint": "Arts / Humanities & Media",
+        "factor": "Articulate communicator with strong written and verbal expressive ability."
+      },
+      {
+        "text": "I prefer presenting structured bullet points, tables, and numerical facts rather than essays",
+        "scores": { "financial-analyst": 8, "data-analyst": 8, "chartered-accountant": 8 },
+        "streamHint": "Commerce & Analytics",
+        "factor": "Structured thinker who values concise data tables over long narrative prose."
+      },
+      {
+        "text": "I prefer creating slide diagrams, infographics, or visual demonstrations",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 9, "product-designer": 8 },
+        "streamHint": "Visual Design & Media",
+        "factor": "Visual thinker who conveys information effectively through design graphics."
+      },
+      {
+        "text": "I prefer doing practical work rather than writing long speeches or essays",
+        "scores": { "software-developer": 7, "mechanical-engineer": 7, "chef": 8 },
+        "streamHint": "Technical / Practical Stream",
+        "factor": "Pragmatic creator focused on concrete functional outputs."
+      }
+    ]
+  },
+  {
+    "id": "c10_q12",
+    "question": "How interested are you in learning about how money, banks, and businesses function?",
+    "category": "Commerce Affinity",
+    "options": [
+      {
+        "text": "Very interested — I frequently check how companies make profits, stock prices, or taxes",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 9, "banking-professional": 9, "investment-analyst": 9 },
+        "streamHint": "Class 11-12 Commerce",
+        "factor": "High interest in corporate financial management, banking, and capital valuation."
+      },
+      {
+        "text": "Somewhat interested in how startups raise money and create innovative new products",
+        "scores": { "entrepreneur": 9, "product-designer": 8, "marketing-manager": 8 },
+        "streamHint": "Business Management & Entrepreneurship",
+        "factor": "Entrepreneurial mindset combining commercial strategy with product innovation."
+      },
+      {
+        "text": "Not particularly interested — I prefer science, medicine, technology, or creative arts",
+        "scores": { "software-developer": 6, "doctor-medical-practitioner": 7, "ui-ux-designer": 6 },
+        "streamHint": "Science or Arts Stream",
+        "factor": "Prioritizes scientific, technical, or creative disciplines over commercial accounting."
+      }
+    ]
+  },
+  {
+    "id": "c10_q13",
+    "question": "Which of these work settings feels most comfortable for you in the long run?",
+    "category": "Workplace Environment",
+    "options": [
+      {
+        "text": "Modern technology office or work-from-home setup with high-speed computers",
+        "scores": { "software-developer": 9, "ui-ux-designer": 8, "data-scientist": 8, "cybersecurity-analyst": 8 },
+        "streamHint": "Tech & Corporate IT",
+        "factor": "Best suited for modern digital workstations and flexible software setups."
+      },
+      {
+        "text": "Hospitals, diagnostic labs, or patient rehabilitation wellness clinics",
+        "scores": { "doctor-medical-practitioner": 10, "physiotherapist": 9, "medical-lab-technologist": 9 },
+        "streamHint": "Healthcare Institutions",
+        "factor": "Thrives in active clinical, diagnostic, and patient-centered environments."
+      },
+      {
+        "text": "Courtrooms, government secretariats, administrative offices, or police commands",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "lawyer-advocate": 9 },
+        "streamHint": "Public Administration & Law",
+        "factor": "Attracted to institutional state authority, judicial courts, and civic governance."
+      },
+      {
+        "text": "Factories, manufacturing plants, construction sites, or aircraft flight decks",
+        "scores": { "mechanical-engineer": 9, "civil-engineer": 9, "airline-pilot": 9, "automobile-engineer": 8 },
+        "streamHint": "Field & Industrial Engineering",
+        "factor": "Prefers dynamic physical operations, outdoor projects, or aviation cockpits."
+      },
+      {
+        "text": "Design studios, film editing suites, professional kitchens, or event venues",
+        "scores": { "graphic-designer": 9, "vfx-artist": 9, "chef": 9, "event-manager": 9 },
+        "streamHint": "Creative Studios & Hospitality",
+        "factor": "Flourishes in fast-paced creative studios, culinary brigades, or media production."
+      }
+    ]
+  },
+  {
+    "id": "c10_q14",
+    "question": "How do you approach a puzzle or problem you have never seen before?",
+    "category": "Cognitive Style",
+    "options": [
+      {
+        "text": "I break it down step-by-step using logic, flowcharts, or formulas until it works",
+        "scores": { "software-developer": 9, "data-scientist": 9, "mechanical-engineer": 8 },
+        "streamHint": "Engineering / Logical Reasoning",
+        "factor": "Methodical algorithmic problem solver using stepwise deduction."
+      },
+      {
+        "text": "I brainstorm unusual creative angles and try multiple visual or practical experiments",
+        "scores": { "ui-ux-designer": 9, "product-designer": 9, "entrepreneur": 8 },
+        "streamHint": "Design & Innovation",
+        "factor": "Lateral creative thinker identifying non-obvious design solutions."
+      },
+      {
+        "text": "I consult reference books, research similar cases in the past, and verify evidence",
+        "scores": { "lawyer-advocate": 9, "research-scientist": 9, "ias-officer": 8 },
+        "streamHint": "Legal & Academic Research",
+        "factor": "Evidence-based researcher grounding conclusions in verified case precedents."
+      },
+      {
+        "text": "I ask people for their perspectives and collaborate to find a compromise solution",
+        "scores": { "human-resources-professional": 9, "event-manager": 8, "school-teacher": 8 },
+        "streamHint": "People & Management",
+        "factor": "Empathetic collaborative problem solver prioritizing social consensus."
+      }
+    ]
+  },
+  {
+    "id": "c10_q15",
+    "question": "If you had a free weekend to complete a self-chosen mini project, which one would you pick?",
+    "category": "Intrinsic Motivation",
+    "options": [
+      {
+        "text": "Building a working mini robot, solar phone charger, or automated model",
+        "scores": { "robotics-engineer": 10, "mechanical-engineer": 9, "iot-engineer": 9 },
+        "streamHint": "Mechatronics / Core Engineering",
+        "factor": "Passionate about robotics, sensor hardware, and electro-mechanical systems."
+      },
+      {
+        "text": "Creating a personal website, simple smartphone game, or coding a Discord bot",
+        "scores": { "software-developer": 10, "game-developer": 10, "frontend-developer": 9 },
+        "streamHint": "Computer Science & Game Tech",
+        "factor": "Intrinsic drive to build digital interactive software and games."
+      },
+      {
+        "text": "Designing a magazine layout, illustrated comic book, or motion graphic video",
+        "scores": { "graphic-designer": 10, "animation-artist": 10, "film-editor": 9 },
+        "streamHint": "Digital Arts & Animation",
+        "factor": "Passionate visual storyteller in digital graphics and motion animation."
+      },
+      {
+        "text": "Drafting an imaginary budget for a new cafe and calculating prices and profit margins",
+        "scores": { "chartered-accountant": 9, "entrepreneur": 9, "financial-analyst": 9 },
+        "streamHint": "Commerce & Financial Planning",
+        "factor": "Instinctive interest in commercial budgeting, pricing strategy, and margins."
+      },
+      {
+        "text": "Reading an investigative book on civil rights, legal trials, or national defense history",
+        "scores": { "lawyer-advocate": 9, "ias-officer": 9, "defence-officer": 9 },
+        "streamHint": "Law, Defense & Public Administration",
+        "factor": "Drawn to historical case trials, national security, and public leadership."
+      }
+    ]
+  },
+  {
+    "id": "c10_q16",
+    "question": "What is your main priority for your future career after education?",
+    "category": "Career Values",
+    "options": [
+      {
+        "text": "High intellectual challenge, cutting-edge innovation, and global technology leadership",
+        "scores": { "software-developer": 8, "ai-engineer": 9, "aerospace-engineer": 8 },
+        "streamHint": "High-Tech & Engineering",
+        "factor": "Values frontier innovation and global tech advancement."
+      },
+      {
+        "text": "Direct societal service, saving lives, and profound human gratitude",
+        "scores": { "doctor-medical-practitioner": 10, "registered-nurse": 8, "public-health-professional": 8 },
+        "streamHint": "Healthcare & Social Service",
+        "factor": "Values humanitarian service, patient care, and healing."
+      },
+      {
+        "text": "Constitutional authority, national prestige, and leadership in governance",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "defence-officer": 9 },
+        "streamHint": "Civil Services & Armed Forces",
+        "factor": "Values state administrative leadership, patriotism, and national service."
+      },
+      {
+        "text": "Financial mastery, high wealth accumulation, and corporate influence",
+        "scores": { "investment-analyst": 10, "chartered-accountant": 8, "entrepreneur": 9 },
+        "streamHint": "Finance & Business Enterprise",
+        "factor": "Values commercial wealth creation and financial autonomy."
+      },
+      {
+        "text": "Creative freedom, expressive originality, and aesthetic portfolio pride",
+        "scores": { "ui-ux-designer": 9, "vfx-artist": 9, "chef": 8 },
+        "streamHint": "Creative & Aesthetic Arts",
+        "factor": "Values artistic independence, craft perfection, and creative pride."
+      }
+    ]
+  },
+  {
+    "id": "c10_q17",
+    "question": "Which of the following describes your ideal college experience?",
+    "category": "College Environment",
+    "options": [
+      {
+        "text": "Intensive engineering campus (like an IIT, NIT, or state technical university) with hackathons and labs",
+        "scores": { "software-developer": 8, "mechanical-engineer": 8, "civil-engineer": 8 },
+        "streamHint": "Engineering Campuses",
+        "factor": "Envisions immersive engineering campus life with hackathons and labs."
+      },
+      {
+        "text": "Medical college and hospital campus (like AIIMS or government medical college) with clinical wards",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 9 },
+        "streamHint": "Medical Institutions",
+        "factor": "Aims for hospital-attached medical colleges with intense clinical training."
+      },
+      {
+        "text": "National Law University (NLU) or Central University campus with moot courts and debates",
+        "scores": { "lawyer-advocate": 9, "ias-officer": 8, "psychologist": 8 },
+        "streamHint": "Law & Liberal Arts Campuses",
+        "factor": "Attracted to national law universities and collegiate debating culture."
+      },
+      {
+        "text": "Premier commerce college (like SRCC) combined with professional CA/CS articleship training",
+        "scores": { "chartered-accountant": 9, "financial-analyst": 8, "company-secretary": 8 },
+        "streamHint": "Commerce & Professional Chambers",
+        "factor": "Combines prestigious commerce college education with rigorous CA articleship."
+      },
+      {
+        "text": "Hands-on polytechnic institute or design school with workshops and studio benches",
+        "scores": { "polytechnic-diploma": 9, "ui-ux-designer": 8, "product-designer": 8 },
+        "streamHint": "Polytechnic / Design Studios",
+        "factor": "Values early polytechnic workshop practice or design studio critiques."
+      }
+    ]
+  },
+  {
+    "id": "c10_q18",
+    "question": "How important is mathematics to your ideal future profession?",
+    "category": "Mathematics Alignment",
+    "options": [
+      {
+        "text": "Essential — I want my career to directly rely on mathematical models, algorithms, or physics",
+        "scores": { "software-developer": 8, "data-scientist": 9, "actuary": 10, "mechanical-engineer": 8 },
+        "streamHint": "Science (PCM) Stream",
+        "factor": "Wants mathematics and physical modeling as the core foundation."
+      },
+      {
+        "text": "Supportive — I want to use financial numbers, statistics, or balance sheets in business",
+        "scores": { "chartered-accountant": 9, "financial-analyst": 9, "banking-professional": 8 },
+        "streamHint": "Commerce with Mathematics Stream",
+        "factor": "Applies mathematics in financial accounting, investment, and statistics."
+      },
+      {
+        "text": "Not required — I want my career to rely on human biology, legal reasoning, creative arts, or writing",
+        "scores": { "doctor-medical-practitioner": 9, "lawyer-advocate": 9, "graphic-designer": 8, "content-writer": 8 },
+        "streamHint": "Science (PCB) or Arts / Humanities",
+        "factor": "Focuses on biological, legal, or creative disciplines without advanced calculus."
+      }
+    ]
+  }
+]

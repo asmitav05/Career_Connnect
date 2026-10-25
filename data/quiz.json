@@ -1,0 +1,376 @@
+[
+  {
+    "id": "q1",
+    "question": "Which activity would you enjoy doing for hours without feeling bored?",
+    "category": "Interests & Passions",
+    "options": [
+      {
+        "text": "Writing code, solving logic puzzles, or building apps/websites",
+        "scores": { "software-developer": 10, "ai-data-scientist": 8, "cybersecurity-analyst": 7 },
+        "factor": "Enjoys writing code, solving computational logic puzzles, and building software."
+      },
+      {
+        "text": "Conducting scientific lab experiments or exploring why natural phenomena happen",
+        "scores": { "science-researcher": 10, "healthcare-professional": 7, "ai-data-scientist": 5 },
+        "factor": "Demonstrates strong curiosity for empirical research and scientific inquiry."
+      },
+      {
+        "text": "Debating ethical issues, defending people's rights, or studying constitutional law",
+        "scores": { "lawyer-legal-advisor": 10, "civil-services-officer": 8 },
+        "factor": "Strong affinity for debate, legal principles, and constitutional advocacy."
+      },
+      {
+        "text": "Understanding human health, treating illnesses, or caring for sick people",
+        "scores": { "healthcare-professional": 10, "science-researcher": 6 },
+        "factor": "Motivated by direct patient care, clinical medicine, and human biology."
+      },
+      {
+        "text": "Designing visual layouts, sketches, user interfaces, or digital art",
+        "scores": { "ui-ux-designer": 10, "software-developer": 4 },
+        "factor": "Passionate about visual ergonomics, user interface styling, and human-centered design."
+      },
+      {
+        "text": "Tracking stock markets, analyzing company profits, and managing investments",
+        "scores": { "financial-analyst": 10, "civil-services-officer": 4 },
+        "factor": "Keen interest in corporate finance, investment markets, and valuation modeling."
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "question": "Which subject domain do you feel most comfortable and confident studying?",
+    "category": "Academic Strengths",
+    "options": [
+      {
+        "text": "Mathematics, Statistics, or Computer Science",
+        "scores": { "software-developer": 9, "ai-data-scientist": 10, "financial-analyst": 8 },
+        "factor": "High comfort with quantitative mathematics, statistics, and computational modeling."
+      },
+      {
+        "text": "Biology, Physiology, and Living Organisms",
+        "scores": { "healthcare-professional": 10, "science-researcher": 7 },
+        "factor": "Strong foundation and interest in biological sciences and healthcare systems."
+      },
+      {
+        "text": "Social Sciences, History, Political Science, and Current Affairs",
+        "scores": { "civil-services-officer": 10, "lawyer-legal-advisor": 9 },
+        "factor": "Excellence in social polity, governance, history, and international relations."
+      },
+      {
+        "text": "Physics, Chemistry, and Fundamental Mechanics",
+        "scores": { "science-researcher": 10, "software-developer": 5 },
+        "factor": "Deep interest in physical sciences, foundational physics, and materials research."
+      },
+      {
+        "text": "Psychology, Human Behaviour, and Visual Aesthetics",
+        "scores": { "ui-ux-designer": 10, "healthcare-professional": 4 },
+        "factor": "Strong grasp of human psychology, visual perception, and user behavior."
+      },
+      {
+        "text": "Accountancy, Business Studies, and Macro-Economics",
+        "scores": { "financial-analyst": 10, "civil-services-officer": 6 },
+        "factor": "Solid foundation in accounting principles, balance sheets, and macro-economic trends."
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "question": "What kind of everyday work environment appeals to you most?",
+    "category": "Work Style",
+    "options": [
+      {
+        "text": "Modern tech campus or flexible/remote setting collaborating on digital products",
+        "scores": { "software-developer": 9, "ai-data-scientist": 9, "ui-ux-designer": 9 },
+        "factor": "Prefers dynamic technology work environments with digital agility and remote flexibility."
+      },
+      {
+        "text": "Government offices, administrative field visits, and public welfare headquarters",
+        "scores": { "civil-services-officer": 10, "lawyer-legal-advisor": 5 },
+        "factor": "Drawn to public administration, field governance, and civil authority environments."
+      },
+      {
+        "text": "Hospitals, medical consultation clinics, or critical care facilities",
+        "scores": { "healthcare-professional": 10 },
+        "factor": "Thrives in frontline clinical healthcare and hospital environments."
+      },
+      {
+        "text": "High courts, legal arbitration rooms, corporate boardrooms, and law chambers",
+        "scores": { "lawyer-legal-advisor": 10, "civil-services-officer": 4 },
+        "factor": "Comfortable with legal dispute forums, courtrooms, and corporate negotiation chambers."
+      },
+      {
+        "text": "Advanced scientific laboratories, cleanrooms, research institutes, or university departments",
+        "scores": { "science-researcher": 10, "ai-data-scientist": 6 },
+        "factor": "Prefers rigorous scientific lab benches and academic research environments."
+      },
+      {
+        "text": "Trading desks, banking headquarters, investment advisory firms, or financial consulting offices",
+        "scores": { "financial-analyst": 10 },
+        "factor": "Attracted to fast-paced financial institutions, consulting firms, and market floors."
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "question": "How do you prefer to solve a difficult challenge?",
+    "category": "Problem Solving Style",
+    "options": [
+      {
+        "text": "Break it into algorithms, write step-by-step code, and automate repetitive tasks",
+        "scores": { "software-developer": 10, "ai-data-scientist": 9 },
+        "factor": "Solves problems algorithmically by breaking complex requirements into modular code."
+      },
+      {
+        "text": "Formulate a hypothesis, design empirical tests, and verify results against evidence",
+        "scores": { "science-researcher": 10, "healthcare-professional": 7 },
+        "factor": "Uses empirical testing, experimental rigor, and evidence-based problem solving."
+      },
+      {
+        "text": "Construct reasoned arguments, cite established precedents, and negotiate consensus",
+        "scores": { "lawyer-legal-advisor": 10, "civil-services-officer": 8 },
+        "factor": "Resolves disputes through structured arguments, evidence analysis, and precedent."
+      },
+      {
+        "text": "Understand user pain points through empathy, mock up visual solutions, and test prototypes",
+        "scores": { "ui-ux-designer": 10 },
+        "factor": "Approaches challenges through user research, empathy, and rapid interactive prototyping."
+      },
+      {
+        "text": "Analyze financial numbers, build economic forecasting models, and compute ROI",
+        "scores": { "financial-analyst": 10 },
+        "factor": "Quantifies problems into financial risk models, valuation metrics, and cost-benefit ratios."
+      },
+      {
+        "text": "Coordinate multi-agency resources, enforce government rules, and resolve civic complaints",
+        "scores": { "civil-services-officer": 10 },
+        "factor": "Adept at administrative coordination, public stakeholder management, and policy enforcement."
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "What is your primary long-term career ambition?",
+    "category": "Career Goals",
+    "options": [
+      {
+        "text": "Building globally scalable software or launching tech startups",
+        "scores": { "software-developer": 10, "ai-data-scientist": 8, "ui-ux-designer": 6 },
+        "factor": "Aims to build high-scale software architectures and digital innovations."
+      },
+      {
+        "text": "Directly shaping district administration, national policies, and citizen welfare",
+        "scores": { "civil-services-officer": 10 },
+        "factor": "Driven by broad public impact, district leadership, and constitutional governance."
+      },
+      {
+        "text": "Saving lives, diagnosing rare medical conditions, and improving health outcomes",
+        "scores": { "healthcare-professional": 10 },
+        "factor": "Committed to saving lives, relieving illness, and advancing clinical healthcare."
+      },
+      {
+        "text": "Winning high-stakes litigation, fighting injustice, or advising Fortune 500 corporations",
+        "scores": { "lawyer-legal-advisor": 10 },
+        "factor": "Aspires to courtroom advocacy, corporate counsel leadership, and rule of law."
+      },
+      {
+        "text": "Publishing ground-breaking research, patenting discoveries, and winning fellowships",
+        "scores": { "science-researcher": 10, "ai-data-scientist": 6 },
+        "factor": "Dedicated to scientific exploration, peer-reviewed discovery, and patent innovation."
+      },
+      {
+        "text": "Managing high-value investment portfolios, mergers & acquisitions, or heading finance (CFO)",
+        "scores": { "financial-analyst": 10 },
+        "factor": "Focused on capital allocation, corporate treasury leadership, and wealth creation."
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "question": "How comfortable are you preparing for rigorous, highly competitive national entrance exams?",
+    "category": "Entrance Exam Stamina",
+    "options": [
+      {
+        "text": "Ready for multi-year intense exam cycles with high persistence (e.g. UPSC CSE / NEET / JEE Adv)",
+        "scores": { "civil-services-officer": 10, "healthcare-professional": 9, "science-researcher": 8 },
+        "factor": "Possesses high stamina for long, intense, multi-stage competitive examination cycles."
+      },
+      {
+        "text": "Comfortable with analytical & reasoning entrance exams (e.g. CLAT / CAT / NID / UCEED)",
+        "scores": { "lawyer-legal-advisor": 9, "financial-analyst": 8, "ui-ux-designer": 7 },
+        "factor": "Excels in aptitude, critical reading, logical reasoning, and design capability tests."
+      },
+      {
+        "text": "Prefer entering via standard college CETs, merit admissions, or practical project portfolios",
+        "scores": { "software-developer": 8, "ui-ux-designer": 9, "financial-analyst": 6 },
+        "factor": "Values practical project skills, self-paced learning, and continuous portfolio building."
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "question": "How do you feel about working with numbers, statistics, and large datasets?",
+    "category": "Quantitative Affinity",
+    "options": [
+      {
+        "text": "I love data! I want to train neural networks and discover patterns in millions of rows",
+        "scores": { "ai-data-scientist": 10, "software-developer": 7, "financial-analyst": 7 },
+        "factor": "Passionate about big data, statistical inference, and deep learning algorithms."
+      },
+      {
+        "text": "Comfortable with financial statements, percentages, valuations, and balance sheets",
+        "scores": { "financial-analyst": 10 },
+        "factor": "Highly comfortable evaluating financial statements, ratios, and balance sheets."
+      },
+      {
+        "text": "Comfortable using quantitative data when necessary, but prefer verbal, policy, and human issues",
+        "scores": { "civil-services-officer": 8, "lawyer-legal-advisor": 8, "healthcare-professional": 6 },
+        "factor": "Balances quantitative data with qualitative judgment, human policy, and civic nuance."
+      },
+      {
+        "text": "Prefer visual, qualitative, and empathetic human interactions over complex equations",
+        "scores": { "ui-ux-designer": 10, "lawyer-legal-advisor": 6 },
+        "factor": "Prioritizes visual storytelling, qualitative interviews, and human-centered design."
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "question": "What is your preference regarding higher education duration and costs?",
+    "category": "Duration & Budget",
+    "options": [
+      {
+        "text": "Prefer a 3 to 4 year degree with early campus placements and fast ROI",
+        "scores": { "software-developer": 9, "financial-analyst": 8, "ui-ux-designer": 8 },
+        "factor": "Favors a focused 3-4 year degree with swift transition into productive employment."
+      },
+      {
+        "text": "Prepared for 5 to 7+ years of deep study including internships, clinical rotations, or research",
+        "scores": { "healthcare-professional": 10, "science-researcher": 9, "civil-services-officer": 7 },
+        "factor": "Committed to comprehensive long-term professional mastery and clinical/research training."
+      },
+      {
+        "text": "Interested in 5-year integrated professional degrees (e.g. BA LLB or BS-MS)",
+        "scores": { "lawyer-legal-advisor": 9, "science-researcher": 8 },
+        "factor": "Suited for dual integrated professional curricula combining theory with specialized practice."
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "question": "How do you rate your interest in emerging cutting-edge technologies like Generative AI and Cybersecurity?",
+    "category": "Tech Orientation",
+    "options": [
+      {
+        "text": "Extremely high — I want to build AI models, secure servers, and work on next-gen tech",
+        "scores": { "ai-data-scientist": 10, "software-developer": 8, "cybersecurity-analyst": 9 },
+        "factor": "Strong fascination with artificial intelligence, cloud architectures, and next-gen tech."
+      },
+      {
+        "text": "Moderate — I want to use modern digital tools to enhance my legal, design, or finance work",
+        "scores": { "ui-ux-designer": 8, "financial-analyst": 7, "lawyer-legal-advisor": 6 },
+        "factor": "Adept at leveraging digital tools to modernize professional workflows."
+      },
+      {
+        "text": "Prefer traditional, human-centric professions where personal empathy and ethics take center stage",
+        "scores": { "civil-services-officer": 9, "healthcare-professional": 9, "science-researcher": 6 },
+        "factor": "Values irreplaceable human empathy, public integrity, and hands-on clinical care."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "When working in a team, which role feels most natural to you?",
+    "category": "Team Dynamics",
+    "options": [
+      {
+        "text": "The technical builder who writes the core logic, debugs issues, and ensures it runs reliably",
+        "scores": { "software-developer": 10, "science-researcher": 7 },
+        "factor": "Acts as the reliable technical architect who executes the core implementation."
+      },
+      {
+        "text": "The empathetic listener who advocates for the end-user or patient and refines the experience",
+        "scores": { "ui-ux-designer": 10, "healthcare-professional": 8 },
+        "factor": "Champion of user empathy, patient experience, and psychological comfort."
+      },
+      {
+        "text": "The leader who coordinates team strategy, resolves conflicts, and takes final responsibility",
+        "scores": { "civil-services-officer": 10, "lawyer-legal-advisor": 8 },
+        "factor": "Naturally assumes strategic command, institutional leadership, and executive responsibility."
+      },
+      {
+        "text": "The analytical evaluator who checks feasibility, costs, risks, and forecasts returns",
+        "scores": { "financial-analyst": 10, "ai-data-scientist": 7 },
+        "factor": "Serves as the analytical auditor who ensures risk containment and financial viability."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "Which of these ethical values resonates most with your worldview?",
+    "category": "Values & Ethics",
+    "options": [
+      {
+        "text": "Constitutional justice, fair opportunity, and protecting vulnerable citizens",
+        "scores": { "lawyer-legal-advisor": 10, "civil-services-officer": 10 },
+        "factor": "Deep commitment to constitutional fairness, equality before law, and social justice."
+      },
+      {
+        "text": "Open access to knowledge, open-source collaboration, and technological empowerment",
+        "scores": { "software-developer": 10, "ui-ux-designer": 7 },
+        "factor": "Belief in democratic access to software, open knowledge, and tech empowerment."
+      },
+      {
+        "text": "Uncompromising commitment to empirical truth, scientific honesty, and peer verification",
+        "scores": { "science-researcher": 10, "ai-data-scientist": 8 },
+        "factor": "Upholds empirical truth, intellectual honesty, and rigorous peer review."
+      },
+      {
+        "text": "Compassion, human dignity, and the relief of physical and mental suffering",
+        "scores": { "healthcare-professional": 10 },
+        "factor": "Deep dedication to upholding human dignity and relieving physical distress."
+      },
+      {
+        "text": "Financial prudence, fiduciary duty, and transparent economic governance",
+        "scores": { "financial-analyst": 10 },
+        "factor": "Values fiduciary trust, economic prudence, and transparent capital stewardship."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "What kind of achievement would make you feel most proud after 5 years?",
+    "category": "Definition of Success",
+    "options": [
+      {
+        "text": "A live software product or app used by hundreds of thousands of people every day",
+        "scores": { "software-developer": 10, "ui-ux-designer": 8 },
+        "factor": "Measures success by shipping digital products that positively impact thousands daily."
+      },
+      {
+        "text": "Administering a district, implementing welfare schemes, or maintaining communal harmony",
+        "scores": { "civil-services-officer": 10 },
+        "factor": "Measures achievement through tangible civic reforms and impactful district governance."
+      },
+      {
+        "text": "Successfully diagnosing, treating, and saving hundreds of patients in a hospital",
+        "scores": { "healthcare-professional": 10 },
+        "factor": "Finds fulfillment in saving lives and restoring health to families in need."
+      },
+      {
+        "text": "Argued and won crucial constitutional or corporate cases, protecting clients' legitimate rights",
+        "scores": { "lawyer-legal-advisor": 10 },
+        "factor": "Proud of rigorous court advocacy, winning legal protection for legitimate rights."
+      },
+      {
+        "text": "Published research papers in international journals advancing science or technology",
+        "scores": { "science-researcher": 10, "ai-data-scientist": 8 },
+        "factor": "Finds pride in expanding the frontiers of science through published research."
+      },
+      {
+        "text": "Steered a company's investment strategy through economic volatility with top returns",
+        "scores": { "financial-analyst": 10 },
+        "factor": "Driven by strategic economic acumen and safeguarding enterprise financial health."
+      }
+    ]
+  }
+]

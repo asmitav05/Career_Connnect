@@ -1,0 +1,674 @@
+[
+  {
+    "id": "c12_q1",
+    "question": "Which stream and exact subject combination are you completing in Class 12?",
+    "category": "Current Stream & Subjects",
+    "isStreamSelector": true,
+    "options": [
+      {
+        "text": "Science with Physics, Chemistry, and Mathematics (PCM)",
+        "stream": "science-pcm",
+        "scores": { "software-developer": 10, "mechanical-engineer": 10, "civil-engineer": 10, "data-scientist": 9, "aerospace-engineer": 10, "architect": 9, "commercial-pilot": 10, "ai-engineer": 10 },
+        "factor": "Completing Science PCM: eligible for B.Tech/B.E., B.Arch, BCA, B.Sc Computing, Commercial Pilot License, and NDA."
+      },
+      {
+        "text": "Science with Physics, Chemistry, and Biology (PCB)",
+        "stream": "science-pcb",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 10, "pharmacist": 10, "physiotherapist": 10, "biotechnology-engineer": 8, "veterinarian": 9, "agricultural-scientist": 8 },
+        "factor": "Completing Science PCB: eligible for NEET-UG, MBBS, BDS, B.Pharm, BPT, B.Sc Nursing, and life science degrees."
+      },
+      {
+        "text": "Science with PCMB (Physics, Chemistry, Math, and Biology)",
+        "stream": "science-pcmb",
+        "scores": { "biotechnology-engineer": 10, "biomedical-engineer": 10, "doctor-medical-practitioner": 9, "software-developer": 9, "data-scientist": 8, "pharmacist": 9 },
+        "factor": "Completing Science PCMB: possesses dual statutory eligibility for both engineering (JEE/CET) and medical (NEET) admissions."
+      },
+      {
+        "text": "Commerce with Mathematics",
+        "stream": "commerce-math",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 10, "investment-analyst": 10, "actuary": 10, "data-scientist": 7, "banking-professional": 9, "business-analyst": 9 },
+        "factor": "Completing Commerce with Math: unlocks Actuarial Science, B.Com (Hons), BBA/IPMAT, Economics (Hons), and ICAI CA Foundation."
+      },
+      {
+        "text": "Commerce without Mathematics (with IP, PE, or Entrepreneurship)",
+        "stream": "commerce-nonmath",
+        "scores": { "chartered-accountant": 9, "company-secretary": 10, "banking-professional": 9, "digital-marketing-specialist": 9, "hotel-management-professional": 9, "event-manager": 9 },
+        "factor": "Completing Commerce without Math: tailored for B.Com, BBA, CA Foundation, CS Executive, Law (CLAT), and Hospitality."
+      },
+      {
+        "text": "Arts / Humanities (History, Pol Science, Psychology, Sociology, Economics)",
+        "stream": "arts",
+        "scores": { "ias-officer": 10, "ips-officer": 9, "lawyer-advocate": 10, "psychologist": 10, "journalist": 10, "ui-ux-designer": 8, "content-writer": 9 },
+        "factor": "Completing Arts/Humanities: ideal foundation for 5-Year Integrated Law (CLAT), Civil Services (UPSC), Psychology, and Design."
+      },
+      {
+        "text": "Vocational / Applied Stream / Polytechnic (Final Year)",
+        "stream": "vocational",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 9, "chef": 9, "hotel-management-professional": 9, "event-manager": 9, "mechanical-engineer": 7 },
+        "factor": "Applied or vocational background enabling lateral entry to technical degrees or direct entry into design and hospitality."
+      }
+    ]
+  },
+  {
+    "id": "c12_q2",
+    "question": "What is your estimated or target score in your Class 12 Board Examinations?",
+    "category": "Academic Performance",
+    "options": [
+      {
+        "text": "85% and above (Aiming for top-tier university cutoffs or scholarship eligibility)",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 9, "chartered-accountant": 8, "data-scientist": 8, "financial-analyst": 8 },
+        "factor": "High board percentage providing a strong safety cushion for central university cutoffs and merit scholarships."
+      },
+      {
+        "text": "75% to 84% (Meeting the standard 75% JoSAA / BITS / statutory eligibility criteria)",
+        "scores": { "mechanical-engineer": 8, "civil-engineer": 8, "pharmacist": 8, "lawyer-advocate": 8, "business-analyst": 8 },
+        "factor": "Comfortably satisfies national entrance eligibility thresholds (e.g., 75% aggregate in PCM for JEE JoSAA)."
+      },
+      {
+        "text": "60% to 74% (Sufficient for State CETs, private universities, and general degree courses)",
+        "scores": { "ui-ux-designer": 8, "digital-marketing-specialist": 8, "banking-professional": 8, "hotel-management-professional": 8 },
+        "factor": "Meets 50-60% statutory minimum marks required by AICTE, PCI, BCI, and UGC for professional degree courses."
+      },
+      {
+        "text": "Passing grade / Under 60% (Looking for skill-based diplomas, vocational degrees, or portfolio-based admissions)",
+        "scores": { "graphic-designer": 8, "chef": 8, "event-manager": 8, "content-writer": 7 },
+        "factor": "Focuses on portfolio-based admissions, practical diplomas, and skill-centric programs where 12th percentage is secondary."
+      }
+    ]
+  },
+  {
+    "id": "c12_q3",
+    "question": "Which broad career domain is your top priority for post-12th studies?",
+    "category": "Primary Domain Interest",
+    "options": [
+      {
+        "text": "Computer Science, Software Engineering, AI, and Digital Technology",
+        "scores": { "software-developer": 10, "data-scientist": 10, "ai-engineer": 10, "cybersecurity-analyst": 9, "cloud-engineer": 9 },
+        "factor": "Prioritizes software systems, machine learning, cloud architecture, and data science."
+      },
+      {
+        "text": "Clinical Healthcare, Medicine, Pharmacy, or Allied Health Sciences",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 10, "pharmacist": 10, "physiotherapist": 9, "veterinarian": 9 },
+        "factor": "Prioritizes clinical patient healthcare, pharmaceuticals, dentistry, and therapy."
+      },
+      {
+        "text": "Accounting, Investment Banking, Corporate Finance, and Financial Markets",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 10, "investment-analyst": 10, "actuary": 9, "banking-professional": 9 },
+        "factor": "Prioritizes corporate financial management, capital markets, chartered accountancy, and auditing."
+      },
+      {
+        "text": "Law, Public Administration, Civil Services, and Judicial Advocacy",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 10, "ips-officer": 10, "company-secretary": 8 },
+        "factor": "Prioritizes constitutional law, dispute resolution, public administration, and civil services."
+      },
+      {
+        "text": "Creative Design, User Experience (UI/UX), Architecture, and Media Arts",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "architect": 10, "product-designer": 9, "game-developer": 8 },
+        "factor": "Prioritizes visual communication, spatial architecture, UI/UX interaction, and creative media."
+      },
+      {
+        "text": "Core Engineering, Aerospace, Infrastructure, and Industrial Operations",
+        "scores": { "mechanical-engineer": 10, "civil-engineer": 10, "aerospace-engineer": 10, "electrical-engineer": 10, "commercial-pilot": 9 },
+        "factor": "Prioritizes physical engineering systems, infrastructure development, aeronautics, and manufacturing."
+      }
+    ]
+  },
+  {
+    "id": "c12_q4",
+    "question": "Which national or state entrance examinations have you registered for or plan to appear in?",
+    "category": "Entrance Exam Participation",
+    "options": [
+      {
+        "text": "National Engineering Exams (JEE Main / JEE Advanced / BITSAT / State CETs)",
+        "scores": { "software-developer": 10, "mechanical-engineer": 10, "civil-engineer": 9, "data-scientist": 9, "aerospace-engineer": 10 },
+        "factor": "Active participant in national/state engineering admission examinations for B.Tech/B.E."
+      },
+      {
+        "text": "National Medical Exam (NEET-UG conducted by NTA)",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 10, "physiotherapist": 9, "veterinarian": 9 },
+        "factor": "Registered for NEET-UG, mandatory for MBBS, BDS, BAMS, BHMS, and Veterinary admissions."
+      },
+      {
+        "text": "Law & Management Entrances (CLAT, AILET, LSAT India, IPMAT, SET)",
+        "scores": { "lawyer-advocate": 10, "business-analyst": 9, "financial-analyst": 8 },
+        "factor": "Targeting 5-Year Integrated LLB through National Law Universities (NLUs) or IIM 5-Year IPM programs."
+      },
+      {
+        "text": "Central University & Merit Entrances (CUET-UG conducted by NTA)",
+        "scores": { "financial-analyst": 8, "psychologist": 9, "journalist": 9, "data-scientist": 7, "content-writer": 8 },
+        "factor": "Utilizing CUET-UG for admission into central universities like DU, BHU, JNU, and Jamia Millia."
+      },
+      {
+        "text": "Design & Architecture Exams (UCEED, NID DAT, NIFT, NATA)",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "architect": 10, "product-designer": 9 },
+        "factor": "Targeting premier statutory design institutes (IIT IDC, NID, NIFT) or architecture (COA NATA)."
+      },
+      {
+        "text": "Professional Institute Foundation (ICAI CA Foundation / ICSI CSEET)",
+        "scores": { "chartered-accountant": 10, "company-secretary": 10, "banking-professional": 8 },
+        "factor": "Enrolled for direct statutory professional certification under ICAI or ICSI."
+      },
+      {
+        "text": "No competitive entrance exams — I prefer direct merit admission or private college entrance",
+        "scores": { "digital-marketing-specialist": 8, "ui-ux-designer": 8, "hotel-management-professional": 9, "chef": 8 },
+        "factor": "Focusing on university merit admissions, institutional interviews, or skill certifications."
+      }
+    ]
+  },
+  {
+    "id": "c12_q5",
+    "question": "What is your preferred qualification type immediately following Class 12?",
+    "category": "Qualification Type",
+    "options": [
+      {
+        "text": "4-Year Professional Bachelor's Degree (B.Tech, B.E., B.Des, B.Pharm)",
+        "scores": { "software-developer": 9, "mechanical-engineer": 9, "pharmacist": 9, "ui-ux-designer": 8 },
+        "factor": "Seeking AICTE/PCI approved 4-year technical degree with industry placement credentials."
+      },
+      {
+        "text": "5-Year to 5.5-Year Comprehensive Professional Degree (MBBS, 5-Yr Integrated Law, B.Arch)",
+        "scores": { "doctor-medical-practitioner": 10, "lawyer-advocate": 10, "architect": 10, "dentist": 9 },
+        "factor": "Committed to rigorous 5-year integrated professional program required for statutory licensure."
+      },
+      {
+        "text": "3-Year Undergraduate Degree (BCA, B.Sc, B.Com, BBA, BA) for faster entry or PG foundation",
+        "scores": { "software-developer": 8, "financial-analyst": 8, "digital-marketing-specialist": 9, "psychologist": 8, "data-scientist": 7 },
+        "factor": "Prefers a flexible 3-year bachelor's degree allowing early job entry or specialized master's."
+      },
+      {
+        "text": "Dual Track: Regular Degree (B.Com/BBA) simultaneously paired with Professional CA / CS",
+        "scores": { "chartered-accountant": 10, "company-secretary": 9, "financial-analyst": 9 },
+        "factor": "Pursuing the proven Indian dual route: formal degree for college experience + ICAI CA for elite credential."
+      },
+      {
+        "text": "Vocational Diploma / Specialized Academy (Aviation CPL, Culinary Arts, Animation)",
+        "scores": { "commercial-pilot": 10, "chef": 9, "graphic-designer": 8, "hotel-management-professional": 8 },
+        "factor": "Targeting vocational academies, flight training organizations (FTO), or specialized design institutes."
+      }
+    ]
+  },
+  {
+    "id": "c12_q6",
+    "question": "What is your approximate annual budget preference for higher education tuition fees?",
+    "category": "Financial & Budget Feasibility",
+    "options": [
+      {
+        "text": "Government / Subsidized fees: Under ₹50,000 per year (IITs/NITs with fee remission, Central/State Govt Colleges)",
+        "scores": { "software-developer": 8, "mechanical-engineer": 8, "doctor-medical-practitioner": 8, "ias-officer": 8 },
+        "factor": "Prioritizes government-funded institutions with low subsidized tuition and reservation/income fee concessions."
+      },
+      {
+        "text": "Moderate fees: ₹50,000 to ₹1.5 Lakh per year (State aided colleges, University departments, BCA, B.Com)",
+        "scores": { "chartered-accountant": 9, "financial-analyst": 8, "lawyer-advocate": 8, "pharmacist": 8 },
+        "factor": "Balances cost-effective college education with self-funded professional certification fees."
+      },
+      {
+        "text": "Standard Private Institution fees: ₹1.5 Lakh to ₹3.5 Lakh per year (Private engineering/management universities)",
+        "scores": { "software-developer": 8, "ui-ux-designer": 8, "business-analyst": 8, "digital-marketing-specialist": 8 },
+        "factor": "Open to established private universities offering strong campus placement records and modern infrastructure."
+      },
+      {
+        "text": "High investment / Specialized training (e.g. Commercial Pilot License ₹35-50L, Private Medical)",
+        "scores": { "commercial-pilot": 10, "doctor-medical-practitioner": 7 },
+        "factor": "Prepared for capital-intensive specialized vocational training like DGCA flight training."
+      }
+    ]
+  },
+  {
+    "id": "c12_q7",
+    "question": "What is your geographic preference for pursuing your undergraduate education?",
+    "category": "Geographic Mobility",
+    "options": [
+      {
+        "text": "Anywhere in India if it is a premier national institute (IIT, NIT, IIIT, AIIMS, NLU, IIM, NID)",
+        "scores": { "software-developer": 9, "doctor-medical-practitioner": 9, "lawyer-advocate": 9, "data-scientist": 8 },
+        "factor": "Ready for pan-India relocation to secure tier-1 national institutional brand value."
+      },
+      {
+        "text": "Within my home state (e.g., Maharashtra, Karnataka, Delhi, Tamil Nadu, etc.) through state counseling",
+        "scores": { "mechanical-engineer": 8, "pharmacist": 8, "financial-analyst": 8, "civil-engineer": 8 },
+        "factor": "Prefers state-quota admissions (85% home state seats) in established regional colleges."
+      },
+      {
+        "text": "Within my home city / commuting distance so I can prepare for CA / UPSC simultaneously",
+        "scores": { "chartered-accountant": 10, "ias-officer": 9, "company-secretary": 9, "banking-professional": 8 },
+        "factor": "Values living at home to maintain dedicated daily study routines for CA articleship or UPSC prep."
+      },
+      {
+        "text": "Metro cities with strong corporate tech hubs (Bengaluru, Pune, Hyderabad, NCR, Mumbai)",
+        "scores": { "software-developer": 9, "ui-ux-designer": 9, "financial-analyst": 9, "digital-marketing-specialist": 9 },
+        "factor": "Prefers educational hubs with immediate access to tech meetups, internships, and startup ecosystems."
+      }
+    ]
+  },
+  {
+    "id": "c12_q8",
+    "question": "What is your backup plan if you do not secure your dream entrance rank this year?",
+    "category": "Contingency & Resilience",
+    "options": [
+      {
+        "text": "I will take admission in a good state / private college (or BCA/B.Sc) and build competitive skills on my own",
+        "scores": { "software-developer": 9, "data-scientist": 9, "frontend-developer": 9, "business-analyst": 8 },
+        "factor": "Pragmatic mindset: prioritizes learning real skills, personal projects, and portfolio over college brand name."
+      },
+      {
+        "text": "I am determined to take one focused drop year to prepare intensively for a top rank (JEE/NEET)",
+        "scores": { "doctor-medical-practitioner": 10, "software-developer": 8, "aerospace-engineer": 8 },
+        "factor": "High perseverance: willing to invest one dedicated drop year for statutory government medical/engineering seats."
+      },
+      {
+        "text": "I will switch to an interdisciplinary route (such as Law, Design, Management, or CA) which has wider entry pathways",
+        "scores": { "lawyer-advocate": 9, "ui-ux-designer": 9, "chartered-accountant": 8, "digital-marketing-specialist": 8 },
+        "factor": "Adaptive strategy: shifts smoothly to allied commercial, legal, or design fields with strong career upside."
+      },
+      {
+        "text": "I will choose a practical diploma or vocational credential that gets me industry-ready fastest",
+        "scores": { "graphic-designer": 8, "chef": 8, "hotel-management-professional": 8, "event-manager": 8 },
+        "factor": "Execution-first approach: enters practical skill training rather than prolonging exam preparation."
+      }
+    ]
+  },
+  {
+    "id": "c12_q9",
+    "question": "If you are interested in Software or Technology, which sub-field excites you most?",
+    "category": "Technology Subfield",
+    "options": [
+      {
+        "text": "Full-Stack Web & App Development (Building interactive SaaS apps, APIs, and mobile software)",
+        "scores": { "software-developer": 10, "frontend-developer": 10, "full-stack-developer": 10, "mobile-application-developer": 9 },
+        "factor": "Core software product engineering: end-to-end full-stack applications and cloud platforms."
+      },
+      {
+        "text": "Data Science & Artificial Intelligence (Python, Machine Learning algorithms, predictive analytics)",
+        "scores": { "data-scientist": 10, "ai-engineer": 10, "python-developer": 9, "software-developer": 8 },
+        "factor": "Data-driven decision intelligence: machine learning architectures and statistical algorithms."
+      },
+      {
+        "text": "Cybersecurity & Cloud Systems (Protecting network infrastructure, ethical hacking, AWS/Azure)",
+        "scores": { "cybersecurity-analyst": 10, "cloud-engineer": 10, "network-engineer": 9 },
+        "factor": "Cyber defense and cloud infrastructure reliability engineering."
+      },
+      {
+        "text": "Game Development & 3D Interactive Graphics (Unity, Unreal Engine, C#, Game Physics)",
+        "scores": { "game-developer": 10, "animation-artist": 9, "software-developer": 8 },
+        "factor": "Interactive video game programming, 3D graphics rendering, and real-time physics engines."
+      },
+      {
+        "text": "I am in non-tech fields (Healthcare, Finance, Law, or Arts)",
+        "scores": { "doctor-medical-practitioner": 8, "chartered-accountant": 8, "lawyer-advocate": 8 },
+        "factor": "Focused on healthcare, finance, or legal fields rather than software engineering."
+      }
+    ]
+  },
+  {
+    "id": "c12_q10",
+    "question": "If you are interested in Healthcare / Medical, what is your preferred clinical path?",
+    "category": "Medical Subfield",
+    "options": [
+      {
+        "text": "MBBS Degree (5.5 years including mandatory 1-year clinical rotational internship) -> MD/MS",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 7 },
+        "factor": "Committed to the rigorous NMC-mandated MBBS roadmap, NEET-UG counseling, and clinical rotations."
+      },
+      {
+        "text": "BDS (Bachelor of Dental Surgery) — Specialized dental surgery and oral healthcare clinic",
+        "scores": { "dentist": 10, "doctor-medical-practitioner": 7 },
+        "factor": "Targeting 5-year dental surgery degree with high potential for independent private practice."
+      },
+      {
+        "text": "B.Pharm (Bachelor of Pharmacy) — Drug development, pharmaceutical marketing, regulatory affairs",
+        "scores": { "pharmacist": 10, "biotechnology-engineer": 8, "research-scientist": 7 },
+        "factor": "Targeting 4-year PCI-approved pharmacy degree leading to pharmaceutical industry or higher MS/M.Pharm."
+      },
+      {
+        "text": "BPT (Bachelor of Physiotherapy) — Physical rehabilitation, sports injury recovery, kinesiology",
+        "scores": { "physiotherapist": 10, "doctor-medical-practitioner": 7 },
+        "factor": "Specializing in physical therapy, biomechanics, and sports medical rehabilitation."
+      },
+      {
+        "text": "I am not pursuing medical sciences",
+        "scores": { "software-developer": 8, "chartered-accountant": 8, "lawyer-advocate": 8 },
+        "factor": "Pursuing non-medical academic disciplines."
+      }
+    ]
+  },
+  {
+    "id": "c12_q11",
+    "question": "If you are interested in Commerce or Finance, which credential best fits your ambition?",
+    "category": "Finance Subfield",
+    "options": [
+      {
+        "text": "Chartered Accountancy (ICAI CA: Foundation -> Intermediate + 2-Yr Articleship -> Final)",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 8, "company-secretary": 7 },
+        "factor": "Targeting ICAI Chartered Accountancy: statutory audit signing power, direct tax advisory, and CFO career track."
+      },
+      {
+        "text": "Financial Analyst / Investment Banking (B.Com/BBA + CFA / Financial Modeling + MBA Finance)",
+        "scores": { "financial-analyst": 10, "investment-analyst": 10, "banking-professional": 9 },
+        "factor": "Targeting capital markets, corporate valuations, equity research, and investment banking."
+      },
+      {
+        "text": "Company Secretaryship (ICSI CS: Executive -> Professional + Management Training)",
+        "scores": { "company-secretary": 10, "lawyer-advocate": 8, "chartered-accountant": 7 },
+        "factor": "Targeting corporate governance, board compliance, SEBI regulations, and legal secretarial filings."
+      },
+      {
+        "text": "Retail / Corporate Banking and Fintech Operations (BBA/B.Com + Banking Certifications / Bank PO)",
+        "scores": { "banking-professional": 10, "financial-analyst": 8, "business-analyst": 8 },
+        "factor": "Targeting scheduled commercial banks, fintech lending platforms, and credit underwriting roles."
+      },
+      {
+        "text": "I am in Science, Engineering, or Humanities",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 8, "lawyer-advocate": 8 },
+        "factor": "Focusing on engineering, medicine, or legal professions."
+      }
+    ]
+  },
+  {
+    "id": "c12_q12",
+    "question": "If you are drawn towards Law or Civil Services, what is your strategic approach?",
+    "category": "Law & Civil Services Strategy",
+    "options": [
+      {
+        "text": "5-Year Integrated Law (BA LLB / BBA LLB) right after Class 12 via CLAT/AILET/CET",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 8, "company-secretary": 8 },
+        "factor": "Enrolling directly into 5-year integrated law school for litigation, corporate law, or judicial services."
+      },
+      {
+        "text": "Any 3-year Graduation (BA/B.Sc/B.Com) + dedicated UPSC Civil Services Examination preparation",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "lawyer-advocate": 8 },
+        "factor": "Building a graduation base while systematically studying GS, NCERTs, optional subjects, and current affairs for UPSC."
+      },
+      {
+        "text": "Graduation first in any subject, then 3-Year LLB (DU, GLC, ILS) after completing Bachelor's",
+        "scores": { "lawyer-advocate": 9, "ias-officer": 8, "journalist": 8 },
+        "factor": "Opting for the 3-year graduate law pathway after completing a prior undergraduate degree."
+      },
+      {
+        "text": "I am not aiming for law or civil administration",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 8, "chartered-accountant": 8 },
+        "factor": "Pursuing technological, medical, or corporate commerce pathways."
+      }
+    ]
+  },
+  {
+    "id": "c12_q13",
+    "question": "If you are interested in Design or Architecture, what kind of work do you want to create?",
+    "category": "Design & Architecture Subfield",
+    "options": [
+      {
+        "text": "UI/UX & Product Design: Designing intuitive mobile apps, websites, and digital experiences",
+        "scores": { "ui-ux-designer": 10, "product-designer": 10, "frontend-developer": 8 },
+        "factor": "Specializing in digital user experiences, interaction design, wireframes, and design systems."
+      },
+      {
+        "text": "Architecture & Building Design (5-Year B.Arch approved by Council of Architecture)",
+        "scores": { "architect": 10, "civil-engineer": 8, "product-designer": 7 },
+        "factor": "Committed to 5-year B.Arch program via NATA/JEE Paper 2 for statutory COA licensing."
+      },
+      {
+        "text": "Graphic Design, Brand Identity, Motion Graphics, and Visual Storytelling",
+        "scores": { "graphic-designer": 10, "ui-ux-designer": 8, "animation-artist": 9 },
+        "factor": "Focused on corporate visual identity, advertising branding, typography, and motion design."
+      },
+      {
+        "text": "I am not in design or architecture",
+        "scores": { "software-developer": 8, "chartered-accountant": 8, "doctor-medical-practitioner": 8 },
+        "factor": "Targeting non-design fields in technology, commerce, or medicine."
+      }
+    ]
+  },
+  {
+    "id": "c12_q14",
+    "question": "What is your primary goal immediately after completing your undergraduate degree?",
+    "category": "Immediate Post-Graduation Goal",
+    "options": [
+      {
+        "text": "Securing a high-paying campus placement / corporate job to become financially independent",
+        "scores": { "software-developer": 9, "frontend-developer": 9, "financial-analyst": 9, "business-analyst": 8 },
+        "factor": "Prioritizes immediate financial independence through strong campus recruitment."
+      },
+      {
+        "text": "Pursuing competitive exams (UPSC CSE, State PSC, RBI Grade B, Bank PO) full-time",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "banking-professional": 9 },
+        "factor": "Dedicated to cracking premier public administration or central banking examinations."
+      },
+      {
+        "text": "Pursuing specialized Master's or Postgraduate degree (M.Tech/MS via GATE, MBA via CAT, MD/MS via NEET-PG)",
+        "scores": { "research-scientist": 10, "data-scientist": 9, "ai-engineer": 9, "doctor-medical-practitioner": 9 },
+        "factor": "Committed to postgraduate excellence and advanced domain specialization."
+      },
+      {
+        "text": "Launching an entrepreneurial startup, family business expansion, or freelance agency",
+        "scores": { "digital-marketing-specialist": 9, "ui-ux-designer": 9, "product-designer": 8, "chef": 8 },
+        "factor": "Entrepreneurial vision focusing on venture creation, digital agency scaling, or startup incubation."
+      }
+    ]
+  },
+  {
+    "id": "c12_q15",
+    "question": "How comfortable are you with quantitative data, coding, and mathematical equations?",
+    "category": "Technical Comfort",
+    "options": [
+      {
+        "text": "I enjoy coding and mathematics; I want algorithms and quantitative logic to be at the heart of my work",
+        "scores": { "software-developer": 10, "data-scientist": 10, "ai-engineer": 10, "actuary": 10 },
+        "factor": "High quantitative and programming appetite suited for computer science, data science, and AI."
+      },
+      {
+        "text": "I am comfortable with business math, statistics, and financial modeling, but not writing software code",
+        "scores": { "financial-analyst": 10, "chartered-accountant": 9, "investment-analyst": 9, "business-analyst": 9 },
+        "factor": "Commercial quantitative comfort: financial modeling and business metrics without software coding."
+      },
+      {
+        "text": "I prefer biological, clinical, or qualitative human analysis over mathematical abstraction",
+        "scores": { "doctor-medical-practitioner": 9, "pharmacist": 8, "lawyer-advocate": 9, "psychologist": 9 },
+        "factor": "Strong clinical diagnosis, biological curiosity, and qualitative human comprehension."
+      },
+      {
+        "text": "I strongly prefer visual aesthetics, creative storytelling, and verbal communication",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 10, "journalist": 9, "content-writer": 9 },
+        "factor": "Creative, verbal, and visual expression with minimal mathematical requirements."
+      }
+    ]
+  },
+  {
+    "id": "c12_q16",
+    "question": "How do you rate your communication, interpersonal, and persuasion skills?",
+    "category": "Interpersonal Strength",
+    "options": [
+      {
+        "text": "Strong debater, persuasive speaker, and comfortable speaking before large audiences",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 10, "journalist": 9, "digital-marketing-specialist": 8 },
+        "factor": "Outstanding verbal agility, courtroom or administrative articulation, and persuasive charisma."
+      },
+      {
+        "text": "Empathetic listener, patient communicator, able to counsel people in distress",
+        "scores": { "doctor-medical-practitioner": 10, "psychologist": 10, "physiotherapist": 9, "school-teacher": 9 },
+        "factor": "High emotional intelligence and empathy essential for patient care and clinical counseling."
+      },
+      {
+        "text": "Analytical communicator: I convey insights clearly using data, charts, and structured reports",
+        "scores": { "business-analyst": 10, "financial-analyst": 9, "data-scientist": 9, "chartered-accountant": 8 },
+        "factor": "Structured business communication utilizing quantitative charts, deck summaries, and metrics."
+      },
+      {
+        "text": "Visual communicator: I express ideas best through wireframes, diagrams, illustrations, and prototypes",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "product-designer": 9, "architect": 9 },
+        "factor": "Visual clarity and design communication through prototypes, mockups, and sketches."
+      }
+    ]
+  },
+  {
+    "id": "c12_q17",
+    "question": "What is your preference regarding corporate private sector vs government public sector?",
+    "category": "Sector Preference",
+    "options": [
+      {
+        "text": "Corporate Private Sector (High salaries, rapid performance promotions, international exposure)",
+        "scores": { "software-developer": 9, "financial-analyst": 9, "data-scientist": 9, "ui-ux-designer": 8 },
+        "factor": "Targeting dynamic corporate MNCs offering competitive compensation and rapid career growth."
+      },
+      {
+        "text": "Government Public Sector (Prestige, societal impact, job stability, pension/benefits)",
+        "scores": { "ias-officer": 10, "ips-officer": 10, "civil-engineer": 8, "banking-professional": 8 },
+        "factor": "Targeting prestigious public sector undertakings (PSUs), civil administration, or nationalized banks."
+      },
+      {
+        "text": "Self-Employed / Independent Practice (My own clinic, audit firm, legal chambers, or design studio)",
+        "scores": { "doctor-medical-practitioner": 9, "lawyer-advocate": 10, "chartered-accountant": 9, "architect": 9 },
+        "factor": "Targeting statutory licensing allowing private professional practice and entrepreneurial autonomy."
+      },
+      {
+        "text": "Flexible Remote / Freelance / Creator Economy (Work from anywhere, build global client roster)",
+        "scores": { "ui-ux-designer": 9, "graphic-designer": 9, "digital-marketing-specialist": 9, "content-writer": 8 },
+        "factor": "Values remote independence, freelance client contracts, and digital creator mobility."
+      }
+    ]
+  },
+  {
+    "id": "c12_q18",
+    "question": "Do you need government financial assistance, fee reimbursement, or education scholarships?",
+    "category": "Scholarship Awareness",
+    "options": [
+      {
+        "text": "Yes, I plan to apply for Central Sector Scheme, Post-Matric, or State DBTs (e.g. MahaDBT)",
+        "scores": { "software-developer": 7, "mechanical-engineer": 7, "chartered-accountant": 7, "ias-officer": 7 },
+        "factor": "Planning to leverage statutory government scholarships on National Scholarship Portal and MahaDBT."
+      },
+      {
+        "text": "I am seeking corporate/private CSR scholarships (e.g. Reliance Foundation, Tata Capital Pankh, HDFC)",
+        "scores": { "software-developer": 8, "doctor-medical-practitioner": 8, "civil-engineer": 7 },
+        "factor": "Targeting competitive merit-cum-means corporate foundation scholarships."
+      },
+      {
+        "text": "I plan to take an education loan under the Central Government Interest Subsidy Scheme (CSIS)",
+        "scores": { "software-developer": 8, "commercial-pilot": 7, "financial-analyst": 7 },
+        "factor": "Utilizing education loan facilities under Vidya Lakshmi portal with moratorium interest subsidies."
+      },
+      {
+        "text": "No financial assistance needed; our family can support standard college tuition fees",
+        "scores": { "commercial-pilot": 8, "doctor-medical-practitioner": 8, "ui-ux-designer": 8 },
+        "factor": "Family funded higher education path allowing flexible college choice."
+      }
+    ]
+  },
+  {
+    "id": "c12_q19",
+    "question": "Which practical skill or tool have you already experimented with or are most excited to learn?",
+    "category": "Hands-on Skill Readiness",
+    "options": [
+      {
+        "text": "Coding languages (Python, JavaScript, C++, SQL) and Git/GitHub repositories",
+        "scores": { "software-developer": 10, "data-scientist": 9, "frontend-developer": 10, "ai-engineer": 9 },
+        "factor": "Eager software builder ready to master git repositories, web stacks, and data algorithms."
+      },
+      {
+        "text": "Design & Prototyping tools (Figma, Adobe XD, Photoshop, Blender, AutoCAD)",
+        "scores": { "ui-ux-designer": 10, "graphic-designer": 10, "architect": 9, "product-designer": 9 },
+        "factor": "Hands-on familiarity with industry standard digital design, vector tools, and 3D modeling."
+      },
+      {
+        "text": "Financial Modeling & Spreadsheets (Advanced Excel, TallyPrime, Financial Ratios, Zerodha)",
+        "scores": { "financial-analyst": 10, "chartered-accountant": 9, "investment-analyst": 10, "banking-professional": 9 },
+        "factor": "Spreadsheet mastery and financial modeling aptitude for investment valuation and auditing."
+      },
+      {
+        "text": "Legal research databases (Manupatra, SCC Online), debate drafting, or constitution reading",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 9, "company-secretary": 8 },
+        "factor": "Familiarity with case law jurisprudence, constitutional articles, and legal drafting."
+      },
+      {
+        "text": "Laboratory assays, biological specimen slide preparation, and chemical titration",
+        "scores": { "doctor-medical-practitioner": 9, "pharmacist": 9, "research-scientist": 9 },
+        "factor": "Applied laboratory skills in empirical biochemistry, microscopy, and chemical analysis."
+      }
+    ]
+  },
+  {
+    "id": "c12_q20",
+    "question": "How do you prefer to manage academic stress and intense exam schedules?",
+    "category": "Endurance & Work Style",
+    "options": [
+      {
+        "text": "Consistent daily study hours with structured test series and routine revision blocks",
+        "scores": { "doctor-medical-practitioner": 9, "chartered-accountant": 9, "ias-officer": 9, "software-developer": 8 },
+        "factor": "Disciplined daily habit formation ideal for multi-year competitive exam success."
+      },
+      {
+        "text": "Sprint-based learning: I focus intensively for weeks when deadlines or project submissions arrive",
+        "scores": { "software-developer": 8, "ui-ux-designer": 9, "graphic-designer": 9, "digital-marketing-specialist": 8 },
+        "factor": "Sprint-oriented execution: thrives under dynamic deadlines and rapid product deliverables."
+      },
+      {
+        "text": "Group discussions, study circles, and peer teaching to cement difficult concepts",
+        "scores": { "lawyer-advocate": 9, "business-analyst": 8, "school-teacher": 8, "financial-analyst": 8 },
+        "factor": "Collaborative social learner who synthesizes concepts through peer dialogue."
+      },
+      {
+        "text": "Visual notes, mind maps, video tutorials, and interactive digital demos",
+        "scores": { "ui-ux-designer": 8, "game-developer": 8, "product-designer": 8, "chef": 8 },
+        "factor": "Visual-spatial learner using mind maps, concept diagrams, and video breakdowns."
+      }
+    ]
+  },
+  {
+    "id": "c12_q21",
+    "question": "What kind of career legacy or long-term milestone would give you the deepest sense of fulfillment?",
+    "category": "Career Legacy",
+    "options": [
+      {
+        "text": "Building a software product or AI platform used by millions of people across the globe",
+        "scores": { "software-developer": 10, "data-scientist": 9, "ai-engineer": 10, "full-stack-developer": 9 },
+        "factor": "Aspires to engineer scalable digital systems that transform global consumer or enterprise lives."
+      },
+      {
+        "text": "Saving lives, performing complex medical surgeries, and restoring patient health",
+        "scores": { "doctor-medical-practitioner": 10, "dentist": 9, "physiotherapist": 8 },
+        "factor": "Motivated by direct humanitarian impact: healing ailments and advancing clinical therapies."
+      },
+      {
+        "text": "Guiding corporate investments, advising billion-dollar mergers, or holding CFO/Partner rank",
+        "scores": { "chartered-accountant": 10, "financial-analyst": 10, "investment-analyst": 10 },
+        "factor": "Targeting senior corporate financial leadership, investment advisory, and statutory stewardship."
+      },
+      {
+        "text": "Delivering landmark justice in courts, drafting legislation, or administering a district as an IAS officer",
+        "scores": { "lawyer-advocate": 10, "ias-officer": 10, "ips-officer": 10 },
+        "factor": "Committed to constitutional integrity, judicial advocacy, and nationwide public governance."
+      },
+      {
+        "text": "Designing iconic buildings, world-class consumer products, or award-winning digital experiences",
+        "scores": { "architect": 10, "ui-ux-designer": 10, "product-designer": 10, "graphic-designer": 9 },
+        "factor": "Driven to shape physical architecture or digital interfaces that elevate human experience."
+      }
+    ]
+  },
+  {
+    "id": "c12_q22",
+    "question": "What is the single most important guidance you need right now as a Class 12 student?",
+    "category": "Class 12 Immediate Guidance",
+    "options": [
+      {
+        "text": "A clear, visual step-by-step roadmap starting immediately after Class 12 with entrance exams and degrees",
+        "scores": { "software-developer": 9, "doctor-medical-practitioner": 9, "chartered-accountant": 9, "lawyer-advocate": 9 },
+        "factor": "Needs definitive immediate post-12th roadmap covering entrance cutoffs, degree applications, and alternative routes."
+      },
+      {
+        "text": "Realistic alternative routes (like BCA vs B.Tech, or B.Pharm vs MBBS) so I have strong backup options",
+        "scores": { "software-developer": 8, "pharmacist": 9, "business-analyst": 8, "financial-analyst": 8 },
+        "factor": "Values verified alternative pathways that lead to identical career roles without single-exam bottleneck risk."
+      },
+      {
+        "text": "Detailed eligibility criteria, required marks, and statutory regulatory bodies (NMC, AICTE, BCI, ICAI, COA)",
+        "scores": { "doctor-medical-practitioner": 8, "lawyer-advocate": 8, "architect": 8, "chartered-accountant": 8 },
+        "factor": "Wants verified statutory eligibility criteria to ensure full regulatory compliance before enrolling."
+      },
+      {
+        "text": "Comparing different routes side-by-side to understand trade-offs in duration, entrance exams, and cost",
+        "scores": { "software-developer": 8, "chartered-accountant": 8, "financial-analyst": 8, "ui-ux-designer": 8 },
+        "factor": "Needs comparative route evaluation tool analyzing school vs diploma vs alternative degree pathways."
+      }
+    ]
+  }
+]

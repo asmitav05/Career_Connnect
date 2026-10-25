@@ -1,846 +1,897 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerConnect | Intelligent Platform for Personalized Career and Educational Pathway Guidance</title>
+  <meta name="description" content="Explore 110+ verified career options, Indian education pathways, entrance exams, verified government scholarships, and personalized learning roadmaps.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Global Shared Header -->
+  <div id="siteHeaderMount"></div>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <main>
+    <!-- Hero Section with SaaS Glow Effect -->
+    <section style="position: relative; overflow: hidden; padding: 2rem 0 3.5rem;">
+      <div class="container">
+        <div class="hero-wrapper">
+          <!-- Left Content -->
+          <div>
+            <div class="hero-pill">
+              <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #10b981;"></span>
+              <span>110 VERIFIED CAREERS • 10 INDUSTRIES • OFFICIAL SCHOLARSHIPS</span>
+            </div>
+            
+            <h1 class="hero-title">
+              What career fits you? <br>
+              <span>Which education pathway</span> <br>
+              should you choose in India?
+            </h1>
 
-    <title>CareerPath | Discover Your Future</title>
+            <p class="hero-desc">
+              CareerConnect is an intelligent, student-friendly platform for Indian students after Class 10, Class 12, diploma holders, and college graduates. Discover 110 distinct careers, Indian entrance exams, verified scholarships, and personalized learning roadmaps.
+            </p>
 
-    <link rel="stylesheet" href="css/home.css" />
-  </head>
+            <div class="hero-cta">
+              <a href="explore.html" class="btn btn-primary btn-lg">
+                Explore 110 Careers &rarr;
+              </a>
+              <a href="quiz.html" class="btn btn-secondary btn-lg">
+                Take Career Quiz
+              </a>
+              <a href="pathways.html" class="btn btn-outline btn-lg">
+                Education Pathways
+              </a>
+            </div>
 
-  <body>
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+            <!-- Real Verifiable Statistics (Strictly backed by our dataset) -->
+            <div class="stat-strip">
+              <div class="stat-item">
+                <span class="stat-num">110</span>
+                <span class="stat-text">Distinct Career Guides</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">10</span>
+                <span class="stat-text">Core Industry Categories</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">12+</span>
+                <span class="stat-text">Verified Scholarships</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-text">Free & Privacy-First</span>
+              </div>
+            </div>
+          </div>
 
-    <header class="navbar">
-      <div class="logo">Career<span>Path</span><small>+</small></div>
-
-      <nav>
-    <a href="#" class="active">Home</a>
-
-    <a href="explore.html">Explore Careers</a>
-
-    <a href="#scholarships">Scholarships</a>
-
-    <a href="#quiz">Career Quiz</a>
-
-    <a href="#">Resources</a>
-</nav>
-
-      <div class="nav-actions">
-        <a href="login-account.html" class="login-btn"> Log In </a>
-
-        <a href="login.html" class="start-btn"> Get Started Free → </a>
+          <!-- Right Visual: Verified Student Career Exploration Hero -->
+          <div class="hero-image-container">
+            <img
+              src="images/career-hero.png"
+              alt="Illustration of career exploration, education pathways, and scholarships"
+              class="hero-image"
+              width="600"
+              height="480"
+              loading="eager"
+              onerror="if (!this.dataset.triedSvg) { this.dataset.triedSvg = 'true'; this.src = 'images/hero-illustration.svg'; }"
+            >
+          </div>
+        </div>
       </div>
-    </header>
+    </section>
 
-    <!-- =========================
-         HERO
-    ========================== -->
-
-    <main>
-      <section class="hero-section">
-        <div class="hero-content">
-          <div class="hero-badge">🚀 YOUR FUTURE, YOUR WAY</div>
-
-          <h1>
-            Explore.
-            <br />
-
-            <span>Discover.</span>
-
-            <br />
-
-            Build Your Future.
-          </h1>
-
-          <p class="hero-description">
-            Find the right career path, explore opportunities, and discover
-            scholarships that can help you achieve your dreams.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="#streams" class="primary-btn"> Explore Careers → </a>
-
-            <a href="#quiz" class="outline-btn"> ✦ Take Career Quiz </a>
-          </div>
-
-          <!-- STATS -->
-
-          <div class="stats">
-            <div class="stat">
-              <strong>100+</strong>
-
-              <span> Career Paths </span>
-            </div>
-
-            <div class="stat">
-              <strong>500+</strong>
-
-              <span> Scholarships </span>
-            </div>
-
-            <div class="stat">
-              <strong>10K+</strong>
-
-              <span> Students Helped </span>
-            </div>
-
-            <div class="stat">
-              <strong>100%</strong>
-
-              <span> Student Focused </span>
-            </div>
-          </div>
-        </div>
-
-        <!-- HERO IMAGE -->
-
-        <div class="hero-image">
-          <img
-            src="images/career-hero.png"
-            alt="Student exploring different career paths"
-          />
-        </div>
-      </section>
-
-      <!-- =========================
-             STREAMS
-        ========================== -->
-
-      <section class="streams-section" id="streams">
-        <div class="section-heading">
-          <span> EXPLORE YOUR PATH </span>
-
-          <h2>What could your future look like?</h2>
-
-          <p>Choose a stream and discover where it can take you.</p>
-        </div>
-
-        <div class="stream-grid">
-          <div class="stream-card science">
-            <div class="stream-icon">🧪</div>
-
-            <h3>Science</h3>
-
-            <p>Engineering, Medicine, Research, Technology and more.</p>
-
-            <a href="#"> Explore → </a>
-          </div>
-
-          <div class="stream-card commerce">
-            <div class="stream-icon">💼</div>
-
-            <h3>Commerce</h3>
-
-            <p>Finance, Business, Management, Economics and more.</p>
-
-            <a href="#"> Explore → </a>
-          </div>
-
-          <div class="stream-card arts">
-            <div class="stream-icon">🎨</div>
-
-            <h3>Arts & Humanities</h3>
-
-            <p>Civil Services, Law, Psychology, Design, Media and more.</p>
-
-            <a href="#"> Explore → </a>
-          </div>
-
-          <div class="stream-card technology">
-            <div class="stream-icon">💻</div>
-
-            <h3>Technology</h3>
-
-            <p>Software, AI, Data Science, Cybersecurity and more.</p>
-
-            <a href="#"> Explore → </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- =========================
-             QUIZ
-        ========================== -->
-
-      <section class="quiz-section" id="quiz">
-        <div class="quiz-content">
-          <span> ✨ FIND YOUR PERFECT PATH </span>
-
-          <h2>Not sure what career is right for you?</h2>
-
-          <p>
-            Answer a few simple questions about your interests and discover
-            career paths you might love.
-          </p>
-
-          <a href="#"> Take the Career Quiz → </a>
-        </div>
-
-        <div class="quiz-visual">🎯</div>
-      </section>
-
-      <!-- =========================
-             CAREERS
-        ========================== -->
-
-      <section class="careers-section">
-        <div class="section-heading">
-          <span> DISCOVER POSSIBILITIES </span>
-
-          <h2>Explore careers that excite you.</h2>
-
-          <p>
-            From technology to medicine, business to design — your possibilities
-            are endless.
+    <!-- 10 Featured Career Categories Grid -->
+    <section style="padding: 4.5rem 0; background: #ffffff; border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        <div class="section-head" style="text-align: center; margin-bottom: 3rem;">
+          <span class="section-eyebrow">EXPLORE BY INDUSTRY</span>
+          <h2 class="section-title">10 Comprehensive Career Sectors</h2>
+          <p class="section-subtitle">
+            Covering 110 diverse careers spanning engineering, medicine, public service, creative media, and agriculture.
           </p>
         </div>
 
-        <div class="career-grid">
-          <div class="career-card">
-            <div>💻</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem;">
+          <!-- Category A -->
+          <a href="explore.html?category=Technology%20and%20Software" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #4f46e5;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">💻</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Technology & Software</h3>
+            <span style="font-size: 0.8rem; color: var(--primary); font-weight: 700;">20 Careers</span>
+          </a>
 
-            <h3>Software Developer</h3>
+          <!-- Category B -->
+          <a href="explore.html?category=Artificial%20Intelligence%20and%20Data" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #06b6d4;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🤖</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">AI & Data Science</h3>
+            <span style="font-size: 0.8rem; color: #0891b2; font-weight: 700;">10 Careers</span>
+          </a>
 
-            <p>
-              Build applications, websites and technology that people use every
-              day.
-            </p>
+          <!-- Category C -->
+          <a href="explore.html?category=Cybersecurity%20and%20Emerging%20Technology" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #6366f1;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔒</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Cybersecurity & Emerging Tech</h3>
+            <span style="font-size: 0.8rem; color: #4f46e5; font-weight: 700;">10 Careers</span>
+          </a>
 
-            <a href="#"> View Career → </a>
-          </div>
+          <!-- Category D -->
+          <a href="explore.html?category=Engineering%20and%20Core%20Industries" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #f59e0b;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Core Engineering</h3>
+            <span style="font-size: 0.8rem; color: #d97706; font-weight: 700;">10 Careers</span>
+          </a>
 
-          <div class="career-card">
-            <div>🩺</div>
+          <!-- Category E -->
+          <a href="explore.html?category=Medical%20and%20Healthcare" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #10b981;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🩺</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Medical & Healthcare</h3>
+            <span style="font-size: 0.8rem; color: #059669; font-weight: 700;">10 Careers</span>
+          </a>
 
-            <h3>Doctor</h3>
+          <!-- Category F -->
+          <a href="explore.html?category=Business%2C%20Finance%20and%20Management" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #3b82f6;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📊</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Business & Finance</h3>
+            <span style="font-size: 0.8rem; color: #2563eb; font-weight: 700;">10 Careers</span>
+          </a>
 
-            <p>
-              Explore medicine, healthcare and opportunities to help people.
-            </p>
+          <!-- Category G -->
+          <a href="explore.html?category=Design%2C%20Media%20and%20Creative%20Careers" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #ec4899;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎨</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Design & Creative Media</h3>
+            <span style="font-size: 0.8rem; color: #db2777; font-weight: 700;">10 Careers</span>
+          </a>
 
-            <a href="#"> View Career → </a>
-          </div>
+          <!-- Category H -->
+          <a href="explore.html?category=Government%2C%20Law%20and%20Public%20Services" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #8b5cf6;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🏛️</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Government, Law & Defense</h3>
+            <span style="font-size: 0.8rem; color: #7c3aed; font-weight: 700;">10 Careers</span>
+          </a>
 
-          <div class="career-card">
-            <div>📊</div>
+          <!-- Category I -->
+          <a href="explore.html?category=Education%2C%20Science%20and%20Research" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #14b8a6;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔬</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Education & Research</h3>
+            <span style="font-size: 0.8rem; color: #0d9488; font-weight: 700;">10 Careers</span>
+          </a>
 
-            <h3>Financial Analyst</h3>
-
-            <p>Work with numbers, investments and financial decisions.</p>
-
-            <a href="#"> View Career → </a>
-          </div>
-          <div class="career-card">
-
-    <div class="career-icon">
-        🏛️
-    </div>
-
-    <h3>
-        Civil Services Officer
-    </h3>
-
-    <p>
-        Work in administration, governance and
-        public service through UPSC or State PSC exams.
-    </p>
-
-    <a href="careers/civil-services.html">
-        View Career →
-    </a>
-
-</div>
-    <div class="career-card">
-
-    <div class="career-icon">
-        ⚖️
-    </div>
-
-    <h3>
-        Lawyer
-    </h3>
-
-    <p>
-        Build a career in legal practice, corporate law,
-        public law and justice.
-    </p>
-
-    <a href="#">
-        View Career →
-    </a>
-
-</div>
-<div class="career-card">
-
-    <div class="career-icon">
-        🎨
-    </div>
-
-    <h3>
-        UI/UX Designer
-    </h3>
-
-    <p>
-        Design digital products and experiences
-        that are useful, simple and engaging.
-    </p>
-
-    <a href="#">
-        View Career →
-    </a>
-
-</div>
+          <!-- Category J -->
+          <a href="explore.html?category=Agriculture%2C%20Commerce%20and%20Other%20Professions" class="card card-interactive" style="text-decoration: none; padding: 1.5rem; text-align: center; border-top: 4px solid #84cc16;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌾</div>
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Agriculture & Allied</h3>
+            <span style="font-size: 0.8rem; color: #65a30d; font-weight: 700;">10 Careers</span>
+          </a>
         </div>
-      </section>
-      <!-- =========================
-     CAREER EXPLORER
-========================= -->
+      </div>
+    </section>
 
-      <section class="career-explorer">
-        <div class="section-heading">
-          <span> DISCOVER YOUR POSSIBILITIES </span>
-
-          <h2>Explore careers that excite you.</h2>
-
-          <p>
-            Whether you love technology, helping people, creating things or
-            solving problems — there's a path for you.
+    <!-- 4-Step How CareerConnect Works Section -->
+    <section style="padding: 5rem 0; background: var(--bg-app);">
+      <div class="container">
+        <div class="section-head" style="text-align: center; margin-bottom: 3rem;">
+          <span class="section-eyebrow">HOW IT HELPS YOU</span>
+          <h2 class="section-title">An Intelligent Guidance Engine</h2>
+          <p class="section-subtitle">
+            Not a generic advertisement portal. CareerConnect answers the real questions Indian students face after Class 10 and 12.
           </p>
         </div>
 
-        <div class="career-category-grid">
-          <!-- TECHNOLOGY -->
-
-          <div class="career-category">
-            <div class="category-icon">💻</div>
-
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+          <!-- Step 1: Discover -->
+          <div class="card" style="border-top: 4px solid var(--primary); padding: 1.75rem; display: flex; flex-direction: column; justify-content: space-between;">
             <div>
-              <h3>Technology</h3>
-
-              <p>Software, AI, Data Science, Cybersecurity & more.</p>
+              <span class="badge badge-primary" style="margin-bottom: 0.75rem;">STEP 1: DISCOVER</span>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Class-Specific Career Quiz</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+                Separate tailored career quizzes for <strong>Class 10</strong>, <strong>Class 11</strong>, and <strong>Class 12</strong>. Discover your top career recommendations with transparent multi-factor scoring and reviewable answers.
+              </p>
             </div>
-
-            <span class="category-arrow"> → </span>
+            <a href="quiz.html" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">Take Career Quiz &rarr;</a>
           </div>
 
-          <!-- HEALTHCARE -->
-
-          <div class="career-category">
-            <div class="category-icon">🩺</div>
-
+          <!-- Step 2: Compare -->
+          <div class="card" style="border-top: 4px solid #06b6d4; padding: 1.75rem; display: flex; flex-direction: column; justify-content: space-between;">
             <div>
-              <h3>Healthcare</h3>
-
-              <p>Medicine, Nursing, Pharmacy & more.</p>
+              <span class="badge" style="background: #e0f2fe; color: #0369a1; margin-bottom: 0.75rem;">STEP 2: COMPARE</span>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Explore & Compare</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+                Search across 110 careers. Filter by qualification, work type, government/private sector, and compare up to 3 careers side-by-side.
+              </p>
             </div>
-
-            <span class="category-arrow"> → </span>
+            <a href="explore.html" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">Browse & Compare &rarr;</a>
           </div>
 
-          <!-- BUSINESS -->
-
-          <div class="career-category">
-            <div class="category-icon">📊</div>
-
+          <!-- Step 3: Plan -->
+          <div class="card" style="border-top: 4px solid #10b981; padding: 1.75rem; display: flex; flex-direction: column; justify-content: space-between;">
             <div>
-              <h3>Business & Finance</h3>
-
-              <p>Management, Finance, Marketing & more.</p>
+              <span class="badge" style="background: #ecfdf5; color: #047857; margin-bottom: 0.75rem;">STEP 3: PLAN</span>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Class-Adaptive Roadmaps</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+                Step-by-step pathways starting from your current class (Class 10, 11, 12, or College). Compare multiple valid routes (School → Degree vs Polytechnic vs Alternative Degrees) side-by-side.
+              </p>
             </div>
-
-            <span class="category-arrow"> → </span>
+            <a href="roadmaps.html" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">Create Roadmap &rarr;</a>
           </div>
 
-          <!-- CREATIVE -->
-
-          <div class="career-category">
-            <div class="category-icon">🎨</div>
-
+          <!-- Step 4: Fund -->
+          <div class="card" style="border-top: 4px solid #f59e0b; padding: 1.75rem; display: flex; flex-direction: column; justify-content: space-between;">
             <div>
-              <h3>Creative</h3>
-
-              <p>Design, Media, Film, Fashion & more.</p>
+              <span class="badge" style="background: #fef3c7; color: #92400e; margin-bottom: 0.75rem;">STEP 4: FUND</span>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Scholarship Matcher</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+                Match your family income, board marks, and state against official AICTE, NSP, and MahaDBT rules with plain-language eligibility explanations.
+              </p>
             </div>
-
-            <span class="category-arrow"> → </span>
-          </div>
-
-          <!-- LAW & GOVERNMENT -->
-
-          <div class="career-category">
-            <div class="category-icon">⚖️</div>
-
-            <div>
-              <h3>Law & Government</h3>
-
-              <p>Civil Services, Law, Public Policy & more.</p>
-            </div>
-
-            <span class="category-arrow"> → </span>
-          </div>
-
-          <!-- SCIENCE -->
-
-          <div class="career-category">
-            <div class="category-icon">🔬</div>
-
-            <div>
-              <h3>Science & Research</h3>
-
-              <p>Research, Biotechnology, Environment & more.</p>
-            </div>
-
-            <span class="category-arrow"> → </span>
+            <a href="scholarships.html" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">Check Eligibility &rarr;</a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="explorer-button">
-          <a href="explore.html"> Explore All Careers → </a>
+    <!-- Popular Indian Career Pathways Spotlight -->
+    <section style="padding: 5rem 0; background: #ffffff; border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2.75rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="section-eyebrow">ACADEMIC PATHWAYS</span>
+            <h2 class="section-title" style="margin-bottom: 0.35rem;">Popular Indian Educational Routes</h2>
+            <p class="section-subtitle">Understand course structures, degrees, and career options after 10th and 12th.</p>
+          </div>
+          <a href="pathways.html" class="btn btn-secondary">
+            View All Pathways &rarr;
+          </a>
         </div>
-      </section>
-      <!-- =========================
-     CAREER JOURNEY
-========================= -->
 
-<section class="journey-section">
-
-    <div class="section-heading">
-
-        <span>
-            🧭 YOUR JOURNEY STARTS HERE
-        </span>
-
-        <h2>
-            From 10th to your
-            dream career.
-        </h2>
-
-        <p>
-            Understand the steps you can take after
-            10th and discover where each path can lead.
-        </p>
-
-    </div>
-
-
-    <div class="journey-wrapper">
-
-
-        <!-- STEP 1 -->
-
-        <div class="journey-step">
-
-            <div class="journey-number">
-                01
-            </div>
-
-            <div class="journey-icon">
-                🎓
-            </div>
-
-            <h3>
-                Finish 10th
-            </h3>
-
-            <p>
-                Understand your interests, strengths
-                and subjects you enjoy.
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+          <!-- Class 12 Science PCM -->
+          <div class="card" style="padding: 1.75rem; border-left: 4px solid var(--primary);">
+            <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Science PCM</span>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Engineering, Defense & Architecture</h3>
+            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1rem;">
+              Qualifies students for B.Tech/B.E., B.Arch, commercial aviation, and NDA via competitive exams like JEE Main, JEE Advanced, and MHT-CET.
             </p>
-
-        </div>
-
-
-        <div class="journey-line"></div>
-
-
-        <!-- STEP 2 -->
-
-        <div class="journey-step">
-
-            <div class="journey-number">
-                02
+            <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+              <span class="badge" style="background: var(--bg-subtle);">JEE Main</span>
+              <span class="badge" style="background: var(--bg-subtle);">MHT-CET</span>
+              <span class="badge" style="background: var(--bg-subtle);">B.Tech / B.E.</span>
             </div>
+            <a href="explore.html?category=Technology%20and%20Software" class="btn btn-outline btn-sm">Explore Tech Careers &rarr;</a>
+          </div>
 
-            <div class="journey-icon">
-                🧪
-            </div>
-
-            <h3>
-                Choose a Path
-            </h3>
-
-            <p>
-                Science, Commerce, Arts, Technology,
-                Diploma, Vocational and more.
+          <!-- Class 12 Science PCB -->
+          <div class="card" style="padding: 1.75rem; border-left: 4px solid #10b981;">
+            <span class="badge" style="background: #ecfdf5; color: #047857; margin-bottom: 0.5rem;">Science PCB</span>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Medicine, Pharmacy & Agriculture</h3>
+            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1rem;">
+              Sole qualifying route for MBBS, BDS, BAMS, B.Pharm, and Agricultural Sciences through national entrance exams like NEET-UG and ICAR AIEEA.
             </p>
-
-        </div>
-
-
-        <div class="journey-line"></div>
-
-
-        <!-- STEP 3 -->
-
-        <div class="journey-step">
-
-            <div class="journey-number">
-                03
+            <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+              <span class="badge" style="background: var(--bg-subtle);">NEET-UG</span>
+              <span class="badge" style="background: var(--bg-subtle);">ICAR AIEEA</span>
+              <span class="badge" style="background: var(--bg-subtle);">MBBS / B.Pharm</span>
             </div>
+            <a href="explore.html?category=Medical%20and%20Healthcare" class="btn btn-outline btn-sm">Explore Medical Careers &rarr;</a>
+          </div>
 
-            <div class="journey-icon">
-                📚
-            </div>
-
-            <h3>
-                Choose Your Course
-            </h3>
-
-            <p>
-                Explore degrees, diplomas and
-                professional courses.
+          <!-- Class 12 Commerce & Arts -->
+          <div class="card" style="padding: 1.75rem; border-left: 4px solid #f59e0b;">
+            <span class="badge" style="background: #fef3c7; color: #92400e; margin-bottom: 0.5rem;">Commerce & Arts</span>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">Finance, Law & Governance</h3>
+            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1rem;">
+              Direct routes into Chartered Accountancy (ICAI), Company Secretary (ICSI), National Law Universities (CLAT), and Civil Services (UPSC).
             </p>
+            <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+              <span class="badge" style="background: var(--bg-subtle);">CA / CS / CMA</span>
+              <span class="badge" style="background: var(--bg-subtle);">CLAT (NLUs)</span>
+              <span class="badge" style="background: var(--bg-subtle);">CUET-UG</span>
+            </div>
+            <a href="explore.html?category=Business%2C%20Finance%20and%20Management" class="btn btn-outline btn-sm">Explore Commerce Careers &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Featured Verified Career Guides (Sample 3 of 110) -->
+    <section style="padding: 5rem 0; background: var(--bg-app);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2.75rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="section-eyebrow">FEATURED DOSSIERS</span>
+            <h2 class="section-title" style="margin-bottom: 0.35rem;">In-Demand Career Dossiers</h2>
+            <p class="section-subtitle">Exams, degrees, skill checklists, and verified compensation benchmarks.</p>
+          </div>
+          <a href="explore.html" class="btn btn-secondary">
+            View All 110 Careers &rarr;
+          </a>
         </div>
 
-
-        <div class="journey-line"></div>
-
-
-        <!-- STEP 4 -->
-
-        <div class="journey-step">
-
-            <div class="journey-number">
-                04
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+          <!-- Software Engineer -->
+          <div class="card card-interactive" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid var(--primary);">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                <span class="badge badge-primary">Technology & Software</span>
+                <span style="font-size: 0.75rem; font-weight: 700; color: #059669;">High Demand</span>
+              </div>
+              <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">
+                Software Developer
+              </h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+                Architect, write, debug, and maintain software applications and cloud platforms using modern programming languages.
+              </p>
+              <div style="background: var(--bg-subtle); padding: 0.75rem 1rem; border-radius: var(--radius-md); font-size: 0.825rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+                <div>Exams: <strong>JEE Main, MHT-CET, CUET</strong></div>
+                <div style="margin-top: 0.25rem;">Entry Salary: <strong style="color: #059669;">₹3.8L - ₹8.5L LPA</strong></div>
+              </div>
             </div>
-
-            <div class="journey-icon">
-                🚀
+            <div style="display: flex; gap: 0.5rem;">
+              <a href="career.html?id=software-developer" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center;">Full Guide</a>
+              <a href="roadmaps.html?career=software-developer" class="btn btn-secondary btn-sm" style="flex: 1; justify-content: center;">Roadmap</a>
             </div>
+          </div>
 
-            <h3>
-                Build Your Future
-            </h3>
+          <!-- Civil Services Officer -->
+          <div class="card card-interactive" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid #8b5cf6;">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                <span class="badge" style="background: #f5f3ff; color: #6d28d9;">Government & Law</span>
+                <span style="font-size: 0.75rem; font-weight: 700; color: #d97706;">Public Impact</span>
+              </div>
+              <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">
+                IAS Officer
+              </h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+                Direct district public administration, enforce government policies, and formulate national developmental programs under UPSC.
+              </p>
+              <div style="background: var(--bg-subtle); padding: 0.75rem 1rem; border-radius: var(--radius-md); font-size: 0.825rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+                <div>Exams: <strong>UPSC Civil Services Examination</strong></div>
+                <div style="margin-top: 0.25rem;">Pay: <strong style="color: #059669;">7th CPC Level 10 (₹56,100 basic + DA + HRA)</strong></div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+              <a href="career.html?id=ias-officer" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center;">Full Guide</a>
+              <a href="roadmaps.html?career=ias-officer" class="btn btn-secondary btn-sm" style="flex: 1; justify-content: center;">Roadmap</a>
+            </div>
+          </div>
 
-            <p>
-                Develop skills, gain experience and
-                move towards your dream career.
+          <!-- Medical Practitioner -->
+          <div class="card card-interactive" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid #10b981;">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                <span class="badge badge-eligible">Medical & Healthcare</span>
+                <span style="font-size: 0.75rem; font-weight: 700; color: #059669;">Vital Demand</span>
+              </div>
+              <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">
+                Doctor / Medical Practitioner
+              </h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+                Diagnose human pathologies, prescribe pharmaceuticals, perform clinical treatments, and manage clinical emergencies under NMC guidelines.
+              </p>
+              <div style="background: var(--bg-subtle); padding: 0.75rem 1rem; border-radius: var(--radius-md); font-size: 0.825rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+                <div>Exams: <strong>NEET-UG, NEET-PG / NExT</strong></div>
+                <div style="margin-top: 0.25rem;">Duration: <strong>5.5 Years (MBBS + Compulsory Rotatory Internship)</strong></div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+              <a href="career.html?id=doctor-medical-practitioner" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center;">Full Guide</a>
+              <a href="roadmaps.html?career=doctor-medical-practitioner" class="btn btn-secondary btn-sm" style="flex: 1; justify-content: center;">Roadmap</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 1: SCHOLARSHIPS SECTION
+         Placed immediately below Career Exploration
+         ======================================================== -->
+    <section id="scholarshipsSection" style="padding: 5rem 0; background: #ffffff; border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2.75rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="section-eyebrow">FINANCIAL EMPOWERMENT • VERIFIED DATABASE</span>
+            <h2 class="section-title" style="margin-bottom: 0.35rem;">Verified Indian Scholarships & Financial Aid</h2>
+            <p class="section-subtitle">
+              Genuine central, state, and technical education scholarship schemes cited directly from official government gazettes with persistent database tracking.
             </p>
-
-        </div>
-
-
-    </div>
-
-
-    <div class="journey-note">
-
-        💡
-        <span>
-            Your path doesn't have to be perfect.
-            It just needs to be yours.
-        </span>
-
-    </div>
-
-</section>
-    
-
-      <!-- =========================
-     SCHOLARSHIPS
-========================= -->
-
-<section class="scholarships-section" id="scholarships">
-
-    <div class="section-heading">
-
-        <span>
-            🎓 FUND YOUR FUTURE
-        </span>
-
-        <h2>
-            Scholarships made
-            easier to discover.
-        </h2>
-
-        <p>
-            Find financial opportunities based on
-            your education, interests and goals.
-        </p>
-
-    </div>
-
-
-    <div class="scholarship-container">
-
-
-        <!-- SEARCH -->
-
-        <div class="scholarship-search">
-
-            <div class="search-icon">
-                🔍
-            </div>
-
-            <div class="search-text">
-
-                <span>
-                    What are you looking for?
-                </span>
-
-                <strong>
-                    Search scholarships, courses or eligibility
-                </strong>
-
-            </div>
-
-            <button>
-                Search →
-            </button>
-
-        </div>
-
-
-
-        <!-- FILTERS -->
-
-        <div class="scholarship-filters">
-
-            <div class="filter-card">
-
-                <span>📚</span>
-
-                <div>
-                    <small>
-                        Education Level
-                    </small>
-
-                    <strong>
-                        After 10th
-                    </strong>
-                </div>
-
-                <b>⌄</b>
-
-            </div>
-
-
-            <div class="filter-card">
-
-                <span>🧪</span>
-
-                <div>
-                    <small>
-                        Stream
-                    </small>
-
-                    <strong>
-                        All Streams
-                    </strong>
-                </div>
-
-                <b>⌄</b>
-
-            </div>
-
-
-            <div class="filter-card">
-
-                <span>📍</span>
-
-                <div>
-                    <small>
-                        Location
-                    </small>
-
-                    <strong>
-                        All India
-                    </strong>
-                </div>
-
-                <b>⌄</b>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- SCHOLARSHIP PREVIEW -->
-
-        <div class="scholarship-cards">
-
-
-            <div class="scholarship-card">
-
-                <div class="scholarship-card-top">
-
-                    <span class="scholarship-logo">
-                        🏛️
-                    </span>
-
-                    <span class="verified">
-                        ✓ Verified
-                    </span>
-
-                </div>
-
-                <h3>
-                    Government Scholarships
-                </h3>
-
-                <p>
-                    Explore scholarships and financial
-                    support offered through government
-                    schemes.
-                </p>
-
-                <div class="scholarship-tags">
-
-                    <span>
-                        Students
-                    </span>
-
-                    <span>
-                        Merit
-                    </span>
-
-                    <span>
-                        Need Based
-                    </span>
-
-                </div>
-
-                <a href="#">
-                    Explore Scholarships →
-                </a>
-
-            </div>
-
-
-
-            <div class="scholarship-card featured">
-
-                <div class="scholarship-card-top">
-
-                    <span class="scholarship-logo">
-                        ⭐
-                    </span>
-
-                    <span class="verified">
-                        Featured
-                    </span>
-
-                </div>
-
-                <h3>
-                    Merit-Based Opportunities
-                </h3>
-
-                <p>
-                    Discover opportunities for students
-                    with strong academic performance.
-                </p>
-
-                <div class="scholarship-tags">
-
-                    <span>
-                        Merit
-                    </span>
-
-                    <span>
-                        Academic
-                    </span>
-
-                    <span>
-                        Students
-                    </span>
-
-                </div>
-
-                <a href="#">
-                    Explore Scholarships →
-                </a>
-
-            </div>
-
-
-
-            <div class="scholarship-card">
-
-                <div class="scholarship-card-top">
-
-                    <span class="scholarship-logo">
-                        💡
-                    </span>
-
-                    <span class="verified">
-                        Opportunities
-                    </span>
-
-                </div>
-
-                <h3>
-                    Career-Specific Scholarships
-                </h3>
-
-                <p>
-                    Find financial opportunities connected
-                    to different courses and career paths.
-                </p>
-
-                <div class="scholarship-tags">
-
-                    <span>
-                        Courses
-                    </span>
-
-                    <span>
-                        Career
-                    </span>
-
-                    <span>
-                        Students
-                    </span>
-
-                </div>
-
-                <a href="#">
-                    Explore Scholarships →
-                </a>
-
-            </div>
-
-
-        </div>
-
-
-        <div class="all-scholarships">
-
-            <a href="#">
-                View All Scholarships →
+          </div>
+          <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+            <a href="scholarships.html" class="btn btn-primary">
+              Open Scholarship Finder &rarr;
             </a>
-
+          </div>
         </div>
 
-    </div>
+        <!-- 4 Core Verified Scholarship Cards -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+          
+          <!-- 1. National Scholarship Portal (NSP) - CSSS -->
+          <div class="card card-interactive" style="border-top: 4px solid var(--primary); display: flex; flex-direction: column; justify-content: space-between; padding: 1.75rem;">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.35rem;">
+                <span class="badge badge-primary">National Scholarship Portal (NSP)</span>
+                <span class="badge" style="background: #ecfdf5; color: #047857; font-weight: 700; border: 1px solid #a7f3d0;">Verified Official (Active)</span>
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.35rem;">
+                PM-USP Central Sector Scheme of Scholarship (CSSS)
+              </h3>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.55; margin-bottom: 0.75rem;">
+                National flagship financial assistance by Department of Higher Education providing study maintenance to meritorious students pursuing regular university degrees on National Scholarship Portal (NSP).
+              </p>
+              
+              <!-- Eligible Levels -->
+              <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Undergraduate</span>
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Postgraduate</span>
+              </div>
 
-</section>
+              <div style="background: var(--bg-subtle); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.8rem; color: var(--text-body); margin-bottom: 1rem;">
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Important Eligibility:</strong> Top 20th percentile in Class 12 boards; family income &le; ₹4.5 Lakhs/year.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Support:</strong> ₹12,000/yr (UG) to ₹20,000/yr (PG) credited directly via DBT.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Official Deadline:</strong> Annually August – December on NSP.
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-subtle);">
+                  Last Verified: <strong>March 25, 2026</strong>
+                </div>
+              </div>
+            </div>
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+            <div>
+              <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                <a href="scholarships.html#nsp-central-sector" class="btn btn-outline btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">View Details</a>
+                <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">Apply on Official Portal &rarr;</a>
+              </div>
+              <button class="btn btn-secondary btn-xs homepage-save-btn" data-id="nsp-central-sector" style="width: 100%; justify-content: center;">
+                🔖 Save Scholarship
+              </button>
+            </div>
+          </div>
 
-    <footer>
-      <div class="footer-logo">Career<span>Path</span><small>+</small></div>
+          <!-- 2. Maharashtra Government Scholarships (MahaDBT) - EBC -->
+          <div class="card card-interactive" style="border-top: 4px solid #0284c7; display: flex; flex-direction: column; justify-content: space-between; padding: 1.75rem;">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.35rem;">
+                <span class="badge" style="background: #e0f2fe; color: #0369a1;">Maharashtra Scholarships (MahaDBT)</span>
+                <span class="badge" style="background: #ecfdf5; color: #047857; font-weight: 700; border: 1px solid #a7f3d0;">Verified Official (Active)</span>
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.35rem;">
+                Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh (EBC)
+              </h3>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.55; margin-bottom: 0.75rem;">
+                Government of Maharashtra Aaple Sarkar scheme on MahaDBT providing tuition and examination fee waivers including Rajarshi Chhatrapati Shahu Maharaj EBC and hostel allowances.
+              </p>
 
-      <p>Discover your path. Build your future.</p>
-    </footer>
-  </body>
+              <!-- Eligible Levels -->
+              <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Diploma</span>
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Undergraduate</span>
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Postgraduate</span>
+              </div>
+
+              <div style="background: var(--bg-subtle); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.8rem; color: var(--text-body); margin-bottom: 1rem;">
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Important Eligibility:</strong> Maharashtra domicile; family income &le; ₹8 Lakhs/year; CAP round admission.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Support:</strong> 50% Tuition Fee & 50% Exam Fee waiver directly to college.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Official Deadline:</strong> Dec – March on MahaDBT (Active term).
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-subtle);">
+                  Last Verified: <strong>March 25, 2026</strong>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                <a href="scholarships.html#mahadbt-ebc" class="btn btn-outline btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">View Details</a>
+                <a href="https://mahadbt.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">Apply on Official Portal &rarr;</a>
+              </div>
+              <button class="btn btn-secondary btn-xs homepage-save-btn" data-id="mahadbt-ebc" style="width: 100%; justify-content: center;">
+                🔖 Save Scholarship
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. AICTE Scholarships (Pragati & Saksham) -->
+          <div class="card card-interactive" style="border-top: 4px solid #10b981; display: flex; flex-direction: column; justify-content: space-between; padding: 1.75rem;">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.35rem;">
+                <span class="badge" style="background: #ecfdf5; color: #047857;">AICTE Scholarships (Pragati & Saksham)</span>
+                <span class="badge" style="background: #ecfdf5; color: #047857; font-weight: 700; border: 1px solid #a7f3d0;">Verified Official (Active)</span>
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.35rem;">
+                AICTE Pragati Scholarship Scheme for Girls
+              </h3>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.55; margin-bottom: 0.75rem;">
+                Premier central scholarships by AICTE encouraging technical education for meritorious girl students (Pragati) and specially-abled students (Saksham) in degree and diploma courses.
+              </p>
+
+              <!-- Eligible Levels -->
+              <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Diploma</span>
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Degree (B.Tech/B.E.)</span>
+              </div>
+
+              <div style="background: var(--bg-subtle); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.8rem; color: var(--text-body); margin-bottom: 1rem;">
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Important Eligibility:</strong> Admitted to AICTE-approved institute; family income &le; ₹8 Lakhs/year; max 2 girls per family.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Support:</strong> ₹50,000/year lump sum towards tuition fee, books, and laptop.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Official Deadline:</strong> October – December annually on NSP.
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-subtle);">
+                  Last Verified: <strong>March 25, 2026</strong> • <a href="https://www.aicte-india.org/" target="_blank" rel="noopener noreferrer" style="color: var(--primary);">AICTE Portal</a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                <a href="scholarships.html#aicte-pragati" class="btn btn-outline btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">View Details</a>
+                <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">Apply on Official Portal &rarr;</a>
+              </div>
+              <button class="btn btn-secondary btn-xs homepage-save-btn" data-id="aicte-pragati" style="width: 100%; justify-content: center;">
+                🔖 Save Scholarship
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. College & University Scholarships -->
+          <div class="card card-interactive" style="border-top: 4px solid #f59e0b; display: flex; flex-direction: column; justify-content: space-between; padding: 1.75rem;">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.35rem;">
+                <span class="badge" style="background: #fef3c7; color: #92400e;">College & University Scholarships</span>
+                <span class="badge" style="background: #ecfdf5; color: #047857; font-weight: 700; border: 1px solid #a7f3d0;">Verified Official (Active)</span>
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.35rem;">
+                National Means-cum-Merit Scholarship (NMMSS) & UGC Aid
+              </h3>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.55; margin-bottom: 0.75rem;">
+                University Grants Commission (UGC) merit awards, single girl child fellowships, and National Means-cum-Merit (NMMSS) school stipends credited directly via DBT.
+              </p>
+
+              <!-- Eligible Levels -->
+              <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Class 9–12</span>
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Undergraduate</span>
+                <span class="badge" style="background: #f1f5f9; color: var(--text-main); font-size: 0.7rem;">Postgraduate</span>
+              </div>
+
+              <div style="background: var(--bg-subtle); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.8rem; color: var(--text-body); margin-bottom: 1rem;">
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Important Eligibility:</strong> Enrolled in UGC-recognized universities or schools; board/semester scores &ge; 60%-75% or rank-holder; income cap applies.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Support:</strong> ₹12,000/year to ₹7,800/month or complete tuition waivers.
+                </div>
+                <div style="margin-bottom: 0.35rem;">
+                  <strong>Official Deadline:</strong> October – December annually on NSP.
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-subtle);">
+                  Last Verified: <strong>March 25, 2026</strong> • <a href="https://www.ugc.gov.in/" target="_blank" rel="noopener noreferrer" style="color: var(--primary);">UGC Portal</a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                <a href="scholarships.html#nmmss-central" class="btn btn-outline btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">View Details</a>
+                <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center; min-width: 105px;">Apply on Official Portal &rarr;</a>
+              </div>
+              <button class="btn btn-secondary btn-xs homepage-save-btn" data-id="nmmss-central" style="width: 100%; justify-content: center;">
+                🔖 Save Scholarship
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 2: IMPORTANT EDUCATIONAL PORTALS
+         Placed immediately below Scholarships Section
+         ======================================================== -->
+    <section id="portalsSection" style="padding: 5rem 0; background: var(--bg-app); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2.75rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="section-eyebrow">STATUTORY GATEWAYS</span>
+            <h2 class="section-title" style="margin-bottom: 0.35rem;">Important Educational Portals</h2>
+            <p class="section-subtitle">
+              Verified official websites for admissions, national examinations, statutory counseling, and state education directorates.
+            </p>
+          </div>
+          <a href="resources.html" class="btn btn-secondary">
+            View All Educational Resources &rarr;
+          </a>
+        </div>
+
+        <!-- 7 Important Educational Portal Cards -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem;">
+
+          <!-- Portal 1: National Scholarship Portal -->
+          <div class="card card-interactive" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.65rem;">
+                <span style="font-size: 1.75rem;">🎓</span>
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.15rem;">
+                    National Scholarship Portal (NSP)
+                  </h3>
+                  <span class="badge badge-primary" style="font-size: 0.65rem; padding: 0.1rem 0.4rem;">Scholarships & Applications</span>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.25rem;">
+                Official unified portal for central government scholarships, OTR registration, scheme renewals, and Direct Benefit Transfer (DBT) verification.
+              </p>
+            </div>
+            <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+              Visit Official NSP Portal &rarr;
+            </a>
+          </div>
+
+          <!-- Portal 2: MahaDBT -->
+          <div class="card card-interactive" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.65rem;">
+                <span style="font-size: 1.75rem;">🏛️</span>
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.15rem;">
+                    MahaDBT (Aaple Sarkar)
+                  </h3>
+                  <span class="badge" style="background: #e0f2fe; color: #0369a1; font-size: 0.65rem; padding: 0.1rem 0.4rem;">State Government Schemes</span>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.25rem;">
+                Government of Maharashtra portal for state scholarships, social justice grants, EBC freeships, and backward class higher education subsidies.
+              </p>
+            </div>
+            <a href="https://mahadbt.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+              Visit MahaDBT Portal &rarr;
+            </a>
+          </div>
+
+          <!-- Portal 3: National Testing Agency (NTA) -->
+          <div class="card card-interactive" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.65rem;">
+                <span style="font-size: 1.75rem;">📝</span>
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.15rem;">
+                    National Testing Agency (NTA)
+                  </h3>
+                  <span class="badge" style="background: #fef3c7; color: #92400e; font-size: 0.65rem; padding: 0.1rem 0.4rem;">Entrance Examinations</span>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.25rem;">
+                Central apex testing body conducting nationwide computer-based competitive exams including JEE Main, NEET-UG, CUET-UG, and UGC-NET.
+              </p>
+            </div>
+            <a href="https://nta.ac.in/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+              Visit NTA Official Website &rarr;
+            </a>
+          </div>
+
+          <!-- Portal 4: JEE Main -->
+          <div class="card card-interactive" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.65rem;">
+                <span style="font-size: 1.75rem;">⚙️</span>
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.15rem;">
+                    JEE (Main) Portal
+                  </h3>
+                  <span class="badge" style="background: #eef2ff; color: var(--primary); font-size: 0.65rem; padding: 0.1rem 0.4rem;">Engineering Entrance</span>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.25rem;">
+                Official portal for Joint Entrance Examination (Main) applications, admit cards, answer keys, scores, and eligibility for NITs, IIITs & JEE Advanced.
+              </p>
+            </div>
+            <a href="https://jeemain.nta.nic.in/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+              Visit JEE Main Portal &rarr;
+            </a>
+          </div>
+
+          <!-- Portal 5: NEET-UG -->
+          <div class="card card-interactive" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.65rem;">
+                <span style="font-size: 1.75rem;">🩺</span>
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.15rem;">
+                    NEET-UG Portal
+                  </h3>
+                  <span class="badge badge-eligible" style="font-size: 0.65rem; padding: 0.1rem 0.4rem;">Medical Entrance</span>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.25rem;">
+                National Eligibility cum Entrance Test information portal for admission to MBBS, BDS, BAMS, BHMS, and veterinary degree programs across India.
+              </p>
+            </div>
+            <a href="https://exams.nta.ac.in/NEET/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+              Visit NEET-UG Portal &rarr;
+            </a>
+          </div>
+
+          <!-- Portal 6: Maharashtra CET Cell -->
+          <div class="card card-interactive" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.65rem;">
+                <span style="font-size: 1.75rem;">🎯</span>
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.15rem;">
+                    Maharashtra CET Cell
+                  </h3>
+                  <span class="badge" style="background: #fdf2f8; color: #9d174d; font-size: 0.65rem; padding: 0.1rem 0.4rem;">State Entrance & CAP</span>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.25rem;">
+                Statutory authority conducting MHT-CET, MBA-CET, Law-CET, and governing the Centralized Admission Process (CAP) rounds for professional institutes in Maharashtra.
+              </p>
+            </div>
+            <a href="https://cetcell.mahacet.org/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+              Visit CET Cell Portal &rarr;
+            </a>
+          </div>
+
+          <!-- Portal 7: DTE Maharashtra -->
+          <div class="card card-interactive" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.65rem;">
+                <span style="font-size: 1.75rem;">📐</span>
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.15rem;">
+                    DTE Maharashtra
+                  </h3>
+                  <span class="badge" style="background: #eef2ff; color: var(--primary); font-size: 0.65rem; padding: 0.1rem 0.4rem;">Technical & Diploma Education</span>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.25rem;">
+                Directorate of Technical Education, Maharashtra — manages polytechnic diplomas, engineering colleges, vocational programs, and technical admission standards.
+              </p>
+            </div>
+            <a href="https://www.dtemaharashtra.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+              Visit DTE Maharashtra &rarr;
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Student FAQs Preview -->
+    <section style="padding: 5rem 0; background: var(--bg-app);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2.75rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="section-eyebrow">COMMON QUERIES</span>
+            <h2 class="section-title" style="margin-bottom: 0.35rem;">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Real answers to help students and parents navigate career choices with clarity.</p>
+          </div>
+          <a href="faqs.html" class="btn btn-secondary">
+            View All FAQs &rarr;
+          </a>
+        </div>
+
+        <div style="max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;">
+          <details class="card" style="padding: 1.25rem 1.5rem; cursor: pointer;" open>
+            <summary style="font-weight: 700; font-size: 1.05rem; color: var(--text-main); list-style: none; display: flex; justify-content: space-between; align-items: center;">
+              <span>Which stream should I choose after Class 10?</span>
+              <span style="font-size: 1.25rem; color: var(--primary);">+</span>
+            </summary>
+            <div style="margin-top: 0.85rem; padding-top: 0.75rem; border-top: 1px solid var(--border-light); font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+              Choose Science (PCM) for engineering, defense, and architecture; Science (PCB) for medicine, pharmacy, and bio-sciences; Commerce for finance, CA, and corporate business; Arts/Humanities for law, UPSC civil services, journalism, and design.
+            </div>
+          </details>
+
+          <details class="card" style="padding: 1.25rem 1.5rem; cursor: pointer;">
+            <summary style="font-weight: 700; font-size: 1.05rem; color: var(--text-main); list-style: none; display: flex; justify-content: space-between; align-items: center;">
+              <span>Can I get a software or tech job without an engineering degree?</span>
+              <span style="font-size: 1.25rem; color: var(--primary);">+</span>
+            </summary>
+            <div style="margin-top: 0.85rem; padding-top: 0.75rem; border-top: 1px solid var(--border-light); font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+              Yes! Degrees like BCA (Bachelor of Computer Applications), B.Sc. Computer Science, or self-taught web and mobile development portfolios are widely recognized by tech companies and product startups across India.
+            </div>
+          </details>
+
+          <details class="card" style="padding: 1.25rem 1.5rem; cursor: pointer;">
+            <summary style="font-weight: 700; font-size: 1.05rem; color: var(--text-main); list-style: none; display: flex; justify-content: space-between; align-items: center;">
+              <span>How do I apply for government scholarships?</span>
+              <span style="font-size: 1.25rem; color: var(--primary);">+</span>
+            </summary>
+            <div style="margin-top: 0.85rem; padding-top: 0.75rem; border-top: 1px solid var(--border-light); font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+              Applications are processed via the National Scholarship Portal (NSP) or State portals like MahaDBT. You will need an active Aadhaar-seeded bank account, family income certificate from the Tehsildar, and college admission fee receipts.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust & Privacy Standard Banner -->
+    <section style="padding: 5rem 0; background: #ffffff;">
+      <div class="container">
+        <div class="card" style="background: linear-gradient(135deg, #0b132b 0%, #1e1b4b 100%); color: white; border: none; padding: 3rem; text-align: center; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl);">
+          <span style="font-size: 0.775rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #a5b4fc; display: inline-block; margin-bottom: 0.75rem;">
+            STUDENT PRIVACY PLEDGE
+          </span>
+          <h2 style="font-size: 2.25rem; font-weight: 800; color: white; margin-bottom: 1rem;">
+            Built with strict student trust & zero commercial bias
+          </h2>
+          <p style="font-size: 1.05rem; color: #cbd5e1; max-width: 700px; margin: 0 auto 2rem; line-height: 1.6;">
+            We do not sell student phone numbers to commercial coaching centers or flood you with promotional marketing calls. Your profile stays in your browser. Every scholarship deadline, income cap, and entrance portal is cited directly from official government gazettes.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <a href="quiz.html" class="btn btn-primary btn-lg" style="background: #ffffff; color: #0b132b;">
+              Start Free Career Quiz
+            </a>
+            <a href="explore.html" class="btn btn-outline btn-lg" style="color: white; border-color: rgba(255,255,255,0.4);">
+              Explore All 110 Careers
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Shared Footer -->
+  <div id="siteFooterMount"></div>
+
+  <!-- Scripts -->
+  <script type="module">
+    import { SiteComponents } from './js/components.js';
+    import { StorageService } from './js/storage.js';
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      SiteComponents.init('home');
+      await StorageService.syncSavedScholarshipsWithDatabase();
+      updateHomepageSaveButtons();
+
+      document.querySelectorAll('.homepage-save-btn').forEach(btn => {
+        btn.addEventListener('click', async (e) => {
+          const id = e.currentTarget.getAttribute('data-id');
+          btn.disabled = true;
+          const isSaved = await StorageService.toggleSaveScholarship(id);
+          btn.disabled = false;
+          updateHomepageSaveButtons();
+        });
+      });
+
+      window.addEventListener('careerpath:savedUpdated', () => {
+        updateHomepageSaveButtons();
+      });
+    });
+
+    function updateHomepageSaveButtons() {
+      const savedIds = StorageService.getSavedScholarships();
+      document.querySelectorAll('.homepage-save-btn').forEach(btn => {
+        const id = btn.getAttribute('data-id');
+        const isSaved = savedIds.includes(id);
+        if (isSaved) {
+          btn.innerHTML = '✓ Saved in Account';
+          btn.classList.remove('btn-secondary');
+          btn.classList.add('btn-primary');
+        } else {
+          btn.innerHTML = '🔖 Save Scholarship';
+          btn.classList.remove('btn-primary');
+          btn.classList.add('btn-secondary');
+        }
+      });
+    }
+  </script>
+</body>
 </html>

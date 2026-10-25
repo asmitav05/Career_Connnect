@@ -1,0 +1,4345 @@
+{
+  "archetypes": {
+    "software-engineering": {
+      "title": "Software Engineering & Computer Technology",
+      "careers": [
+        "software-developer",
+        "frontend-developer",
+        "backend-developer",
+        "full-stack-developer",
+        "mobile-application-developer",
+        "android-developer",
+        "ios-developer",
+        "java-developer",
+        "python-developer",
+        "game-developer",
+        "data-scientist",
+        "ai-engineer",
+        "cloud-engineer",
+        "cybersecurity-analyst",
+        "devops-engineer",
+        "database-administrator",
+        "network-engineer"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: School (11-12 Science) → Engineering Degree (B.Tech/B.E.)",
+            "summary": "Standard academic route offering widest university choices and direct eligibility for top national institutes (IITs, NITs, BITS, State Govt colleges).",
+            "suitability": "Ideal for students comfortable with mathematics and physics who want campus placement opportunities in top tech firms.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination (CBSE / ICSE / State Board)",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with minimum 50-60% aggregate and strong foundation in Mathematics and Science.",
+                "entranceExams": [],
+                "whatToDo": "Collect Class 10 marksheets and apply for Class 11 Science admission in Junior College or Higher Secondary School.",
+                "skills": [
+                  "Foundational Mathematics",
+                  "Basic Problem Solving",
+                  "Computer Fundamentals"
+                ],
+                "officialLink": {
+                  "title": "CBSE Official Portal",
+                  "url": "https://cbse.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11 & 12 Science with Physics, Chemistry, and Mathematics (PCM)",
+                "duration": "2 Years",
+                "eligibility": "Must study PCM. Target minimum 75% aggregate in Class 12 boards to meet JoSAA eligibility for IITs/NITs (65% for SC/ST), or 50% for State CETs.",
+                "entranceExams": [
+                  {
+                    "name": "JEE Main (NTA)",
+                    "url": "https://jeemain.nta.nic.in/"
+                  },
+                  {
+                    "name": "MHT-CET / State CETs",
+                    "url": "https://cetcell.mahacet.org/"
+                  },
+                  {
+                    "name": "BITSAT / COMEDK",
+                    "url": "https://www.comedk.org/"
+                  }
+                ],
+                "whatToDo": "Master Class 11 and 12 NCERT concepts thoroughly. Solve previous years' question papers (PYQs) and take weekly mock tests for JEE Main and State CET.",
+                "skills": [
+                  "Advanced Algebra & Calculus",
+                  "Kinematics & Electromagnetism",
+                  "Introductory Programming (Python / C++)"
+                ],
+                "officialLink": {
+                  "title": "NTA JEE Main Portal",
+                  "url": "https://jeemain.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Centralized Counselling & Admission",
+                "course": "Seat Allocation via JoSAA / CSAB / State DTE Centralized Admission Process (CAP)",
+                "duration": "2 - 3 Months",
+                "eligibility": "Valid rank in JEE Main / State CET + fulfillment of 12th board marks percentage criteria.",
+                "entranceExams": [],
+                "whatToDo": "Register on centralized counselling portals (JoSAA for IITs/NITs/IIITs, MahaCET CAP for Maharashtra, KCET for Karnataka), submit verified college choices, and secure seat.",
+                "skills": [
+                  "College & Branch Research",
+                  "Documentation & Verification"
+                ],
+                "officialLink": {
+                  "title": "JoSAA Portal",
+                  "url": "https://josaa.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Professional Undergraduate Degree",
+                "course": "B.Tech / B.E. in Computer Science / Information Technology / Software Engineering",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "Admitted through merit / CET rank into AICTE-approved engineering college.",
+                "entranceExams": [],
+                "whatToDo": "Maintain 7.5+ CGPA. Master Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Databases (SQL/NoSQL), and Computer Networks. Build 3-4 production projects on GitHub.",
+                "skills": [
+                  "Data Structures & Algorithms",
+                  "Full-Stack Development (React, Node.js)",
+                  "Git/GitHub",
+                  "System Design Basics"
+                ],
+                "officialLink": {
+                  "title": "AICTE Statutory Portal",
+                  "url": "https://www.aicte-india.org/"
+                }
+              },
+              {
+                "stepNumber": 5,
+                "stage": "Industry Internships & Campus Placements",
+                "course": "Summer Internship & Campus Recruitment / Direct Job Applications",
+                "duration": "6 - 12 Months",
+                "eligibility": "Active enrolled student in 6th-8th semester with good academic standing.",
+                "entranceExams": [],
+                "whatToDo": "Crack on-campus placement coding assessments, participate in hackathons (Smart India Hackathon), contribute to open source, and interview for Software Development Engineer (SDE-1) roles.",
+                "skills": [
+                  "Technical Interview Preparation",
+                  "Resume Crafting",
+                  "System Architecture",
+                  "Behavioral HR Rounds"
+                ],
+                "officialLink": {
+                  "title": "NASSCOM Career Community",
+                  "url": "https://nasscom.in/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Polytechnic Diploma (3 Yrs) → Direct 2nd Year B.Tech (Lateral Entry)",
+            "summary": "Hands-on technical diploma right after Class 10 followed by lateral-entry admission into 2nd year B.Tech, bypassing Class 11-12 and JEE stress.",
+            "suitability": "Best for students who prefer early practical laboratory work over abstract Class 11-12 theory.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination (Pass with Math & Science)",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with minimum 35-50% marks as required by State DTE polytechnic rules.",
+                "entranceExams": [],
+                "whatToDo": "Apply through State Directorate of Technical Education (DTE) centralized polytechnic admission rounds.",
+                "skills": [
+                  "Basic Arithmetic",
+                  "General Science",
+                  "Elementary Computer Literacy"
+                ],
+                "officialLink": {
+                  "title": "DTE Maharashtra Polytechnic Portal",
+                  "url": "https://dte.maharashtra.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Technical Diploma",
+                "course": "3-Year Polytechnic Diploma in Computer Engineering / Information Technology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Admitted via 10th merit into AICTE/MSBTE approved polytechnic institution.",
+                "entranceExams": [],
+                "whatToDo": "Learn hands-on programming (C, C++, Java, Web tech), computer hardware, operating systems, and networking. Score 70%+ in final year diploma for high lateral entry cutoff.",
+                "skills": [
+                  "C & Java Programming",
+                  "Relational Database Management",
+                  "Operating Systems",
+                  "Computer Hardware & Networking"
+                ],
+                "officialLink": {
+                  "title": "MSBTE Portal",
+                  "url": "https://msbte.org.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Direct Second Year Engineering (Lateral Entry)",
+                "course": "Direct Second Year (DSE) Admission into B.E. / B.Tech (3rd Semester)",
+                "duration": "2 - 3 Months",
+                "eligibility": "Pass 3-year AICTE diploma with minimum 45% aggregate (40% for reserved categories). Seats are subject to 10% lateral entry supernumerary quota and vacancy rules.",
+                "entranceExams": [
+                  {
+                    "name": "State Lateral Entry CAP / CET (e.g. DTE DSE Maharashtra, JELET WB)",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Register for centralized Direct Second Year (DSE) counselling, submit diploma scores, and enter directly into year 2 of B.E./B.Tech.",
+                "skills": [
+                  "Engineering Mathematics Bridge Course",
+                  "Advanced Problem Solving"
+                ],
+                "officialLink": {
+                  "title": "DTE Lateral Entry Admissions",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Complete Engineering Degree",
+                "course": "Complete Years 2, 3, and 4 of B.E./B.Tech",
+                "duration": "3 Years",
+                "eligibility": "Enrolled in 2nd year B.Tech through lateral entry.",
+                "entranceExams": [],
+                "whatToDo": "Catch up on Engineering Mathematics 3, build advanced cloud and web applications, maintain competitive CGPA, and secure internships.",
+                "skills": [
+                  "Data Structures & Algorithms",
+                  "Full-Stack Development",
+                  "Cloud Deployment (AWS/GCP)"
+                ],
+                "officialLink": {
+                  "title": "AICTE Official Portal",
+                  "url": "https://www.aicte-india.org/"
+                }
+              },
+              {
+                "stepNumber": 5,
+                "stage": "Industry Placement",
+                "course": "Full-Time Software Engineer / Associate Developer Role",
+                "duration": "Entry Milestone",
+                "eligibility": "Successful B.E./B.Tech graduation with verified project portfolio.",
+                "entranceExams": [],
+                "whatToDo": "Participate in campus drives, off-campus referrals, and technical coding rounds for software developer positions.",
+                "skills": [
+                  "Full-Stack Engineering",
+                  "Code Versioning",
+                  "System Integration"
+                ],
+                "officialLink": {
+                  "title": "NASSCOM Placement Resources",
+                  "url": "https://nasscom.in/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-c",
+            "name": "Route C: School (11-12 Any Stream) → BCA / B.Sc Computer Science → Tech Industry or MCA",
+            "summary": "Flexible undergraduate computing route open to students from Science, Commerce, or Arts, with option to enter tech jobs directly or pursue MCA for equivalence.",
+            "suitability": "Ideal for students who want to become software developers without clearing engineering entrances like JEE.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11 & 12 in Any Recognised Stream (Science, Commerce with Math/IP, or Arts)",
+                "duration": "2 Years",
+                "eligibility": "Pass Class 12 with minimum 50% aggregate. (Note: Many universities require Mathematics or Informatics Practices in Class 12 for BCA eligibility; verify institution criteria).",
+                "entranceExams": [
+                  {
+                    "name": "CUET-UG (for Central Universities)",
+                    "url": "https://cuetug.nta.nic.in/"
+                  },
+                  {
+                    "name": "MAH-BCA-CET / University Entrances",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Focus on Class 12 board marks and basic computing logic. If possible, choose Mathematics or Computer Science / IP as an elective subject.",
+                "skills": [
+                  "Basic Logic & Math",
+                  "English Communication",
+                  "Computer Applications"
+                ],
+                "officialLink": {
+                  "title": "UGC Official Portal",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Undergraduate Computing Degree",
+                "course": "BCA (Bachelor of Computer Applications) or B.Sc (Computer Science / IT)",
+                "duration": "3 Years (or 4 Years under NEP 2020 Honours)",
+                "eligibility": "Pass Class 12 with required subjects and merit / university entrance score.",
+                "entranceExams": [],
+                "whatToDo": "Learn modern programming stacks (JavaScript/TypeScript, Python, Java, React, Node.js). Build independent web applications, open source contributions, and personal portfolio.",
+                "skills": [
+                  "Web Development",
+                  "Python / Java",
+                  "Database Management (MySQL/PostgreSQL)",
+                  "API Integration"
+                ],
+                "officialLink": {
+                  "title": "UGC Degree Directory",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Industry Entry OR Master's (MCA)",
+                "course": "Direct Junior Software Developer Role OR 2-Year MCA (for B.Tech Equivalence)",
+                "duration": "Immediate or 2 Years",
+                "eligibility": "For MCA: Pass BCA/B.Sc with Mathematics at 10+2 or degree level + NIMCET / MAH-MCA-CET rank.",
+                "entranceExams": [
+                  {
+                    "name": "NIMCET (for NITs MCA)",
+                    "url": "https://www.nimcet.in/"
+                  },
+                  {
+                    "name": "MAH-MCA-CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Option 1: Apply directly for frontend, backend, or full-stack software developer jobs using portfolio. Option 2: Clear NIMCET/State CET to enter premier NITs for MCA, unlocking top product company campus drives.",
+                "skills": [
+                  "Advanced Algorithms",
+                  "Distributed Systems",
+                  "Full-Stack Deployment"
+                ],
+                "officialLink": {
+                  "title": "NIMCET Official Portal",
+                  "url": "https://www.nimcet.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Starting Point",
+              "routeA": "After Class 10 (School 11-12)",
+              "routeB": "After Class 10 (Polytechnic)",
+              "routeC": "After Class 10 (School 11-12)"
+            },
+            {
+              "name": "Initial Step",
+              "routeA": "Class 11-12 Science (PCM)",
+              "routeB": "3-Year Polytechnic Diploma",
+              "routeC": "Class 11-12 (Any stream with Math/IP)"
+            },
+            {
+              "name": "Undergraduate Degree",
+              "routeA": "4-Year B.E. / B.Tech",
+              "routeB": "3-Year B.E./B.Tech via Lateral Entry",
+              "routeC": "3-Year BCA / B.Sc CS (Optional 2-Yr MCA)"
+            },
+            {
+              "name": "Total Duration to Degree",
+              "routeA": "6 Years (2 yrs + 4 yrs)",
+              "routeB": "6 Years (3 yrs + 3 yrs)",
+              "routeC": "5 Years (2 yrs + 3 yrs)"
+            },
+            {
+              "name": "Entrance Exam Required",
+              "routeA": "JEE Main / State CETs / BITSAT",
+              "routeB": "State Polytechnic Admission + Lateral Entry CET",
+              "routeC": "CUET-UG / University Merit / NIMCET (if MCA)"
+            },
+            {
+              "name": "Eligibility Considerations",
+              "routeA": "Strict 75% in PCM for JoSAA / 50% for state CETs",
+              "routeB": "Lateral entry depends on state quotas & merit cutoffs",
+              "routeC": "Maths at 10+2 often required by top universities"
+            },
+            {
+              "name": "Main Advantage",
+              "routeA": "Widest college brand choices, direct access to IITs/NITs",
+              "routeB": "Hands-on coding from age 16; bypasses JEE competition",
+              "routeC": "Lower entrance pressure; rapid 3-year path to industry"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: Science PCM → Top Engineering Degree (JEE / State CET)",
+            "summary": "Target high ranks in JEE Main and State CET during Class 11-12 to secure Computer Science in premier government and tier-1 institutions.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Academic Focus",
+                "course": "Class 11 Science PCM Master Syllabus",
+                "duration": "Current Year (10-12 Months)",
+                "eligibility": "Currently enrolled in Class 11 Science with PCM.",
+                "entranceExams": [],
+                "whatToDo": "Focus intensely on Class 11 mechanics, calculus, chemical bonding, and coordinate geometry. Class 11 carries 45-50% weightage in JEE Main and CET. Avoid conceptual backlogs.",
+                "skills": [
+                  "Mechanics & Thermodynamics",
+                  "Coordinate Geometry & Trigonometry",
+                  "Algorithmic Logic"
+                ],
+                "officialLink": {
+                  "title": "NTA JEE Information",
+                  "url": "https://jeemain.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & Entrance Tests",
+                "course": "Class 12 Boards (Target 75%+) + JEE Main & State CETs",
+                "duration": "1 Year",
+                "eligibility": "Must clear Class 12 board with Physics, Chemistry, Math and min 75% (JoSAA) or 50% (State CET).",
+                "entranceExams": [
+                  {
+                    "name": "JEE Main (Sessions 1 & 2)",
+                    "url": "https://jeemain.nta.nic.in/"
+                  },
+                  {
+                    "name": "MHT-CET / State CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Appear for JEE Main Session 1 (Jan) and Session 2 (April), followed by state CETs in May. Complete board examinations with high marks.",
+                "skills": [
+                  "Exam Time Management",
+                  "Numerical Problem Solving",
+                  "Speed & Accuracy"
+                ],
+                "officialLink": {
+                  "title": "MHT-CET Official Portal",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "B.Tech Computer Science Degree",
+                "course": "4-Year B.Tech / B.E. in Computer Science / IT / AI-DS",
+                "duration": "4 Years",
+                "eligibility": "Valid rank in JEE Main or State CET through centralized counselling.",
+                "entranceExams": [],
+                "whatToDo": "Complete foundational CS courses, solve 300+ LeetCode DSA problems, build full-stack projects, and participate in hackathons.",
+                "skills": [
+                  "Data Structures & Algorithms",
+                  "Full-Stack Web/App Development",
+                  "Cloud Technologies"
+                ],
+                "officialLink": {
+                  "title": "AICTE Portal",
+                  "url": "https://www.aicte-india.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Software Engineering Career Launch",
+                "course": "Software Development Engineer (SDE-1) at Tech Companies / Startups",
+                "duration": "Ongoing",
+                "eligibility": "Graduating engineer with verified technical skills and project portfolio.",
+                "entranceExams": [],
+                "whatToDo": "Interview for product and service software engineering roles through campus placement or open job portals.",
+                "skills": [
+                  "Software Architecture",
+                  "Agile Methodologies",
+                  "CI/CD Pipelines"
+                ],
+                "officialLink": {
+                  "title": "NASSCOM Tech Career Hub",
+                  "url": "https://nasscom.in/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Alternative Computing Degree (BCA / B.Sc CS) → Software Role or MCA",
+            "summary": "Focus Class 11-12 on core academics, then pursue 3-year BCA with dedicated practical coding, entering software roles directly or via MCA.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Preparation",
+                "course": "Class 11 Coursework + Foundational Coding Self-Study",
+                "duration": "Current Year",
+                "eligibility": "Enrolled in Class 11 (Any stream, preferably with Math or Computer Science / IP).",
+                "entranceExams": [],
+                "whatToDo": "Maintain good school grades while learning basic Python or web development (HTML/CSS/JS) online for 3-4 hours per week.",
+                "skills": [
+                  "Basic Programming Syntax",
+                  "Web Fundamentals",
+                  "Logic Building"
+                ],
+                "officialLink": {
+                  "title": "UGC Official Portal",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & CUET / University Entrances",
+                "course": "Complete Class 12 Boards + Register for BCA / B.Sc CS Admissions",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with 50%+ aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "CUET-UG",
+                    "url": "https://cuetug.nta.nic.in/"
+                  },
+                  {
+                    "name": "MAH-BCA-CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Appear for university admission tests and apply to top BCA colleges in your region.",
+                "skills": [
+                  "Quantitative Aptitude",
+                  "Computer Knowledge",
+                  "Analytical Reasoning"
+                ],
+                "officialLink": {
+                  "title": "CUET NTA Portal",
+                  "url": "https://cuetug.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "BCA Degree & Project Portfolio",
+                "course": "3-Year BCA (Bachelor of Computer Applications)",
+                "duration": "3 Years",
+                "eligibility": "Merit or CET score in affiliated university.",
+                "entranceExams": [],
+                "whatToDo": "Build full-stack web applications, mobile apps, and contribute to GitHub projects. Apply for tech internships in year 2 and 3.",
+                "skills": [
+                  "Full-Stack Development (MERN / Java Spring)",
+                  "Database Management",
+                  "Git Version Control"
+                ],
+                "officialLink": {
+                  "title": "UGC College Directory",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Industry Transition / MCA",
+                "course": "Junior Software Developer OR 2-Year MCA (NIMCET / State CET)",
+                "duration": "Immediate or 2 Years",
+                "eligibility": "BCA graduate with project portfolio or valid NIMCET score.",
+                "entranceExams": [
+                  {
+                    "name": "NIMCET",
+                    "url": "https://www.nimcet.in/"
+                  }
+                ],
+                "whatToDo": "Take up campus placement offers in tech consulting/SaaS companies or clear NIMCET for MCA at National Institutes of Technology.",
+                "skills": [
+                  "Enterprise Coding",
+                  "Unit Testing",
+                  "Cloud Deployment"
+                ],
+                "officialLink": {
+                  "title": "NIMCET Official Portal",
+                  "url": "https://www.nimcet.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: Class 12 Boards + JEE/CET → 4-Year B.Tech in Computer Science",
+            "summary": "Immediate post-Class 12 pathway into 4-year engineering through upcoming national and state entrance examinations.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Board Exams + National Engineering Entrances",
+                "duration": "Immediate (Next 3-6 Months)",
+                "eligibility": "Pass Class 12 with Physics, Chemistry, Math. Score min 75% for IIT/NIT/IIIT JoSAA admission, or 50% for state CETs.",
+                "entranceExams": [
+                  {
+                    "name": "JEE Main (NTA)",
+                    "url": "https://jeemain.nta.nic.in/"
+                  },
+                  {
+                    "name": "State CET (e.g. MHT-CET, KCET, WBJEE)",
+                    "url": "https://cetcell.mahacet.org/"
+                  },
+                  {
+                    "name": "Private Entrances (BITSAT, VITEEE, SRMJEEE)",
+                    "url": "https://www.bitsadmission.com/"
+                  }
+                ],
+                "whatToDo": "Complete board syllabus revision, practice mock test papers under timed conditions, register for JEE Main Sessions 1 & 2, and fill state CET application forms.",
+                "skills": [
+                  "Board Exam Mastery",
+                  "Entrance Test Accuracy",
+                  "Speed Drills"
+                ],
+                "officialLink": {
+                  "title": "NTA JEE Main Official",
+                  "url": "https://jeemain.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Counselling & Seat Allocation",
+                "course": "JoSAA / CSAB / State DTE Centralized Admission Process (CAP)",
+                "duration": "June - August",
+                "eligibility": "Valid percentile/rank in JEE Main or State CET.",
+                "entranceExams": [],
+                "whatToDo": "Fill preferred colleges and Computer Engineering / IT / AI branches in option form, verify documents, and confirm admission.",
+                "skills": [
+                  "Option Form Strategy",
+                  "Document Verification"
+                ],
+                "officialLink": {
+                  "title": "JoSAA Official Portal",
+                  "url": "https://josaa.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Undergraduate B.Tech Degree",
+                "course": "4-Year B.Tech / B.E. in Computer Science & Engineering",
+                "duration": "4 Years",
+                "eligibility": "Admitted to AICTE recognized engineering college.",
+                "entranceExams": [],
+                "whatToDo": "Master Data Structures, Algorithms, Operating Systems, Computer Networks, and Full-Stack Engineering. Maintain 7.5+ CGPA and complete summer internships.",
+                "skills": [
+                  "Data Structures & Algorithms",
+                  "Full-Stack Development",
+                  "Cloud & DevOps",
+                  "System Design"
+                ],
+                "officialLink": {
+                  "title": "AICTE Official Portal",
+                  "url": "https://www.aicte-india.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Software Developer Role",
+                "course": "Full-Time Software Engineer / SDE-1",
+                "duration": "Graduation Milestone",
+                "eligibility": "B.Tech in CS/IT or related field with proven programming competence.",
+                "entranceExams": [],
+                "whatToDo": "Accept campus placement offer or apply to technology companies, SaaS startups, and multinational product engineering firms.",
+                "skills": [
+                  "Production Code Writing",
+                  "Agile Development",
+                  "System Scalability"
+                ],
+                "officialLink": {
+                  "title": "NASSCOM Jobs Portal",
+                  "url": "https://nasscom.in/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Class 12 → BCA / B.Sc Computer Science → Software Developer",
+            "summary": "Immediate admission into 3-year BCA or B.Sc CS based on Class 12 board marks or CUET-UG, bypassing JEE competition.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 12 Boards & BCA Application",
+                "course": "Complete Class 12 + Apply for BCA / B.Sc CS Admissions",
+                "duration": "Immediate (Next 3 Months)",
+                "eligibility": "Pass Class 12 with 50%+ aggregate in any stream (Mathematics/IP at 10+2 preferred/required by several universities; check specific college criteria).",
+                "entranceExams": [
+                  {
+                    "name": "CUET-UG",
+                    "url": "https://cuetug.nta.nic.in/"
+                  },
+                  {
+                    "name": "State BCA Entrance (e.g. MAH-BCA-CET)",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Focus on high Class 12 percentage, register for CUET-UG / state BCA CET, and apply to top university colleges.",
+                "skills": [
+                  "General Aptitude",
+                  "English Comprehension",
+                  "Basic Computer Literacy"
+                ],
+                "officialLink": {
+                  "title": "CUET Portal",
+                  "url": "https://cuetug.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "BCA Undergraduate Coursework",
+                "course": "3-Year Bachelor of Computer Applications (BCA)",
+                "duration": "3 Years",
+                "eligibility": "Admitted to UGC recognized university.",
+                "entranceExams": [],
+                "whatToDo": "Build an impressive GitHub portfolio with real web and mobile apps. Learn modern tech stacks (React, Node.js, Python, PostgreSQL) beyond classroom curriculum.",
+                "skills": [
+                  "JavaScript & TypeScript",
+                  "React / Next.js",
+                  "Backend APIs",
+                  "PostgreSQL / MongoDB"
+                ],
+                "officialLink": {
+                  "title": "UGC Official Portal",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Direct Tech Placement OR NIMCET / MCA",
+                "course": "Full-Time Junior Software Engineer OR 2-Year MCA at NITs",
+                "duration": "Immediate or 2 Years",
+                "eligibility": "For MCA: BCA/B.Sc degree + NIMCET or State CET rank.",
+                "entranceExams": [
+                  {
+                    "name": "NIMCET (NITs)",
+                    "url": "https://www.nimcet.in/"
+                  }
+                ],
+                "whatToDo": "Secure campus placement in IT service/consulting companies, or crack NIMCET for admission into National Institutes of Technology for MCA.",
+                "skills": [
+                  "Full-Stack Problem Solving",
+                  "Cloud Deployment",
+                  "Database Optimization"
+                ],
+                "officialLink": {
+                  "title": "NIMCET Official",
+                  "url": "https://www.nimcet.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "medicine-doctor": {
+      "title": "Medical Practice (Doctor / Physician / Surgeon)",
+      "careers": [
+        "doctor-medical-practitioner",
+        "dentist",
+        "veterinarian"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Statutory Allopathic Medical Pathway: 11-12 (PCB) → NEET-UG → MBBS → Licensing",
+            "summary": "The ONLY statutory and legally recognized pathway in India to become an Allopathic Medical Doctor (MBBS). No diploma or alternative shortcut exists.",
+            "suitability": "Mandatory for any student aiming to practice allopathic clinical medicine and surgery in India.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with strong interest and foundation in Science (Biology, Chemistry, Physics).",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 Science with Physics, Chemistry, and Biology (PCB). Mathematics may be taken as an optional 4th subject (PCMB) for added backup.",
+                "skills": [
+                  "Life Sciences Curiosity",
+                  "Chemical Basics",
+                  "Systematic Study Habits"
+                ],
+                "officialLink": {
+                  "title": "National Medical Commission (NMC)",
+                  "url": "https://www.nmc.org.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11 & 12 Science with Physics, Chemistry, and Biology (PCB)",
+                "duration": "2 Years",
+                "eligibility": "Must pass Class 12 with Physics, Chemistry, Biology/Biotechnology, and English with minimum 50% aggregate in PCB (40% for SC/ST/OBC). Must complete minimum 17 years of age on or before December 31 of admission year.",
+                "entranceExams": [
+                  {
+                    "name": "NEET-UG (National Eligibility cum Entrance Test conducted by NTA)",
+                    "url": "https://neet.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Master NCERT Biology, Chemistry, and Physics line by line. Solve 10,000+ MCQs, practice timed 3-hour 20-minute mock tests, and register for NEET-UG.",
+                "skills": [
+                  "NCERT Line-by-Line Mastery",
+                  "Biological Diagram Analysis",
+                  "Chemical Stoichiometry",
+                  "Physics Formula Application"
+                ],
+                "officialLink": {
+                  "title": "NTA NEET Portal",
+                  "url": "https://neet.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Centralized Medical Counselling",
+                "course": "MCC All India Quota (15%) & State Quota (85%) Counselling",
+                "duration": "2 - 3 Months",
+                "eligibility": "Qualify NEET-UG by scoring at or above the designated percentile cutoff (50th percentile for General, 40th for reserved categories).",
+                "entranceExams": [],
+                "whatToDo": "Register for Medical Counselling Committee (MCC) for AIIMS, JIPMER, and Central Universities, and State CET Cell for state government medical colleges.",
+                "skills": [
+                  "Counselling Registration",
+                  "Medical College Choice Filling"
+                ],
+                "officialLink": {
+                  "title": "MCC Counselling Portal",
+                  "url": "https://mcc.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "MBBS Professional Degree",
+                "course": "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
+                "duration": "4.5 Years Academic Study + 1 Year Compulsory Rotatory Medical Internship (CRMI)",
+                "eligibility": "Allotted seat through NEET-UG counselling in NMC-recognized medical college.",
+                "entranceExams": [],
+                "whatToDo": "Study Anatomy, Physiology, Biochemistry, Pathology, Pharmacology, Microbiology, Forensic Medicine, Community Medicine, Ophthalmology, ENT, Medicine, Surgery, Obstetrics & Gynaecology, and Paediatrics. Complete 1 year compulsory rotatory clinical hospital internship.",
+                "skills": [
+                  "Clinical Examination",
+                  "Differential Diagnosis",
+                  "Pharmacotherapy",
+                  "Emergency Resuscitation (BLS/ACLS)",
+                  "Patient Bedside Empathy"
+                ],
+                "officialLink": {
+                  "title": "National Medical Commission",
+                  "url": "https://www.nmc.org.in/"
+                }
+              },
+              {
+                "stepNumber": 5,
+                "stage": "Licensing & Post-Graduation Specialization",
+                "course": "State Medical Council Registration + NExT / NEET-PG for MD/MS",
+                "duration": "3 Years for MD/MS",
+                "eligibility": "Successful completion of MBBS and CRMI + qualification in National Exit Test (NExT).",
+                "entranceExams": [
+                  {
+                    "name": "NExT / NEET-PG (National Board of Examinations)",
+                    "url": "https://natboard.edu.in/"
+                  }
+                ],
+                "whatToDo": "Obtain permanent statutory registration from State Medical Council / NMC to practice as Registered Medical Practitioner (RMP). Crack NExT/NEET-PG for specialist residency (MD in Medicine, Paediatrics, Radiology or MS in General Surgery, Orthopaedics).",
+                "skills": [
+                  "Advanced Clinical Specialization",
+                  "Surgical Precision",
+                  "Evidence-Based Therapeutics"
+                ],
+                "officialLink": {
+                  "title": "National Board of Examinations (NBE)",
+                  "url": "https://natboard.edu.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Statutory Authority",
+              "routeA": "National Medical Commission (NMC)"
+            },
+            {
+              "name": "Starting Point",
+              "routeA": "Class 10 completion"
+            },
+            {
+              "name": "Compulsory School Stream",
+              "routeA": "Class 11-12 Science with PCB (Physics, Chemistry, Biology) & English"
+            },
+            {
+              "name": "Mandatory Entrance Exam",
+              "routeA": "NEET-UG (Conducted pan-India by NTA)"
+            },
+            {
+              "name": "Total Course Duration",
+              "routeA": "5.5 Years (4.5 Years Academic + 1 Year Mandatory Hospital Internship)"
+            },
+            {
+              "name": "Shortcut / Diploma Availability",
+              "routeA": "NO shortcut or diploma pathway exists to become an allopathic doctor under Indian law"
+            },
+            {
+              "name": "Statutory Registration",
+              "routeA": "Mandatory registration with State Medical Council / NMC to obtain RMP license"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Focus → NEET-UG → MBBS Professional Degree",
+            "summary": "Consolidate Class 11 biology, chemistry, and physics foundations, followed by Class 12 board clearance and NEET-UG rank.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Science (PCB) Mastery",
+                "course": "Class 11 PCB NCERT Syllabus & Daily MCQ Practice",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11 Science with PCB.",
+                "entranceExams": [],
+                "whatToDo": "Class 11 covers nearly half the NEET-UG paper (Plant & Human Physiology, Cell Biology, Thermodynamics, Mechanics). Solve NCERT exemplar problems and take topic tests.",
+                "skills": [
+                  "Physiology Mastery",
+                  "Chemical Reaction Mechanisms",
+                  "Physics Numerical Practice"
+                ],
+                "officialLink": {
+                  "title": "NTA NEET Information",
+                  "url": "https://neet.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & NEET-UG Registration",
+                "course": "Class 12 Boards (Min 50% in PCB) + NEET-UG Examination",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with Physics, Chemistry, Biology and English with min 50% aggregate in PCB (40% for reserved categories).",
+                "entranceExams": [
+                  {
+                    "name": "NEET-UG (NTA)",
+                    "url": "https://neet.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Appear for Class 12 board examinations and sit for NEET-UG conducted nationwide in May.",
+                "skills": [
+                  "Speed & Negative Marking Management",
+                  "OMR Sheet Precision"
+                ],
+                "officialLink": {
+                  "title": "NEET-UG Official Portal",
+                  "url": "https://neet.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "MBBS Admission & Degree",
+                "course": "Bachelor of Medicine & Bachelor of Surgery (MBBS)",
+                "duration": "5.5 Years (4.5 Yrs + 1 Yr Internship)",
+                "eligibility": "Qualify NEET-UG with competitive merit percentile.",
+                "entranceExams": [],
+                "whatToDo": "Undergo rigorous preclinical, paraclinical, and clinical hospital rotations. Complete 1 year compulsory rotatory internship.",
+                "skills": [
+                  "Clinical Diagnostics",
+                  "Patient Care",
+                  "Surgical Basics"
+                ],
+                "officialLink": {
+                  "title": "NMC Portal",
+                  "url": "https://www.nmc.org.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Registration & Practice",
+                "course": "Registered Medical Practitioner (RMP) / MD/MS Residency",
+                "duration": "Ongoing",
+                "eligibility": "MBBS completion + National Exit Test (NExT).",
+                "entranceExams": [
+                  {
+                    "name": "NExT / NEET-PG",
+                    "url": "https://natboard.edu.in/"
+                  }
+                ],
+                "whatToDo": "Register with State Medical Council and pursue postgraduate residency in chosen medical specialty.",
+                "skills": [
+                  "Advanced Clinical Decision Making",
+                  "Specialist Patient Care"
+                ],
+                "officialLink": {
+                  "title": "NBE Official Portal",
+                  "url": "https://natboard.edu.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 PCB → NEET-UG → MBBS Medical Degree",
+            "summary": "Immediate post-Class 12 statutory medical admission pathway via upcoming NEET-UG examination and MCC counselling.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Board Exams + NEET-UG Final Preparation",
+                "duration": "Immediate (Next 3-6 Months)",
+                "eligibility": "Pass Class 12 with Physics, Chemistry, Biology, and English with min 50% in PCB (40% for SC/ST/OBC). Age 17+.",
+                "entranceExams": [
+                  {
+                    "name": "NEET-UG (NTA)",
+                    "url": "https://neet.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 board examinations and take full-length NEET-UG mock test papers. Revise high-weightage chapters in Biology and Organic Chemistry.",
+                "skills": [
+                  "Board Accuracy",
+                  "NEET-UG Mock Testing",
+                  "Speed Drills"
+                ],
+                "officialLink": {
+                  "title": "NTA NEET Portal",
+                  "url": "https://neet.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "NEET-UG Counselling & Seat Allotment",
+                "course": "MCC All India Quota & State CET Medical Counselling",
+                "duration": "July - September",
+                "eligibility": "Qualifying score in NEET-UG.",
+                "entranceExams": [],
+                "whatToDo": "Register on MCC (mcc.nic.in) for 15% All India Quota seats (AIIMS, JIPMER, Central Universities) and State Counselling for 85% state quota seats.",
+                "skills": [
+                  "Counselling Strategy",
+                  "Document Verification"
+                ],
+                "officialLink": {
+                  "title": "MCC Portal",
+                  "url": "https://mcc.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "MBBS Coursework & Clinical Rotations",
+                "course": "Bachelor of Medicine & Bachelor of Surgery (MBBS)",
+                "duration": "4.5 Years Academic + 1 Year Clinical Internship",
+                "eligibility": "Allotted seat in recognized medical college.",
+                "entranceExams": [],
+                "whatToDo": "Complete classroom theory, clinical bed-side teaching, hospital night duties, and 1 year compulsory rotatory internship.",
+                "skills": [
+                  "Clinical Examination",
+                  "Symptom Diagnosis",
+                  "Emergency Management"
+                ],
+                "officialLink": {
+                  "title": "NMC Portal",
+                  "url": "https://www.nmc.org.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "RMP Registration & Medical Practice",
+                "course": "Statutory Medical License + Specialist MD/MS/DNB",
+                "duration": "Ongoing",
+                "eligibility": "MBBS completion + NExT examination clearance.",
+                "entranceExams": [
+                  {
+                    "name": "NExT / NEET-PG",
+                    "url": "https://natboard.edu.in/"
+                  }
+                ],
+                "whatToDo": "Obtain permanent medical license to practice in India and apply for postgraduate clinical specialisation.",
+                "skills": [
+                  "Clinical Diagnosis",
+                  "Pharmacological Therapy",
+                  "Specialist Consultation"
+                ],
+                "officialLink": {
+                  "title": "National Medical Commission",
+                  "url": "https://www.nmc.org.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "chartered-accountancy": {
+      "title": "Chartered Accountancy & Corporate Finance",
+      "careers": [
+        "chartered-accountant",
+        "company-secretary",
+        "financial-analyst",
+        "investment-analyst",
+        "actuary",
+        "auditor",
+        "banking-professional"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: School (11-12 Any Stream) → ICAI CA Foundation → Intermediate → Articleship → Final",
+            "summary": "Standard ICAI pathway allowing students to register for CA Foundation after Class 10 and appear immediately after passing Class 12.",
+            "suitability": "Commerce stream is helpful but ICAI permits students from ANY 10+2 stream (Science, Arts, Commerce) to qualify.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion & Provisional Registration",
+                "course": "Pass Class 10 + Provisional ICAI CA Foundation Registration",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 board examination. ICAI allows provisional registration for CA Foundation after 10th.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 (preferably Commerce with Math or IP, though Science/Arts is also permitted). Register provisionally with ICAI on the Self Service Portal (SSP).",
+                "skills": [
+                  "Basic Commercial Math",
+                  "Interest in Financial Systems"
+                ],
+                "officialLink": {
+                  "title": "ICAI Official Portal",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 11-12 & CA Foundation Preparation",
+                "course": "Complete Class 11-12 + Prepare 4 Foundation Papers",
+                "duration": "2 Years",
+                "eligibility": "Must pass Class 12 board examination in any stream recognized by Central/State govt.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI CA Foundation Examination (Held in June / Dec or Jan / May)",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Study Accounting, Business Laws, Quantitative Aptitude (Maths, Stats, Logical Reasoning), and Business Economics. Appear for CA Foundation after Class 12 boards.",
+                "skills": [
+                  "Double-Entry Bookkeeping",
+                  "Mercantile Law Fundamentals",
+                  "Business Economics & Statistics"
+                ],
+                "officialLink": {
+                  "title": "ICAI BoS Knowledge Portal",
+                  "url": "https://boslive.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "CA Intermediate & Integrated IT / Soft Skills",
+                "course": "CA Intermediate (Group 1 & Group 2 - 6 Papers) + ICITSS Training",
+                "duration": "9 - 12 Months",
+                "eligibility": "Pass CA Foundation with minimum 40% in each paper and 50% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI CA Intermediate Examination",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Clear Group 1 and Group 2 papers covering Advanced Accounting, Corporate Laws, Taxation (Direct & Indirect GST), Cost & Management Accounting, and Auditing. Complete mandatory 4-week ICITSS training (Information Technology & Soft Skills).",
+                "skills": [
+                  "Corporate Taxation (IT Act & GST)",
+                  "Statutory Auditing",
+                  "Cost Accounting & Financial Management"
+                ],
+                "officialLink": {
+                  "title": "ICAI Intermediate Scheme",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Mandatory Practical Articleship Training",
+                "course": "2-Year Full-Time Practical Training (Articleship) under a Practicing Chartered Accountant",
+                "duration": "2 Years (Under New ICAI Scheme)",
+                "eligibility": "Pass BOTH Group 1 and Group 2 of CA Intermediate + complete ICITSS.",
+                "entranceExams": [],
+                "whatToDo": "Work full-time in an authorized CA audit firm gaining real-world experience in statutory audit, tax filing, internal controls, and client corporate compliance.",
+                "skills": [
+                  "Real-World Statutory Audit",
+                  "Tax Filing & Assessment",
+                  "ERP Systems (SAP/TallyPrime)",
+                  "Client Communication"
+                ],
+                "officialLink": {
+                  "title": "ICAI Articleship Regulations",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 5,
+                "stage": "CA Final Examination & ICAI Membership",
+                "course": "CA Final (Group 1 & Group 2) + AICITSS + ICAI Membership",
+                "duration": "6 - 12 Months",
+                "eligibility": "Complete mandatory articleship training + qualify CA Intermediate.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI CA Final Examination",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Clear CA Final papers: Financial Reporting, Advanced Financial Management, Advanced Auditing, Direct Tax Laws & International Taxation, Indirect Tax Laws, and Integrated Business Solutions. Apply for ICAI Associate Membership (ACA).",
+                "skills": [
+                  "Ind AS & IFRS Financial Reporting",
+                  "International Taxation & Transfer Pricing",
+                  "Mergers & Corporate Valuation"
+                ],
+                "officialLink": {
+                  "title": "ICAI Official Portal",
+                  "url": "https://www.icai.org/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Graduation Degree (B.Com / BBA / B.Tech) → Direct Entry to CA Intermediate",
+            "summary": "Skip CA Foundation entirely by graduating first with minimum prescribed marks, entering straight into CA Intermediate.",
+            "suitability": "Ideal for students who want a standard college campus experience first before tackling professional exams.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11-12 & Bachelor's Degree",
+                "course": "Class 11-12 + 3-Year B.Com, BBA, or Any Graduate Degree",
+                "duration": "5 Years (2 yrs school + 3 yrs college)",
+                "eligibility": "Commerce graduates require min 55% marks; Non-commerce graduates (Science/Arts/Engg) require min 60% aggregate.",
+                "entranceExams": [],
+                "whatToDo": "Complete undergraduate degree from any recognized UGC university with the required percentage threshold.",
+                "skills": [
+                  "Financial Accounting",
+                  "Corporate Law",
+                  "Business Economics"
+                ],
+                "officialLink": {
+                  "title": "ICAI Direct Entry Scheme",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Direct Registration for CA Intermediate",
+                "course": "Register Directly for CA Intermediate (No CA Foundation needed)",
+                "duration": "Immediate",
+                "eligibility": "Graduation with 55% (Commerce) or 60% (Other streams).",
+                "entranceExams": [],
+                "whatToDo": "Register with ICAI under Direct Entry Scheme, complete ICITSS orientation course, and prepare for Intermediate exams.",
+                "skills": [
+                  "Advanced Accounting",
+                  "Taxation Principles"
+                ],
+                "officialLink": {
+                  "title": "ICAI SSP Portal",
+                  "url": "https://eservices.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "CA Intermediate, Articleship & Final",
+                "course": "CA Intermediate Exams → 2-Year Articleship → CA Final",
+                "duration": "3 - 4 Years",
+                "eligibility": "Pass Intermediate groups and complete articleship.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI Intermediate & Final",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Clear Intermediate exams, complete 2-year practical training, and pass CA Final to become a certified Chartered Accountant.",
+                "skills": [
+                  "Statutory Auditing",
+                  "Corporate Valuation",
+                  "Tax Advisory"
+                ],
+                "officialLink": {
+                  "title": "ICAI Official",
+                  "url": "https://www.icai.org/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Statutory Authority",
+              "routeA": "Institute of Chartered Accountants of India (ICAI)",
+              "routeB": "Institute of Chartered Accountants of India (ICAI)"
+            },
+            {
+              "name": "Starting Point",
+              "routeA": "Immediately after Class 10 (Provisional registration)",
+              "routeB": "After completing Bachelor's Degree (Graduation)"
+            },
+            {
+              "name": "CA Foundation Requirement",
+              "routeA": "Mandatory to clear CA Foundation examination",
+              "routeB": "EXEMPT — Skip CA Foundation completely"
+            },
+            {
+              "name": "Academic Eligibility",
+              "routeA": "Pass Class 12 in any stream",
+              "routeB": "Min 55% in Commerce degree or 60% in other degree"
+            },
+            {
+              "name": "Estimated Age of Qualifying",
+              "routeA": "21 - 23 Years (Fastest route)",
+              "routeB": "23 - 25 Years"
+            },
+            {
+              "name": "College Experience",
+              "routeA": "Often done via correspondence or local college",
+              "routeB": "Full 3-year campus college degree experience first"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Focus → CA Foundation after 12th → Intermediate & Articleship",
+            "summary": "Master Class 11 accountancy and economics, clear 12th boards, and sit for CA Foundation immediately.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Subject Foundations",
+                "course": "Class 11 Accountancy, Economics & Business Math",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11.",
+                "entranceExams": [],
+                "whatToDo": "Master Journal entries, Ledger posting, Trial balance, Financial statements, and Microeconomics. Register provisionally on ICAI SSP portal.",
+                "skills": [
+                  "Financial Accounting Principles",
+                  "Commercial Mathematics"
+                ],
+                "officialLink": {
+                  "title": "ICAI Students Portal",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & CA Foundation",
+                "course": "Class 12 Board Exams + ICAI CA Foundation Exam",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 in any recognized stream.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI CA Foundation",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Complete board examinations in March, then appear for CA Foundation examination.",
+                "skills": [
+                  "Mercantile Law",
+                  "Quantitative Aptitude",
+                  "Business Economics"
+                ],
+                "officialLink": {
+                  "title": "ICAI Examination Portal",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "CA Intermediate & Articleship",
+                "course": "CA Intermediate (6 Papers) + 2-Year Practical Articleship",
+                "duration": "3 Years",
+                "eligibility": "Pass CA Foundation with 50% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "CA Intermediate",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Clear Intermediate groups, complete ICITSS, and serve 2-year articleship at a registered audit firm.",
+                "skills": [
+                  "Direct & Indirect Tax",
+                  "Statutory Audit",
+                  "Cost Management"
+                ],
+                "officialLink": {
+                  "title": "ICAI Official Portal",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "CA Final & Chartered Accountant Qualification",
+                "course": "CA Final Examination + ICAI Membership",
+                "duration": "1 Year",
+                "eligibility": "Complete articleship and clear CA Final.",
+                "entranceExams": [
+                  {
+                    "name": "CA Final",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Clear CA Final papers to become an Associate Member of ICAI (ACA).",
+                "skills": [
+                  "Corporate Financial Reporting",
+                  "Advanced Auditing",
+                  "International Taxation"
+                ],
+                "officialLink": {
+                  "title": "ICAI Official",
+                  "url": "https://www.icai.org/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Boards → CA Foundation (June/Jan) → Intermediate",
+            "summary": "Immediate post-Class 12 entry into the ICAI Chartered Accountancy course.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 12 Boards & CA Foundation Registration",
+                "course": "Complete Class 12 Boards + Formal CA Foundation Exam",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 examination in any stream.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI CA Foundation Examination",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Complete Class 12 board exams, register for the upcoming CA Foundation exam cycle, and study the 4 Foundation papers.",
+                "skills": [
+                  "Accounting Fundamentals",
+                  "Business Law",
+                  "Quantitative Aptitude",
+                  "Economics"
+                ],
+                "officialLink": {
+                  "title": "ICAI BoS Portal",
+                  "url": "https://boslive.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "CA Intermediate & ICITSS",
+                "course": "CA Intermediate (6 Papers in 2 Groups)",
+                "duration": "9 - 12 Months",
+                "eligibility": "Pass CA Foundation with 40% per subject and 50% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI CA Intermediate",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Enroll for CA Intermediate, complete mandatory ICITSS IT and soft skills training, and clear Group 1 and 2.",
+                "skills": [
+                  "Corporate Accounting",
+                  "GST & Income Tax",
+                  "Auditing"
+                ],
+                "officialLink": {
+                  "title": "ICAI Official",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "2-Year Practical Articleship",
+                "course": "Full-Time Practical Training under Practicing CA",
+                "duration": "2 Years",
+                "eligibility": "Pass both groups of CA Intermediate.",
+                "entranceExams": [],
+                "whatToDo": "Execute audits, corporate compliance, and tax filings at an authorized chartered accountancy firm.",
+                "skills": [
+                  "Statutory Auditing",
+                  "Financial Statement Preparation",
+                  "ERP Tally/SAP"
+                ],
+                "officialLink": {
+                  "title": "ICAI Articleship Regulations",
+                  "url": "https://www.icai.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "CA Final & Chartered Accountant",
+                "course": "CA Final Examination + ACA Designation",
+                "duration": "6 - 12 Months",
+                "eligibility": "Complete articleship + pass CA Final.",
+                "entranceExams": [
+                  {
+                    "name": "ICAI CA Final",
+                    "url": "https://www.icai.org/"
+                  }
+                ],
+                "whatToDo": "Pass CA Final examinations and enroll as an Associate Chartered Accountant.",
+                "skills": [
+                  "Strategic Financial Management",
+                  "International Taxation",
+                  "Audit Assurance"
+                ],
+                "officialLink": {
+                  "title": "ICAI Official Portal",
+                  "url": "https://www.icai.org/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "design-creative": {
+      "title": "Design, User Experience & Creative Visual Arts",
+      "careers": [
+        "ui-ux-designer",
+        "graphic-designer",
+        "product-designer",
+        "animation-artist",
+        "interior-designer",
+        "fashion-designer"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: School (11-12 Any Stream) → Design Entrance (UCEED/NID) → 4-Year B.Des Degree",
+            "summary": "Premier academic route into National Institutes of Design (NID), IIT Design Departments (IDC), and top private design universities.",
+            "suitability": "Ideal for students seeking comprehensive visual, interaction, or industrial design education with top campus recruitments.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with interest in drawing, visualization, or digital media.",
+                "entranceExams": [],
+                "whatToDo": "Choose any Class 11-12 stream (Arts, Commerce, or Science). Science with PCM is only required if targeting B.Des at IIT Bombay/IIT Delhi via UCEED, while other NID/NIFT/private campuses accept all streams.",
+                "skills": [
+                  "Freehand Sketching",
+                  "Spatial Observation",
+                  "Visual Composition"
+                ],
+                "officialLink": {
+                  "title": "National Institute of Design (NID)",
+                  "url": "https://www.nid.edu/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2) & Design Portfolio",
+                "course": "Class 11 & 12 + Daily Sketching & Design Aptitude Prep",
+                "duration": "2 Years",
+                "eligibility": "Pass Class 12 in any stream from a recognized board.",
+                "entranceExams": [
+                  {
+                    "name": "UCEED (Undergraduate Common Entrance Examination for Design - IITs)",
+                    "url": "https://www.uceed.iitb.ac.in/"
+                  },
+                  {
+                    "name": "NID DAT (Design Aptitude Test - Prelims & Mains)",
+                    "url": "https://admissions.nid.edu/"
+                  },
+                  {
+                    "name": "NIFT Entrance Examination",
+                    "url": "https://nift.ac.in/"
+                  }
+                ],
+                "whatToDo": "Practice perspective drawing, human figures, color theory, problem identification, and visual storytelling. Appear for UCEED and NID DAT in January of Class 12.",
+                "skills": [
+                  "Perspective Drawing",
+                  "Color Psychology",
+                  "Creative Ideation",
+                  "Visual Problem Solving"
+                ],
+                "officialLink": {
+                  "title": "UCEED Official Portal",
+                  "url": "https://www.uceed.iitb.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Professional Bachelor of Design Degree",
+                "course": "4-Year B.Des (Bachelor of Design) in UI/UX / Communication / Product Design",
+                "duration": "4 Years",
+                "eligibility": "Qualified rank in UCEED / NID DAT / University Studio Test.",
+                "entranceExams": [],
+                "whatToDo": "Master design systems, wireframing, user research, typography, Figma, Adobe Creative Cloud, and 3D modeling. Complete 2 industry design internships.",
+                "skills": [
+                  "Figma & Prototyping",
+                  "User Research & Usability Testing",
+                  "Design Systems",
+                  "Interaction Design"
+                ],
+                "officialLink": {
+                  "title": "NID Curriculum Overview",
+                  "url": "https://www.nid.edu/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Portfolio Review & Career Launch",
+                "course": "Design Portfolio Showcase (Behance / Dribbble / Personal Website)",
+                "duration": "6 Months",
+                "eligibility": "Completed B.Des degree with 3-4 detailed UX case studies.",
+                "entranceExams": [],
+                "whatToDo": "Interview for UI/UX Designer, Product Designer, or Visual Design roles in tech product companies and design consultancies.",
+                "skills": [
+                  "Design Case Study Presentation",
+                  "Product Analytics",
+                  "Cross-Functional Collaboration"
+                ],
+                "officialLink": {
+                  "title": "Design in Tech Network",
+                  "url": "https://dribbble.com/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Polytechnic / Vocational Diploma in Graphic/Web Design (Direct after 10th)",
+            "summary": "Practical hands-on technical diploma directly after Class 10 focusing on commercial design tools, digital media, and entry-level studio roles.",
+            "suitability": "Ideal for students who want immediate vocational design skills without 10+2 academic theory.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with minimum 35-50% marks.",
+                "entranceExams": [],
+                "whatToDo": "Apply for a 2-3 Year Diploma in Applied Art / Commercial Graphic Design / Web Design at state polytechnics or recognized vocational boards.",
+                "skills": [
+                  "Basic Drawing",
+                  "Computer Basics"
+                ],
+                "officialLink": {
+                  "title": "DTE Technical Diplomas",
+                  "url": "https://dte.maharashtra.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Vocational Design Diploma",
+                "course": "2 to 3-Year Diploma in Graphic Design / Multimedia / Digital Animation",
+                "duration": "2 - 3 Years",
+                "eligibility": "Class 10 merit admission into polytechnic / vocational institute.",
+                "entranceExams": [],
+                "whatToDo": "Learn Photoshop, Illustrator, InDesign, HTML/CSS, branding typography, and digital video editing. Build client identity projects.",
+                "skills": [
+                  "Vector Graphics (Illustrator)",
+                  "Image Manipulation (Photoshop)",
+                  "Branding & Typography"
+                ],
+                "officialLink": {
+                  "title": "MSBTE Art & Design Courses",
+                  "url": "https://msbte.org.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Studio Role OR Lateral Entry B.Des",
+                "course": "Junior Graphic/UI Designer in Digital Agency OR Lateral Entry into Degree",
+                "duration": "Immediate",
+                "eligibility": "Diploma completion with verified design portfolio.",
+                "entranceExams": [],
+                "whatToDo": "Join digital advertising agencies, creative studios, or pursue lateral entry into 2nd year B.Des / B.Voc programs.",
+                "skills": [
+                  "Client Asset Delivery",
+                  "Production Art",
+                  "Responsive UI Design"
+                ],
+                "officialLink": {
+                  "title": "Creative Guild India",
+                  "url": "https://behance.net/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Starting Point",
+              "routeA": "After Class 10 (via 11-12 School)",
+              "routeB": "Directly after Class 10 (Polytechnic/Vocational)"
+            },
+            {
+              "name": "Education Pathway",
+              "routeA": "10+2 School → 4-Year B.Des Degree",
+              "routeB": "2-3 Year Technical / Commercial Diploma"
+            },
+            {
+              "name": "Entrance Exam",
+              "routeA": "UCEED / NID DAT / NIFT / Private Aptitude",
+              "routeB": "Polytechnic Merit / Portfolio Interview"
+            },
+            {
+              "name": "Key Competencies",
+              "routeA": "System design, design thinking, UX research, strategy",
+              "routeB": "Tool mastery (Photoshop/Illustrator/Figma), commercial production"
+            },
+            {
+              "name": "Target Job Level",
+              "routeA": "Product Designer / Senior UI-UX / Design Strategist",
+              "routeB": "Junior Graphic Designer / Visual Production Artist"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Focus → Design Entrances (UCEED/NID) → 4-Year B.Des Degree",
+            "summary": "Start sketching and building a design portfolio in Class 11 while completing 10+2 in any stream.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Creative Development",
+                "course": "Class 11 Academic Stream + Daily Sketching Practice",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11 (Any stream).",
+                "entranceExams": [],
+                "whatToDo": "Practice daily live sketching, perspective drawing, observation studies, and creative problem solving. Learn basics of Figma.",
+                "skills": [
+                  "Freehand Perspective Drawing",
+                  "Visual Composition",
+                  "Figma Basics"
+                ],
+                "officialLink": {
+                  "title": "NID Admissions",
+                  "url": "https://admissions.nid.edu/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & Design Entrances",
+                "course": "Class 12 Boards + UCEED / NID DAT Exams",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 in any stream from recognized board.",
+                "entranceExams": [
+                  {
+                    "name": "UCEED (IITs)",
+                    "url": "https://www.uceed.iitb.ac.in/"
+                  },
+                  {
+                    "name": "NID DAT",
+                    "url": "https://admissions.nid.edu/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 boards and appear for national design entrance exams in January-April.",
+                "skills": [
+                  "Design Aptitude",
+                  "Studio Test Modeling",
+                  "Portfolio Presentation"
+                ],
+                "officialLink": {
+                  "title": "UCEED Portal",
+                  "url": "https://www.uceed.iitb.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "B.Des Degree & Industry Placements",
+                "course": "4-Year Bachelor of Design (B.Des)",
+                "duration": "4 Years",
+                "eligibility": "Allotted seat in NID, IIT IDC, or top design college.",
+                "entranceExams": [],
+                "whatToDo": "Specialize in UI/UX or Communication Design, build 3 end-to-end case studies, and interview for tech product design roles.",
+                "skills": [
+                  "User Research",
+                  "Interaction Design",
+                  "Prototyping",
+                  "Design Systems"
+                ],
+                "officialLink": {
+                  "title": "NID Official Portal",
+                  "url": "https://www.nid.edu/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Boards → UCEED / NID / B.Des Admissions",
+            "summary": "Immediate application to 4-year B.Des programs in premier government and private design colleges.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Boards + Design Entrance Tests",
+                "duration": "Immediate (Next 3-6 Months)",
+                "eligibility": "Pass Class 12 in any stream from recognized board.",
+                "entranceExams": [
+                  {
+                    "name": "UCEED",
+                    "url": "https://www.uceed.iitb.ac.in/"
+                  },
+                  {
+                    "name": "NID DAT",
+                    "url": "https://admissions.nid.edu/"
+                  },
+                  {
+                    "name": "Private Design Tests (Srishti, MIT-ID, Pearl)",
+                    "url": "https://www.nid.edu/"
+                  }
+                ],
+                "whatToDo": "Complete board examinations, submit design test applications, and compile a portfolio of 10-15 best creative works.",
+                "skills": [
+                  "Visual Portfolio Compilation",
+                  "Observation Sketching",
+                  "Design Aptitude"
+                ],
+                "officialLink": {
+                  "title": "UCEED Official",
+                  "url": "https://www.uceed.iitb.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "4-Year B.Des Degree",
+                "course": "Bachelor of Design (B.Des) in UI/UX or Interaction Design",
+                "duration": "4 Years",
+                "eligibility": "Merit or test score in recognized design institute.",
+                "entranceExams": [],
+                "whatToDo": "Master user experience design, interaction architecture, wireframes, user testing, and frontend collaboration.",
+                "skills": [
+                  "Figma Prototyping",
+                  "UX Case Studies",
+                  "Design Systems"
+                ],
+                "officialLink": {
+                  "title": "NID Portal",
+                  "url": "https://www.nid.edu/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "UI/UX & Product Design Career",
+                "course": "Product Designer / UI-UX Specialist at Tech Companies",
+                "duration": "Graduation Milestone",
+                "eligibility": "B.Des graduate with public portfolio (Behance / Dribbble / Portfolio site).",
+                "entranceExams": [],
+                "whatToDo": "Join tech companies, SaaS startups, or global design consultancies building digital product interfaces.",
+                "skills": [
+                  "Product Usability",
+                  "User Interface Architecture",
+                  "Design Leadership"
+                ],
+                "officialLink": {
+                  "title": "Creative Network India",
+                  "url": "https://dribbble.com/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "law-advocacy": {
+      "title": "Law, Judicial Advocacy & Corporate Legal Counsel",
+      "careers": [
+        "lawyer-advocate"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: School (11-12 Any Stream) → CLAT / AILET → 5-Year Integrated Law (BA LLB / BBA LLB)",
+            "summary": "Direct entry right after Class 12 into premier National Law Universities (NLUs) through the Common Law Admission Test (CLAT).",
+            "suitability": "The gold standard for litigation advocates, corporate counsel, and judicial services aspirants.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with good reading comprehension and analytical ability.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 in any stream (Humanities/Arts, Commerce, or Science). Humanities with Political Science & History is popular, but all streams are equally eligible.",
+                "skills": [
+                  "Reading Comprehension",
+                  "Critical Thinking",
+                  "General Awareness"
+                ],
+                "officialLink": {
+                  "title": "Consortium of National Law Universities",
+                  "url": "https://consortiumofnlus.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2) & CLAT Preparation",
+                "course": "Class 11 & 12 + CLAT & AILET Entrance Preparation",
+                "duration": "2 Years",
+                "eligibility": "Pass Class 12 with minimum 45% aggregate (40% for SC/ST). No upper age limit for CLAT.",
+                "entranceExams": [
+                  {
+                    "name": "CLAT (Common Law Admission Test - 24 NLUs)",
+                    "url": "https://consortiumofnlus.ac.in/"
+                  },
+                  {
+                    "name": "AILET (National Law University Delhi)",
+                    "url": "https://nationallawuniversitydelhi.in/"
+                  },
+                  {
+                    "name": "MH-CET Law (5-Year) / SLAT",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Develop fast reading speed (newspapers, editorial analysis), critical reasoning, legal aptitude, and current affairs. Appear for CLAT in December of Class 12.",
+                "skills": [
+                  "Legal Reasoning",
+                  "Logical Deduction",
+                  "Constitutional Knowledge",
+                  "Rapid Reading"
+                ],
+                "officialLink": {
+                  "title": "Consortium of NLUs Portal",
+                  "url": "https://consortiumofnlus.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "5-Year Integrated Law Degree",
+                "course": "5-Year Integrated B.A. LL.B. (Hons) / B.B.A. LL.B. (Hons)",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "Allotted seat in National Law University or BCI-approved law college via CLAT/CET rank.",
+                "entranceExams": [],
+                "whatToDo": "Study Constitutional Law, Criminal Law (BNS), Civil Procedure, Corporate Law, Intellectual Property, and International Law. Participate actively in moot courts and internships.",
+                "skills": [
+                  "Legal Drafting & Research",
+                  "Moot Court Oral Arguments",
+                  "Contract Analysis",
+                  "Judicial Precedents Analysis"
+                ],
+                "officialLink": {
+                  "title": "Bar Council of India (BCI)",
+                  "url": "https://www.barcouncilofindia.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Bar Council Enrollment & AIBE Examination",
+                "course": "State Bar Council Enrollment + All India Bar Examination (AIBE)",
+                "duration": "6 Months",
+                "eligibility": "Law graduate from BCI recognized institution.",
+                "entranceExams": [
+                  {
+                    "name": "AIBE (All India Bar Examination conducted by BCI)",
+                    "url": "https://allindiabarexamination.com/"
+                  }
+                ],
+                "whatToDo": "Enroll provisionally with State Bar Council, clear AIBE within 2 years to obtain permanent Certificate of Practice (COP), and begin court litigation or corporate legal practice.",
+                "skills": [
+                  "Courtroom Cross-Examination",
+                  "Brief Filing",
+                  "Client Legal Counseling"
+                ],
+                "officialLink": {
+                  "title": "All India Bar Examination Portal",
+                  "url": "https://allindiabarexamination.com/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Graduation in Any Discipline (3 Yrs) → 3-Year LL.B. Degree",
+            "summary": "Complete any Bachelor's degree (B.A., B.Sc., B.Com., B.Tech.) first, then pursue a 3-Year LL.B. at prestigious university faculties (e.g., Delhi University, GLC Mumbai, ILS Pune).",
+            "suitability": "Ideal for students who discover an interest in law during college or want specialized technical/commercial background before law.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11-12 & Bachelor's Degree",
+                "course": "Class 11-12 + Any 3 or 4-Year Bachelor's Degree (BA / B.Com / B.Sc / B.Tech)",
+                "duration": "5 - 6 Years",
+                "eligibility": "Pass graduation with minimum 45-50% aggregate.",
+                "entranceExams": [],
+                "whatToDo": "Complete undergraduate degree with strong academic grades while participating in debates and student governance.",
+                "skills": [
+                  "Domain Knowledge",
+                  "Analytical Writing",
+                  "Critical Evaluation"
+                ],
+                "officialLink": {
+                  "title": "UGC Official Portal",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "3-Year Law Entrance Examination",
+                "course": "CUET-PG (for DU Law Faculty) / MH-CET Law (3-Year) / State Entrances",
+                "duration": "6 Months",
+                "eligibility": "Recognized Bachelor's degree with minimum 45% marks.",
+                "entranceExams": [
+                  {
+                    "name": "CUET-PG (Delhi University Faculty of Law / BHU)",
+                    "url": "https://pgcuet.samarth.ac.in/"
+                  },
+                  {
+                    "name": "MAH-LL.B. (3 Years) CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Clear entrance examination and secure admission to top university law faculty.",
+                "skills": [
+                  "General Legal Principles",
+                  "Analytical Reasoning",
+                  "Current Legal Affairs"
+                ],
+                "officialLink": {
+                  "title": "MH-CET Law Portal",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "3-Year LL.B. Degree & Bar Enrollment",
+                "course": "3-Year LL.B. + Bar Council Enrollment + AIBE",
+                "duration": "3 Years",
+                "eligibility": "Law graduation from BCI approved law faculty.",
+                "entranceExams": [
+                  {
+                    "name": "All India Bar Examination (AIBE)",
+                    "url": "https://allindiabarexamination.com/"
+                  }
+                ],
+                "whatToDo": "Complete 3-year core law curriculum, intern under senior advocates, and clear AIBE for license to practice.",
+                "skills": [
+                  "Litigation Advocacy",
+                  "Corporate Legal Compliance",
+                  "Legal Drafting"
+                ],
+                "officialLink": {
+                  "title": "Bar Council of India",
+                  "url": "https://www.barcouncilofindia.org/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Starting Point",
+              "routeA": "Immediately after Class 12 (5-Year Route)",
+              "routeB": "After Completing Any Bachelor's Degree (3-Year Route)"
+            },
+            {
+              "name": "Degree Awarded",
+              "routeA": "Integrated BA LL.B. (Hons) / BBA LL.B. (Hons)",
+              "routeB": "Prior Bachelor's Degree + LL.B. Degree"
+            },
+            {
+              "name": "Total Time Post-12th",
+              "routeA": "5 Years total",
+              "routeB": "6 - 7 Years total (3-4 yrs graduation + 3 yrs LL.B.)"
+            },
+            {
+              "name": "Primary Entrance Exam",
+              "routeA": "CLAT / AILET / MH-CET Law (5-Year)",
+              "routeB": "CUET-PG (DU Law) / MH-CET Law (3-Year)"
+            },
+            {
+              "name": "Top Target Institutes",
+              "routeA": "NLSIU Bangalore, NALSAR Hyderabad, WBNUJS Kolkata",
+              "routeB": "Faculty of Law DU, GLC Mumbai, ILS Pune, BHU"
+            },
+            {
+              "name": "Bar Council License",
+              "routeA": "Both routes lead to identical BCI Advocate license upon clearing AIBE",
+              "routeB": "Both routes lead to identical BCI Advocate license upon clearing AIBE"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Focus → CLAT in Class 12 → 5-Year Integrated Law at NLUs",
+            "summary": "Begin reading habits and CLAT preparation right now in Class 11, appearing for CLAT in December of Class 12.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Reading & GK Foundation",
+                "course": "Class 11 School Curriculum + Daily Newspaper & Critical Reasoning",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11 (Any stream).",
+                "entranceExams": [],
+                "whatToDo": "Read national newspapers (The Hindu / Indian Express editorials daily). Build reading speed of 300+ words per minute and solve critical reasoning passages.",
+                "skills": [
+                  "Reading Speed",
+                  "Editorial Analysis",
+                  "Critical Reasoning"
+                ],
+                "officialLink": {
+                  "title": "Consortium of NLUs",
+                  "url": "https://consortiumofnlus.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & CLAT Examination",
+                "course": "Class 12 Boards + CLAT (December) & AILET",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with min 45% marks.",
+                "entranceExams": [
+                  {
+                    "name": "CLAT (Conducted in December)",
+                    "url": "https://consortiumofnlus.ac.in/"
+                  },
+                  {
+                    "name": "AILET (NLU Delhi)",
+                    "url": "https://nationallawuniversitydelhi.in/"
+                  }
+                ],
+                "whatToDo": "Take CLAT mock tests, master legal passage reasoning, and secure high All India Rank (AIR) for top NLUs.",
+                "skills": [
+                  "Passage-Based Legal Comprehension",
+                  "Time Management"
+                ],
+                "officialLink": {
+                  "title": "CLAT Portal",
+                  "url": "https://consortiumofnlus.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "5-Year Integrated Law Degree",
+                "course": "5-Year B.A. LL.B. (Hons) at National Law University",
+                "duration": "5 Years",
+                "eligibility": "Allotted seat in NLU via CLAT merit rank.",
+                "entranceExams": [],
+                "whatToDo": "Engage in national moot courts, legal aid clinics, and internships at law firms and High Courts.",
+                "skills": [
+                  "Legal Research (Manupatra/SCC)",
+                  "Oral Advocacy",
+                  "Contract Drafting"
+                ],
+                "officialLink": {
+                  "title": "Bar Council of India",
+                  "url": "https://www.barcouncilofindia.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Bar Council License & Career",
+                "course": "State Bar Council COP + Corporate Law / Litigation",
+                "duration": "Ongoing",
+                "eligibility": "LL.B. degree + AIBE clearance.",
+                "entranceExams": [
+                  {
+                    "name": "All India Bar Examination (AIBE)",
+                    "url": "https://allindiabarexamination.com/"
+                  }
+                ],
+                "whatToDo": "Join top law firms (Tier-1 firms like CAM, SAM, Trilegal) or practice under senior advocates in High Court/Supreme Court.",
+                "skills": [
+                  "Corporate Diligence",
+                  "Court Trial Advocacy",
+                  "Legal Advisory"
+                ],
+                "officialLink": {
+                  "title": "AIBE Portal",
+                  "url": "https://allindiabarexamination.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Boards → CLAT / AILET / MH-CET Law → 5-Year Integrated LLB",
+            "summary": "Immediate post-Class 12 application to 5-year integrated law programs at National Law Universities and state law colleges.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Board Exams + Law Entrance Exams",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 in any stream with min 45% aggregate (40% for SC/ST).",
+                "entranceExams": [
+                  {
+                    "name": "CLAT / AILET",
+                    "url": "https://consortiumofnlus.ac.in/"
+                  },
+                  {
+                    "name": "MH-CET Law (5-Year)",
+                    "url": "https://cetcell.mahacet.org/"
+                  },
+                  {
+                    "name": "SLAT / LSAT India",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Complete board examinations, take CLAT/CET entrance tests, and register for law seat allocation counselling.",
+                "skills": [
+                  "Legal Reasoning",
+                  "Passage Comprehension",
+                  "Time Management"
+                ],
+                "officialLink": {
+                  "title": "Consortium of NLUs",
+                  "url": "https://consortiumofnlus.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "5-Year Integrated Law Coursework",
+                "course": "5-Year Integrated B.A. LL.B. / B.B.A. LL.B.",
+                "duration": "5 Years",
+                "eligibility": "Admitted to BCI-approved law college or NLU.",
+                "entranceExams": [],
+                "whatToDo": "Study substantive and procedural laws, participate in national moot courts, and intern with law firms and advocates.",
+                "skills": [
+                  "Case Law Research",
+                  "Legal Drafting",
+                  "Moot Court Oral Arguments"
+                ],
+                "officialLink": {
+                  "title": "Bar Council of India",
+                  "url": "https://www.barcouncilofindia.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Bar Enrollment & Legal Practice",
+                "course": "All India Bar Examination (AIBE) + Certificate of Practice",
+                "duration": "Graduation Milestone",
+                "eligibility": "LL.B. graduate.",
+                "entranceExams": [
+                  {
+                    "name": "AIBE",
+                    "url": "https://allindiabarexamination.com/"
+                  }
+                ],
+                "whatToDo": "Enroll as an Advocate with State Bar Council, clear AIBE, and practice in court or join corporate legal teams.",
+                "skills": [
+                  "Courtroom Advocacy",
+                  "Contract Negotiation",
+                  "Corporate Governance"
+                ],
+                "officialLink": {
+                  "title": "AIBE Official Portal",
+                  "url": "https://allindiabarexamination.com/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "civil-services": {
+      "title": "Civil Services & Public Administration (IAS / IPS / IFS)",
+      "careers": [
+        "ias-officer",
+        "ips-officer"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Standard UPSC Route: School (11-12 Any Stream) → Any Recognized Bachelor's Degree → UPSC CSE",
+            "summary": "UPSC Civil Services Examination requires ANY recognized graduation degree. No specific stream is compulsory.",
+            "suitability": "Ideal for students passionate about public governance, district administration, policing, and nationwide policy.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with interest in social sciences, current events, and public affairs.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11. Humanities/Arts (History, Pol Science, Geography) directly builds the General Studies base, while Science or Commerce provides strong technical backup options.",
+                "skills": [
+                  "Reading Habit",
+                  "General Awareness",
+                  "Analytical Writing"
+                ],
+                "officialLink": {
+                  "title": "Union Public Service Commission (UPSC)",
+                  "url": "https://upsc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11 & 12 School Curriculum + NCERT Reading",
+                "duration": "2 Years",
+                "eligibility": "Pass Class 12 in any stream from recognized board.",
+                "entranceExams": [],
+                "whatToDo": "Excel in Class 12 boards. Read Class 6-12 NCERT textbooks in History, Geography, Polity, and Economics to build civil services foundational awareness.",
+                "skills": [
+                  "NCERT Subject Clarity",
+                  "Editorial Comprehension",
+                  "Basic Essay Writing"
+                ],
+                "officialLink": {
+                  "title": "NCERT Official Portal",
+                  "url": "https://ncert.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Undergraduate Bachelor's Degree",
+                "course": "Any 3 or 4-Year Bachelor's Degree (B.A., B.Sc., B.Com., B.Tech., LL.B.)",
+                "duration": "3 - 4 Years",
+                "eligibility": "Pass 10+2 and enroll in any UGC/AICTE recognized university degree.",
+                "entranceExams": [],
+                "whatToDo": "Maintain strong graduation marks while systematically studying UPSC General Studies syllabus, current affairs, newspaper analysis, and choosing an optional subject.",
+                "skills": [
+                  "In-Depth Optional Subject Mastery",
+                  "Current Affairs Synthesis",
+                  "Analytical Essay Writing"
+                ],
+                "officialLink": {
+                  "title": "UPSC Examination Rules",
+                  "url": "https://upsc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "UPSC Civil Services Examination (CSE)",
+                "course": "UPSC CSE 3-Stage Selection (Prelims, Mains, Personality Test / Interview)",
+                "duration": "1 Year Cycle",
+                "eligibility": "Indian citizen with recognized graduation degree. Minimum 21 years of age.",
+                "entranceExams": [
+                  {
+                    "name": "UPSC CSE Preliminary Examination (GS + CSAT)",
+                    "url": "https://upsc.gov.in/"
+                  },
+                  {
+                    "name": "UPSC CSE Main Examination (9 Written Papers)",
+                    "url": "https://upsc.gov.in/"
+                  },
+                  {
+                    "name": "UPSC Personality Test / Interview",
+                    "url": "https://upsc.gov.in/"
+                  }
+                ],
+                "whatToDo": "Clear Preliminary Exam (objective), score high marks in 9 Mains subjective papers (Essay, GS 1-4, Optional 1-2), and clear the Personality Test at Dholpur House, New Delhi.",
+                "skills": [
+                  "Speed Essay & Answer Writing",
+                  "Balanced Public Policy Perspective",
+                  "Interview Composure & Integrity"
+                ],
+                "officialLink": {
+                  "title": "UPSC Official Portal",
+                  "url": "https://upsc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 5,
+                "stage": "LBSNAA Training & Service Allotment",
+                "course": "Foundation Course at LBSNAA, Mussoorie + District Administration Cadre",
+                "duration": "2 Years Training",
+                "eligibility": "Secured top merit rank in UPSC CSE for IAS / IPS / IFS.",
+                "entranceExams": [],
+                "whatToDo": "Undergo training at Lal Bahadur Shastri National Academy of Administration (LBSNAA) and SVPNPA Hyderabad, followed by posting as Assistant Collector / SDM / ASP.",
+                "skills": [
+                  "District Governance",
+                  "Law & Order Management",
+                  "Public Policy Implementation"
+                ],
+                "officialLink": {
+                  "title": "LBSNAA Mussoorie",
+                  "url": "https://www.lbsnaa.gov.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Statutory Authority",
+              "routeA": "Union Public Service Commission (UPSC) & DoPT"
+            },
+            {
+              "name": "Stream Restrictions",
+              "routeA": "NONE — Graduates from any stream (Arts, Science, Commerce, Engineering, Medicine) are equally eligible"
+            },
+            {
+              "name": "Minimum Educational Qualification",
+              "routeA": "Bachelor's Degree in any discipline from a recognized university"
+            },
+            {
+              "name": "Minimum Age",
+              "routeA": "21 Years on August 1 of the examination year"
+            },
+            {
+              "name": "Selection Stages",
+              "routeA": "Stage 1: Prelims (Objective) → Stage 2: Mains (9 Subjective Papers) → Stage 3: Interview / Personality Test"
+            },
+            {
+              "name": "Final Destination",
+              "routeA": "Indian Administrative Service (IAS) / Indian Police Service (IPS) Cadre Allocation"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Focus → College Graduation + UPSC Civil Services Preparation",
+            "summary": "Build strong NCERT foundations in Class 11-12, complete a recognized Bachelor's degree, and appear for UPSC CSE at age 21.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 General Studies Foundation",
+                "course": "Class 11 Curriculum + NCERT History, Polity & Geography Reading",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11.",
+                "entranceExams": [],
+                "whatToDo": "Read standard NCERT textbooks and follow national current affairs through reputable newspapers.",
+                "skills": [
+                  "General Knowledge",
+                  "Analytical Reading"
+                ],
+                "officialLink": {
+                  "title": "UPSC Information",
+                  "url": "https://upsc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & College Admission",
+                "course": "Complete Class 12 Boards + Enroll in Bachelor's Degree",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12.",
+                "entranceExams": [],
+                "whatToDo": "Score well in board exams and secure admission into a respected undergraduate college degree.",
+                "skills": [
+                  "Academic Excellence",
+                  "Critical Reasoning"
+                ],
+                "officialLink": {
+                  "title": "UGC Portal",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Undergraduate Degree + UPSC Preparation",
+                "course": "3 or 4-Year Bachelor's Degree + Systematic UPSC GS Preparation",
+                "duration": "3 - 4 Years",
+                "eligibility": "Enrolled undergraduate student.",
+                "entranceExams": [],
+                "whatToDo": "Master UPSC syllabus, practice daily answer writing, and complete optional subject preparation.",
+                "skills": [
+                  "Answer Writing",
+                  "Ethics & Governance",
+                  "Optional Subject Mastery"
+                ],
+                "officialLink": {
+                  "title": "UPSC Syllabus",
+                  "url": "https://upsc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "UPSC CSE Examination & IAS/IPS Allotment",
+                "course": "Prelims → Mains → Interview → LBSNAA Training",
+                "duration": "1 - 2 Years",
+                "eligibility": "Graduate, age 21+.",
+                "entranceExams": [
+                  {
+                    "name": "UPSC Civil Services Examination",
+                    "url": "https://upsc.gov.in/"
+                  }
+                ],
+                "whatToDo": "Clear all 3 stages of UPSC CSE to join the Indian Civil Services.",
+                "skills": [
+                  "Public Administration",
+                  "Constitutional Ethics",
+                  "Leadership"
+                ],
+                "officialLink": {
+                  "title": "UPSC Official",
+                  "url": "https://upsc.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Boards → Bachelor's Degree → UPSC CSE (IAS/IPS)",
+            "summary": "Enroll in an undergraduate degree right after Class 12 while building structured GS and optional subject preparation.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Board Exams + University Degree Admission",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 from recognized board.",
+                "entranceExams": [
+                  {
+                    "name": "CUET-UG / University Admission",
+                    "url": "https://cuetug.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 board examinations and enter a bachelor's degree program (B.A., B.Sc., B.Com., B.Tech., or Law).",
+                "skills": [
+                  "Board Clearance",
+                  "University Selection"
+                ],
+                "officialLink": {
+                  "title": "UGC Official",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Degree Studies & UPSC Syllabus Mapping",
+                "course": "3-Year or 4-Year Graduation + GS & Optional Preparation",
+                "duration": "3 - 4 Years",
+                "eligibility": "College enrolled student.",
+                "entranceExams": [],
+                "whatToDo": "Read foundational standard books (Laxmikanth Polity, Spectrum History, Ramesh Singh Economics) and write daily practice answers.",
+                "skills": [
+                  "Constitutional Analysis",
+                  "Mains Answer Writing",
+                  "Current Affairs Synthesis"
+                ],
+                "officialLink": {
+                  "title": "UPSC Portal",
+                  "url": "https://upsc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "UPSC CSE Examination",
+                "course": "Prelims → Mains → Interview → Service Allocation",
+                "duration": "Final Year / Post-Graduation",
+                "eligibility": "Graduate, age 21+.",
+                "entranceExams": [
+                  {
+                    "name": "UPSC Civil Services Examination",
+                    "url": "https://upsc.gov.in/"
+                  }
+                ],
+                "whatToDo": "Appear for Prelims, Mains, and Interview to qualify for IAS, IPS, or IFS.",
+                "skills": [
+                  "Crisis Management",
+                  "Public Policy Analysis",
+                  "Administrative Leadership"
+                ],
+                "officialLink": {
+                  "title": "UPSC Official Portal",
+                  "url": "https://upsc.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "core-engineering": {
+      "title": "Core Engineering & Infrastructure (Mechanical / Civil / Electrical / Aerospace)",
+      "careers": [
+        "mechanical-engineer",
+        "civil-engineer",
+        "electrical-engineer",
+        "chemical-engineer",
+        "automobile-engineer",
+        "aerospace-engineer",
+        "robotics-engineer"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: School (11-12 Science PCM) → B.Tech / B.E. in Core Engineering",
+            "summary": "Standard academic route preparing for JEE Main, Advanced, and State CETs for admission to 4-year core engineering degrees.",
+            "suitability": "Ideal for students aiming for IITs, NITs, and top state engineering colleges with strong campus placement records.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with strong marks in Mathematics and Science.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 Science with Physics, Chemistry, and Mathematics (PCM).",
+                "skills": [
+                  "Foundational Math",
+                  "Basic Physics Concepts"
+                ],
+                "officialLink": {
+                  "title": "CBSE Official",
+                  "url": "https://cbse.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11 & 12 Science (PCM)",
+                "duration": "2 Years",
+                "eligibility": "Class 12 with PCM. Target min 75% for JoSAA / 50% for state CETs.",
+                "entranceExams": [
+                  {
+                    "name": "JEE Main & Advanced",
+                    "url": "https://jeemain.nta.nic.in/"
+                  },
+                  {
+                    "name": "MHT-CET / State CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Master mechanics, thermodynamics, electromagnetism, and calculus. Prepare for JEE and state CET.",
+                "skills": [
+                  "Calculus",
+                  "Classical Mechanics",
+                  "Vector Geometry"
+                ],
+                "officialLink": {
+                  "title": "NTA Portal",
+                  "url": "https://nta.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Undergraduate Core Engineering Degree",
+                "course": "4-Year B.Tech / B.E. (Mechanical / Civil / Electrical / Aerospace)",
+                "duration": "4 Years",
+                "eligibility": "Valid rank in JEE Main or State CET counselling.",
+                "entranceExams": [],
+                "whatToDo": "Complete CAD/CAM design, finite element analysis, thermodynamics, structural design, and industrial internships.",
+                "skills": [
+                  "AutoCAD / SolidWorks / MATLAB",
+                  "Finite Element Analysis",
+                  "Circuit & Power Systems"
+                ],
+                "officialLink": {
+                  "title": "AICTE Portal",
+                  "url": "https://www.aicte-india.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Industry Core Placement / GATE for PSU & M.Tech",
+                "course": "Core Industry Engineer (L&T, Tata Motors, BHEL) OR GATE Examination",
+                "duration": "Graduation Milestone",
+                "eligibility": "B.Tech/B.E. graduate.",
+                "entranceExams": [
+                  {
+                    "name": "GATE (Graduate Aptitude Test in Engineering)",
+                    "url": "https://gate.iitk.ac.in/"
+                  }
+                ],
+                "whatToDo": "Join manufacturing, infrastructure, or aerospace firms, or crack GATE for PSU recruitments (IOCL, NTPC, ONGC) or IIT M.Tech.",
+                "skills": [
+                  "Project Engineering",
+                  "Quality Control & Safety",
+                  "Plant Operations"
+                ],
+                "officialLink": {
+                  "title": "GATE Official Portal",
+                  "url": "https://gate.iitk.ac.in/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Polytechnic Diploma (3 Yrs) → Direct 2nd Year B.Tech (Lateral Entry)",
+            "summary": "Practical hands-on technical diploma right after Class 10, entering directly into 2nd year B.Tech via state lateral entry.",
+            "suitability": "Ideal for students seeking early mechanical workshop, electrical lab, and surveying experience without JEE stress.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Pass Class 10 with Math & Science",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with min 35-50% marks.",
+                "entranceExams": [],
+                "whatToDo": "Apply for 3-Year Polytechnic Engineering Diploma via State DTE CAP rounds.",
+                "skills": [
+                  "Basic Math & Workshop Curiosity"
+                ],
+                "officialLink": {
+                  "title": "DTE Maharashtra",
+                  "url": "https://dte.maharashtra.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Polytechnic Engineering Diploma",
+                "course": "3-Year Diploma in Mechanical / Civil / Electrical Engineering",
+                "duration": "3 Years",
+                "eligibility": "Class 10 merit admission into MSBTE / AICTE approved polytechnic.",
+                "entranceExams": [],
+                "whatToDo": "Excel in workshop practice, machine drawing, surveying, circuitry, and maintain 75%+ in final diploma year.",
+                "skills": [
+                  "Machine Drawing",
+                  "Workshop Fabrication",
+                  "AutoCAD Drafting"
+                ],
+                "officialLink": {
+                  "title": "MSBTE Portal",
+                  "url": "https://msbte.org.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Direct Second Year Engineering (Lateral Entry)",
+                "course": "Direct Second Year (DSE) B.Tech Admission",
+                "duration": "3 Years",
+                "eligibility": "Pass 3-year diploma with min 45% (40% for reserved category). Lateral entry quota is subject to state rules and seat availability.",
+                "entranceExams": [
+                  {
+                    "name": "State DSE Lateral Entry CAP",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Register for DSE lateral entry counselling and enter directly into year 2 of B.E./B.Tech.",
+                "skills": [
+                  "Advanced Engineering Mathematics",
+                  "Structural Design"
+                ],
+                "officialLink": {
+                  "title": "DTE Lateral Entry Portal",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Core Engineering Graduation",
+                "course": "Graduate Core Engineer",
+                "duration": "Immediate",
+                "eligibility": "B.E./B.Tech completion.",
+                "entranceExams": [],
+                "whatToDo": "Join engineering consultancies, infrastructure developers, or automotive plants.",
+                "skills": [
+                  "Industrial Manufacturing",
+                  "Site Management"
+                ],
+                "officialLink": {
+                  "title": "AICTE Official",
+                  "url": "https://www.aicte-india.org/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Starting Point",
+              "routeA": "After Class 10 (via 11-12 School)",
+              "routeB": "After Class 10 (Direct Polytechnic Diploma)"
+            },
+            {
+              "name": "Initial 2-3 Years",
+              "routeA": "Class 11-12 Science (PCM) with intense JEE/CET prep",
+              "routeB": "3-Year practical workshop polytechnic diploma"
+            },
+            {
+              "name": "Degree Admission",
+              "routeA": "Enters 1st year B.Tech via JEE/CET rank",
+              "routeB": "Enters directly into 2nd year B.Tech via lateral entry"
+            },
+            {
+              "name": "Total Time to B.Tech",
+              "routeA": "6 Years (2 yrs + 4 yrs)",
+              "routeB": "6 Years (3 yrs + 3 yrs)"
+            },
+            {
+              "name": "Key Advantage",
+              "routeA": "Access to IITs/NITs and theoretical depth",
+              "routeB": "Early hands-on workshop skills, bypasses JEE stress"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Science PCM → JEE / State CET → 4-Year B.Tech in Core Engineering",
+            "summary": "Master core physical science principles in Class 11-12 and enter 4-year core engineering.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Academic Mastery",
+                "course": "Class 11 Physics, Chemistry & Math",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11 Science PCM.",
+                "entranceExams": [],
+                "whatToDo": "Build strong conceptual foundations in mechanics, thermodynamics, and calculus.",
+                "skills": [
+                  "Mechanics",
+                  "Calculus",
+                  "Stoichiometry"
+                ],
+                "officialLink": {
+                  "title": "NTA Portal",
+                  "url": "https://nta.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & CET/JEE",
+                "course": "Class 12 Boards + JEE Main / State CETs",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with PCM.",
+                "entranceExams": [
+                  {
+                    "name": "JEE Main",
+                    "url": "https://jeemain.nta.nic.in/"
+                  },
+                  {
+                    "name": "MHT-CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Appear for board exams and engineering entrance tests to secure top ranks.",
+                "skills": [
+                  "Problem Solving",
+                  "Time Accuracy"
+                ],
+                "officialLink": {
+                  "title": "MHT-CET Portal",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "B.Tech Core Degree",
+                "course": "4-Year B.Tech / B.E. in Mechanical / Civil / Electrical / Aerospace",
+                "duration": "4 Years",
+                "eligibility": "Admitted via CET rank.",
+                "entranceExams": [],
+                "whatToDo": "Complete lab coursework, CAD modeling, industrial internships, and major capstone design.",
+                "skills": [
+                  "CAD/CAM Modeling",
+                  "Simulation (ANSYS/MATLAB)",
+                  "Systems Engineering"
+                ],
+                "officialLink": {
+                  "title": "AICTE Portal",
+                  "url": "https://www.aicte-india.org/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Boards + JEE/CET → 4-Year Core Engineering Degree",
+            "summary": "Immediate post-Class 12 entry into mechanical, civil, electrical, or aerospace engineering.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Board Exams + JEE Main & State CETs",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 with PCM with min 75% for JoSAA / 50% for state CETs.",
+                "entranceExams": [
+                  {
+                    "name": "JEE Main",
+                    "url": "https://jeemain.nta.nic.in/"
+                  },
+                  {
+                    "name": "State CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Complete board exams, appear for entrance tests, and fill engineering option forms.",
+                "skills": [
+                  "Speed Drills",
+                  "Formula Revision"
+                ],
+                "officialLink": {
+                  "title": "JEE Main Official",
+                  "url": "https://jeemain.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "B.Tech Core Coursework",
+                "course": "4-Year B.Tech in Core Engineering Branch",
+                "duration": "4 Years",
+                "eligibility": "Admitted to AICTE recognized engineering college.",
+                "entranceExams": [],
+                "whatToDo": "Specialize in machine design, structural analysis, power electronics, or aerodynamics.",
+                "skills": [
+                  "CAD Modeling",
+                  "Thermodynamics",
+                  "Hardware Interfacing"
+                ],
+                "officialLink": {
+                  "title": "AICTE Official",
+                  "url": "https://www.aicte-india.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Industry Launch / PSU Career via GATE",
+                "course": "Core Industry Engineer / PSU Officer",
+                "duration": "Graduation Milestone",
+                "eligibility": "B.Tech graduate.",
+                "entranceExams": [
+                  {
+                    "name": "GATE Exam",
+                    "url": "https://gate.iitk.ac.in/"
+                  }
+                ],
+                "whatToDo": "Secure campus placement in manufacturing/infrastructure companies or clear GATE for PSUs.",
+                "skills": [
+                  "Industrial Operations",
+                  "Technical Safety Management"
+                ],
+                "officialLink": {
+                  "title": "GATE Portal",
+                  "url": "https://gate.iitk.ac.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "aviation": {
+      "title": "Aviation & Commercial Piloting (DGCA Pathway)",
+      "careers": [
+        "commercial-pilot"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Statutory DGCA Route: 11-12 Science (PCM) → Class 2 & 1 Medicals → Flying School (CPL 200 Hrs) → Airline Type Rating",
+            "summary": "The statutory Directorate General of Civil Aviation (DGCA) roadmap to earn a Commercial Pilot License (CPL).",
+            "suitability": "Mandatory for anyone aspiring to become a commercial airline pilot flying multi-engine passenger aircraft in India.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with strong vision, physical fitness, and affinity for aviation.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 Science with Physics and Mathematics (compulsory statutory requirement by DGCA).",
+                "skills": [
+                  "Physical Fitness",
+                  "Mental Alertness",
+                  "Basic Physics"
+                ],
+                "officialLink": {
+                  "title": "DGCA Official Portal",
+                  "url": "https://www.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2) & DGCA Medical Assessment",
+                "course": "Class 11-12 Science (PCM) + DGCA Class 2 & Class 1 Medical Clearance",
+                "duration": "2 Years",
+                "eligibility": "Must pass 10+2 with Physics and Mathematics (min 50%). Obtain Class 2 Medical certificate from DGCA-empaneled medical examiner, followed by Class 1 Medical at designated IAF medical centers.",
+                "entranceExams": [
+                  {
+                    "name": "IGRUA Entrance Examination (Optional for Govt Flying School)",
+                    "url": "https://igrua.gov.in/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 PCM boards and secure DGCA Class 1 Medical Fitness certificate. Obtain Computer Number from DGCA Pariksha portal.",
+                "skills": [
+                  "Aviation English (ICAO Level 4+)",
+                  "Radio Telephony Basics",
+                  "Spatial Orientation"
+                ],
+                "officialLink": {
+                  "title": "DGCA Pariksha Portal",
+                  "url": "https://pariksha.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Flying Training & DGCA Theory Examinations",
+                "course": "200 Flying Hours at DGCA-Approved Flying Training Organisation (FTO)",
+                "duration": "18 - 24 Months",
+                "eligibility": "Minimum 17 years old + Class 1 Medical Fitness + 10+2 PCM pass.",
+                "entranceExams": [
+                  {
+                    "name": "DGCA CPL Theory Exams (Air Navigation, Meteorology, Air Regulations, Technical General/Specific)",
+                    "url": "https://pariksha.dgca.gov.in/"
+                  },
+                  {
+                    "name": "RTR(A) Exam by Ministry of Communications (WPC)",
+                    "url": "https://dot.gov.in/"
+                  }
+                ],
+                "whatToDo": "Log 200 hours flight training (solo, cross-country, night flying, instrument flying). Pass all 5 DGCA ground theory exams and RTR(A) wireless telephony license.",
+                "skills": [
+                  "Aircraft Cockpit Handling",
+                  "Air Navigation Calculations",
+                  "Meteorological Weather Analysis",
+                  "Emergency Flight Procedures"
+                ],
+                "officialLink": {
+                  "title": "DGCA Pilot Licensing Rules",
+                  "url": "https://www.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "CPL License Issuance & Airline Type Rating",
+                "course": "Commercial Pilot License (CPL-ME-IR) + Multi-Engine Jet Type Rating (A320 / B737)",
+                "duration": "3 - 6 Months",
+                "eligibility": "Hold valid DGCA CPL with Multi-Engine and Instrument Rating.",
+                "entranceExams": [],
+                "whatToDo": "Receive statutory CPL from DGCA. Complete multi-crew cooperation (MCC) and aircraft type rating simulator training (Airbus A320 or Boeing 737) at approved ATO.",
+                "skills": [
+                  "Glass Cockpit Automation",
+                  "Multi-Crew Resource Management (CRM)",
+                  "Jet Transition"
+                ],
+                "officialLink": {
+                  "title": "DGCA Approved ATOs",
+                  "url": "https://www.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 5,
+                "stage": "Airline Induction as First Officer",
+                "course": "Junior First Officer with Commercial Airline (IndiGo, Air India, SpiceJet, Akasa)",
+                "duration": "Career Milestone",
+                "eligibility": "CPL + Type Rating + Airline Pilot Selection Assessment clearance.",
+                "entranceExams": [],
+                "whatToDo": "Pass airline psychomotor, compass, and simulator assessment rounds. Complete airline line training to fly passenger commercial flights.",
+                "skills": [
+                  "Standard Operating Procedures (SOP)",
+                  "Flight Safety Management",
+                  "Crew Leadership"
+                ],
+                "officialLink": {
+                  "title": "Ministry of Civil Aviation",
+                  "url": "https://www.civilaviation.gov.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Statutory Authority",
+              "routeA": "Directorate General of Civil Aviation (DGCA) & Ministry of Civil Aviation"
+            },
+            {
+              "name": "Mandatory School Subjects",
+              "routeA": "Class 12 with Physics and Mathematics (Compulsory under DGCA rules)"
+            },
+            {
+              "name": "Medical Fitness",
+              "routeA": "DGCA Class 2 Medical followed by Class 1 Medical at designated IAF centers"
+            },
+            {
+              "name": "Flight Hours Required",
+              "routeA": "Minimum 200 total verified flight hours at approved Flying Training Organization"
+            },
+            {
+              "name": "Ground Exams",
+              "routeA": "Air Navigation, Meteorology, Air Regulations, Technical General, Technical Specific + RTR(A)"
+            },
+            {
+              "name": "Financial Investment",
+              "routeA": "₹35 to ₹50+ Lakhs for flight training + type rating (Self-funded or cadet pilot programme)"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Focus → DGCA Medicals in 12th → Flying School & CPL",
+            "summary": "Master Physics and Math in Class 11-12, obtain DGCA medical clearances, and enroll in flight training.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Science PCM",
+                "course": "Class 11 Physics and Mathematics Mastery",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11 Science with PCM.",
+                "entranceExams": [],
+                "whatToDo": "Excel in physics vectors, thermodynamics, kinematics, and trigonometry required for aviation ground school.",
+                "skills": [
+                  "Vector Mathematics",
+                  "Kinematics",
+                  "Physical Fitness"
+                ],
+                "officialLink": {
+                  "title": "DGCA Official",
+                  "url": "https://www.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & DGCA Medicals",
+                "course": "Class 12 Boards + DGCA Class 2 and Class 1 Medical Clearance",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with Physics and Mathematics.",
+                "entranceExams": [
+                  {
+                    "name": "IGRUA / Cadet Pilot Entrance (Optional)",
+                    "url": "https://igrua.gov.in/"
+                  }
+                ],
+                "whatToDo": "Pass Class 12 boards with 50%+ in Physics and Math, clear DGCA Class 1 Medical examination, and get a DGCA computer number.",
+                "skills": [
+                  "Medical Fitness",
+                  "English Fluency"
+                ],
+                "officialLink": {
+                  "title": "DGCA Pariksha",
+                  "url": "https://pariksha.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Flying Training (200 Hours) & CPL",
+                "course": "Commercial Pilot License at DGCA Flying Training Organization",
+                "duration": "18 - 24 Months",
+                "eligibility": "Age 17+, Class 1 Medical, 10+2 PCM.",
+                "entranceExams": [
+                  {
+                    "name": "DGCA Theory Exams + RTR(A)",
+                    "url": "https://pariksha.dgca.gov.in/"
+                  }
+                ],
+                "whatToDo": "Log 200 flying hours, clear 5 DGCA ground exams, and earn Commercial Pilot License.",
+                "skills": [
+                  "Cockpit Navigation",
+                  "Aviation Meteorology",
+                  "Instrument Flying"
+                ],
+                "officialLink": {
+                  "title": "DGCA CPL Rules",
+                  "url": "https://www.dgca.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 PCM → DGCA Class 1 Medical → Flying Training & CPL",
+            "summary": "Immediate post-Class 12 pathway into commercial aviation and flight training.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 12 Boards & DGCA Medical Verification",
+                "course": "Class 12 Boards (Physics & Math) + DGCA Class 2/1 Medical Examinations",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 with Physics & Math (min 50%). Class 1 Medical fitness.",
+                "entranceExams": [
+                  {
+                    "name": "Cadet Pilot Tests / IGRUA",
+                    "url": "https://igrua.gov.in/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 boards, obtain DGCA Class 1 Medical certificate, apply for DGCA Computer Number, and choose an approved FTO.",
+                "skills": [
+                  "Physical Stamina",
+                  "Spatial Awareness"
+                ],
+                "officialLink": {
+                  "title": "DGCA Official Portal",
+                  "url": "https://www.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Flight Training & DGCA License Clearance",
+                "course": "200 Hours Flying + DGCA Ground School Exams",
+                "duration": "18 - 24 Months",
+                "eligibility": "Enrolled student pilot with valid Student Pilot License (SPL).",
+                "entranceExams": [
+                  {
+                    "name": "DGCA CPL Exams + RTR(A)",
+                    "url": "https://pariksha.dgca.gov.in/"
+                  }
+                ],
+                "whatToDo": "Complete solo, night, instrument, and cross-country flying checks. Clear DGCA papers and RTR(A) radio telephony exam.",
+                "skills": [
+                  "Aircraft Handling",
+                  "Instrument Flight Rules (IFR)",
+                  "Emergency Protocols"
+                ],
+                "officialLink": {
+                  "title": "DGCA Pilot Examination",
+                  "url": "https://pariksha.dgca.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Type Rating & First Officer Employment",
+                "course": "A320 / B737 Type Rating → Airline Induction",
+                "duration": "6 Months",
+                "eligibility": "DGCA CPL holder.",
+                "entranceExams": [],
+                "whatToDo": "Complete type rating on commercial transport jet simulator and join airline cadet/first officer roster.",
+                "skills": [
+                  "Multi-Crew Operations",
+                  "Airline Flight Safety"
+                ],
+                "officialLink": {
+                  "title": "Ministry of Civil Aviation",
+                  "url": "https://www.civilaviation.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "architecture": {
+      "title": "Architecture & Spatial Environmental Design",
+      "careers": [
+        "architect",
+        "interior-designer"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Statutory Council of Architecture (COA) Route: 11-12 PCM → NATA / JEE Paper 2 → 5-Year B.Arch",
+            "summary": "The statutory pathway prescribed by the Council of Architecture (COA) to become a licensed Architect in India.",
+            "suitability": "Mandatory for anyone aspiring to sign architectural drawings and register with the Council of Architecture.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with strong interest in geometry, drawing, and structures.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 Science with Physics, Chemistry, and Mathematics (PCM). Note: Council of Architecture regulations mandate Physics, Chemistry, and Mathematics at 10+2 level.",
+                "skills": [
+                  "Geometric Drawing",
+                  "Spatial Visualisation"
+                ],
+                "officialLink": {
+                  "title": "Council of Architecture (COA)",
+                  "url": "https://www.coa.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11-12 Science (PCM) + Architecture Drawing Prep",
+                "duration": "2 Years",
+                "eligibility": "Pass 10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate (or 10+3 Diploma with Mathematics with 50%).",
+                "entranceExams": [
+                  {
+                    "name": "NATA (National Aptitude Test in Architecture conducted by COA)",
+                    "url": "https://www.nata.in/"
+                  },
+                  {
+                    "name": "JEE Main Paper 2 (B.Arch for SPAs, NITs, IITs)",
+                    "url": "https://jeemain.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Master perspective sketching, architectural awareness, light & shade rendering, and 2D/3D composition. Appear for NATA or JEE Main Paper 2.",
+                "skills": [
+                  "2-Point & 3-Point Perspective",
+                  "Architectural History Awareness",
+                  "Spatial Geometry"
+                ],
+                "officialLink": {
+                  "title": "NATA Official Portal",
+                  "url": "https://www.nata.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "5-Year Professional B.Arch Degree",
+                "course": "Bachelor of Architecture (B.Arch)",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "Qualified score in NATA or JEE Main Paper 2 + fulfillment of 10+2 PCM criteria.",
+                "entranceExams": [],
+                "whatToDo": "Study Architectural Design Studios, Building Materials & Construction, History of Architecture, Climate Responsive Design, and Structural Mechanics. Complete 1 semester practical training in an architectural firm.",
+                "skills": [
+                  "Architectural Studio Design",
+                  "AutoCAD / Revit / Rhino 3D",
+                  "Sustainable Building Principles",
+                  "Structural Feasibility"
+                ],
+                "officialLink": {
+                  "title": "Council of Architecture Regulations",
+                  "url": "https://www.coa.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Council of Architecture Registration & Practice",
+                "course": "COA Certificate of Registration (Architect CA Number)",
+                "duration": "Career Milestone",
+                "eligibility": "Successful B.Arch graduation from COA recognized institution.",
+                "entranceExams": [],
+                "whatToDo": "Obtain statutory registration certificate from Council of Architecture to use the protected legal title 'Architect' and start independent practice or join architectural firms.",
+                "skills": [
+                  "Building Bye-Laws & Sanctions",
+                  "Contract Administration",
+                  "Client Project Management"
+                ],
+                "officialLink": {
+                  "title": "COA Official Portal",
+                  "url": "https://www.coa.gov.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Statutory Authority",
+              "routeA": "Council of Architecture (COA), Government of India"
+            },
+            {
+              "name": "School Stream Requirement",
+              "routeA": "Class 11-12 with Physics, Chemistry, and Mathematics (PCM) or 10+3 Diploma with Math"
+            },
+            {
+              "name": "Mandatory Architecture Entrances",
+              "routeA": "NATA (by COA) or JEE Main Paper 2 (for NITs/SPAs)"
+            },
+            {
+              "name": "Degree Duration",
+              "routeA": "5 Years Full-Time (10 Semesters including mandatory office internship)"
+            },
+            {
+              "name": "Legal Protection of Title",
+              "routeA": "Under the Architects Act 1972, only individuals registered with COA can legally use the title 'Architect'"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Science PCM → NATA / JEE Paper 2 → 5-Year B.Arch Degree",
+            "summary": "Build strong drawing, spatial visualization, and math foundations in Class 11, crack NATA, and complete 5-year B.Arch.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Academic & Sketching Practice",
+                "course": "Class 11 Science PCM + Architecture Drawing",
+                "duration": "Current Year (Class 11)",
+                "eligibility": "Enrolled in Class 11 Science with PCM.",
+                "entranceExams": [],
+                "whatToDo": "Maintain solid marks in PCM while sketching daily: perspective layouts, urban scenes, shadow casting, and 3D geometric views.",
+                "skills": [
+                  "Perspective Drawing",
+                  "Spatial Visualization",
+                  "Maths Geometry"
+                ],
+                "officialLink": {
+                  "title": "Council of Architecture",
+                  "url": "https://www.coa.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & NATA / JEE Paper 2",
+                "course": "Class 12 Boards + Architecture Entrance Exams",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with PCM with 50% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "NATA (COA)",
+                    "url": "https://www.nata.in/"
+                  },
+                  {
+                    "name": "JEE Main Paper 2",
+                    "url": "https://jeemain.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 boards and appear for NATA and JEE Paper 2 for admission to School of Planning and Architecture (SPAs) and state architecture colleges.",
+                "skills": [
+                  "Architectural Aptitude",
+                  "Drawing Accuracy"
+                ],
+                "officialLink": {
+                  "title": "NATA Official Portal",
+                  "url": "https://www.nata.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "5-Year B.Arch Degree & COA License",
+                "course": "Bachelor of Architecture (B.Arch) + COA Registration",
+                "duration": "5 Years",
+                "eligibility": "NATA / JEE Paper 2 rank in recognized college.",
+                "entranceExams": [],
+                "whatToDo": "Complete studio design projects, structural analysis, green building certifications, and register with COA.",
+                "skills": [
+                  "Architectural Design Studios",
+                  "BIM (Revit / ArchiCAD)",
+                  "Building Sanctions"
+                ],
+                "officialLink": {
+                  "title": "Council of Architecture",
+                  "url": "https://www.coa.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 PCM → NATA / JEE Paper 2 → 5-Year B.Arch Program",
+            "summary": "Immediate post-Class 12 application to 5-year B.Arch programs through NATA and centralized admission.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Board Exams + NATA / JEE Paper 2",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 with Physics, Chemistry, and Math with min 50% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "NATA",
+                    "url": "https://www.nata.in/"
+                  },
+                  {
+                    "name": "JEE Main Paper 2 (B.Arch)",
+                    "url": "https://jeemain.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Complete Class 12 board exams, register for NATA test dates, practice architectural aptitude questions, and participate in state CAP counselling.",
+                "skills": [
+                  "Perspective Rendering",
+                  "Architectural Awareness"
+                ],
+                "officialLink": {
+                  "title": "NATA Portal",
+                  "url": "https://www.nata.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "5-Year B.Arch Coursework",
+                "course": "5-Year Bachelor of Architecture Degree",
+                "duration": "5 Years",
+                "eligibility": "Admitted to COA recognized architecture college.",
+                "entranceExams": [],
+                "whatToDo": "Undergo architectural studio training, building physics, climate design, urban planning, and 6-month architectural internship.",
+                "skills": [
+                  "AutoCAD & Revit",
+                  "Sustainable Architecture",
+                  "Structural Detailing"
+                ],
+                "officialLink": {
+                  "title": "COA Portal",
+                  "url": "https://www.coa.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "COA Registration & Architect License",
+                "course": "Council of Architecture Registration (CA Number)",
+                "duration": "Graduation Milestone",
+                "eligibility": "B.Arch completion.",
+                "entranceExams": [],
+                "whatToDo": "Receive statutory license to practice as an Architect and launch independent studio or join premier design firms.",
+                "skills": [
+                  "Architectural Practice",
+                  "Urban Bye-Laws & Approvals"
+                ],
+                "officialLink": {
+                  "title": "Council of Architecture Official",
+                  "url": "https://www.coa.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "allied-health-pharmacy": {
+      "title": "Pharmacy, Biomedical & Allied Healthcare Sciences",
+      "careers": [
+        "pharmacist",
+        "physiotherapist",
+        "biotechnology-engineer",
+        "biomedical-engineer",
+        "clinical-psychologist"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: School (11-12 PCB/PCM) → 4-Year B.Pharm Degree → Registered Pharmacist",
+            "summary": "Statutory Pharmacy Council of India (PCI) route to become a Registered Pharmacist through a 4-year undergraduate B.Pharm degree.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with science and math foundation.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 Science with Physics, Chemistry, and Biology (or Mathematics). Both PCB and PCM students are eligible for Pharmacy.",
+                "skills": [
+                  "Chemistry Basics",
+                  "Biological Concepts"
+                ],
+                "officialLink": {
+                  "title": "Pharmacy Council of India (PCI)",
+                  "url": "https://www.pci.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11 & 12 Science (PCB or PCM)",
+                "duration": "2 Years",
+                "eligibility": "Pass 10+2 with Physics, Chemistry, and Biology/Math with min 50% aggregate (45% for reserved category).",
+                "entranceExams": [
+                  {
+                    "name": "State Pharmacy CET (e.g. MHT-CET, KCET, WBJEE)",
+                    "url": "https://cetcell.mahacet.org/"
+                  },
+                  {
+                    "name": "CUET-UG / University Pharmacy Entrances",
+                    "url": "https://cuetug.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Focus on Organic Chemistry and Human Physiology. Clear Class 12 boards and appear for State Pharmacy CET.",
+                "skills": [
+                  "Organic Reactions",
+                  "Chemical Analysis"
+                ],
+                "officialLink": {
+                  "title": "MHT-CET Pharmacy Portal",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "B.Pharm Professional Degree",
+                "course": "4-Year Bachelor of Pharmacy (B.Pharm)",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "Allotted seat in PCI-approved pharmacy college via CET rank.",
+                "entranceExams": [],
+                "whatToDo": "Study Pharmaceutics, Pharmacology, Medicinal Chemistry, Pharmacognosy, and Regulatory Affairs. Complete hospital and industrial pharmacy training.",
+                "skills": [
+                  "Drug Formulation",
+                  "Pharmacological Profiling",
+                  "Good Manufacturing Practices (GMP)"
+                ],
+                "officialLink": {
+                  "title": "PCI Regulations",
+                  "url": "https://www.pci.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "State Pharmacy Council Registration",
+                "course": "Registered Pharmacist License + Industry / Clinical Practice",
+                "duration": "Career Milestone",
+                "eligibility": "B.Pharm graduation from PCI recognized institution.",
+                "entranceExams": [],
+                "whatToDo": "Register with State Pharmacy Council to obtain statutory license to practice, manufacture, or dispense pharmaceuticals.",
+                "skills": [
+                  "Statutory Drug Compliance",
+                  "Clinical Pharmacotherapy"
+                ],
+                "officialLink": {
+                  "title": "PCI Official",
+                  "url": "https://www.pci.nic.in/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: 2-Year Diploma in Pharmacy (D.Pharm) → Lateral Entry to 2nd Year B.Pharm",
+            "summary": "Shorter practical diploma qualifying for retail chemist license, with option to enter 2nd year B.Pharm via lateral entry.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11-12 & D.Pharm Admission",
+                "course": "Class 12 Science + 2-Year D.Pharm Diploma",
+                "duration": "2 Years",
+                "eligibility": "Pass 10+2 Science (PCB or PCM).",
+                "entranceExams": [],
+                "whatToDo": "Enroll in 2-year D.Pharm covering dispensing pharmacy, pharmacology, and 500 hours hospital training.",
+                "skills": [
+                  "Drug Dispensing",
+                  "Inventory Management"
+                ],
+                "officialLink": {
+                  "title": "DTE Pharmacy Portal",
+                  "url": "https://dte.maharashtra.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Lateral Entry into B.Pharm (Year 2)",
+                "course": "Direct Second Year B.Pharm",
+                "duration": "3 Years",
+                "eligibility": "Pass D.Pharm with min 50% from PCI approved college.",
+                "entranceExams": [],
+                "whatToDo": "Join 2nd year B.Pharm directly to complete degree.",
+                "skills": [
+                  "Advanced Medicinal Chemistry"
+                ],
+                "officialLink": {
+                  "title": "PCI Lateral Entry Rules",
+                  "url": "https://www.pci.nic.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Starting Point",
+              "routeA": "Class 10 -> Class 11-12 Science -> 4-Yr B.Pharm",
+              "routeB": "Class 12 Science -> 2-Yr D.Pharm -> Lateral B.Pharm"
+            },
+            {
+              "name": "Initial Qualification",
+              "routeA": "Degree (B.Pharm)",
+              "routeB": "Diploma (D.Pharm)"
+            },
+            {
+              "name": "Total Duration",
+              "routeA": "6 Years from 10th",
+              "routeB": "7 Years from 10th (2 yrs school + 2 yrs diploma + 3 yrs degree)"
+            },
+            {
+              "name": "Statutory Licensing",
+              "routeA": "Full PCI license for manufacturing, R&D, and retail",
+              "routeB": "Retail chemist license after D.Pharm; R&D after B.Pharm"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Science PCB/PCM → State CET → 4-Year B.Pharm Degree",
+            "summary": "Master chemistry and biology in Class 11-12 and crack state pharmacy CET.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Focus",
+                "course": "Class 11 Chemistry & Biology/Math",
+                "duration": "Current Year",
+                "eligibility": "Enrolled in Class 11 Science.",
+                "entranceExams": [],
+                "whatToDo": "Focus on chemical bonding, organic nomenclature, and human anatomy.",
+                "skills": [
+                  "Organic Chemistry Basics"
+                ],
+                "officialLink": {
+                  "title": "PCI Official",
+                  "url": "https://www.pci.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 & State CET",
+                "course": "Class 12 Boards + State Pharmacy CET",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with PCB or PCM with min 50%.",
+                "entranceExams": [
+                  {
+                    "name": "State Pharmacy CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Appear for board exams and state CET to secure merit seat in B.Pharm.",
+                "skills": [
+                  "MCQ Speed",
+                  "Chemistry Accuracy"
+                ],
+                "officialLink": {
+                  "title": "MHT-CET Portal",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "B.Pharm Degree & License",
+                "course": "4-Year B.Pharm + Registered Pharmacist License",
+                "duration": "4 Years",
+                "eligibility": "Allotted seat in recognized college.",
+                "entranceExams": [],
+                "whatToDo": "Complete degree and register with State Pharmacy Council.",
+                "skills": [
+                  "Clinical Pharmacy",
+                  "Drug Formulation"
+                ],
+                "officialLink": {
+                  "title": "PCI Portal",
+                  "url": "https://www.pci.nic.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Boards → State Pharmacy CET → 4-Year B.Pharm Degree",
+            "summary": "Immediate post-Class 12 application to 4-year B.Pharm through state CET counselling.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Boards + State Pharmacy CET",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 with PCB or PCM with min 50% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "MHT-CET / State Pharmacy CET",
+                    "url": "https://cetcell.mahacet.org/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 boards and appear for State Pharmacy CET in May.",
+                "skills": [
+                  "Chemistry & Biology Accuracy"
+                ],
+                "officialLink": {
+                  "title": "CET Cell",
+                  "url": "https://cetcell.mahacet.org/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "B.Pharm Degree Coursework",
+                "course": "4-Year Bachelor of Pharmacy",
+                "duration": "4 Years",
+                "eligibility": "Admitted to PCI-approved pharmacy institution.",
+                "entranceExams": [],
+                "whatToDo": "Complete 8 semesters of pharmaceutical coursework and industrial internship.",
+                "skills": [
+                  "Pharmacology",
+                  "Drug Formulation",
+                  "Regulatory Affairs"
+                ],
+                "officialLink": {
+                  "title": "PCI Official",
+                  "url": "https://www.pci.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Pharmacist License & Career",
+                "course": "Registered Pharmacist / Pharma Executive",
+                "duration": "Graduation Milestone",
+                "eligibility": "B.Pharm graduate.",
+                "entranceExams": [],
+                "whatToDo": "Obtain State Pharmacy Council license and join pharmaceutical MNCs or clinical hospitals.",
+                "skills": [
+                  "Pharmaceutical Analysis",
+                  "Quality Assurance"
+                ],
+                "officialLink": {
+                  "title": "PCI Portal",
+                  "url": "https://www.pci.nic.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "science-research": {
+      "title": "Pure Science, Research & Academia",
+      "careers": [
+        "research-scientist",
+        "agricultural-scientist"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Premier Research Route: 11-12 Science → IAT / NEST → 5-Year BS-MS (IISc / IISER) → PhD",
+            "summary": "Premier research track into Indian Institute of Science (IISc Bangalore) and IISERs for fundamental scientific research.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with deep curiosity for scientific phenomena.",
+                "entranceExams": [],
+                "whatToDo": "Enroll in Class 11 Science with PCM or PCB/PCMB.",
+                "skills": [
+                  "Scientific Curiosity",
+                  "Analytical Reading"
+                ],
+                "officialLink": {
+                  "title": "IISc Bangalore",
+                  "url": "https://iisc.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2)",
+                "course": "Class 11 & 12 Science (PCM/PCB) + IAT / NEST Prep",
+                "duration": "2 Years",
+                "eligibility": "Pass Class 12 with Science with min 60% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "IISER Aptitude Test (IAT)",
+                    "url": "https://iiseradmission.in/"
+                  },
+                  {
+                    "name": "NEST (National Entrance Screening Test for NISER)",
+                    "url": "https://www.nestexam.in/"
+                  },
+                  {
+                    "name": "JEE Advanced (for IISc BS)",
+                    "url": "https://jeeadv.ac.in/"
+                  }
+                ],
+                "whatToDo": "Master conceptual fundamentals across Physics, Chemistry, Math, and Biology. Appear for IAT and NEST.",
+                "skills": [
+                  "Theoretical Derivations",
+                  "Experimental Design"
+                ],
+                "officialLink": {
+                  "title": "IISER Admissions Portal",
+                  "url": "https://iiseradmission.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "5-Year Integrated BS-MS Degree",
+                "course": "5-Year BS-MS Dual Degree at IISER / IISc / NISER",
+                "duration": "5 Years",
+                "eligibility": "Qualified rank in IAT / NEST / JEE Advanced.",
+                "entranceExams": [],
+                "whatToDo": "Conduct advanced laboratory research, publish peer-reviewed papers, and complete master's thesis.",
+                "skills": [
+                  "Laboratory Instrumentation",
+                  "Statistical Data Analysis",
+                  "Scientific Paper Writing"
+                ],
+                "officialLink": {
+                  "title": "IISc Research Programs",
+                  "url": "https://iisc.ac.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "PhD & Scientific Career",
+                "course": "Doctoral Research (PhD) in India (CSIR-UGC NET) or Abroad",
+                "duration": "4 - 5 Years",
+                "eligibility": "Master's degree with valid CSIR-NET JRF rank or international fellowship.",
+                "entranceExams": [
+                  {
+                    "name": "CSIR-UGC NET JRF",
+                    "url": "https://csirnet.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Earn PhD and join national research laboratories (DRDO, ISRO, CSIR, TIFR) or university professorships.",
+                "skills": [
+                  "Independent Hypothesis Testing",
+                  "Grant Writing",
+                  "Patent Filing"
+                ],
+                "officialLink": {
+                  "title": "CSIR Official Portal",
+                  "url": "https://www.csir.res.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Focus",
+              "routeA": "Fundamental scientific discovery and academic research"
+            },
+            {
+              "name": "Top Institutes",
+              "routeA": "IISc Bangalore, IISER (Pune, Kolkata, Mohali, Bhopal, Thiruvananthapuram), NISER Bhubaneswar"
+            },
+            {
+              "name": "Degree Route",
+              "routeA": "5-Year Integrated BS-MS followed by PhD"
+            },
+            {
+              "name": "Key Entrances",
+              "routeA": "IISER Aptitude Test (IAT), NEST, JEE Advanced"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Science → IAT / NEST in Class 12 → 5-Year BS-MS Research Degree",
+            "summary": "Build strong research and conceptual reasoning in Class 11-12 to crack IAT and NEST.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Science Foundation",
+                "course": "Class 11 Physics, Chemistry & Biology/Math",
+                "duration": "Current Year",
+                "eligibility": "Enrolled in Class 11 Science.",
+                "entranceExams": [],
+                "whatToDo": "Deep conceptual study beyond rote learning, focusing on scientific proofs and experiments.",
+                "skills": [
+                  "Scientific Inquiry"
+                ],
+                "officialLink": {
+                  "title": "IISER Admissions",
+                  "url": "https://iiseradmission.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 & Research Entrances",
+                "course": "Class 12 Boards + IAT / NEST Exams",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with 60%+.",
+                "entranceExams": [
+                  {
+                    "name": "IAT (IISER)",
+                    "url": "https://iiseradmission.in/"
+                  },
+                  {
+                    "name": "NEST",
+                    "url": "https://www.nestexam.in/"
+                  }
+                ],
+                "whatToDo": "Appear for board exams and national research aptitude tests.",
+                "skills": [
+                  "Interdisciplinary Problem Solving"
+                ],
+                "officialLink": {
+                  "title": "NEST Portal",
+                  "url": "https://www.nestexam.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "5-Year BS-MS & PhD",
+                "course": "BS-MS at IISER/IISc → PhD Fellowship",
+                "duration": "5 Years",
+                "eligibility": "Merit seat in premier research institute.",
+                "entranceExams": [],
+                "whatToDo": "Complete interdisciplinary science curriculum and master's research thesis.",
+                "skills": [
+                  "Advanced Laboratory Research"
+                ],
+                "officialLink": {
+                  "title": "IISc Portal",
+                  "url": "https://iisc.ac.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Science → IAT / NEST / CUET → BS-MS / B.Sc Research",
+            "summary": "Immediate post-Class 12 application to national research institutes.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 12 Boards & Research Entrances",
+                "course": "Class 12 Boards + IAT / NEST / CUET-UG",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 Science with min 60% aggregate.",
+                "entranceExams": [
+                  {
+                    "name": "IAT",
+                    "url": "https://iiseradmission.in/"
+                  },
+                  {
+                    "name": "CUET-UG",
+                    "url": "https://cuetug.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Complete board examinations and appear for IAT/CUET for admission to IISERs or Central Universities.",
+                "skills": [
+                  "Conceptual Science Accuracy"
+                ],
+                "officialLink": {
+                  "title": "IISER Portal",
+                  "url": "https://iiseradmission.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Undergraduate Science Research Degree",
+                "course": "5-Year BS-MS Dual Degree or 3-Year B.Sc (Hons)",
+                "duration": "3 - 5 Years",
+                "eligibility": "Admitted to recognized university.",
+                "entranceExams": [],
+                "whatToDo": "Conduct scientific research, laboratory assays, and submit undergraduate research dissertation.",
+                "skills": [
+                  "Data Analysis",
+                  "Laboratory Techniques"
+                ],
+                "officialLink": {
+                  "title": "UGC Research Portal",
+                  "url": "https://www.ugc.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Scientist / Doctoral Fellow",
+                "course": "PhD Fellowship / CSIR Research Scientist",
+                "duration": "Post-Graduation",
+                "eligibility": "Master's degree in Science.",
+                "entranceExams": [
+                  {
+                    "name": "CSIR NET",
+                    "url": "https://csirnet.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Join national laboratories or corporate R&D as a Research Scientist.",
+                "skills": [
+                  "Independent Research Execution"
+                ],
+                "officialLink": {
+                  "title": "CSIR Official",
+                  "url": "https://www.csir.res.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "hospitality-culinary": {
+      "title": "Hospitality, Culinary Arts & Event Management",
+      "careers": [
+        "chef",
+        "hotel-management-professional",
+        "event-manager"
+      ],
+      "class10": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Route A: School (11-12 Any Stream) → NCHM JEE → 3-Year B.Sc in Hospitality & Hotel Administration",
+            "summary": "Premier statutory pathway under National Council for Hotel Management and Catering Technology (NCHMCT).",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 10 Completion",
+                "course": "Class 10 Board Examination",
+                "duration": "Completed",
+                "eligibility": "Pass Class 10 with interest in culinary arts, guest relations, or events.",
+                "entranceExams": [],
+                "whatToDo": "Complete Class 11 and 12 in any stream (Arts, Commerce, or Science with English as a compulsory subject).",
+                "skills": [
+                  "Interpersonal Warmth",
+                  "Culinary Interest"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT Official Portal",
+                  "url": "https://nchm.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Higher Secondary (10+2) & NCHM JEE",
+                "course": "Class 11 & 12 + NCHM JEE Entrance Test",
+                "duration": "2 Years",
+                "eligibility": "Pass 10+2 with English as a compulsory subject.",
+                "entranceExams": [
+                  {
+                    "name": "NCHM JEE (Conducted pan-India by NTA)",
+                    "url": "https://nchmjee.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Appear for NCHM JEE testing numerical ability, English communication, reasoning, and service aptitude.",
+                "skills": [
+                  "Service Aptitude",
+                  "General Knowledge",
+                  "English Fluency"
+                ],
+                "officialLink": {
+                  "title": "NTA NCHM JEE Portal",
+                  "url": "https://nchmjee.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "3-Year Degree at Institute of Hotel Management (IHM)",
+                "course": "B.Sc. in Hospitality & Hotel Administration (IHMs)",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "NCHM JEE rank in central/state government IHM.",
+                "entranceExams": [],
+                "whatToDo": "Master Food Production (Culinary), Food & Beverage Service, Front Office Operations, and Accommodation Management. Complete 20-week industrial training at 5-star hotels.",
+                "skills": [
+                  "Culinary Operations",
+                  "Fine Dining Service",
+                  "Hotel ERP Systems (Opera)"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT Curriculum",
+                  "url": "https://nchm.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 4,
+                "stage": "Management Trainee (MT) / Commis Chef",
+                "course": "Executive Trainee at Luxury Hotel Chains (Taj, Oberoi, Marriott, ITC)",
+                "duration": "Graduation Milestone",
+                "eligibility": "IHM graduation.",
+                "entranceExams": [],
+                "whatToDo": "Crack prestigious hotel management trainee (MT) corporate selection rounds.",
+                "skills": [
+                  "Hospitality Leadership",
+                  "Revenue Management"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT Placements",
+                  "url": "https://nchm.gov.in/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "route-b",
+            "name": "Route B: Vocational Diploma in Food Production / Bakery (Direct after 10th)",
+            "summary": "1.5-Year Craftsmanship Certificate directly after Class 10 for fast-track entry into commercial kitchens.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Craftsmanship Course after 10th",
+                "course": "1.5-Year Craftsmanship Course in Food Production & Patisserie",
+                "duration": "1.5 Years",
+                "eligibility": "Pass Class 10 with English.",
+                "entranceExams": [],
+                "whatToDo": "Learn hands-on knife skills, bakery, continental and regional Indian cooking at state IHMs.",
+                "skills": [
+                  "Culinary Techniques",
+                  "Kitchen Hygiene (FSSAI)"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT Craft Courses",
+                  "url": "https://nchm.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Kitchen Commis Role",
+                "course": "Commis-III / Kitchen Apprentice at Restaurants & Hotels",
+                "duration": "Immediate",
+                "eligibility": "Craft certificate completion.",
+                "entranceExams": [],
+                "whatToDo": "Work under senior sous chefs and executive chefs to build culinary mastery.",
+                "skills": [
+                  "Line Cooking",
+                  "Speed & Precision"
+                ],
+                "officialLink": {
+                  "title": "FSSAI Guidelines",
+                  "url": "https://www.fssai.gov.in/"
+                }
+              }
+            ]
+          }
+        ],
+        "comparison": {
+          "factors": [
+            {
+              "name": "Starting Point",
+              "routeA": "After Class 10 via 11-12 School",
+              "routeB": "Directly after Class 10 (Craft Diploma)"
+            },
+            {
+              "name": "Degree / Award",
+              "routeA": "3-Year B.Sc in Hospitality & Hotel Administration",
+              "routeB": "1.5-Year Craftsmanship Certificate"
+            },
+            {
+              "name": "Entrance Exam",
+              "routeA": "NCHM JEE (by NTA)",
+              "routeB": "Class 10 Merit Admission"
+            },
+            {
+              "name": "Target Career Level",
+              "routeA": "Hotel Operations Manager / Management Trainee",
+              "routeB": "Direct Line Chef / Commis Chef"
+            }
+          ]
+        }
+      },
+      "class11": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Class 11 Focus → NCHM JEE in 12th → 3-Year B.Sc Hospitality at IHM",
+            "summary": "Prepare communication and service aptitude in Class 11-12, clear NCHM JEE, and enter top IHMs.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Class 11 Academic & Communication Focus",
+                "course": "Class 11 (Any Stream) with English",
+                "duration": "Current Year",
+                "eligibility": "Enrolled in Class 11.",
+                "entranceExams": [],
+                "whatToDo": "Develop English fluency, general awareness, and numerical reasoning.",
+                "skills": [
+                  "Service Communication"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT Official",
+                  "url": "https://nchm.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "Class 12 Boards & NCHM JEE",
+                "course": "Class 12 Boards + NCHM JEE Exam",
+                "duration": "1 Year",
+                "eligibility": "Pass Class 12 with English.",
+                "entranceExams": [
+                  {
+                    "name": "NCHM JEE (NTA)",
+                    "url": "https://nchmjee.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 boards and crack NCHM JEE conducted in May.",
+                "skills": [
+                  "Service Aptitude",
+                  "Aptitude Speed"
+                ],
+                "officialLink": {
+                  "title": "NCHM JEE NTA",
+                  "url": "https://nchmjee.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "3-Year B.Sc Degree at IHM",
+                "course": "B.Sc Hospitality & Hotel Administration",
+                "duration": "3 Years",
+                "eligibility": "Allotted seat in IHM (Pusa Delhi, Mumbai, Bengaluru, etc.).",
+                "entranceExams": [],
+                "whatToDo": "Complete classroom theory and 5-star hotel industrial training.",
+                "skills": [
+                  "Hotel Operations",
+                  "Food Production"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT Portal",
+                  "url": "https://nchm.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "class12": {
+        "routes": [
+          {
+            "id": "route-a",
+            "name": "Immediate: Class 12 Boards → NCHM JEE → 3-Year B.Sc Hospitality at IHM",
+            "summary": "Immediate application to central and state IHMs through NCHM JEE.",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "stage": "Immediate Focus (Class 12)",
+                "course": "Class 12 Board Exams + NCHM JEE",
+                "duration": "Next 3-6 Months",
+                "eligibility": "Pass Class 12 with English.",
+                "entranceExams": [
+                  {
+                    "name": "NCHM JEE (NTA)",
+                    "url": "https://nchmjee.nta.nic.in/"
+                  }
+                ],
+                "whatToDo": "Clear Class 12 boards and appear for NCHM JEE exam.",
+                "skills": [
+                  "Service Aptitude",
+                  "Numerical Ability"
+                ],
+                "officialLink": {
+                  "title": "NCHM JEE Official",
+                  "url": "https://nchmjee.nta.nic.in/"
+                }
+              },
+              {
+                "stepNumber": 2,
+                "stage": "3-Year B.Sc Coursework at IHM",
+                "course": "B.Sc. Hospitality & Hotel Administration",
+                "duration": "3 Years",
+                "eligibility": "Admitted to recognized IHM.",
+                "entranceExams": [],
+                "whatToDo": "Undergo culinary kitchen labs, banquet management, front office training, and luxury hotel internship.",
+                "skills": [
+                  "Food Production",
+                  "Guest Experience Management"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT",
+                  "url": "https://nchm.gov.in/"
+                }
+              },
+              {
+                "stepNumber": 3,
+                "stage": "Hotel Management Trainee (MT)",
+                "course": "Corporate Trainee at 5-Star Hotel Chains",
+                "duration": "Graduation Milestone",
+                "eligibility": "IHM graduate.",
+                "entranceExams": [],
+                "whatToDo": "Join luxury hotel groups as Management Trainee or Demi-Chef de Partie.",
+                "skills": [
+                  "Hotel Administration",
+                  "Hospitality Management"
+                ],
+                "officialLink": {
+                  "title": "NCHMCT Careers",
+                  "url": "https://nchm.gov.in/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Scholarship Matcher | CareerConnect India</title>
+  <meta name="description" content="Discover verified scholarships from National Scholarship Portal (NSP), AICTE, and Maharashtra MahaDBT with transparent, rule-based eligibility evaluation.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Global Shared Header -->
+  <div id="siteHeaderMount"></div>
+
+  <main style="padding: 3rem 0 5rem;">
+    <div class="container">
+      <div style="margin-bottom: 2.5rem;">
+        <span class="section-eyebrow">FINANCIAL EMPOWERMENT</span>
+        <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">
+          Smart Scholarship Matcher (India)
+        </h1>
+        <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 760px;">
+          Find financial aid you actually qualify for. Every scheme below is verified from primary government circulars (NSP, AICTE, and MahaDBT) with transparent, plain-language eligibility reasoning.
+        </p>
+      </div>
+
+      <!-- Mount point for ScholarshipsPage script -->
+      <div id="scholarshipsMount">
+        <div class="card" style="text-align: center; padding: 3rem;">
+          <p style="color: var(--text-muted);">Loading verified scholarship database & evaluating eligibility...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Shared Footer -->
+  <div id="siteFooterMount"></div>
+
+  <!-- Scripts -->
+  <script type="module">
+    import { SiteComponents } from './js/components.js';
+    import { ScholarshipsPage } from './js/scholarships-page.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      SiteComponents.init('scholarships');
+      ScholarshipsPage.init();
+    });
+  </script>
+</body>
+</html>
