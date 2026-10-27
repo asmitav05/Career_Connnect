@@ -21,12 +21,7 @@
     ],
     "workplace": "IT services and product hubs (Bengaluru, Hyderabad, Pune, NCR, Chennai), tech startups, or hybrid/remote setups.",
     "sectors": "Vast private IT industry, multinational tech giants, Indian startups, and public PSUs like NIC, ISRO, and CDAC.",
-    "qualities": [
-      "Logical reasoning",
-      "Patience in debugging",
-      "Algorithmic mindset",
-      "And commitment to continuous self-learning"
-    ],
+    "qualities": "Logical reasoning, patience in debugging, algorithmic mindset, and commitment to continuous self-learning.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 6-12 Months (Vocational / Self-Taught)",
       "costRange": "Approx. ₹1.5L - ₹10L (Government vs Private Engineering)",
@@ -434,12 +429,7 @@
     ],
     "workplace": "Product tech companies, digital marketing agencies, SaaS startups, or fully remote globally.",
     "sectors": "Predominantly private sector: e-commerce platforms, SaaS enterprises, fintech firms, and creative agencies.",
-    "qualities": [
-      "Attention to visual detail",
-      "Empathy for end-user experience",
-      "Patience with UI styling",
-      "And component thinking"
-    ],
+    "qualities": "Attention to visual detail, empathy for end-user experience, patience with UI styling, and component thinking.",
     "snapshot": {
       "duration": "3-4 Years (Degree) or 6-9 Months (Focused Web Engineering Prep)",
       "costRange": "Approx. ₹1L - ₹8L (Formal Degree) or Free (Self-Taught FreeCodeCamp/MDN)",
@@ -807,12 +797,7 @@
     ],
     "workplace": "Fintech companies, e-commerce giants, SaaS enterprises, cloud consultancies, or remote engineering teams.",
     "sectors": "Private sector, banking technology, logistics platforms, and public digital infrastructure (UPI, DigiLocker ecosystem).",
-    "qualities": [
-      "Systematic problem solving",
-      "Analytical mind for concurrency",
-      "Security awareness",
-      "And data modeling aptitude"
-    ],
+    "qualities": "Systematic problem solving, analytical mind for concurrency, security awareness, and data modeling aptitude.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 6-12 Months (Backend Engineering Specialization)",
       "costRange": "Approx. ₹1.5L - ₹9L (College degree)",
@@ -1161,12 +1146,7 @@
     ],
     "workplace": "High-growth tech startups, digital agencies, product companies, and global remote organizations.",
     "sectors": "Startups, mid-sized product companies, IT consulting firms, and freelance digital product building.",
-    "qualities": [
-      "Versatility",
-      "Holistic architectural perspective",
-      "Fast learning ability",
-      "And pragmatic problem solving"
-    ],
+    "qualities": "Versatility, holistic architectural perspective, fast learning ability, and pragmatic problem solving.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 9-12 Months (Intensive Full-Stack Training)",
       "costRange": "Approx. ₹1.5L - ₹9L (College Degree)",
@@ -1513,11 +1493,7 @@
     ],
     "workplace": "Consumer tech companies (Swiggy, Zomato, Flipkart, Paytm), mobile gaming studios, or remote development teams.",
     "sectors": "Private sector, consumer internet startups, banking and financial technology, and mobile software consultancies.",
-    "qualities": [
-      "Intuitive grasp of touch interfaces",
-      "Attention to device diversity",
-      "Memory management discipline"
-    ],
+    "qualities": "Intuitive grasp of touch interfaces, attention to device diversity, memory management discipline.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 6-9 Months (Focused App Development)",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -1857,12 +1833,7 @@
     ],
     "workplace": "Fintech, edtech, e-commerce, consumer smartphone makers (Samsung, Xiaomi, Vivo), or tech consultancies.",
     "sectors": "Private tech industry, Indian digital startups, consumer electronics, and telecom operators.",
-    "qualities": [
-      "Deep understanding of Android lifecycle",
-      "Hardware variability",
-      "Memory optimization",
-      "And Kotlin idioms"
-    ],
+    "qualities": "Deep understanding of Android lifecycle, hardware variability, memory optimization, and Kotlin idioms.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 6 Months (Native Android Track)",
       "costRange": "Approx. ₹1.5L - ₹8.5L",
@@ -2189,11 +2160,7 @@
     ],
     "workplace": "Global technology enterprises, top-tier Indian startups (Cred, Swiggy, Zerodha), international remote teams.",
     "sectors": "Private sector, premium consumer tech, healthcare applications, and overseas outsourcing consultancies.",
-    "qualities": [
-      "Obsession with fluid 120Hz micro-animations",
-      "Appreciation for Apple Human Interface Guidelines",
-      "Code safety discipline"
-    ],
+    "qualities": "Obsession with fluid 120Hz micro-animations, appreciation for Apple Human Interface Guidelines, code safety discipline.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + 6-9 Months (Swift/iOS Specialization)",
       "costRange": "Approx. ₹1.5L - ₹9L (College) + ₹70k - ₹1.2L (Mac hardware)",
@@ -2526,11 +2493,7 @@
     ],
     "workplace": "Global investment banks (JPMorgan, Morgan Stanley), IT services MNCs (TCS, Infosys, Wipro), fintech unicorns, and public digital infrastructure.",
     "sectors": "Banking, financial services, insurance (BFSI), telecommunications, government railway ticketing (IRCTC), and IT services.",
-    "qualities": [
-      "Strong discipline in object-oriented patterns",
-      "Security consciousness",
-      "Patience in maintaining large codebases"
-    ],
+    "qualities": "Strong discipline in object-oriented patterns, security consciousness, patience in maintaining large codebases.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + 6 Months (Spring Boot & Microservices)",
       "costRange": "Approx. ₹1.5L - ₹9L (College Degree)",
@@ -2872,12 +2835,7 @@
     ],
     "workplace": "AI/ML startups, SaaS product enterprises, financial analytics companies, research labs, or remote startups.",
     "sectors": "Startups, AI engineering firms, fintech algorithmic trading firms, and scientific research institutes.",
-    "qualities": [
-      "Pragmatic problem solving",
-      "Focus on code readability",
-      "Mathematical intuition",
-      "Versatile toolkit"
-    ],
+    "qualities": "Pragmatic problem solving, focus on code readability, mathematical intuition, versatile toolkit.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 6 Months (Python Web & Automation Prep)",
       "costRange": "Approx. ₹1L - ₹8.5L (Degree)",
@@ -3210,12 +3168,7 @@
     ],
     "workplace": "Game development studios in Pune, Bengaluru, Hyderabad, Mumbai, or global remote studios.",
     "sectors": "Mobile gaming industry (Nazara, Dream11, Moonfrog), console/PC studios (Ubisoft India, EA India), and simulation startups.",
-    "qualities": [
-      "Passion for gaming mechanics",
-      "Solid 3D mathematics (linear algebra/trigonometry)",
-      "Physics intuition",
-      "Creative persistence"
-    ],
+    "qualities": "Passion for gaming mechanics, solid 3D mathematics (linear algebra/trigonometry), physics intuition, creative persistence.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 1 Year (Intensive Game Development Specialization)",
       "costRange": "Approx. ₹2L - ₹10L",
@@ -3551,12 +3504,7 @@
     ],
     "workplace": "IT services giants (TCS, Infosys, Cognizant), fintech startups, healthcare IT, and enterprise software firms.",
     "sectors": "Private sector, banking technology testing units, and government public digital services verification.",
-    "qualities": [
-      "Sharp attention to detail",
-      "Inquisitive investigative mindset",
-      "Persistence",
-      "Clear written communication"
-    ],
+    "qualities": "Sharp attention to detail, inquisitive investigative mindset, persistence, clear written communication.",
     "snapshot": {
       "duration": "3 Years (Degree) or 3-6 Months (Manual Testing & QA Certification)",
       "costRange": "Approx. ₹1L - ₹6L (College Degree)",
@@ -3889,11 +3837,7 @@
     ],
     "workplace": "Product tech companies, fintech platforms, global capability centers (GCCs) in India, and IT consultancies.",
     "sectors": "Private sector, enterprise SaaS, banking tech, and international software consulting.",
-    "qualities": [
-      "Disciplined coding habits",
-      "Architectural thinking for test frameworks",
-      "Analytical mindset"
-    ],
+    "qualities": "Disciplined coding habits, architectural thinking for test frameworks, analytical mindset.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + 6 Months (Automation Frameworks Training)",
       "costRange": "Approx. ₹1.5L - ₹8.5L",
@@ -4232,12 +4176,7 @@
     ],
     "workplace": "Cloud-native enterprises, fintech platforms, global IT consultancies, and remote infrastructure teams.",
     "sectors": "Private tech sector, telecommunications, banking cloud units, and modern SaaS companies.",
-    "qualities": [
-      "Systems thinking",
-      "Composure during server incidents",
-      "Passion for automation",
-      "Linux comfort"
-    ],
+    "qualities": "Systems thinking, composure during server incidents, passion for automation, Linux comfort.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + 6-9 Months (Cloud & DevOps Tooling)",
       "costRange": "Approx. ₹1.5L - ₹9L (Degree)",
@@ -4587,11 +4526,7 @@
     ],
     "workplace": "Cloud consultancies, IT giants (Accenture, Wipro, Infosys), fintechs, e-commerce, and global MNC centers.",
     "sectors": "Private sector, banking technology, telecommunications, and government cloud initiatives (MeghRaj).",
-    "qualities": [
-      "Architectural vision",
-      "Analytical cost-benefit mindset",
-      "Data security vigilance"
-    ],
+    "qualities": "Architectural vision, analytical cost-benefit mindset, data security vigilance.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + 6 Months (Cloud Architecture Specialization)",
       "costRange": "Approx. ₹1.5L - ₹9L (Degree)",
@@ -4928,12 +4863,7 @@
     ],
     "workplace": "Hyper-scale internet companies (Flipkart, Swiggy, Google, Microsoft), fintechs (Zerodha, Razorpay), global tech hubs.",
     "sectors": "High-scale private tech, payment processors, digital streaming services, and cloud platform providers.",
-    "qualities": [
-      "Calmness under severe pressure",
-      "Deep diagnostic intuition",
-      "Algorithmic mindset",
-      "Dedication to automation"
-    ],
+    "qualities": "Calmness under severe pressure, deep diagnostic intuition, algorithmic mindset, dedication to automation.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + Systems Experience",
       "costRange": "Approx. ₹1.5L - ₹9L (Degree)",
@@ -5273,11 +5203,7 @@
     ],
     "workplace": "R&D centers in Bengaluru, Pune, Chennai, Hyderabad, semiconductor firms, EV automotive startups, and defense labs.",
     "sectors": "Electric vehicles (Ather, Ola Electric, Tata Motors), semiconductor giants (TI, NXP, Qualcomm), defense labs (DRDO, ISRO), and consumer electronics.",
-    "qualities": [
-      "Comfort with electronic schematics",
-      "Precision in memory management",
-      "Patience debugging physical hardware"
-    ],
+    "qualities": "Comfort with electronic schematics, precision in memory management, patience debugging physical hardware.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹2L - ₹8.5L (Degree)",
@@ -5636,11 +5562,7 @@
     ],
     "workplace": "Major IT campuses (TCS, Infosys, Wipro, HCL), defense organizations, banks, and telecom command centers.",
     "sectors": "IT services MNCs, banking infrastructure, public sector undertakings (PSUs), and aerospace defense contractors.",
-    "qualities": [
-      "Systematic troubleshooting methodology",
-      "Patience",
-      "Broad understanding of networking and operating systems"
-    ],
+    "qualities": "Systematic troubleshooting methodology, patience, broad understanding of networking and operating systems.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹2L - ₹8L",
@@ -5977,11 +5899,7 @@
     ],
     "workplace": "Corporate offices, bank branches, educational institutions, call centers, and managed IT service providers.",
     "sectors": "Corporate private companies, BPOs, educational institutes, healthcare hospitals, and IT support agencies.",
-    "qualities": [
-      "Patience with non-technical users",
-      "Clear telephone/verbal communication",
-      "Methodical troubleshooting"
-    ],
+    "qualities": "Patience with non-technical users, clear telephone/verbal communication, methodical troubleshooting.",
     "snapshot": {
       "duration": "1 to 3 Years (Diploma or Degree) or 3-6 Months (Hardware & Networking Course)",
       "costRange": "Approx. ₹30,000 - ₹2.5L",
@@ -6321,11 +6239,7 @@
     ],
     "workplace": "Telecom operators (Jio, Airtel), data centers (CtrlS, Yotta, Equinix), IT consultancies, and financial trading floors.",
     "sectors": "Telecommunications, Internet Service Providers (ISPs), cloud data centers, banking networks, and government railways/defense networks.",
-    "qualities": [
-      "Analytical root-cause investigation",
-      "Comfort with hardware cables and racks",
-      "Spatial topology thinking"
-    ],
+    "qualities": "Analytical root-cause investigation, comfort with hardware cables and racks, spatial topology thinking.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + CCNA Certification",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -6666,11 +6580,7 @@
     ],
     "workplace": "Commercial banks (SBI, HDFC, ICICI), telecom giants, IT consulting firms, healthcare records companies, and cloud providers.",
     "sectors": "Banking and financial services, government revenue & taxation databases, telecommunications, and e-commerce.",
-    "qualities": [
-      "Obsession with data safety",
-      "Attention to detail",
-      "Calm methodical troubleshooting during emergency data recoveries"
-    ],
+    "qualities": "Obsession with data safety, attention to detail, calm methodical troubleshooting during emergency data recoveries.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + Database Administration Specialization",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -7011,12 +6921,7 @@
     ],
     "workplace": "Corporate offices in Bengaluru, Mumbai, Gurgaon, Hyderabad, analytics consultancies, or remote.",
     "sectors": "Retail & e-commerce, banking, fintech, healthcare analytics, and business consulting.",
-    "qualities": [
-      "Curiosity to find patterns in numbers",
-      "Analytical mindset",
-      "Business acumen",
-      "Clear storytelling"
-    ],
+    "qualities": "Curiosity to find patterns in numbers, analytical mindset, business acumen, clear storytelling.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 4-6 Months (Data Analytics Bootcamps)",
       "costRange": "Approx. ₹1L - ₹7L (Degree)",
@@ -7357,11 +7262,7 @@
     ],
     "workplace": "Technology companies, fintech startups (PhonePe, Cred), e-commerce leaders, global capability centers (GCCs), and data research labs.",
     "sectors": "Fintech, algorithmic trading, healthcare predictive modeling, e-commerce recommendation engines, and logistics.",
-    "qualities": [
-      "Deep mathematical intuition",
-      "Strong statistical rigor",
-      "Curiosity for finding hidden signals in noisy data"
-    ],
+    "qualities": "Deep mathematical intuition, strong statistical rigor, curiosity for finding hidden signals in noisy data.",
     "snapshot": {
       "duration": "4 Years (B.Tech) or 3 Yrs (B.Sc) + 2 Yrs (M.Sc/M.Tech)",
       "costRange": "Approx. ₹2L - ₹10L",
@@ -7721,11 +7622,7 @@
     ],
     "workplace": "Product tech companies, cloud consultancies, financial institutions, telecom networks, and remote data teams.",
     "sectors": "Big data consulting, e-commerce, banking & fintech, cloud platforms, and large healthcare analytics.",
-    "qualities": [
-      "Architectural thinking",
-      "Distributed systems patience",
-      "Focus on pipeline resilience and data reliability"
-    ],
+    "qualities": "Architectural thinking, distributed systems patience, focus on pipeline resilience and data reliability.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + Big Data Engineering Training",
       "costRange": "Approx. ₹1.5L - ₹9L (Degree)",
@@ -8069,10 +7966,7 @@
     ],
     "workplace": "AI startups, autonomous vehicle teams, large tech enterprises (Microsoft, Google India, Adobe), robotics and fintech labs.",
     "sectors": "Artificial intelligence products, e-commerce recommendation systems, computer vision firms, and conversational AI.",
-    "qualities": [
-      "Strong blend of software engineering discipline and mathematical intuition",
-      "Focus on production scalability"
-    ],
+    "qualities": "Strong blend of software engineering discipline and mathematical intuition, focus on production scalability.",
     "snapshot": {
       "duration": "4 Years (B.Tech) + ML Engineering Specialization",
       "costRange": "Approx. ₹2L - ₹9L (Degree)",
@@ -8420,11 +8314,7 @@
     ],
     "workplace": "Generative AI startups, enterprise software companies, digital consultancies, and remote international tech teams.",
     "sectors": "Enterprise SaaS, legal tech, customer support automation, healthcare copilots, and edtech platforms.",
-    "qualities": [
-      "Fast-moving experimental mindset",
-      "Strong software architecture skills",
-      "Curiosity about agentic reasoning"
-    ],
+    "qualities": "Fast-moving experimental mindset, strong software architecture skills, curiosity about agentic reasoning.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + Focused Generative AI Tooling",
       "costRange": "Approx. ₹1.5L - ₹9L (Degree)",
@@ -8769,11 +8659,7 @@
     ],
     "workplace": "Indic language AI initiatives (Bhashini), speech AI startups, search engines, customer support automation, and NLP research labs.",
     "sectors": "Conversational AI, government multilingual public portals, media transcription, telecom IVR systems, and search engines.",
-    "qualities": [
-      "Passion for human language structure",
-      "Linguistic intuition",
-      "Solid machine learning foundation"
-    ],
+    "qualities": "Passion for human language structure, linguistic intuition, solid machine learning foundation.",
     "snapshot": {
       "duration": "4 Years (B.Tech) + NLP Specialization",
       "costRange": "Approx. ₹2L - ₹9L (Degree)",
@@ -9115,12 +9001,7 @@
     ],
     "workplace": "Autonomous driving startups, surveillance & defense tech, medical diagnostic firms, manufacturing robotics plants, and satellite imaging labs.",
     "sectors": "Manufacturing quality inspection, drone & robotics companies, retail checkout automation, automotive ADAS, and medical imaging.",
-    "qualities": [
-      "Strong spatial mathematics (linear algebra",
-      "Matrix operations)",
-      "Visual intuition",
-      "Patience with sensor noise"
-    ],
+    "qualities": "Strong spatial mathematics (linear algebra, matrix operations), visual intuition, patience with sensor noise.",
     "snapshot": {
       "duration": "4 Years (B.Tech) + Computer Vision Specialization",
       "costRange": "Approx. ₹2L - ₹9L (Degree)",
@@ -9463,11 +9344,7 @@
     ],
     "workplace": "Corporate headquarters in Mumbai, Bengaluru, Gurgaon, consulting firms (Big 4: Deloitte, PwC, EY, KPMG), and multinational banks.",
     "sectors": "Corporate enterprises, banking and finance, consumer goods (FMCG), logistics, and management consulting.",
-    "qualities": [
-      "Blend of business understanding and data modeling skills",
-      "Visual aesthetics for executive dashboards",
-      "Patience in gathering requirements"
-    ],
+    "qualities": "Blend of business understanding and data modeling skills, visual aesthetics for executive dashboards, patience in gathering requirements.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + BI Tool Specialization",
       "costRange": "Approx. ₹1L - ₹6L (Degree)",
@@ -9807,12 +9684,7 @@
     ],
     "workplace": "IT consulting firms (Infosys, Wipro, Accenture), banks, insurance companies, e-commerce firms, and corporate headquarters.",
     "sectors": "Management consulting, IT services, BFSI (Banking, Financial Services & Insurance), and digital transformation.",
-    "qualities": [
-      "Exceptional verbal and written communication",
-      "Structured analytical thinking",
-      "Active listening",
-      "Business empathy"
-    ],
+    "qualities": "Exceptional verbal and written communication, structured analytical thinking, active listening, business empathy.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + Optional MBA / CBAP Certification",
       "costRange": "Approx. ₹1L - ₹8L (Degree)",
@@ -10149,12 +10021,7 @@
     ],
     "workplace": "Industrial research labs (Microsoft Research India, Google DeepMind, IBM Research, Adobe Research), premier institutes (IISc, IITs, TIFR).",
     "sectors": "Corporate research & development labs, semiconductor advanced labs, academic institutions, and defense research.",
-    "qualities": [
-      "Deep intellectual rigor",
-      "Comfort with ambiguity",
-      "Profound mathematical mastery",
-      "Scientific publication drive"
-    ],
+    "qualities": "Deep intellectual rigor, comfort with ambiguity, profound mathematical mastery, scientific publication drive.",
     "snapshot": {
       "duration": "4 Years (B.Tech) + 2 Yrs (M.Tech/MS) + 4-5 Yrs (Ph.D.)",
       "costRange": "Approx. ₹2L - ₹8L (Ph.D. students receive monthly stipends of ₹37,000 - ₹42,000 via PMRF/CSIR-JRF)",
@@ -10513,12 +10380,7 @@
     ],
     "workplace": "Security Operations Centers (SOC), commercial banks, defense centers, IT consultancies, and cloud providers.",
     "sectors": "Banking and financial services (BFSI), critical national infrastructure, defense agencies, and enterprise IT.",
-    "qualities": [
-      "Investigative curiosity",
-      "Calm under incident crises",
-      "Attention to subtle log anomalies",
-      "Ethical integrity"
-    ],
+    "qualities": "Investigative curiosity, calm under incident crises, attention to subtle log anomalies, ethical integrity.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + Security Certifications",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -10863,12 +10725,7 @@
     ],
     "workplace": "Cybersecurity boutique consulting firms, Big 4 security practices, financial technology companies, and red teams.",
     "sectors": "Commercial banking, payment gateways (Razorpay, Paytm), cloud consultancies, defense testing labs, and independent bug bounty hunting.",
-    "qualities": [
-      "Adversarial hacker mindset",
-      "Deep persistence when hitting walls",
-      "Meticulous documentation of exploit steps",
-      "Strict ethical code"
-    ],
+    "qualities": "Adversarial hacker mindset, deep persistence when hitting walls, meticulous documentation of exploit steps, strict ethical code.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + OSCP / Hands-on Lab Mastery",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -11211,11 +11068,7 @@
     ],
     "workplace": "Fintech unicorns (Zerodha, Razorpay), cloud companies, consumer internet platforms, and enterprise software firms.",
     "sectors": "Private sector, banking technology, cloud infrastructure providers, and global SaaS organizations.",
-    "qualities": [
-      "Holistic systems thinking",
-      "Constructive empathy with developer deadlines",
-      "Strong coding and security background"
-    ],
+    "qualities": "Holistic systems thinking, constructive empathy with developer deadlines, strong coding and security background.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹2L - ₹8.5L (Degree)",
@@ -11558,11 +11411,7 @@
     ],
     "workplace": "State Police Cyber Crime Cells, Central Forensic Science Laboratories (CFSL), CID, private forensic consultancies, and corporate fraud investigation units.",
     "sectors": "Government law enforcement, National Forensic Sciences University (NFSU), defense intelligence, and corporate internal investigations.",
-    "qualities": [
-      "Meticulous attention to procedural evidence rules",
-      "Unshakeable integrity",
-      "Patience searching thousands of file artifacts"
-    ],
+    "qualities": "Meticulous attention to procedural evidence rules, unshakeable integrity, patience searching thousands of file artifacts.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + 2 Years (M.Sc Digital Forensics optional)",
       "costRange": "Approx. ₹1L - ₹5L (Degree)",
@@ -11922,10 +11771,7 @@
     ],
     "workplace": "Web3 startups, fintech unicorns, global blockchain consultancies, or 100% remote worldwide.",
     "sectors": "Fintech, decentralized finance (DeFi), supply chain tracking, tokenized real estate, and government digital certificates.",
-    "qualities": [
-      "Extreme code security consciousness (smart contracts are immutable and store financial value)",
-      "Cryptographic curiosity"
-    ],
+    "qualities": "Extreme code security consciousness (smart contracts are immutable and store financial value), cryptographic curiosity.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + Blockchain & Smart Contract Specialization",
       "costRange": "Approx. ₹1.5L - ₹9L (Degree)",
@@ -12268,11 +12114,7 @@
     ],
     "workplace": "Robotics startups in Bengaluru, Pune, Chennai, automotive manufacturing plants (Maruti, Tata), warehouse automation firms (GreyOrange), defense labs.",
     "sectors": "Industrial manufacturing, e-commerce warehouse automation, healthcare surgical robots, agricultural drones, and defense robotics.",
-    "qualities": [
-      "Multidisciplinary comfort across mechanical",
-      "Electronics",
-      "And software; spatial mathematics; physical hands-on building patience"
-    ],
+    "qualities": "Multidisciplinary comfort across mechanical, electronics, and software; spatial mathematics; physical hands-on building patience.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹2L - ₹9L (Degree)",
@@ -12633,10 +12475,7 @@
     ],
     "workplace": "Smart energy firms, industrial IoT (IIoT) companies, automotive electronics startups, smart city command centers, and R&D labs.",
     "sectors": "Smart agriculture, smart electrical grid meters (AMI), industrial factory monitoring, automotive telemetry, and environmental sensing.",
-    "qualities": [
-      "Bridge mindset between physical hardware and cloud software",
-      "Focus on radio transmission efficiency and battery longevity"
-    ],
+    "qualities": "Bridge mindset between physical hardware and cloud software, focus on radio transmission efficiency and battery longevity.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹2L - ₹8.5L (Degree)",
@@ -12980,11 +12819,7 @@
     ],
     "workplace": "Spatial computing studios in Bengaluru, Pune, Hyderabad, medical simulation companies, gaming firms, and defense training centers.",
     "sectors": "Healthcare surgical simulations, industrial digital twin training, defense flight simulators, edtech, and spatial entertainment.",
-    "qualities": [
-      "Deep 3D spatial imagination",
-      "Empathy for physical comfort in VR (motion sickness prevention)",
-      "Visual design sensibility"
-    ],
+    "qualities": "Deep 3D spatial imagination, empathy for physical comfort in VR (motion sickness prevention), visual design sensibility.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) + AR/VR Specialization",
       "costRange": "Approx. ₹1.5L - ₹9L (Degree) + VR Headset",
@@ -13328,10 +13163,7 @@
     ],
     "workplace": "Global semiconductor giants (Qualcomm, Intel India, Texas Instruments, AMD, NVIDIA, MediaTek) in Bengaluru, Hyderabad, and Noida.",
     "sectors": "Semiconductor design centers, India Semiconductor Mission (ISM) fabrication units, defense electronics, and consumer hardware.",
-    "qualities": [
-      "Obsession with mathematical precision (a taped-out silicon chip with a bug costs millions of dollars to fix)",
-      "Patience with deep simulation cycles"
-    ],
+    "qualities": "Obsession with mathematical precision (a taped-out silicon chip with a bug costs millions of dollars to fix), patience with deep simulation cycles.",
     "snapshot": {
       "duration": "4 Years (B.Tech) or 2 Years (M.Tech VLSI / Microelectronics)",
       "costRange": "Approx. ₹2L - ₹9L (Degree)",
@@ -13687,11 +13519,7 @@
     ],
     "workplace": "Semiconductor design centers in Bengaluru, Noida, Hyderabad, and Pune (Qualcomm, Synopsys, Cadence, Broadcom, NXP).",
     "sectors": "Semiconductor physical design, ASIC manufacturing consultancies, fabless chip startups, and processor R&D.",
-    "qualities": [
-      "Extreme geometric spatial discipline",
-      "Patience optimizing thousands of timing paths",
-      "Deep physics intuition"
-    ],
+    "qualities": "Extreme geometric spatial discipline, patience optimizing thousands of timing paths, deep physics intuition.",
     "snapshot": {
       "duration": "4 Years (B.Tech) + 2 Years (M.Tech VLSI Design)",
       "costRange": "Approx. ₹2L - ₹8.5L",
@@ -14050,12 +13878,7 @@
     ],
     "workplace": "Manufacturing plants, automotive factories (Tata Motors, Mahindra, Maruti Suzuki), engineering design centers, power plants, and naval docks.",
     "sectors": "Automotive, aerospace, heavy machinery (L&T, BHEL), defense labs (DRDO), railways, and energy generation.",
-    "qualities": [
-      "Strong mechanical intuition",
-      "Spatial 3D visualization",
-      "Safety consciousness",
-      "Analytical physics mindset"
-    ],
+    "qualities": "Strong mechanical intuition, spatial 3D visualization, safety consciousness, analytical physics mindset.",
     "snapshot": {
       "duration": "4 Years (B.Tech) or 3 Years (Diploma in Mechanical)",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -14416,12 +14239,7 @@
     ],
     "workplace": "Construction job sites, infrastructure mega-projects (Highways, Metro Rails), structural design offices, and government engineering departments.",
     "sectors": "Government infrastructure (CPWD, State PWD, NHAI, Railways), construction giants (L&T, Shapoorji Pallonji, Tata Projects), and consulting firms.",
-    "qualities": [
-      "Physical stamina for outdoor site supervision",
-      "Spatial structural visualization",
-      "Leadership of labor crews",
-      "Safety vigilance"
-    ],
+    "qualities": "Physical stamina for outdoor site supervision, spatial structural visualization, leadership of labor crews, safety vigilance.",
     "snapshot": {
       "duration": "4 Years (B.Tech) or 3 Years (Diploma in Civil)",
       "costRange": "Approx. ₹1.5L - ₹8L (Degree)",
@@ -14781,11 +14599,7 @@
     ],
     "workplace": "Power generation stations (NTPC, Tata Power), state transmission corporations (Transco/Discoms), renewable solar/wind farms, EV factories, and heavy industrial plants.",
     "sectors": "Power utilities, electric vehicles, renewable energy, metro railways, and heavy electrical manufacturing (BHEL, Siemens, ABB).",
-    "qualities": [
-      "Extreme adherence to electrical safety standards",
-      "Strong circuit mathematics",
-      "Analytical problem solving under blackout conditions"
-    ],
+    "qualities": "Extreme adherence to electrical safety standards, strong circuit mathematics, analytical problem solving under blackout conditions.",
     "snapshot": {
       "duration": "4 Years (B.Tech) or 3 Years (Diploma in Electrical)",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -15144,11 +14958,7 @@
     ],
     "workplace": "Telecom service operators (Jio, Airtel), telecom equipment makers (Ericsson, Nokia, Huawei), satellite centers (ISRO), and defense labs (BEL).",
     "sectors": "Telecommunications, 5G wireless networks, satellite communications, optical fiber infrastructure, and defense communications.",
-    "qualities": [
-      "Strong mathematical aptitude in signals and probability",
-      "Comfort with high-frequency electromagnetic theory",
-      "Analytical troubleshooting"
-    ],
+    "qualities": "Strong mathematical aptitude in signals and probability, comfort with high-frequency electromagnetic theory, analytical troubleshooting.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹2L - ₹8.5L (Degree)",
@@ -15507,11 +15317,7 @@
     ],
     "workplace": "Petroleum refineries (Reliance Jamnagar, Indian Oil), pharmaceutical manufacturing plants (Hyderabad, Gujarat), fertilizer factories, and process R&D labs.",
     "sectors": "Petroleum & refining, bulk chemicals, active pharmaceutical ingredients (APIs), fertilizers, paints, and energy storage.",
-    "qualities": [
-      "Obsession with industrial safety protocols",
-      "Strong physical chemistry and mathematical acumen",
-      "Process optimization mindset"
-    ],
+    "qualities": "Obsession with industrial safety protocols, strong physical chemistry and mathematical acumen, process optimization mindset.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -15870,11 +15676,7 @@
     ],
     "workplace": "Space agency centers (ISRO centers: VSSC, URSC), defense research labs (DRDO, HAL, ADA), private space startups (Skyroot, Agnikul), and aerospace MNC centers (Boeing, Airbus India).",
     "sectors": "National space exploration (ISRO), defense aircraft (Tejas, HAL), private space launch startups, commercial drone manufacturers, and civil aviation.",
-    "qualities": [
-      "Extreme mathematical precision",
-      "Zero-tolerance for component failure",
-      "Passion for aviation and space exploration"
-    ],
+    "qualities": "Extreme mathematical precision, zero-tolerance for component failure, passion for aviation and space exploration.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹2L - ₹9L (IIST Thiruvananthapuram offers 100% scholarship for high JEE scorers)",
@@ -16240,11 +16042,7 @@
     ],
     "workplace": "Automotive hubs in Pune, Chennai, Gurugram, and Bengaluru (Tata Motors, Mahindra, Maruti Suzuki, Hyundai, Ola Electric).",
     "sectors": "Electric vehicles (EVs), passenger cars, commercial heavy vehicles, two-wheelers, and auto-component manufacturers (Bosch, Continental).",
-    "qualities": [
-      "Passion for vehicles and driving dynamics",
-      "Mechanical intuition",
-      "Focus on crash safety and environmental emissions"
-    ],
+    "qualities": "Passion for vehicles and driving dynamics, mechanical intuition, focus on crash safety and environmental emissions.",
     "snapshot": {
       "duration": "4 Years (B.Tech) or 3 Years (Diploma in Automobile Engineering)",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -16587,11 +16385,7 @@
     ],
     "workplace": "Solar and wind energy developers (Tata Power Solar, Adani Green, ReNew Power), renewable consultancies, and green hydrogen R&D sites.",
     "sectors": "Solar power, wind energy, green hydrogen, battery energy storage systems, and energy consulting.",
-    "qualities": [
-      "Passion for climate action and decarbonization",
-      "Analytical energy modeling skills",
-      "Field site inspection comfort"
-    ],
+    "qualities": "Passion for climate action and decarbonization, analytical energy modeling skills, field site inspection comfort.",
     "snapshot": {
       "duration": "4 Years (B.Tech) + Renewable Energy Specialization",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -16950,11 +16744,7 @@
     ],
     "workplace": "Pollution Control Boards (CPCB / SPCB), municipal corporations, environmental consulting firms, manufacturing plants, and water treatment companies.",
     "sectors": "Municipal water treatment, industrial pollution control, solid waste management, corporate ESG (Environmental, Social & Governance), and government pollution boards.",
-    "qualities": [
-      "Passion for ecological preservation",
-      "Scientific investigative curiosity",
-      "Adherence to environmental laws"
-    ],
+    "qualities": "Passion for ecological preservation, scientific investigative curiosity, adherence to environmental laws.",
     "snapshot": {
       "duration": "4 Years (B.Tech / B.E.)",
       "costRange": "Approx. ₹1.5L - ₹8L (Degree)",
@@ -17315,11 +17105,7 @@
     ],
     "workplace": "Manufacturing plants (Automotive, Electronics, Textiles), mega e-commerce fulfillment centers (Amazon, Flipkart), logistics hubs, and management consultancies.",
     "sectors": "Automotive assembly, consumer goods (FMCG), consumer electronics (Foxconn, Dixon), e-commerce warehousing, and operations consulting.",
-    "qualities": [
-      "Systematic efficiency mindset",
-      "Sharp eye for eliminating wasted motion and delays",
-      "Data-driven analytical logic"
-    ],
+    "qualities": "Systematic efficiency mindset, sharp eye for eliminating wasted motion and delays, data-driven analytical logic.",
     "snapshot": {
       "duration": "4 Years (B.Tech) or 2 Years (M.Tech / PGDIE from NITIE / IIM Mumbai)",
       "costRange": "Approx. ₹1.5L - ₹8.5L (Degree)",
@@ -17679,12 +17465,7 @@
     ],
     "workplace": "Government civil hospitals, premier medical institutes (AIIMS, PGIMER), private multi-specialty hospitals (Apollo, Fortis, Max), and private clinics.",
     "sectors": "Government health services (Central Health Service, State Medical Services, Armed Forces Medical Services - AFMS), private hospitals, and independent practice.",
-    "qualities": [
-      "Deep human empathy",
-      "Emotional resilience during patient distress",
-      "Sharp clinical observation",
-      "Unyielding ethical integrity"
-    ],
+    "qualities": "Deep human empathy, emotional resilience during patient distress, sharp clinical observation, unyielding ethical integrity.",
     "snapshot": {
       "duration": "5.5 Years (4.5 Years Academic + 1 Year Compulsory Rotatory Internship)",
       "costRange": "Approx. ₹50,000 - ₹5L (Govt Medical Colleges) to ₹40L - ₹90L (Private Medical Colleges)",
@@ -18045,12 +17826,7 @@
     ],
     "workplace": "Private dental clinics, multi-specialty dental chains (Clove Dental), government hospitals, Armed Forces clinics, and dental colleges.",
     "sectors": "Private healthcare clinics, government health departments, Armed Forces Dental Corps, and international dental tourism.",
-    "qualities": [
-      "Fine manual motor dexterity",
-      "Aesthetic eye for dental restoration",
-      "Steady hands under tight physical access",
-      "Reassuring patient demeanor"
-    ],
+    "qualities": "Fine manual motor dexterity, aesthetic eye for dental restoration, steady hands under tight physical access, reassuring patient demeanor.",
     "snapshot": {
       "duration": "5 Years (4 Years Academic + 1 Year Paid Rotating Internship)",
       "costRange": "Approx. ₹1L - ₹4L (Govt Dental Colleges) to ₹12L - ₹25L (Private Dental Colleges)",
@@ -18404,11 +18180,7 @@
     ],
     "workplace": "Government hospitals (AIIMS, State Medical Colleges), private multi-specialty hospitals (Apollo, Fortis, Narayana Health), and global healthcare systems.",
     "sectors": "Government health services, private corporate hospitals, community health centers, defense military nursing, and overseas migration (UK, Germany, Gulf, USA).",
-    "qualities": [
-      "Deep compassion and empathy",
-      "Physical endurance for long shifts on feet",
-      "Quick thinking during patient code emergencies"
-    ],
+    "qualities": "Deep compassion and empathy, physical endurance for long shifts on feet, quick thinking during patient code emergencies.",
     "snapshot": {
       "duration": "4 Years (B.Sc Nursing) or 3 Years (GNM Diploma)",
       "costRange": "Approx. ₹50,000 - ₹3L (Govt Nursing Colleges) to ₹3L - ₹8L (Private Nursing Colleges)",
@@ -18767,11 +18539,7 @@
     ],
     "workplace": "Pharmaceutical manufacturing facilities (Sun Pharma, Cipla, Dr. Reddy's), hospital pharmacies, retail chemist chains (Apollo Pharmacy, MedPlus), and CDSCO regulatory offices.",
     "sectors": "Pharmaceutical production, clinical research organizations (CROs), retail healthcare, hospital clinical pharmacy, and government drug inspectorates.",
-    "qualities": [
-      "Extreme precision in chemical calculations",
-      "Thorough knowledge of drug pharmacology",
-      "Clear communication with patients"
-    ],
+    "qualities": "Extreme precision in chemical calculations, thorough knowledge of drug pharmacology, clear communication with patients.",
     "snapshot": {
       "duration": "4 Years (B.Pharm) or 2 Years (D.Pharm Diploma)",
       "costRange": "Approx. ₹80,000 - ₹6L (Degree)",
@@ -19130,11 +18898,7 @@
     ],
     "workplace": "Multi-specialty hospitals, orthopedic rehabilitation centers, sports training academies (BCCI, SAI), and private physiotherapy clinics.",
     "sectors": "Orthopedic care, neurological rehabilitation, sports medicine, geriatric healthcare, and private clinical practice.",
-    "qualities": [
-      "Physical stamina to assist patients with exercises",
-      "Patience observing small rehabilitation gains",
-      "Reassuring empathetic manner"
-    ],
+    "qualities": "Physical stamina to assist patients with exercises, patience observing small rehabilitation gains, reassuring empathetic manner.",
     "snapshot": {
       "duration": "4.5 Years (4 Years Academic + 6 Months Compulsory Clinical Internship)",
       "costRange": "Approx. ₹1L - ₹6L (Degree)",
@@ -19475,11 +19239,7 @@
     ],
     "workplace": "Hospital pathology laboratories, diagnostic chains (Dr Lal PathLabs, Metropolis, SRL), blood banks, and clinical research centers.",
     "sectors": "Diagnostic healthcare, hospital pathology units, blood transfusion services, and public health disease surveillance.",
-    "qualities": [
-      "Microscopic precision",
-      "Zero-error tolerance in specimen labeling",
-      "Comfort handling biohazard fluids safely"
-    ],
+    "qualities": "Microscopic precision, zero-error tolerance in specimen labeling, comfort handling biohazard fluids safely.",
     "snapshot": {
       "duration": "3 to 4 Years (B.Sc MLT) or 2 Years (DMLT Diploma)",
       "costRange": "Approx. ₹60,000 - ₹3.5L",
@@ -19820,12 +19580,7 @@
     ],
     "workplace": "Hospital radiology departments, diagnostic imaging centers, trauma centers, and specialized cancer hospitals.",
     "sectors": "Hospital imaging units, advanced diagnostic centers, orthopedic clinics, and public emergency trauma departments.",
-    "qualities": [
-      "Patient positioning patience",
-      "Deep understanding of radiation safety",
-      "Spatial anatomical visualization",
-      "Equipment precision"
-    ],
+    "qualities": "Patient positioning patience, deep understanding of radiation safety, spatial anatomical visualization, equipment precision.",
     "snapshot": {
       "duration": "3 to 4 Years (B.Sc Imaging Technology) or 2 Years (Diploma in Radiography)",
       "costRange": "Approx. ₹80,000 - ₹4L",
@@ -20165,11 +19920,7 @@
     ],
     "workplace": "Pediatric child development centers, rehabilitation hospitals, special education schools, psychiatric clinics, and home care services.",
     "sectors": "Pediatric developmental therapy, neurological rehabilitation, mental health facilities, geriatric care, and inclusive education.",
-    "qualities": [
-      "Exceptional patience with children and slow rehabilitation milestones",
-      "Creative problem solving with adaptive equipment",
-      "High empathy"
-    ],
+    "qualities": "Exceptional patience with children and slow rehabilitation milestones, creative problem solving with adaptive equipment, high empathy.",
     "snapshot": {
       "duration": "4.5 Years (4 Years Academic + 6 Months Clinical Internship)",
       "costRange": "Approx. ₹1L - ₹5.5L (Degree)",
@@ -20508,11 +20259,7 @@
     ],
     "workplace": "Multi-specialty hospitals, sports academies, diabetes clinics, wellness centers, food corporations, or independent private practice.",
     "sectors": "Clinical healthcare, sports nutrition, corporate wellness, food & nutraceutical industry, and public health nutrition.",
-    "qualities": [
-      "Empathetic communication",
-      "Practical culinary understanding of regional Indian diets",
-      "Passion for preventive metabolic health"
-    ],
+    "qualities": "Empathetic communication, practical culinary understanding of regional Indian diets, passion for preventive metabolic health.",
     "snapshot": {
       "duration": "3 Years (B.Sc) + 2 Years (M.Sc / PG Diploma) + 6 Months Hospital Internship",
       "costRange": "Approx. ₹80,000 - ₹4L (Degree)",
@@ -20854,11 +20601,7 @@
     ],
     "workplace": "World Health Organization (WHO India), UNICEF, Ministry of Health and Family Welfare, Public Health Foundation of India (PHFI), state health departments, and global NGOs.",
     "sectors": "Government health missions, United Nations agencies, global health foundations (Gates Foundation, PATH), and epidemiological research institutes.",
-    "qualities": [
-      "Passion for population-scale health equity",
-      "Strong statistical mindset",
-      "Ability to navigate government policy systems"
-    ],
+    "qualities": "Passion for population-scale health equity, strong statistical mindset, ability to navigate government policy systems.",
     "snapshot": {
       "duration": "2 Years (Master of Public Health - MPH)",
       "costRange": "Approx. ₹1L - ₹6L",
@@ -21198,12 +20941,7 @@
     ],
     "workplace": "Big 4 accounting firms (Deloitte, PwC, EY, KPMG), multinational corporations, investment banks, corporate finance offices, or independent CA practice firms.",
     "sectors": "Statutory auditing, corporate taxation, banking and financial services, forensic accounting, and independent chartered practice.",
-    "qualities": [
-      "Uncompromising integrity",
-      "Relentless attention to balance sheet details",
-      "Deep mastery of tax and corporate laws",
-      "Resilience under audit deadlines"
-    ],
+    "qualities": "Uncompromising integrity, relentless attention to balance sheet details, deep mastery of tax and corporate laws, resilience under audit deadlines.",
     "snapshot": {
       "duration": "Approx. 4.5 to 5 Years (Foundation -> Intermediate -> 2-3 Yrs Articleship -> CA Final)",
       "costRange": "Approx. ₹75,000 - ₹2.5L (ICAI Exam Fees + Coaching)",
@@ -21541,11 +21279,7 @@
     ],
     "workplace": "Corporate headquarters of listed companies (Tata, Reliance, Infosys), corporate legal firms, stock exchanges (BSE, NSE), and independent CS practice firms.",
     "sectors": "Corporate public listed companies, financial stock market intermediaries, corporate legal consulting, and independent secretarial practice.",
-    "qualities": [
-      "Meticulous legal accuracy",
-      "Diplomacy communicating with high-level corporate directors",
-      "Thorough knowledge of corporate jurisprudence"
-    ],
+    "qualities": "Meticulous legal accuracy, diplomacy communicating with high-level corporate directors, thorough knowledge of corporate jurisprudence.",
     "snapshot": {
       "duration": "Approx. 3.5 to 4 Years (CSEET -> CS Executive -> Practical Training -> CS Professional)",
       "costRange": "Approx. ₹50,000 - ₹1.8L (ICSI Registration Fees + Study Materials)",
@@ -21881,11 +21615,7 @@
     ],
     "workplace": "Heavy manufacturing plants (Steel, Cement, Automotive), Maharatna PSUs (ONGC, SAIL, Coal India, BHEL), pharmaceutical factories, and cost audit practice firms.",
     "sectors": "Heavy industrial manufacturing, public sector undertakings (PSUs), government tariff commissions, pharmaceutical production, and cost consulting.",
-    "qualities": [
-      "Sharp mathematical cost analysis",
-      "Understanding of physical factory operations",
-      "Relentless focus on operational efficiency"
-    ],
+    "qualities": "Sharp mathematical cost analysis, understanding of physical factory operations, relentless focus on operational efficiency.",
     "snapshot": {
       "duration": "Approx. 3.5 to 4.5 Years (Foundation -> Intermediate -> Practical Training -> CMA Final)",
       "costRange": "Approx. ₹60,000 - ₹1.8L (ICMAI Registration Fees + Materials)",
@@ -22223,11 +21953,7 @@
     ],
     "workplace": "Financial hubs in Mumbai (BKC, Nariman Point), Bengaluru, global investment banks (Goldman Sachs, Morgan Stanley, JPMorgan), domestic mutual funds, and PE/VC funds.",
     "sectors": "Investment banking, equity research, mutual funds (AMCs), venture capital, private equity, and wealth management.",
-    "qualities": [
-      "Relentless curiosity about corporate business models",
-      "Extreme Excel financial modeling speed",
-      "Quantitative analytical rigor"
-    ],
+    "qualities": "Relentless curiosity about corporate business models, extreme Excel financial modeling speed, quantitative analytical rigor.",
     "snapshot": {
       "duration": "3-4 Years (Degree) + MBA Finance / CFA Program",
       "costRange": "Approx. ₹2L - ₹15L",
@@ -22586,11 +22312,7 @@
     ],
     "workplace": "Corporate headquarters of enterprises (HUL, Amazon, Flipkart, Infosys, Reliance), banks, and technology startups.",
     "sectors": "Corporate finance (FP&A), retail and consumer goods, telecommunications, healthcare, and IT corporate finance.",
-    "qualities": [
-      "Financial numbers fluency",
-      "Structured thinking",
-      "Clear communication bridging finance with operations teams"
-    ],
+    "qualities": "Financial numbers fluency, structured thinking, clear communication bridging finance with operations teams.",
     "snapshot": {
       "duration": "3 Years (B.Com/BBA) or + 2 Years (MBA Finance)",
       "costRange": "Approx. ₹1L - ₹8L (Degree)",
@@ -22930,12 +22652,7 @@
     ],
     "workplace": "Public sector banks (State Bank of India, Bank of Baroda), premier private banks (HDFC Bank, ICICI Bank), Reserve Bank of India (RBI), and regional rural banks (RRBs).",
     "sectors": "Commercial banking, retail banking, corporate credit underwriting, treasury operations, and central banking (RBI).",
-    "qualities": [
-      "Financial accuracy",
-      "Public customer service patience",
-      "Unyielding honesty",
-      "Strict compliance mindset"
-    ],
+    "qualities": "Financial accuracy, public customer service patience, unyielding honesty, strict compliance mindset.",
     "snapshot": {
       "duration": "Graduation (3-4 Years) + Competitive Banking Examination",
       "costRange": "Approx. ₹50,000 - ₹3L (Degree + Exam Preparation)",
@@ -23293,11 +23010,7 @@
     ],
     "workplace": "Life and general insurance giants (LIC of India, HDFC Life, ICICI Prudential, SBI Life), reinsurance corporations (GIC Re, Swiss Re), and actuarial consultancies.",
     "sectors": "Life insurance, general insurance, reinsurance, pension funds, employee benefits consulting, and risk management.",
-    "qualities": [
-      "Extraordinary mathematical and statistical aptitude",
-      "Deep persistence clearing challenging professional papers",
-      "Ethical foresight"
-    ],
+    "qualities": "Extraordinary mathematical and statistical aptitude, deep persistence clearing challenging professional papers, ethical foresight.",
     "snapshot": {
       "duration": "Approx. 4 to 7 Years (Passing 13 Professional Actuarial Papers while working)",
       "costRange": "Approx. ₹1.5L - ₹3.5L (IAI Exam Fees + Study Material)",
@@ -23639,12 +23352,7 @@
     ],
     "workplace": "Corporate technology campuses (Bengaluru, Pune, Gurugram), corporate headquarters, manufacturing plants, and executive recruitment agencies.",
     "sectors": "Information technology, banking and financial services, consumer goods (FMCG), manufacturing, and healthcare.",
-    "qualities": [
-      "High emotional intelligence (EQ)",
-      "Objective conflict resolution ability",
-      "Strong interpersonal empathy",
-      "Organizational strategy mindset"
-    ],
+    "qualities": "High emotional intelligence (EQ), objective conflict resolution ability, strong interpersonal empathy, organizational strategy mindset.",
     "snapshot": {
       "duration": "3 Years (Graduation) + 2 Years (MBA in HR / HRM)",
       "costRange": "Approx. ₹1.5L - ₹16L",
@@ -23986,11 +23694,7 @@
     ],
     "workplace": "Corporate headquarters in Mumbai, Gurugram, Bengaluru (HUL, Nestlé, ITC, P&G, Swiggy, Flipkart), or advertising agencies.",
     "sectors": "Fast-Moving Consumer Goods (FMCG), consumer tech & apps, retail, automotive, and telecom brands.",
-    "qualities": [
-      "Deep consumer psychology intuition",
-      "Creative storytelling flair",
-      "Sharp business commercial acumen"
-    ],
+    "qualities": "Deep consumer psychology intuition, creative storytelling flair, sharp business commercial acumen.",
     "snapshot": {
       "duration": "3-4 Years (Graduation) + 2 Years (MBA in Marketing)",
       "costRange": "Approx. ₹2L - ₹15L",
@@ -24330,12 +24034,7 @@
     ],
     "workplace": "Digital marketing agencies, direct-to-consumer (D2C) e-commerce brands, tech startups, or fully remote as an independent consultant.",
     "sectors": "E-commerce, edtech, SaaS platforms, digital marketing agencies, real estate marketing, and independent freelancing.",
-    "qualities": [
-      "Fast-moving experimental mindset",
-      "Analytical numbers comfort",
-      "Creative copywriting flair",
-      "Curiosity about search algorithms"
-    ],
+    "qualities": "Fast-moving experimental mindset, analytical numbers comfort, creative copywriting flair, curiosity about search algorithms.",
     "snapshot": {
       "duration": "3 Years (Degree) or 3-6 Months (Hands-on Digital Marketing Mastery)",
       "costRange": "Approx. ₹30,000 - ₹2.5L",
@@ -24681,12 +24380,7 @@
     ],
     "workplace": "Product tech companies (Swiggy, Razorpay, CRED, Zomato), design agencies, fintech startups, or global remote design teams.",
     "sectors": "Consumer internet, enterprise SaaS, banking apps, health tech, and independent design consultancies.",
-    "qualities": [
-      "Deep human empathy",
-      "Sharp visual aesthetics",
-      "Micro-interaction sensitivity",
-      "Ability to accept constructive design critique"
-    ],
+    "qualities": "Deep human empathy, sharp visual aesthetics, micro-interaction sensitivity, ability to accept constructive design critique.",
     "snapshot": {
       "duration": "3 to 4 Years (B.Des) or 4-6 Months (Focused UX Portfolio Creation)",
       "costRange": "Approx. ₹1L - ₹8L (College Degree) or Free (Self-Taught Portfolio)",
@@ -25047,11 +24741,7 @@
     ],
     "workplace": "Advertising agencies (Ogilvy, Dentsu, Leo Burnett), corporate marketing departments, branding design studios, or freelance studios.",
     "sectors": "Advertising, consumer branding, digital media, book publishing, packaging, and entertainment.",
-    "qualities": [
-      "Original visual flair",
-      "Deep appreciation of typography and color psychology",
-      "Attention to layout composition"
-    ],
+    "qualities": "Original visual flair, deep appreciation of typography and color psychology, attention to layout composition.",
     "snapshot": {
       "duration": "3 to 4 Years (B.Des / BFA) or 6 Months (Applied Graphic Design Mastery)",
       "costRange": "Approx. ₹80,000 - ₹6L (Degree)",
@@ -25391,12 +25081,7 @@
     ],
     "workplace": "Product tech companies (CRED, Zerodha, Swiggy, Flipkart, Postman), high-growth startups, and international remote teams.",
     "sectors": "Consumer mobile apps, fintech platforms, B2B enterprise SaaS, e-commerce marketplaces, and health tech.",
-    "qualities": [
-      "Strategic business mindset",
-      "Systems-level holistic thinking",
-      "Obsessive user empathy",
-      "Strong verbal articulation"
-    ],
+    "qualities": "Strategic business mindset, systems-level holistic thinking, obsessive user empathy, strong verbal articulation.",
     "snapshot": {
       "duration": "4 Years (B.Des / B.Tech) + Product Experience",
       "costRange": "Approx. ₹2L - ₹10L",
@@ -25738,11 +25423,7 @@
     ],
     "workplace": "Animation studios in Mumbai, Hyderabad, Pune, Bengaluru (Green Gold Animation, DNEG, Technicolor India), and gaming studios.",
     "sectors": "Animated television series (Chhota Bheem, Motu Patlu), Hollywood animated feature outsourcing, gaming, and commercial advertising.",
-    "qualities": [
-      "Exceptional observation of real-world physical motion and weight",
-      "Passion for storytelling",
-      "Patience with frame-by-frame iteration"
-    ],
+    "qualities": "Exceptional observation of real-world physical motion and weight, passion for storytelling, patience with frame-by-frame iteration.",
     "snapshot": {
       "duration": "3 to 4 Years (Degree) or 1-2 Years (Specialized Animation Academy Diploma)",
       "costRange": "Approx. ₹1.5L - ₹7L",
@@ -26084,11 +25765,7 @@
     ],
     "workplace": "VFX studios in Mumbai, Hyderabad, Chennai, and Bengaluru (DNEG India, Framestore, MPC, Makuta VFX, Redchillies.vfx).",
     "sectors": "Indian cinema (Bollywood, Tollywood), Hollywood VFX outsourcing, streaming series (Netflix, Amazon Prime), and high-end automotive commercials.",
-    "qualities": [
-      "Obsession with cinematic photorealism",
-      "Sharp eye for lighting and camera optical artifacts",
-      "Patience during heavy rendering cycles"
-    ],
+    "qualities": "Obsession with cinematic photorealism, sharp eye for lighting and camera optical artifacts, patience during heavy rendering cycles.",
     "snapshot": {
       "duration": "3 Years (Degree) or 1-2 Years (Specialized VFX Academy)",
       "costRange": "Approx. ₹1.5L - ₹8L",
@@ -26430,12 +26107,7 @@
     ],
     "workplace": "Film post-production suites in Mumbai, Hyderabad, Chennai, OTT production companies, and advertising agencies.",
     "sectors": "Feature films, streaming web series (Netflix, Prime), television commercials, documentary filmmaking, and digital video production.",
-    "qualities": [
-      "Intuitive sense of rhythm and timing",
-      "Storytelling instinct",
-      "Patience watching hours of raw footage",
-      "Collaborative director diplomacy"
-    ],
+    "qualities": "Intuitive sense of rhythm and timing, storytelling instinct, patience watching hours of raw footage, collaborative director diplomacy.",
     "snapshot": {
       "duration": "3 Years (Film Degree / FTII Diploma) or 6 Months (Intensive Editing Mastery)",
       "costRange": "Approx. ₹1L - ₹8L",
@@ -26775,12 +26447,7 @@
     ],
     "workplace": "Newsrooms in New Delhi, Mumbai, state capitals, regional bureau offices, television studios, and field reporting environments.",
     "sectors": "Print journalism (The Hindu, Indian Express, Dainik Jagran), wire agencies (PTI, ANI), television news, and digital investigative portals.",
-    "qualities": [
-      "Incorruptible integrity",
-      "Persistence pursuing difficult truth",
-      "Skepticism of official narratives",
-      "Clear fast writing under deadlines"
-    ],
+    "qualities": "Incorruptible integrity, persistence pursuing difficult truth, skepticism of official narratives, clear fast writing under deadlines.",
     "snapshot": {
       "duration": "3 Years (B.A. Journalism) or 1 Year (IIMC Post Graduate Diploma)",
       "costRange": "Approx. ₹50,000 - ₹3.5L",
@@ -27123,12 +26790,7 @@
     ],
     "workplace": "Tech startups, content marketing agencies, e-commerce brands, or working remotely as an independent freelance writer.",
     "sectors": "SaaS technology, consumer fintech, edtech platforms, digital marketing agencies, and global freelance client work.",
-    "qualities": [
-      "Grammatical excellence",
-      "Deep intellectual curiosity",
-      "Ability to research unfamiliar topics rapidly",
-      "Disciplined writing routine"
-    ],
+    "qualities": "Grammatical excellence, deep intellectual curiosity, ability to research unfamiliar topics rapidly, disciplined writing routine.",
     "snapshot": {
       "duration": "3 Years (Degree) or Immediate (Strong Writing Sample Portfolio)",
       "costRange": "Approx. ₹30,000 - ₹2L",
@@ -27465,12 +27127,7 @@
     ],
     "workplace": "Independent home video studios, creative co-working spaces, media production offices, and on-location shoots.",
     "sectors": "The global creator economy, influencer marketing agencies, educational YouTube channels, and digital media brands.",
-    "qualities": [
-      "High on-camera charisma",
-      "Storytelling creativity",
-      "Self-discipline to upload consistently",
-      "Resilience facing algorithm shifts"
-    ],
+    "qualities": "High on-camera charisma, storytelling creativity, self-discipline to upload consistently, resilience facing algorithm shifts.",
     "snapshot": {
       "duration": "Continuous Independent Production (Audience building takes 6 to 18 months of consistency)",
       "costRange": "Approx. ₹25,000 - ₹2L (Camera/Phone, Microphone, Lights, PC)",
@@ -27806,12 +27463,7 @@
     ],
     "workplace": "Commercial photo studios, outdoor natural locations, wedding venues across India, fashion runways, and corporate offices.",
     "sectors": "Commercial advertising, the massive Indian wedding industry, fashion houses, architecture, and editorial publications.",
-    "qualities": [
-      "Sharp compositional eye",
-      "Mastery of physical light manipulation",
-      "Patience with subjects",
-      "Reliable entrepreneurial professionalism"
-    ],
+    "qualities": "Sharp compositional eye, mastery of physical light manipulation, patience with subjects, reliable entrepreneurial professionalism.",
     "snapshot": {
       "duration": "3 Years (Degree/Diploma) or Self-Taught Practice + Camera Gear",
       "costRange": "Approx. ₹1L - ₹5L (Professional Camera Body, Lenses & Lights)",
@@ -28153,12 +27805,7 @@
     ],
     "workplace": "District Collectorates, State Secretariats in state capitals, and Central Government Ministries in New Delhi (North Block, South Block).",
     "sectors": "Indian Administrative Service (All India Service cadre under the Department of Personnel and Training - DoPT).",
-    "qualities": [
-      "Incorruptible public integrity",
-      "Deep empathy for marginalized citizens",
-      "Decisive leadership under acute political and crisis pressures",
-      "Broad intellectual perspective"
-    ],
+    "qualities": "Incorruptible public integrity, deep empathy for marginalized citizens, decisive leadership under acute political and crisis pressures, broad intellectual perspective.",
     "snapshot": {
       "duration": "Graduation (3-4 Years) + 1-2 Years UPSC CSE Preparation + 2 Years LBSNAA Training",
       "costRange": "Approx. ₹10,000 - ₹1.5L (UPSC Exam Fees + Optional Books / Mock Tests)",
@@ -28500,12 +28147,7 @@
     ],
     "workplace": "District police headquarters, Police Commissionerates, State Police Directorates (DGP office), and central intelligence headquarters in New Delhi.",
     "sectors": "Indian Police Service (All India Service cadre under the Ministry of Home Affairs - MHA).",
-    "qualities": [
-      "Fearless physical and moral courage",
-      "Sharp investigative deduction",
-      "Quick tactical decision-making",
-      "Unshakeable devotion to the rule of law"
-    ],
+    "qualities": "Fearless physical and moral courage, sharp investigative deduction, quick tactical decision-making, unshakeable devotion to the rule of law.",
     "snapshot": {
       "duration": "Graduation (3-4 Years) + 1-2 Years UPSC CSE + 2 Years SVPNPA Police Academy Training",
       "costRange": "Approx. ₹10,000 - ₹1.5L (UPSC Exam Fees + Preparation)",
@@ -28842,12 +28484,7 @@
     ],
     "workplace": "Ministry of External Affairs headquarters (Jawaharlal Nehru Bhawan, South Block) in New Delhi, and Indian Embassies/High Commissions across the globe.",
     "sectors": "Indian Foreign Service (Central Civil Service under the Ministry of External Affairs - MEA).",
-    "qualities": [
-      "Exceptional diplomatic tact and composure",
-      "Foreign language aptitude",
-      "Deep knowledge of international history",
-      "Unshakeable national loyalty"
-    ],
+    "qualities": "Exceptional diplomatic tact and composure, foreign language aptitude, deep knowledge of international history, unshakeable national loyalty.",
     "snapshot": {
       "duration": "Graduation (3-4 Years) + 1-2 Years UPSC CSE + 2 Years SSIFS Diplomatic Training",
       "costRange": "Approx. ₹10,000 - ₹1.5L (UPSC Exam Fees + Prep)",
@@ -29164,11 +28801,7 @@
     ],
     "workplace": "Tehsil offices, District Collectorates, State Tax departments, Municipal Corporations, and Central Government Secretariats.",
     "sectors": "State Civil Services (Class-1 & Class-2 gazetted cadre via State PSCs) and Central Government Staff (Group B/C via SSC CGL).",
-    "qualities": [
-      "Patient citizen service demeanor",
-      "Thorough understanding of government rules and civil service conduct codes",
-      "Administrative integrity"
-    ],
+    "qualities": "Patient citizen service demeanor, thorough understanding of government rules and civil service conduct codes, administrative integrity.",
     "snapshot": {
       "duration": "Graduation (3 Years) + 1-2 Years Competitive Examination Preparation",
       "costRange": "Approx. ₹10,000 - ₹80,000 (Application Fees + Self-Study Materials)",
@@ -29521,11 +29154,7 @@
     ],
     "workplace": "Divisional Railway Offices (DRM offices), railway stations, central railway workshops, locomotive sheds, and Rail Bhawan in New Delhi.",
     "sectors": "Indian Railway Management Service (IRMS - Group A Central Service under the Ministry of Railways).",
-    "qualities": [
-      "Safety-critical alertness",
-      "Ability to lead thousands of railway trackmen and station masters",
-      "Composure during rail accident emergencies"
-    ],
+    "qualities": "Safety-critical alertness, ability to lead thousands of railway trackmen and station masters, composure during rail accident emergencies.",
     "snapshot": {
       "duration": "Graduation (3-4 Years) + 1-2 Years Competitive Exam + 1.5 Years NAIR Vadodara Training",
       "costRange": "Approx. ₹10,000 - ₹1L (Exam Fees + Study Prep)",
@@ -29878,12 +29507,7 @@
     ],
     "workplace": "Frontier border posts (Siachen, LOC, LAC), forward air force bases, naval aircraft carriers and destroyers at sea, military cantonments, and Army/Navy/Air Headquarters in New Delhi.",
     "sectors": "Indian Armed Forces (Ministry of Defence - Military Commission under the President of India).",
-    "qualities": [
-      "Unflinching physical and moral bravery",
-      "Selfless leadership prioritizing troops' safety before oneself",
-      "Mental resilience under enemy fire",
-      "Impeccable military discipline"
-    ],
+    "qualities": "Unflinching physical and moral bravery, selfless leadership prioritizing troops' safety before oneself, mental resilience under enemy fire, impeccable military discipline.",
     "snapshot": {
       "duration": "3-4 Years (NDA/Graduation) + 1-1.5 Years Military Academy Training (IMA / INA / AFA / OTA)",
       "costRange": "Virtually Free (All military academy training, uniform, food, and boarding are fully funded by the Government of India)",
@@ -30269,12 +29893,7 @@
     ],
     "workplace": "Chambers of Senior Advocates, District and Sessions Courts, High Courts across states, Supreme Court of India in New Delhi, and arbitration centers.",
     "sectors": "Litigation practice, dispute resolution, criminal defense, constitutional advocacy, arbitration, and judicial services (Judicial Magistrate via PCS-J).",
-    "qualities": [
-      "Sharp analytical deduction",
-      "Persuasive verbal argumentation",
-      "Quick improvisation under judicial questioning",
-      "Unyielding commitment to justice"
-    ],
+    "qualities": "Sharp analytical deduction, persuasive verbal argumentation, quick improvisation under judicial questioning, unyielding commitment to justice.",
     "snapshot": {
       "duration": "5 Years (Integrated BA LLB / BBA LLB) or 3 Years (LLB after Graduation)",
       "costRange": "Approx. ₹1.5L - ₹12L (Govt Universities vs National Law Universities)",
@@ -30636,11 +30255,7 @@
     ],
     "workplace": "Tier-1 law firms in Mumbai, New Delhi, Bengaluru (Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Trilegal, Khaitan & Co) and MNC corporate legal offices.",
     "sectors": "Corporate law firms, multinational corporations (Google, Amazon, Reliance, Tata), private equity funds, and fintech unicorns.",
-    "qualities": [
-      "Obsessive attention to contractual clause wording",
-      "Sharp commercial business acumen",
-      "Endurance during 14-hour deal closing sprints"
-    ],
+    "qualities": "Obsessive attention to contractual clause wording, sharp commercial business acumen, endurance during 14-hour deal closing sprints.",
     "snapshot": {
       "duration": "5 Years (Integrated BA LLB / BBA LLB from NLUs)",
       "costRange": "Approx. ₹8L - ₹16L (National Law Universities)",
@@ -30997,11 +30612,7 @@
     ],
     "workplace": "National parks (Corbett, Kaziranga, Ranthambore), dense reserve forests, state forest headquarters, and Ministry of Environment in New Delhi.",
     "sectors": "Indian Forest Service (One of the three All India Services, along with IAS and IPS, under MoEFCC).",
-    "qualities": [
-      "Passion for wildlife and untouched nature",
-      "Physical wilderness stamina",
-      "Moral courage to confront armed timber and poaching syndicates"
-    ],
+    "qualities": "Passion for wildlife and untouched nature, physical wilderness stamina, moral courage to confront armed timber and poaching syndicates.",
     "snapshot": {
       "duration": "Graduation (3-4 Years in Science/Engineering) + 1-2 Years UPSC IFoS + 2 Years IGNFA Dehradun Training",
       "costRange": "Approx. ₹10,000 - ₹1.5L (UPSC Exam Fees + Preparation)",
@@ -31339,11 +30950,7 @@
     ],
     "workplace": "Kendriya Vidyalayas across India, Jawahar Navodaya Vidyalayas, state government primary/secondary schools, and Delhi government schools.",
     "sectors": "Government school education: Ministry of Education (KVS, NVS, CBSE) and State Education Departments.",
-    "qualities": [
-      "Patience with diverse young learners",
-      "Creative pedagogical teaching instinct",
-      "Dedication to public educational empowerment"
-    ],
+    "qualities": "Patience with diverse young learners, creative pedagogical teaching instinct, dedication to public educational empowerment.",
     "snapshot": {
       "duration": "Graduation (3 Years) + B.Ed (2 Years) + CTET Certification",
       "costRange": "Approx. ₹40,000 - ₹1.5L (Degree + B.Ed Fees)",

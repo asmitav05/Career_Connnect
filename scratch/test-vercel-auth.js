@@ -79,29 +79,45 @@ function createMockRes() {
   return res;
 }
 
+// Recursively find all files in a directory
+function getAllFiles(dirPath, arrayOfFiles = []) {
+  const files = fs.readdirSync(dirPath);
+  files.forEach(file => {
+    const fullPath = path.join(dirPath, file);
+    if (fs.statSync(fullPath).isDirectory()) {
+      getAllFiles(fullPath, arrayOfFiles);
+    } else {
+      arrayOfFiles.push(fullPath);
+    }
+  });
+  return arrayOfFiles;
+}
+
 async function runTests() {
-  // Test 1: Verify deployment files exist
-  console.log('--- 1. Deployment Configuration Checks ---');
+  // Test 1: Verify deployment files exist and function count is strictly <= 12
+  console.log('--- 1. Vercel Hobby Plan & Deployment Configuration Checks ---');
+  const apiDir = path.join(__dirname, '..', 'api');
+  assert(fs.existsSync(apiDir), 'api/ directory exists');
+  const apiFiles = getAllFiles(apiDir);
+  console.log(`  -> Detected serverless function files in api/: ${apiFiles.length}`);
+  assert(apiFiles.length <= 12, `Serverless function count (${apiFiles.length}) is within Vercel Hobby plan limit of 12`);
+  assert(apiFiles.length === 1, `Consolidated to exactly 1 serverless handler (api/index.js)`);
   assert(fs.existsSync(path.join(__dirname, '..', 'vercel.json')), 'vercel.json exists in root');
   assert(fs.existsSync(path.join(__dirname, '..', 'package.json')), 'package.json exists in root');
-  assert(fs.existsSync(path.join(__dirname, '..', 'api', 'index.js')), 'api/index.js exists');
-  assert(fs.existsSync(path.join(__dirname, '..', 'api', '[...path].js')), 'api/[...path].js exists');
-  assert(fs.existsSync(path.join(__dirname, '..', 'api', 'auth', 'register.js')), 'api/auth/register.js exists');
-  assert(fs.existsSync(path.join(__dirname, '..', 'api', 'auth', 'login.js')), 'api/auth/login.js exists');
 
   const vercelConfig = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'vercel.json'), 'utf8'));
-  assert(Array.isArray(vercelConfig.rewrites) && vercelConfig.rewrites.some(r => r.destination === '/api/index.js'), 'vercel.json rewrites correctly route /api/(.*) to /api/index.js');
+  assert(Array.isArray(vercelConfig.rewrites) && vercelConfig.rewrites.some(r => r.destination && r.destination.includes('/api/index.js')), 'vercel.json rewrites correctly route /api/(.*) to /api/index.js');
 
-  // Test 2: Direct call to api/auth/register.js (Vercel Serverless direct invocation)
-  console.log('\n--- 2. Direct Serverless Invocation (api/auth/register.js) ---');
-  const registerHandler = require('../api/auth/register.js');
+  // Test 2: Single serverless function (api/index.js) handling registration via rewrite parameter
+  console.log('\n--- 2. Serverless Registration via api/index.js (?__route=auth/register) ---');
+  const indexHandler = require('../api/index.js');
   const testEmail = `student_${Date.now()}@example.com`;
   const testPassword = 'SecureP@ssword123!';
   const testName = 'Priya Sharma';
 
   const mockReq1 = {
     method: 'POST',
-    url: '/api/auth/register',
+    url: '/api/index.js?__route=auth/register',
     headers: {
       'content-type': 'application/json',
       host: 'careerconnect.vercel.app'
@@ -114,7 +130,7 @@ async function runTests() {
   };
   const mockRes1 = createMockRes();
 
-  await registerHandler(mockReq1, mockRes1);
+  await indexHandler(mockReq1, mockRes1);
   const json1 = mockRes1.getJson();
 
   assert(mockRes1.getStatusCode() === 201, `Registration returns HTTP 201 (got ${mockRes1.getStatusCode()})`);
@@ -124,11 +140,33 @@ async function runTests() {
   assert(json1 && json1.user && !json1.user.password_hash && !json1.user.salt, 'Response sanitizes user (no password_hash or salt exposed)');
   assert(mockRes1.getHeaders()['content-type'].includes('application/json'), 'Content-Type header is application/json');
 
-  // Test 3: Duplicate email registration
-  console.log('\n--- 3. Duplicate Email Registration (Conflict Handling) ---');
+  // Test 3: Registration via x-matched-path header (Vercel Edge Rewrite)
+  console.log('\n--- 3. Serverless Registration via x-matched-path Header ---');
+  const testEmail2 = `student_matched_${Date.now()}@example.com`;
+  const mockReq2 = {
+    method: 'POST',
+    url: '/api/index.js',
+    headers: {
+      'content-type': 'application/json',
+      'x-matched-path': '/api/auth/register',
+      host: 'careerconnect.vercel.app'
+    },
+    body: {
+      name: 'Matched Student',
+      email: testEmail2,
+      password: testPassword
+    }
+  };
+  const mockRes2 = createMockRes();
+  await indexHandler(mockReq2, mockRes2);
+  assert(mockRes2.getStatusCode() === 201, `x-matched-path registration returns HTTP 201`);
+  assert(mockRes2.getJson()?.success === true, 'x-matched-path registration succeeds');
+
+  // Test 4: Duplicate email registration
+  console.log('\n--- 4. Duplicate Email Registration (Conflict Handling) ---');
   const mockReqDup = {
     method: 'POST',
-    url: '/api/auth/register',
+    url: '/api/index.js?__route=auth/register',
     headers: {
       'content-type': 'application/json',
       host: 'careerconnect.vercel.app'
@@ -141,98 +179,75 @@ async function runTests() {
   };
   const mockResDup = createMockRes();
 
-  await registerHandler(mockReqDup, mockResDup);
+  await indexHandler(mockReqDup, mockResDup);
   const jsonDup = mockResDup.getJson();
 
   assert(mockResDup.getStatusCode() === 400, `Duplicate email registration returns HTTP 400 (got ${mockResDup.getStatusCode()})`);
   assert(jsonDup && jsonDup.error && jsonDup.error.includes('already exists'), `Error message clearly informs account already exists (got: "${jsonDup ? jsonDup.error : ''}")`);
 
-  // Test 4: Validation Failures (Invalid email, short password, missing name)
-  console.log('\n--- 4. Validation Failure Handling ---');
-  // 4a. Short password
+  // Test 5: Validation Failures (Invalid email, short password, missing name)
+  console.log('\n--- 5. Validation Failure Handling ---');
+  // 5a. Short password
   const mockResShort = createMockRes();
-  await registerHandler({
+  await indexHandler({
     method: 'POST',
-    url: '/api/auth/register',
+    url: '/api/index.js?__route=auth/register',
     headers: { 'content-type': 'application/json' },
     body: { name: 'Valid Name', email: 'valid@example.com', password: 'short' }
   }, mockResShort);
   assert(mockResShort.getStatusCode() === 400, 'Password < 8 chars returns HTTP 400');
   assert(mockResShort.getJson()?.error?.includes('8 characters'), 'Short password error mentions 8 characters');
 
-  // 4b. Invalid email
+  // 5b. Invalid email
   const mockResBadEmail = createMockRes();
-  await registerHandler({
+  await indexHandler({
     method: 'POST',
-    url: '/api/auth/register',
+    url: '/api/index.js?__route=auth/register',
     headers: { 'content-type': 'application/json' },
     body: { name: 'Valid Name', email: 'notanemail', password: 'SecurePassword123!' }
   }, mockResBadEmail);
   assert(mockResBadEmail.getStatusCode() === 400, 'Invalid email format returns HTTP 400');
   assert(mockResBadEmail.getJson()?.error?.includes('email'), 'Invalid email error mentions email');
 
-  // 4c. Missing name
+  // 5c. Missing name
   const mockResNoName = createMockRes();
-  await registerHandler({
+  await indexHandler({
     method: 'POST',
-    url: '/api/auth/register',
+    url: '/api/index.js?__route=auth/register',
     headers: { 'content-type': 'application/json' },
     body: { name: '', email: 'valid2@example.com', password: 'SecurePassword123!' }
   }, mockResNoName);
   assert(mockResNoName.getStatusCode() === 400, 'Missing name returns HTTP 400');
 
-  // Test 5: Vercel Rewrite simulation via api/index.js
-  console.log('\n--- 5. Vercel Rewrite Simulation (api/index.js with x-matched-path) ---');
-  const indexHandler = require('../api/index.js');
-  const rewriteEmail = `student_rewrite_${Date.now()}@example.com`;
-  const mockReqRewrite = {
+  // Test 6: Login with Newly Registered User
+  console.log('\n--- 6. Login Verification via api/index.js ---');
+  const mockResLogin = createMockRes();
+  await indexHandler({
     method: 'POST',
-    url: '/api/index.js', // Vercel internal rewritten URL
-    headers: {
-      'content-type': 'application/json',
-      'x-matched-path': '/api/auth/register', // Original path sent by Vercel edge
-      host: 'careerconnect.vercel.app'
-    },
-    body: {
-      name: 'Rewrite Student',
-      email: rewriteEmail,
-      password: 'RewritePassword123!'
-    }
-  };
-  const mockResRewrite = createMockRes();
-  await indexHandler(mockReqRewrite, mockResRewrite);
-  assert(mockResRewrite.getStatusCode() === 201, `api/index.js handles x-matched-path rewrite to /api/auth/register (got ${mockResRewrite.getStatusCode()})`);
-  assert(mockResRewrite.getJson()?.success === true, 'Rewrite registration succeeds');
+    url: '/api/index.js?__route=auth/login',
+    headers: { 'content-type': 'application/json' },
+    body: { email: testEmail, password: testPassword }
+  }, mockResLogin);
+  assert(mockResLogin.getStatusCode() === 200, `Login returns HTTP 200 (got ${mockResLogin.getStatusCode()})`);
+  assert(mockResLogin.getJson()?.token, 'Login returns valid token');
 
-  // Test 6: Vercel Catchall simulation via api/[...path].js
-  console.log('\n--- 6. Vercel Catch-All Simulation (api/[...path].js) ---');
-  const catchallHandler = require('../api/[...path].js');
-  const catchallEmail = `student_catchall_${Date.now()}@example.com`;
-  const mockReqCatchall = {
-    method: 'POST',
-    url: '/api/dynamic',
-    query: { path: ['auth', 'register'] }, // Vercel dynamic param
-    headers: {
-      'content-type': 'application/json',
-      host: 'careerconnect.vercel.app'
-    },
-    body: {
-      name: 'Catchall Student',
-      email: catchallEmail,
-      password: 'CatchallPassword123!'
-    }
-  };
-  const mockResCatchall = createMockRes();
-  await catchallHandler(mockReqCatchall, mockResCatchall);
-  assert(mockResCatchall.getStatusCode() === 201, `api/[...path].js handles dynamic route query.path (got ${mockResCatchall.getStatusCode()})`);
-  assert(mockResCatchall.getJson()?.success === true, 'Catchall registration succeeds');
+  // Test 7: Scholarships list via api/index.js
+  console.log('\n--- 7. Scholarships API via api/index.js ---');
+  const mockResSchol = createMockRes();
+  await indexHandler({
+    method: 'GET',
+    url: '/api/index.js?__route=scholarships&state=Maharashtra',
+    headers: { host: 'careerconnect.vercel.app' }
+  }, mockResSchol);
+  assert(mockResSchol.getStatusCode() === 200, `Scholarships list returns HTTP 200`);
+  assert(Array.isArray(mockResSchol.getJson()?.data), 'Scholarships data is an array');
 
-  // Test 7: Unrecognized API Route Returns Valid JSON 404
-  console.log('\n--- 7. Non-Existent API Route Returns JSON 404 (Never HTML) ---');
+  // Test 8: Unrecognized API Route Returns Valid JSON 404
+  console.log('\n--- 8. Non-Existent API Route Returns JSON 404 (Never HTML) ---');
   const mockRes404 = createMockRes();
   await indexHandler({
     method: 'GET',
-    url: '/api/non-existent-route',
+    url: '/api/index.js?__route=non-existent-route',
     headers: { host: 'careerconnect.vercel.app' }
   }, mockRes404);
   assert(mockRes404.getStatusCode() === 404, 'Unknown API route returns 404');
@@ -240,22 +255,8 @@ async function runTests() {
   const json404 = mockRes404.getJson();
   assert(json404 && json404.error && json404.error.includes('API route not found'), 'Unknown API route returns clean JSON error message');
 
-  // Test 8: Login with Newly Registered User
-  console.log('\n--- 8. Login Verification for Registered Account ---');
-  const loginHandler = require('../api/auth/login.js');
-  const mockResLogin = createMockRes();
-  await loginHandler({
-    method: 'POST',
-    url: '/api/auth/login',
-    headers: { 'content-type': 'application/json' },
-    body: { email: testEmail, password: testPassword }
-  }, mockResLogin);
-  assert(mockResLogin.getStatusCode() === 200, `Login returns HTTP 200 (got ${mockResLogin.getStatusCode()})`);
-  assert(mockResLogin.getJson()?.token, 'Login returns valid token');
-
   // Test 9: Frontend safeJson error handling simulation
   console.log('\n--- 9. Frontend safeJson Resilience Against HTML Error Pages ---');
-  // Re-create safeJson logic as in auth.js to test against actual Vercel 404 HTML body
   const vercel404Html = '<!DOCTYPE html><html><head><title>404: Not Found</title></head><body>The page could not be found</body></html>';
   const mockHtmlResponse = {
     ok: false,
@@ -265,7 +266,6 @@ async function runTests() {
     },
     text: async () => vercel404Html,
     json: async () => {
-      // This is what browser fetch does and previously blew up:
       throw new SyntaxError(`Unexpected token 'T', "The page c"... is not valid JSON`);
     }
   };

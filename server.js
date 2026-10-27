@@ -227,23 +227,31 @@ const MIME_TYPES = {
 
 // Resolve normalized request pathname supporting Vercel dynamic routes and rewrites
 function getRequestPath(req) {
-  // 1. Vercel dynamic catch-all param [...path]
+  const rawUrl = req.url || '/';
+  const urlObj = new URL(rawUrl, `http://${(req.headers && req.headers.host) || 'localhost'}`);
+
+  // 1. Explicit route captured by vercel.json rewrite (e.g. /api/index.js?__route=auth/register)
+  const rewriteRoute = urlObj.searchParams.get('__route') || (req.query && req.query.__route);
+  if (rewriteRoute !== null && rewriteRoute !== undefined) {
+    const cleanRoute = rewriteRoute.startsWith('/') ? rewriteRoute : '/' + rewriteRoute;
+    return ('/api' + cleanRoute).replace(/\/+/g, '/');
+  }
+
+  // 2. Matched path header from Vercel rewrites (e.g. /api/auth/register)
+  const matched = req.headers && (req.headers['x-matched-path'] || req.headers['x-forwarded-uri']);
+  if (matched && matched.startsWith('/api') && !matched.startsWith('/api/index')) {
+    const parsed = new URL(matched, 'http://localhost');
+    return decodeURI(parsed.pathname);
+  }
+
+  // 3. Vercel dynamic catch-all param [...path]
   if (req.query && req.query.path) {
     const sub = Array.isArray(req.query.path) ? req.query.path.join('/') : req.query.path;
     return ('/api/' + sub).replace(/\/+/g, '/');
   }
 
-  // 2. Matched path header from Vercel rewrites (e.g. /api/auth/register)
-  const matched = req.headers && (req.headers['x-matched-path'] || req.headers['x-forwarded-uri']);
-  if (matched && matched.startsWith('/api')) {
-    const parsed = new URL(matched, 'http://localhost');
-    return decodeURI(parsed.pathname);
-  }
-
-  // 3. Normal URL
-  const rawUrl = req.url || '/';
-  const parsed = new URL(rawUrl, `http://${(req.headers && req.headers.host) || 'localhost'}`);
-  return decodeURI(parsed.pathname);
+  // 4. Normal URL
+  return decodeURI(urlObj.pathname);
 }
 
 async function handleRequest(req, res) {
