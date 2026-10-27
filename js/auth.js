@@ -10,6 +10,58 @@ const AUTH_STORAGE_KEYS = {
   REMEMBER_ME: 'careerconnect_remember_me'
 };
 
+/**
+ * Safely parses API responses, ensuring non-JSON or HTML error responses
+ * (like Vercel 404/500/502 pages) do not crash the client with SyntaxError: Unexpected token.
+ */
+async function safeJson(response, defaultErrorMessage = 'Request failed.') {
+  const contentType = response.headers ? (response.headers.get('content-type') || '') : '';
+  let data = null;
+
+  if (contentType.includes('application/json')) {
+    try {
+      data = await response.json();
+    } catch (e) {
+      data = null;
+    }
+  } else {
+    // Non-JSON response (e.g. HTML error page or plain text)
+    try {
+      const text = await response.text();
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        data = null;
+      }
+    } catch (e) {
+      data = null;
+    }
+  }
+
+  if (!response.ok) {
+    const errorMsg = (data && data.error)
+      ? data.error
+      : (data && data.message)
+        ? data.message
+        : (response.status === 404)
+          ? 'The requested authentication service was not found (404). Please check the backend deployment.'
+          : `${defaultErrorMessage} (HTTP ${response.status})`;
+    const err = new Error(errorMsg);
+    err.status = response.status;
+    err.data = data;
+    if (data && data.isGoogleAccount) {
+      err.isGoogleAccount = true;
+    }
+    throw err;
+  }
+
+  if (!data) {
+    throw new Error('Unexpected response format received from server.');
+  }
+
+  return data;
+}
+
 export const AuthService = {
   // Configurable Google Client ID - Replace with your Google Cloud Console Client ID
   GOOGLE_CLIENT_ID: '918382749281-careerconnect.apps.googleusercontent.com',
@@ -100,11 +152,7 @@ export const AuthService = {
       body: JSON.stringify({ name: (name || '').trim(), email: normalizedEmail, password })
     });
 
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.error || 'Failed to create account.');
-    }
-
+    const data = await safeJson(response, 'Failed to create account.');
     this.setSession(data.token, data.user, true);
     return data.user;
   },
@@ -117,13 +165,7 @@ export const AuthService = {
       body: JSON.stringify({ email: normalizedEmail, password, rememberMe })
     });
 
-    const data = await response.json();
-    if (!response.ok) {
-      const err = new Error(data.error || 'Login failed. Please check your credentials.');
-      err.isGoogleAccount = Boolean(data.isGoogleAccount);
-      throw err;
-    }
-
+    const data = await safeJson(response, 'Login failed. Please check your credentials.');
     this.setSession(data.token, data.user, rememberMe);
     return data.user;
   },
@@ -142,11 +184,7 @@ export const AuthService = {
       body: JSON.stringify(payload)
     });
 
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.error || 'Google authentication failed.');
-    }
-
+    const data = await safeJson(response, 'Google authentication failed.');
     this.setSession(data.token, data.user, true);
     return data.user;
   },
@@ -158,11 +196,7 @@ export const AuthService = {
       body: JSON.stringify({ email })
     });
 
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.error || 'Unable to process password reset request.');
-    }
-    return data;
+    return await safeJson(response, 'Unable to process password reset request.');
   },
 
   async resetPassword(token, newPassword) {
@@ -172,11 +206,7 @@ export const AuthService = {
       body: JSON.stringify({ token, newPassword })
     });
 
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.error || 'Password reset failed.');
-    }
-    return data;
+    return await safeJson(response, 'Password reset failed.');
   },
 
   async fetchCurrentUser() {
@@ -197,8 +227,8 @@ export const AuthService = {
         return null;
       }
 
-      const data = await response.json();
-      if (data.user) {
+      const data = await safeJson(response, 'Failed to fetch current user.');
+      if (data && data.user) {
         const rememberMe = localStorage.getItem(AUTH_STORAGE_KEYS.REMEMBER_ME) === 'true';
         this.setSession(token, data.user, rememberMe);
         return data.user;

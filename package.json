@@ -1,0 +1,22 @@
+{
+  "name": "careerconnect",
+  "version": "1.0.0",
+  "description": "CareerConnect India - Student Career Guidance and Scholarship Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scratch/test-complete-system.js"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "careerconnect",
+    "career-guidance",
+    "scholarships",
+    "students"
+  ],
+  "author": "CareerConnect",
+  "license": "ISC"
+}

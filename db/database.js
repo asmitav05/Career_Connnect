@@ -41,10 +41,13 @@ function loadEnv() {
 
 loadEnv();
 
+const os = require('os');
+
 const DB_DIR = __dirname;
 const DB_FILE = path.join(DB_DIR, 'careerconnect.db');
+const TMP_DB_FILE = path.join(os.tmpdir(), 'careerconnect.db');
 
-// In-memory relational state cache persisted to DB_FILE
+// In-memory relational state cache persisted to DB_FILE or TMP_DB_FILE
 let dbState = {
   version: 1,
   meta: {
@@ -64,22 +67,25 @@ let dbState = {
 
 // Initialize / load database from persistent storage
 function initDatabase() {
-  try {
-    if (fs.existsSync(DB_FILE)) {
-      const raw = fs.readFileSync(DB_FILE, 'utf8');
-      const parsed = JSON.parse(raw);
-      if (parsed && parsed.tables) {
-        dbState = parsed;
-        // Ensure all required tables exist
-        const required = ['users', 'user_profiles', 'scholarships', 'saved_scholarships', 'sessions', 'reset_tokens'];
-        for (const req of required) {
-          if (!dbState.tables[req]) dbState.tables[req] = [];
+  const candidates = [TMP_DB_FILE, DB_FILE];
+  for (const candidate of candidates) {
+    try {
+      if (fs.existsSync(candidate)) {
+        const raw = fs.readFileSync(candidate, 'utf8');
+        const parsed = JSON.parse(raw);
+        if (parsed && parsed.tables) {
+          dbState = parsed;
+          // Ensure all required tables exist
+          const required = ['users', 'user_profiles', 'scholarships', 'saved_scholarships', 'sessions', 'reset_tokens'];
+          for (const req of required) {
+            if (!dbState.tables[req]) dbState.tables[req] = [];
+          }
+          return;
         }
-        return;
       }
+    } catch (err) {
+      console.warn(`Could not load candidate DB file ${candidate}:`, err.message);
     }
-  } catch (err) {
-    console.error('Error loading persistent database file, initializing clean database:', err);
   }
 
   // If DB file does not exist, check if legacy data exists in data/ and migrate it
@@ -87,21 +93,40 @@ function initDatabase() {
   persistDatabase();
 }
 
-// Atomically save state to disk
+// Atomically save state to disk with fallback for read-only serverless filesystems
 function persistDatabase() {
   try {
     dbState.meta.lastModified = new Date().toISOString();
     const data = JSON.stringify(dbState, null, 2);
+    let written = false;
+
+    // 1. Try writing to primary DB_FILE
     try {
       const tempPath = DB_FILE + '.' + crypto.randomBytes(4).toString('hex') + '.tmp';
       fs.writeFileSync(tempPath, data, 'utf8');
       fs.copyFileSync(tempPath, DB_FILE);
       try { fs.unlinkSync(tempPath); } catch (e) {}
-      return true;
+      written = true;
     } catch (renameErr) {
-      fs.writeFileSync(DB_FILE, data, 'utf8');
-      return true;
+      try {
+        fs.writeFileSync(DB_FILE, data, 'utf8');
+        written = true;
+      } catch (directErr) {
+        // Read-only filesystem expected in Vercel / AWS Lambda
+      }
     }
+
+    // 2. Also persist to TMP_DB_FILE so warm serverless instances stay in sync
+    try {
+      if (TMP_DB_FILE !== DB_FILE) {
+        fs.writeFileSync(TMP_DB_FILE, data, 'utf8');
+        written = true;
+      }
+    } catch (tmpErr) {
+      // Ignore tmp write failures if any
+    }
+
+    return written;
   } catch (err) {
     console.error('Database persistence error:', err);
     return false;

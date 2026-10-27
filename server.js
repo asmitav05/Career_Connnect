@@ -63,6 +63,25 @@ function generateToken() {
 
 // Parse request body supporting JSON and URL-encoded forms with multi-byte UTF-8
 function parseBody(req) {
+  // 1. Return immediately if body was already parsed by Vercel serverless helper
+  if (req.body !== undefined && req.body !== null) {
+    if (typeof req.body === 'object') {
+      return Promise.resolve(req.body);
+    }
+    if (typeof req.body === 'string') {
+      try {
+        return Promise.resolve(JSON.parse(req.body));
+      } catch (e) {
+        const parsed = {};
+        const params = new URLSearchParams(req.body);
+        for (const [key, value] of params.entries()) {
+          parsed[key] = value;
+        }
+        return Promise.resolve(parsed);
+      }
+    }
+  }
+
   return new Promise((resolve, reject) => {
     const decoder = new StringDecoder('utf8');
     let body = '';
@@ -77,7 +96,7 @@ function parseBody(req) {
       body += decoder.end();
       if (!body) return resolve({});
 
-      const contentType = req.headers['content-type'] || '';
+      const contentType = (req.headers && req.headers['content-type']) || '';
       if (contentType.includes('application/x-www-form-urlencoded')) {
         const parsed = {};
         const params = new URLSearchParams(body);
@@ -105,15 +124,30 @@ function parseBody(req) {
   });
 }
 
-// Send standard JSON response
+// Send standard JSON response with cross-platform Node / Vercel compatibility
 function sendJson(res, statusCode, data) {
-  res.writeHead(statusCode, {
-    'Content-Type': 'application/json; charset=UTF-8',
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization, x-session-token'
-  });
-  res.end(JSON.stringify(data));
+  const jsonStr = JSON.stringify(data);
+
+  if (typeof res.setHeader === 'function') {
+    res.setHeader('Content-Type', 'application/json; charset=UTF-8');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, x-session-token');
+  }
+
+  if (typeof res.status === 'function' && typeof res.json === 'function') {
+    return res.status(statusCode).json(data);
+  }
+
+  if (!res.headersSent) {
+    res.writeHead(statusCode, {
+      'Content-Type': 'application/json; charset=UTF-8',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization, x-session-token'
+    });
+  }
+  res.end(jsonStr);
 }
 
 // Extract bearer token from request
@@ -191,12 +225,41 @@ const MIME_TYPES = {
   '.woff': 'font/woff'
 };
 
-const server = http.createServer(async (req, res) => {
-  const urlObj = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
-  const pathname = decodeURI(urlObj.pathname);
+// Resolve normalized request pathname supporting Vercel dynamic routes and rewrites
+function getRequestPath(req) {
+  // 1. Vercel dynamic catch-all param [...path]
+  if (req.query && req.query.path) {
+    const sub = Array.isArray(req.query.path) ? req.query.path.join('/') : req.query.path;
+    return ('/api/' + sub).replace(/\/+/g, '/');
+  }
+
+  // 2. Matched path header from Vercel rewrites (e.g. /api/auth/register)
+  const matched = req.headers && (req.headers['x-matched-path'] || req.headers['x-forwarded-uri']);
+  if (matched && matched.startsWith('/api')) {
+    const parsed = new URL(matched, 'http://localhost');
+    return decodeURI(parsed.pathname);
+  }
+
+  // 3. Normal URL
+  const rawUrl = req.url || '/';
+  const parsed = new URL(rawUrl, `http://${(req.headers && req.headers.host) || 'localhost'}`);
+  return decodeURI(parsed.pathname);
+}
+
+async function handleRequest(req, res) {
+  const urlObj = new URL(req.url || '/', `http://${(req.headers && req.headers.host) || 'localhost'}`);
+  const pathname = getRequestPath(req);
 
   // Handle CORS preflight
   if (req.method === 'OPTIONS') {
+    if (typeof res.setHeader === 'function') {
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, x-session-token');
+    }
+    if (typeof res.status === 'function') {
+      return res.status(204).end();
+    }
     res.writeHead(204, {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
@@ -310,6 +373,9 @@ const server = http.createServer(async (req, res) => {
       });
     } catch (err) {
       console.error('Register error:', err);
+      if (err.message && err.message.includes('UNIQUE constraint failed')) {
+        return sendJson(res, 400, { error: 'An account with this email address already exists. Please log in.' });
+      }
       return sendJson(res, 500, { error: 'Server error during account registration. Please try again.' });
     }
   }
@@ -707,6 +773,14 @@ const server = http.createServer(async (req, res) => {
     }
   }
 
+  // If an API endpoint is not recognized, return a clean JSON 404 response
+  if (pathname.startsWith('/api/')) {
+    return sendJson(res, 404, {
+      error: `API route not found: ${req.method} ${pathname}`,
+      status: 404
+    });
+  }
+
   // ==========================================
   // STATIC FILE SERVING
   // ==========================================
@@ -741,9 +815,20 @@ const server = http.createServer(async (req, res) => {
     const readStream = fs.createReadStream(filePath);
     readStream.pipe(res);
   });
-});
+}
 
-server.listen(PORT, () => {
-  console.log(`CareerConnect Server with Persistent Database & Verified Scholarships running at http://127.0.0.1:${PORT}/ and http://localhost:${PORT}/`);
-  console.log(`Database Engine: ${Database.getEngine()}`);
-});
+const server = http.createServer(handleRequest);
+
+if (require.main === module) {
+  server.listen(PORT, () => {
+    console.log(`CareerConnect Server with Persistent Database & Verified Scholarships running at http://127.0.0.1:${PORT}/ and http://localhost:${PORT}/`);
+    console.log(`Database Engine: ${Database.getEngine()}`);
+  });
+}
+
+module.exports = handleRequest;
+module.exports.handleRequest = handleRequest;
+module.exports.server = server;
+module.exports.Database = Database;
+module.exports.hashPassword = hashPassword;
+module.exports.verifyPassword = verifyPassword;
